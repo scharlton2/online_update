@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Programs>
+    <CompomentType folderName="guis">
+        <Component caption="iRIC GUI 3.0" folderName="prepost" version="3.0.0.6129" releaseDate="2016/02/09" size="170252467" essential="true"/>
+    </CompomentType>
+    <CompomentType folderName="solvers"/>
+    <CompomentType folderName="gridcreators"/>
+    <CompomentType folderName="gridimporter_plugins">
+        <Component caption="Structured grid Nays CSV file importer" folderName="structured2dgridnayscsvimporter" version="1.0" releaseDate="2015/07/01" size="32523"/>
+        <Component caption="Structured grid Nays grid file importer" folderName="structured2dgridnaysgridimporter" version="1.0" releaseDate="2015/07/01" size="24339"/>
+        <Component caption="Unstructured grid TRIANGLE file importer" folderName="unstructured2dgridtriangleimporter" version="1.0" releaseDate="2015/07/01" size="24885"/>
+    </CompomentType>
+    <CompomentType folderName="gridexporter_plugins">
+        <Component caption="Structured grid Nays CSV exporter" folderName="structured2dgridnayscsvexporter" version="1.0" releaseDate="2015/07/01" size="22557"/>
+        <Component caption="Structured grid Nays grid file exporter" folderName="structured2dgridnaysgridexporter" version="1.0" releaseDate="2015/07/01" size="22068"/>
+        <Component caption="Structured grid VTK file exporter" folderName="structured2dgridvtkexporter" version="1.0" releaseDate="2015/07/01" size="20973"/>
+        <Component caption="Unstructured grid VTK file exporter" folderName="unstructured2dgridvtkexporter" version="1.0" releaseDate="2015/07/01" size="20979"/>
+    </CompomentType>
+</Programs>
