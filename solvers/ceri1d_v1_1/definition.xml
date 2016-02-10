@@ -1,7 +1,7 @@
 ﻿<?xml version="1.1" encoding="UTF-8"?>
 <SolverDefinition 
 	xmlns="www.iric.net/SolverDefinition/1.0"
-	name="CERI1D" caption="CERI1D v1.1" version="1.1.4" copyright="Yasuhiro Yoshikawa and Civil Engineering Research Institute for Cold Region"
+	name="CERI1D" caption="CERI1D v1.1" version="1.1.5" copyright="Yasuhiro Yoshikawa and Civil Engineering Research Institute for Cold Region"
 	release="2014.11.18" homepage="http://i-ric.org"
 	executable="CERI1D.exe"
 	iterationtype="time"
