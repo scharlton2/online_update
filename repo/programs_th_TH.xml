@@ -9,6 +9,7 @@
         <Component caption="Elimo" folderName="elimo_v2_iric3" version="2.0" releaseDate="2015/03/29" size="21121632"/>
         <Component caption="Nays2D Flood v5.0 64 bit" folderName="nays2dflood_v5_64bit" version="5.0.1506" releaseDate="2015/06/23" size="15751252"/>
         <Component caption="Nays2DH 1.0 64bit" folderName="nays2dh" version="1.5.100" releaseDate="2015/03/17" size="19438212"/>
+        <Component caption="SRM" folderName="srm" version="1.0" releaseDate="2014/07/10" size="19475689"/>
     </CompomentType>
     <CompomentType folderName="gridcreators"/>
     <CompomentType folderName="gridimporter_plugins">
