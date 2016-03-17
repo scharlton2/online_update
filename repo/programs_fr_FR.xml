@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Programs>
     <CompomentType folderName="guis">
-        <Component caption="iRIC GUI 3.0" folderName="prepost" version="3.0.0.6152" releaseDate="2016/02/15" size="185480500" essential="true"/>
+        <Component caption="iRIC GUI 3.0" folderName="prepost" version="3.0.0.6177" releaseDate="2016/03/17" size="185482036" essential="true"/>
     </CompomentType>
     <CompomentType folderName="solvers">
         <Component caption="Mflow_02 iric ver3 64 bit" folderName="Mflow_02_iric_v3_64" version="2.2.4" releaseDate="2015/04/30" size="575662"/>
