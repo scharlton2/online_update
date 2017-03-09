@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Programs>
     <CompomentType folderName="guis">
-        <Component caption="iRIC GUI 3.0 alpha5" folderName="prepost" version="3.0.0.6183" releaseDate="2017/02/09" size="261945999" essential="true"/>
+        <Component caption="iRIC GUI 3.0 alpha6" folderName="prepost" version="3.0.0.6184" releaseDate="2017/03/09" size="262000271" essential="true"/>
     </CompomentType>
     <CompomentType folderName="solvers">
         <Component caption="Mflow_02 iric ver3 64 bit" folderName="Mflow_02_iric_v3_64" version="2.2.4" releaseDate="2015/04/30" size="575662"/>
@@ -11,6 +11,7 @@
         <Component caption="Nays2D Flood v5.0 64 bit" folderName="nays2dflood_v5_64bit" version="5.0.1506" releaseDate="2015/06/23" size="584148"/>
         <Component caption="Nays2DH 1.0 64bit" folderName="nays2dh" version="1.5.100" releaseDate="2015/03/17" size="1176892"/>
         <Component caption="NaysEddy v.1.0 x64" folderName="nayseddy" version="1.0" releaseDate="2014/04/23" size="507858"/>
+        <Component caption="Slope-Area Computation Program" folderName="sac" version="2.0" releaseDate="2016/06/06" size="3368653"/>
         <Component caption="SRM" folderName="srm" version="1.0.2" releaseDate="2016/02/10" size="112545"/>
     </CompomentType>
     <CompomentType folderName="gridcreators"/>
