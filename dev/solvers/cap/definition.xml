@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <SolverDefinition 
     xmlns="www.iric.net/SolverDefinition/1.0"
-    name="cap" caption="Calvert Analysis Program" version="2.0.0" copyright="USGS"
+    name="cap" caption="Culvert Analysis Program" version="2.0.1" copyright="USGS"
     release="2017.02.01" 
     homepage="http://water.usgs.gov/software/CAP/"
     executable="CAP.exe"
