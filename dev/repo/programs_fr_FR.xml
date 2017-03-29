@@ -2,11 +2,11 @@
 <Programs>
     <CompomentType folderName="guis">
         <Component caption="iRIC GUI 3.0 alpha6" folderName="prepost" version="3.0.0.6184" releaseDate="2017/03/09" size="262000271" essential="true"/>
-        <Component caption="RivMaker 1.0" folderName="rivmaker" version="1.0" releaseDate="2017/03/31" size="23204377"/>
+        <Component caption="RivMaker 1.0.1" folderName="rivmaker" version="1.0.1" releaseDate="2017/03/31" size="23229469"/>
     </CompomentType>
     <CompomentType folderName="solvers">
         <Component caption="Mflow_02 iric ver3 64 bit" folderName="Mflow_02_iric_v3_64" version="2.2.4" releaseDate="2015/04/30" size="575662"/>
-        <Component caption="Culvert Analysis Program" folderName="cap" version="2.0.1" releaseDate="2017/02/01" size="568801"/>
+        <Component caption="Culvert Analysis Program" folderName="cap" version="2.0.1" releaseDate="2017/02/01" size="531390"/>
         <Component caption="CERI1D v1.1" folderName="ceri1d_v1_1" version="1.1.5" releaseDate="2014/11/18" size="294728"/>
         <Component caption="Elimo" folderName="elimo_v2_iric3" version="2.0" releaseDate="2015/03/29" size="2516280"/>
         <Component caption="Nays2D Flood v5.0 64 bit" folderName="nays2dflood_v5_64bit" version="5.0.1506" releaseDate="2015/06/23" size="584148"/>
