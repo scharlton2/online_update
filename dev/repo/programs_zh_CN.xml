@@ -2,7 +2,7 @@
 <Programs>
     <CompomentType folderName="guis">
         <Component caption="iRIC GUI 3.0 beta1" folderName="prepost" version="3.0.0.6185" releaseDate="2017/04/04" size="262003418" essential="true"/>
-        <Component caption="RivMaker 1.0.1" folderName="rivmaker" version="1.0.1" releaseDate="2017/03/31" size="23229469"/>
+        <Component caption="RivMaker 1.0.2" folderName="rivmaker" version="1.0.2" releaseDate="2017/04/04" size="23229495"/>
     </CompomentType>
     <CompomentType folderName="solvers">
         <Component caption="Mflow_02 iric ver3 64 bit" folderName="Mflow_02_iric_v3_64" version="2.2.4" releaseDate="2015/04/30" size="575662"/>
