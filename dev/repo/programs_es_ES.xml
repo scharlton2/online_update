@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Programs>
     <CompomentType folderName="guis">
-        <Component caption="iRIC GUI 3.0 alpha6" folderName="prepost" version="3.0.0.6184" releaseDate="2017/03/09" size="262000271" essential="true"/>
+        <Component caption="iRIC GUI 3.0 beta1" folderName="prepost" version="3.0.0.6185" releaseDate="2017/04/04" size="262003418" essential="true"/>
         <Component caption="RivMaker 1.0.1" folderName="rivmaker" version="1.0.1" releaseDate="2017/03/31" size="23229469"/>
     </CompomentType>
     <CompomentType folderName="solvers">
