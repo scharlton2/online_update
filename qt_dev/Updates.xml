@@ -10,8 +10,8 @@
   <Default>true</Default>
   <ReleaseDate>2017-04-18</ReleaseDate>
   <SortingPriority>29</SortingPriority>
-  <UpdateFile CompressedSize="0" UncompressedSize="0" OS="Any"/>
-  <SHA1>ebb09684e6e2f18067d7ace7c94818d4b5490d5f</SHA1>
+  <UpdateFile OS="Any" UncompressedSize="0" CompressedSize="0"/>
+  <SHA1>52bfadb36c81eaa47c2caae36eab2c77800cda14</SHA1>
  </PackageUpdate>
  <PackageUpdate>
   <Name>gridexporter_plugin.structured2dgridnayscsv</Name>
@@ -22,9 +22,9 @@
   <ReleaseDate>2017-04-18</ReleaseDate>
   <SortingPriority>30</SortingPriority>
   <Script>installscript.qs</Script>
-  <UpdateFile CompressedSize="9301" UncompressedSize="22597" OS="Any"/>
+  <UpdateFile OS="Any" UncompressedSize="22597" CompressedSize="9301"/>
   <DownloadableArchives>content.7z</DownloadableArchives>
-  <SHA1>aebb80e5e34c51a92ba06a797c0d2e7f8d2b28a5</SHA1>
+  <SHA1>fc74af3eb94169da078b6293565636aaf0ac599c</SHA1>
  </PackageUpdate>
  <PackageUpdate>
   <Name>gridexporter_plugin.structured2dgridnaysgrid</Name>
@@ -35,9 +35,9 @@
   <ReleaseDate>2017-04-18</ReleaseDate>
   <SortingPriority>30</SortingPriority>
   <Script>installscript.qs</Script>
-  <UpdateFile CompressedSize="9162" UncompressedSize="22108" OS="Any"/>
+  <UpdateFile OS="Any" UncompressedSize="22108" CompressedSize="9162"/>
   <DownloadableArchives>content.7z</DownloadableArchives>
-  <SHA1>4fd99f17dd565eb11102f73002e084eabb96740a</SHA1>
+  <SHA1>0ebed478f0280af7e3f0a4c0f7e9c13ef19aa97a</SHA1>
  </PackageUpdate>
  <PackageUpdate>
   <Name>gridexporter_plugin.structured2dgridvtk</Name>
@@ -48,9 +48,9 @@
   <ReleaseDate>2017-04-18</ReleaseDate>
   <SortingPriority>30</SortingPriority>
   <Script>installscript.qs</Script>
-  <UpdateFile CompressedSize="8678" UncompressedSize="21013" OS="Any"/>
+  <UpdateFile OS="Any" UncompressedSize="21013" CompressedSize="8678"/>
   <DownloadableArchives>content.7z</DownloadableArchives>
-  <SHA1>fa4f74a072b0a76ec153ad4e6b7334fa8ef962e5</SHA1>
+  <SHA1>91db2c042d6c84677ede07d292f3554f7b6cf25a</SHA1>
  </PackageUpdate>
  <PackageUpdate>
   <Name>gridexporter_plugin.unstructured2dgridvtk</Name>
@@ -61,9 +61,9 @@
   <ReleaseDate>2017-04-18</ReleaseDate>
   <SortingPriority>30</SortingPriority>
   <Script>installscript.qs</Script>
-  <UpdateFile CompressedSize="8704" UncompressedSize="21019" OS="Any"/>
+  <UpdateFile OS="Any" UncompressedSize="21019" CompressedSize="8704"/>
   <DownloadableArchives>content.7z</DownloadableArchives>
-  <SHA1>1a599cd53f22983ce76994e95190304d9a1fd6c6</SHA1>
+  <SHA1>ba9f0865a386900177babe875acdb47791a622be</SHA1>
  </PackageUpdate>
  <PackageUpdate>
   <Name>gridimporter_plugin</Name>
@@ -73,44 +73,47 @@
   <Default>true</Default>
   <ReleaseDate>2017-04-18</ReleaseDate>
   <SortingPriority>30</SortingPriority>
-  <UpdateFile CompressedSize="0" UncompressedSize="0" OS="Any"/>
-  <SHA1>32c903875c6b6fd56c54133b502152e8a7f5c4e8</SHA1>
+  <UpdateFile OS="Any" UncompressedSize="0" CompressedSize="0"/>
+  <SHA1>7144a713cb4250873418e80edc0c13a475307606</SHA1>
  </PackageUpdate>
  <PackageUpdate>
   <Name>gridimporter_plugin.structured2dgridnayscsv</Name>
   <DisplayName>Structured grid Nays CSV file importer</DisplayName>
   <Description>Structured grid Nays CSV file importer</Description>
   <Version>1.0.0</Version>
+  <Default>true</Default>
   <ReleaseDate>2017-04-18</ReleaseDate>
   <SortingPriority>100</SortingPriority>
   <Script>installscript.qs</Script>
-  <UpdateFile CompressedSize="12559" UncompressedSize="32563" OS="Any"/>
+  <UpdateFile OS="Any" UncompressedSize="32563" CompressedSize="12559"/>
   <DownloadableArchives>content.7z</DownloadableArchives>
-  <SHA1>ba29f7e4611e2fe60f75ea935a9f7f20b7d61333</SHA1>
+  <SHA1>bb50c34ac582a1f837b4121dc315d0ac3c47e4be</SHA1>
  </PackageUpdate>
  <PackageUpdate>
   <Name>gridimporter_plugin.structured2dgridnaysgrid</Name>
   <DisplayName>Structured grid Nays grid file importer</DisplayName>
   <Description>Structured grid Nays grid file importer</Description>
   <Version>1.0.0</Version>
+  <Default>true</Default>
   <ReleaseDate>2017-04-18</ReleaseDate>
   <SortingPriority>100</SortingPriority>
   <Script>installscript.qs</Script>
-  <UpdateFile CompressedSize="10047" UncompressedSize="24379" OS="Any"/>
+  <UpdateFile OS="Any" UncompressedSize="24379" CompressedSize="10047"/>
   <DownloadableArchives>content.7z</DownloadableArchives>
-  <SHA1>0d43d0c0774c9111cfb8f02bb2994baa2d34dc37</SHA1>
+  <SHA1>e3435e9937a38810b09eb5d2b6adc32c64bcaf4e</SHA1>
  </PackageUpdate>
  <PackageUpdate>
   <Name>gridimporter_plugin.unstructured2dgridtriangle</Name>
   <DisplayName>Unstructured grid TRIANGLE file importer</DisplayName>
   <Description>Unstructured grid TRIANGLE file importer</Description>
   <Version>1.0.0</Version>
+  <Default>true</Default>
   <ReleaseDate>2017-04-18</ReleaseDate>
   <SortingPriority>100</SortingPriority>
   <Script>installscript.qs</Script>
-  <UpdateFile CompressedSize="9657" UncompressedSize="24925" OS="Any"/>
+  <UpdateFile OS="Any" UncompressedSize="24925" CompressedSize="9657"/>
   <DownloadableArchives>content.7z</DownloadableArchives>
-  <SHA1>b6776216f972fe0450979116eabcd916113e2a9f</SHA1>
+  <SHA1>8b8362801b99e49dc138c3c0db091e85ec2d0569</SHA1>
  </PackageUpdate>
  <PackageUpdate>
   <Name>gui</Name>
@@ -119,8 +122,8 @@
   <Version>1.0.0</Version>
   <ReleaseDate>2017-04-18</ReleaseDate>
   <SortingPriority>100</SortingPriority>
-  <UpdateFile CompressedSize="0" UncompressedSize="0" OS="Any"/>
-  <SHA1>2ea512f01eff4b2d6deea33d6b5d656b94cee324</SHA1>
+  <UpdateFile OS="Any" UncompressedSize="0" CompressedSize="0"/>
+  <SHA1>3a754da02f1b5c041f89a93b77b9701c59875c7f</SHA1>
  </PackageUpdate>
  <PackageUpdate>
   <Name>gui.prepost</Name>
@@ -131,12 +134,12 @@
   <SortingPriority>100</SortingPriority>
   <ForcedInstallation>true</ForcedInstallation>
   <Script>installscript.qs</Script>
-  <UpdateFile CompressedSize="67564449" UncompressedSize="262287829" OS="Any"/>
+  <UpdateFile OS="Any" UncompressedSize="262287829" CompressedSize="67564449"/>
   <DownloadableArchives>accessible.7z,bearer.7z,iconengines.7z,imageformats.7z,languages.7z,licenses.7z,platforms.7z,pythonmodule.7z,content.7z</DownloadableArchives>
   <Licenses>
-   <License file="license-english.txt" name="Terms of use of the iRIC software"/>
+   <License name="Terms of use of the iRIC software" file="license-english.txt"/>
   </Licenses>
-  <SHA1>74f498ea4cbd6be7900207fc617da521200bdc6e</SHA1>
+  <SHA1>d063b2c416fd9744773da129e64f4a982537caa5</SHA1>
  </PackageUpdate>
  <PackageUpdate>
   <Name>gui.rivmaker</Name>
@@ -147,9 +150,9 @@
   <ReleaseDate>2017-04-18</ReleaseDate>
   <SortingPriority>50</SortingPriority>
   <Script>installscript.qs</Script>
-  <UpdateFile CompressedSize="7154014" UncompressedSize="23229855" OS="Any"/>
+  <UpdateFile OS="Any" UncompressedSize="23229855" CompressedSize="7154014"/>
   <DownloadableArchives>accessible.7z,bearer.7z,iconengines.7z,imageformats.7z,languages.7z,platforms.7z,samples.7z,testdata.7z,content.7z</DownloadableArchives>
-  <SHA1>940a2d8adcb1bd1e976004e1816097765755c97b</SHA1>
+  <SHA1>38e76e5a661d6b02e8fd233e88248d864a23eb64</SHA1>
  </PackageUpdate>
  <PackageUpdate>
   <Name>runtime</Name>
@@ -160,9 +163,9 @@
   <SortingPriority>5</SortingPriority>
   <ForcedInstallation>true</ForcedInstallation>
   <Script>installscript.qs</Script>
-  <UpdateFile CompressedSize="6987845" UncompressedSize="7195872" OS="Any"/>
+  <UpdateFile OS="Any" UncompressedSize="7195872" CompressedSize="6987845"/>
   <DownloadableArchives>content.7z</DownloadableArchives>
-  <SHA1>aee8a3e66e6ecd5d144de0c1a28d52d790b7f8fc</SHA1>
+  <SHA1>444ab33961cefdc2113c1146c74c541829fc741f</SHA1>
  </PackageUpdate>
  <PackageUpdate>
   <Name>solver</Name>
@@ -172,32 +175,34 @@
   <Default>true</Default>
   <ReleaseDate>2017-04-18</ReleaseDate>
   <SortingPriority>20</SortingPriority>
-  <UpdateFile CompressedSize="0" UncompressedSize="0" OS="Any"/>
-  <SHA1>9c14455e66bab4d166f3a6785aa9d48892718bd0</SHA1>
+  <UpdateFile OS="Any" UncompressedSize="0" CompressedSize="0"/>
+  <SHA1>067c0687fa9c1a72fed06d86b0dcb97cc006df2b</SHA1>
  </PackageUpdate>
  <PackageUpdate>
   <Name>solver.cap</Name>
   <DisplayName>CAP</DisplayName>
   <Description>Culvart Analysis Program</Description>
   <Version>1.0.0</Version>
+  <Default>true</Default>
   <ReleaseDate>2017-04-18</ReleaseDate>
   <SortingPriority>80</SortingPriority>
   <Script>installscript.qs</Script>
-  <UpdateFile CompressedSize="299528" UncompressedSize="531430" OS="Any"/>
+  <UpdateFile OS="Any" UncompressedSize="531430" CompressedSize="299528"/>
   <DownloadableArchives>content.7z</DownloadableArchives>
-  <SHA1>7e6f1c05bcc136b22dfc2df92902a0caa24eed37</SHA1>
+  <SHA1>a8f6ba7762c5fbe821d16bfdca90c362ba05212f</SHA1>
  </PackageUpdate>
  <PackageUpdate>
   <Name>solver.ceri1d</Name>
   <DisplayName>CERI1D</DisplayName>
   <Description>CERI1D is an analytical solver developed by Yasuhiro YOSHIKAWA (Kitami Institute of Technology) and CERI for calculation of one-dimensional unsteady flow in rivers.</Description>
   <Version>1.0.0</Version>
+  <Default>true</Default>
   <ReleaseDate>2017-04-18</ReleaseDate>
   <SortingPriority>70</SortingPriority>
   <Script>installscript.qs</Script>
-  <UpdateFile CompressedSize="89488" UncompressedSize="294254" OS="Any"/>
+  <UpdateFile OS="Any" UncompressedSize="294254" CompressedSize="89488"/>
   <DownloadableArchives>content.7z</DownloadableArchives>
-  <SHA1>58ae4275b80df1fdcb86c3e99392f93893696b4d</SHA1>
+  <SHA1>44aa9ed982edc82696b3aa635697e342f12538f7</SHA1>
  </PackageUpdate>
  <PackageUpdate>
   <Name>solver.elimo</Name>
@@ -205,83 +210,90 @@
   <Description>iRIC-ELIMO has been developed with a motto of "simple and easy tsunami computation" for people with minimum knowledge to operate Window softwares, which is capable of reliable estimations of tsunami generation, propagation and evolution on coasts on easy-performable GUI environment provided by iRIC.   &#xd;
 </Description>
   <Version>1.0.0</Version>
+  <Default>true</Default>
   <ReleaseDate>2017-04-18</ReleaseDate>
   <SortingPriority>65</SortingPriority>
   <Script>installscript.qs</Script>
-  <UpdateFile CompressedSize="527582" UncompressedSize="2516320" OS="Any"/>
+  <UpdateFile OS="Any" UncompressedSize="2516320" CompressedSize="527582"/>
   <DownloadableArchives>content.7z</DownloadableArchives>
-  <SHA1>33c874f71e84d2e888132c8572a381a314ce1f2c</SHA1>
+  <SHA1>6812212d0748b29e699bec8c7f7b7a7d3384c3ba</SHA1>
  </PackageUpdate>
  <PackageUpdate>
   <Name>solver.mflow</Name>
   <DisplayName>Mflow</DisplayName>
   <Description>Mflow_02 is a solver to calculate two-dimensional plane unsteady flow and riverbed variation using unstructured meshes of the finite element method.</Description>
   <Version>1.0.0</Version>
+  <Default>true</Default>
   <ReleaseDate>2017-04-18</ReleaseDate>
   <SortingPriority>60</SortingPriority>
   <Script>installscript.qs</Script>
-  <UpdateFile CompressedSize="182021" UncompressedSize="575702" OS="Any"/>
+  <UpdateFile OS="Any" UncompressedSize="575702" CompressedSize="182021"/>
   <DownloadableArchives>content.7z</DownloadableArchives>
-  <SHA1>83e02031126e59b80face3b5f8493d3ec3f90ac0</SHA1>
+  <SHA1>188aaec4cf0ea9c14cb3c8484bb87d0045ccac29</SHA1>
  </PackageUpdate>
  <PackageUpdate>
   <Name>solver.nays2dflood</Name>
   <DisplayName>Nays2DFlood</DisplayName>
   <Description>Nays 2D Flood is a flood flow analysis solver that relies on unsteady 2-dimensional plane flow simulation using boundary-fitted coordinates as the general curvilinear coordinates.</Description>
   <Version>1.0.0</Version>
+  <Default>true</Default>
   <ReleaseDate>2017-04-18</ReleaseDate>
   <SortingPriority>60</SortingPriority>
   <Script>installscript.qs</Script>
-  <UpdateFile CompressedSize="191606" UncompressedSize="584188" OS="Any"/>
+  <UpdateFile OS="Any" UncompressedSize="584188" CompressedSize="191606"/>
   <DownloadableArchives>content.7z</DownloadableArchives>
-  <SHA1>17dbb6c63ad9ff2581201d9e4b873538e5c4133e</SHA1>
+  <SHA1>05ccf03f74a5368ebe9286ee691b8a786d8b7859</SHA1>
  </PackageUpdate>
  <PackageUpdate>
   <Name>solver.nays2dh</Name>
   <DisplayName>Nays2DH</DisplayName>
   <Description>Slope Area Computation Program</Description>
   <Version>1.0.0</Version>
+  <Default>true</Default>
   <ReleaseDate>2017-04-18</ReleaseDate>
   <SortingPriority>55</SortingPriority>
   <Script>installscript.qs</Script>
-  <UpdateFile CompressedSize="383965" UncompressedSize="1176749" OS="Any"/>
+  <UpdateFile OS="Any" UncompressedSize="1176749" CompressedSize="383965"/>
   <DownloadableArchives>content.7z</DownloadableArchives>
-  <SHA1>53102b130e5263676e0b506e4eee128cdc74dc7a</SHA1>
+  <SHA1>9508d73b823fbfcc81fcc5876ea55eaa7284115d</SHA1>
  </PackageUpdate>
  <PackageUpdate>
   <Name>solver.nayseddy</Name>
   <DisplayName>NaysEddy</DisplayName>
   <Description>"NaysEddy" is a three-dimensional solver for calculation of unsteady flows using Cartesian coordinates.</Description>
   <Version>1.0.0</Version>
+  <Default>true</Default>
   <ReleaseDate>2017-04-18</ReleaseDate>
   <SortingPriority>50</SortingPriority>
   <Script>installscript.qs</Script>
-  <UpdateFile CompressedSize="167238" UncompressedSize="507898" OS="Any"/>
+  <UpdateFile OS="Any" UncompressedSize="507898" CompressedSize="167238"/>
   <DownloadableArchives>content.7z</DownloadableArchives>
-  <SHA1>ae199111aa93847d0f09da18241b041d741b3608</SHA1>
+  <SHA1>2f3477f4f96d92235c104c643ee0beac2ec9406e</SHA1>
  </PackageUpdate>
  <PackageUpdate>
   <Name>solver.sac</Name>
   <DisplayName>SAC</DisplayName>
   <Description>Slope Area Computation Program</Description>
   <Version>1.0.0</Version>
+  <Default>true</Default>
   <ReleaseDate>2017-04-18</ReleaseDate>
   <SortingPriority>45</SortingPriority>
   <Script>installscript.qs</Script>
-  <UpdateFile CompressedSize="49364" UncompressedSize="125173" OS="Any"/>
+  <UpdateFile OS="Any" UncompressedSize="125173" CompressedSize="49364"/>
   <DownloadableArchives>content.7z</DownloadableArchives>
-  <SHA1>52b1c1c97053becacf4d4648d613f9987d60520d</SHA1>
+  <SHA1>ccc14fd2addc6baa664355e2691c81e6c3a8dcea</SHA1>
  </PackageUpdate>
  <PackageUpdate>
   <Name>solver.srm</Name>
   <DisplayName>SRM</DisplayName>
   <Description>The Storage Routing Model (SRM) solver is a runoff calculation solver that uses storage routing models.</Description>
   <Version>1.0.0</Version>
+  <Default>true</Default>
   <ReleaseDate>2017-04-18</ReleaseDate>
   <SortingPriority>40</SortingPriority>
   <Script>installscript.qs</Script>
-  <UpdateFile CompressedSize="36419" UncompressedSize="112452" OS="Any"/>
+  <UpdateFile OS="Any" UncompressedSize="112452" CompressedSize="36419"/>
   <DownloadableArchives>content.7z</DownloadableArchives>
-  <SHA1>db3a26db25823b5b67f849f044a2510a954ce6af</SHA1>
+  <SHA1>0a56aa1f0be5dfb91ecac39d2fe1283881679cb8</SHA1>
  </PackageUpdate>
 </Updates>
