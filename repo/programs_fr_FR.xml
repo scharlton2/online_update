@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Programs>
     <CompomentType folderName="guis">
-        <Component caption="iRIC GUI 3.0 alpha2" folderName="prepost" version="3.0.0.6178" releaseDate="2016/10/07" size="241977078" essential="true"/>
+        <Component caption="iRIC GUI 3.0 beta3" folderName="prepost" version="3.0.0.6188" releaseDate="2017/04/24" size="242454302" essential="true"/>
+        <Component caption="RivMaker 1.0.2" folderName="rivmaker" version="1.0.2" releaseDate="2017/04/04" size="23229495"/>
     </CompomentType>
     <CompomentType folderName="solvers">
         <Component caption="FaSTMECH" folderName="Fastmech_v1_x64_iRICv3" version="1.0" releaseDate="2009/11/01" size="18773550"/>

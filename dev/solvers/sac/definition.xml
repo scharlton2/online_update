@@ -128,7 +128,7 @@
 							<Condition type="isEqual" target="n_type" value="0"/>
 						</Definition>
 					</Item>
-					<Item name="n_h" caption="Horizontal distribution:">
+					<Item name="n_h" caption="Horizontal distribution: (X, Y, NVAL)">
 						<Definition conditionType="functional" noSort="true">
 							<Parameter name="X" caption="X" valueType="real" />
 							<Value name="Y" caption="Y" valueType="real" />
@@ -136,7 +136,7 @@
 							<Condition type="isEqual" target="n_type" value="1"/>
 						</Definition>
 					</Item>
-					<Item name="n_h_v" caption="Horizontal + vertical distribution">
+					<Item name="n_h_v" caption="Horizontal + vertical distribution (X, Y, BOTD, TOPD, BOTN, TOPN)">
 						<Definition conditionType="functional" noSort="true">
 							<Parameter name="X" caption="X" valueType="real" />
 							<Value name="Y" caption="Y" valueType="real" axis="left" />
@@ -149,7 +149,7 @@
 					</Item>
 				</GroupBox>
 				<GroupBox caption="Water surface elevation">
-					<Item name="wse" caption="Value">
+					<Item name="wse" caption="Value (WSEL)">
 						<Definition valueType="real" default="0"/>
 					</Item>
 				</GroupBox>

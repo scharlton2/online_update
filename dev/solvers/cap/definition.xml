@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <SolverDefinition 
     xmlns="www.iric.net/SolverDefinition/1.0"
-    name="cap" caption="Culvert Analysis Program" version="2.0.1" copyright="USGS"
-    release="2017.02.01" 
+    name="cap" caption="Culvert Analysis Program" version="2.0.2" copyright="USGS"
+    release="2017.04.21" 
     homepage="http://water.usgs.gov/software/CAP/"
     executable="CAP.exe"
     iterationtype="time"
@@ -816,75 +816,73 @@
 		</Tab>
 
 		<Tab name="approach" caption="Approach">
-			<HBoxLayout>
-				<GroupBox caption="Crosssection and Roughness">
-					<Item name="n_type" caption="Type">
-						<Definition valueType="integer" option="true" default="0">
-							<Enumerations>
-								<Enumeration value="0" caption="Simple"/>
-								<Enumeration value="1" caption="Horizontal distribution"/>
-								<Enumeration value="2" caption="Horizontal + vertical distribution"/>
-							</Enumerations>
-						</Definition>
-					</Item>
-					<Item name="appr_xs" caption="Simple: Cross Section (X, Y)">
-						<Definition conditionType="functional">
-							<Parameter caption="X" valueType="real" />
-							<Value caption="Y" valueType="real" />
-							<Condition type="isEqual" target="n_type" value="0"/>
-						</Definition>
-					</Item>
-					<Item name="n_simple" caption="Simple: Roughness  (NVAL(1))">
-						<Definition valueType="real" default="0">
-							<Condition type="isEqual" target="n_type" value="0"/>
-						</Definition>
-					</Item>
-					<Item name="n_h" caption="Horizontal distribution:">
-						<Definition conditionType="functional" noSort="true">
-							<Parameter name="X" caption="X" valueType="real" />
-							<Value name="Y" caption="Y" valueType="real" />
-							<Value name="NVAL" caption="NVAL" valueType="real" span="true" />
-							<Condition type="isEqual" target="n_type" value="1"/>
-						</Definition>
-					</Item>
-					<Item name="n_h_v" caption="Horizontal + vertical distribution">
-						<Definition conditionType="functional" noSort="true">
-							<Parameter name="X" caption="X" valueType="real" />
-							<Value name="Y" caption="Y" valueType="real" axis="left" />
-							<Value name="BOTD" caption="BOTD" valueType="real" axis="right" span="true" />
-							<Value name="TOPD" caption="TOPD" valueType="real" axis="right" span="true" />
-							<Value name="BOTN" caption="BOTN" valueType="real" axis="right" span="true" />
-							<Value name="TOPN" caption="TOPN" valueType="real" axis="right" span="true" />
-							<Condition type="isEqual" target="n_type" value="2"/>
-						</Definition>
-					</Item>
-				</GroupBox>
+			<GroupBox caption="Crosssection and Roughness">
+				<Item name="n_type" caption="Type">
+					<Definition valueType="integer" option="true" default="0">
+						<Enumerations>
+							<Enumeration value="0" caption="Simple"/>
+							<Enumeration value="1" caption="Horizontal distribution"/>
+							<Enumeration value="2" caption="Horizontal + vertical distribution"/>
+						</Enumerations>
+					</Definition>
+				</Item>
+				<Item name="appr_xs" caption="Simple: Cross Section (X, Y)">
+					<Definition conditionType="functional">
+						<Parameter caption="X" valueType="real" />
+						<Value caption="Y" valueType="real" />
+						<Condition type="isEqual" target="n_type" value="0"/>
+					</Definition>
+				</Item>
+				<Item name="n_simple" caption="Simple: Roughness  (NVAL(1))">
+					<Definition valueType="real" default="0">
+						<Condition type="isEqual" target="n_type" value="0"/>
+					</Definition>
+				</Item>
+				<Item name="n_h" caption="Horizontal distribution: (X, Y, NVAL)">
+					<Definition conditionType="functional">
+						<Parameter name="X" caption="X" valueType="real" />
+						<Value name="Y" caption="Y" valueType="real" />
+						<Value name="NVAL" caption="NVAL" valueType="real" span="true" />
+						<Condition type="isEqual" target="n_type" value="1"/>
+					</Definition>
+				</Item>
+				<Item name="n_h_v" caption="Horizontal + vertical distribution (X, Y, BOTD, TOPD, BOTN, TOPN)">
+					<Definition conditionType="functional">
+						<Parameter name="X" caption="X" valueType="real" />
+						<Value name="Y" caption="Y" valueType="real" axis="left" />
+						<Value name="BOTD" caption="BOTD" valueType="real" axis="right" span="true" />
+						<Value name="TOPD" caption="TOPD" valueType="real" axis="right" span="true" />
+						<Value name="BOTN" caption="BOTN" valueType="real" axis="right" span="true" />
+						<Value name="TOPN" caption="TOPN" valueType="real" axis="right" span="true" />
+						<Condition type="isEqual" target="n_type" value="2"/>
+					</Definition>
+				</Item>
+			</GroupBox>
 
-				<VBoxLayout withSpacer="true">
-					<GroupBox caption="Other">
-						<Item name="appr_skew" caption="Skew angle [degree] (SKEW)">
-							<Definition valueType="real" default="0">
-							</Definition>
-						</Item>
-						<Item name="max_depth" caption="Maximum Depth (DMAX)">
-							<Definition valueType="real" default="2">
-							</Definition>
-						</Item>
-						<Item name="spacing_ratio" caption="Spacing Ratio (RATIO)">
-							<Definition valueType="real" default="1">
-							</Definition>
-						</Item>
-					</GroupBox>
-					<Image src="approach_english.png">
-						<SubImage src="approach_si.png">
-							<Condition type="or">
-								<Condition type="isEqual" target="units" value="2" />
-								<Condition type="isEqual" target="units" value="3" />
-							</Condition>
-						</SubImage>
-					</Image>
-				</VBoxLayout>
-			</HBoxLayout>
+			<GroupBox caption="Other">
+				<Item name="appr_skew" caption="Skew angle [degree] (SKEW)">
+					<Definition valueType="real" default="0">
+					</Definition>
+				</Item>
+				<Item name="max_depth" caption="Maximum Depth (DMAX)">
+					<Definition valueType="real" default="2">
+					</Definition>
+				</Item>
+				<Item name="spacing_ratio" caption="Spacing Ratio (RATIO)">
+					<Definition valueType="real" default="1">
+					</Definition>
+				</Item>
+			</GroupBox>
+
+			<Image src="approach_english.png">
+				<SubImage src="approach_si.png">
+					<Condition type="or">
+						<Condition type="isEqual" target="units" value="2" />
+						<Condition type="isEqual" target="units" value="3" />
+					</Condition>
+				</SubImage>
+			</Image>
+
 		</Tab>
 
 		<Tab name="flows_tailwater" caption="Flows / Tailwater">
