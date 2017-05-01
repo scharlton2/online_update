@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Programs>
     <CompomentType folderName="guis">
-        <Component caption="iRIC GUI 3.0 beta3" folderName="prepost" version="3.0.0.6188" releaseDate="2017/04/24" size="242454302" essential="true"/>
+        <Component caption="iRIC GUI 3.0 beta3" folderName="prepost" version="3.0.0.6189" releaseDate="2017/05/01" size="242511689" essential="true"/>
         <Component caption="RivMaker 1.0.2" folderName="rivmaker" version="1.0.2" releaseDate="2017/04/04" size="23229495"/>
     </CompomentType>
     <CompomentType folderName="solvers">
@@ -17,6 +17,7 @@
         <Component caption="SRM" folderName="srm" version="1.0.2" releaseDate="2016/02/10" size="112545"/>
     </CompomentType>
     <CompomentType folderName="gridcreators">
+        <Component caption="Multifunction Grid Genarator" folderName="multi_grid_generator_x64" version="1.0" releaseDate="" size="121484"/>
         <Component caption="Simple Grid Generator" folderName="simplegridgen" version="1.0" releaseDate="" size="17735933"/>
     </CompomentType>
     <CompomentType folderName="gridimporter_plugins">
