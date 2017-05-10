@@ -10,8 +10,8 @@
   <Default>true</Default>
   <ReleaseDate>2017-04-18</ReleaseDate>
   <SortingPriority>29</SortingPriority>
-  <UpdateFile CompressedSize="0" UncompressedSize="0" OS="Any"/>
-  <SHA1>df80429fa60fcd7af1ac639424af45c21c92e6fb</SHA1>
+  <UpdateFile CompressedSize="0" OS="Any" UncompressedSize="0"/>
+  <SHA1>4458382d289076f4218fe74234d14b2d09211a40</SHA1>
  </PackageUpdate>
  <PackageUpdate>
   <Name>gridexporter_plugin.structured2dgridnayscsv</Name>
@@ -22,9 +22,9 @@
   <ReleaseDate>2017-04-18</ReleaseDate>
   <SortingPriority>30</SortingPriority>
   <Script>installscript.qs</Script>
-  <UpdateFile CompressedSize="9301" UncompressedSize="22597" OS="Any"/>
+  <UpdateFile CompressedSize="9301" OS="Any" UncompressedSize="22597"/>
   <DownloadableArchives>content.7z</DownloadableArchives>
-  <SHA1>04c15a7b96c089ffe7ade9dde19d868e4b1f55fc</SHA1>
+  <SHA1>764b6544cb8d4306f1a2f59fbe5dfe290c94e219</SHA1>
  </PackageUpdate>
  <PackageUpdate>
   <Name>gridexporter_plugin.structured2dgridnaysgrid</Name>
@@ -35,9 +35,9 @@
   <ReleaseDate>2017-04-18</ReleaseDate>
   <SortingPriority>30</SortingPriority>
   <Script>installscript.qs</Script>
-  <UpdateFile CompressedSize="9162" UncompressedSize="22108" OS="Any"/>
+  <UpdateFile CompressedSize="9162" OS="Any" UncompressedSize="22108"/>
   <DownloadableArchives>content.7z</DownloadableArchives>
-  <SHA1>290add6bc37136f8ae7b9b1bdfb5db88d252fa0e</SHA1>
+  <SHA1>3b55c4bf318fa457fe959659d6822b4402d74d67</SHA1>
  </PackageUpdate>
  <PackageUpdate>
   <Name>gridexporter_plugin.structured2dgridvtk</Name>
@@ -48,9 +48,9 @@
   <ReleaseDate>2017-04-18</ReleaseDate>
   <SortingPriority>30</SortingPriority>
   <Script>installscript.qs</Script>
-  <UpdateFile CompressedSize="8678" UncompressedSize="21013" OS="Any"/>
+  <UpdateFile CompressedSize="8678" OS="Any" UncompressedSize="21013"/>
   <DownloadableArchives>content.7z</DownloadableArchives>
-  <SHA1>c0af60c3c35787f255522d6ef62258f56a2903ec</SHA1>
+  <SHA1>f0b06dd8ee095dc8c8486dcd213326fe98aaaa86</SHA1>
  </PackageUpdate>
  <PackageUpdate>
   <Name>gridexporter_plugin.unstructured2dgridvtk</Name>
@@ -61,9 +61,9 @@
   <ReleaseDate>2017-04-18</ReleaseDate>
   <SortingPriority>30</SortingPriority>
   <Script>installscript.qs</Script>
-  <UpdateFile CompressedSize="8704" UncompressedSize="21019" OS="Any"/>
+  <UpdateFile CompressedSize="8704" OS="Any" UncompressedSize="21019"/>
   <DownloadableArchives>content.7z</DownloadableArchives>
-  <SHA1>70eb299b23d15b15e3f38b08a68149735c628df5</SHA1>
+  <SHA1>9ee4aee08d0928a4404ee6efeb071eb66cedc3dd</SHA1>
  </PackageUpdate>
  <PackageUpdate>
   <Name>gridimporter_plugin</Name>
@@ -73,8 +73,8 @@
   <Default>true</Default>
   <ReleaseDate>2017-04-18</ReleaseDate>
   <SortingPriority>30</SortingPriority>
-  <UpdateFile CompressedSize="0" UncompressedSize="0" OS="Any"/>
-  <SHA1>7b4fb6084e60961479b43f09766a279eefaf9c74</SHA1>
+  <UpdateFile CompressedSize="0" OS="Any" UncompressedSize="0"/>
+  <SHA1>1b6498d842dad7d78f0cf1187e3fef62a2b0598a</SHA1>
  </PackageUpdate>
  <PackageUpdate>
   <Name>gridimporter_plugin.structured2dgridnayscsv</Name>
@@ -85,9 +85,9 @@
   <ReleaseDate>2017-04-18</ReleaseDate>
   <SortingPriority>100</SortingPriority>
   <Script>installscript.qs</Script>
-  <UpdateFile CompressedSize="12559" UncompressedSize="32563" OS="Any"/>
+  <UpdateFile CompressedSize="12559" OS="Any" UncompressedSize="32563"/>
   <DownloadableArchives>content.7z</DownloadableArchives>
-  <SHA1>389357dd3b6d9320f0460ce210d7df45aedd5fec</SHA1>
+  <SHA1>dae14633e9d3b94687ec65c60831ff311565c59d</SHA1>
  </PackageUpdate>
  <PackageUpdate>
   <Name>gridimporter_plugin.structured2dgridnaysgrid</Name>
@@ -98,9 +98,9 @@
   <ReleaseDate>2017-04-18</ReleaseDate>
   <SortingPriority>100</SortingPriority>
   <Script>installscript.qs</Script>
-  <UpdateFile CompressedSize="10047" UncompressedSize="24379" OS="Any"/>
+  <UpdateFile CompressedSize="10047" OS="Any" UncompressedSize="24379"/>
   <DownloadableArchives>content.7z</DownloadableArchives>
-  <SHA1>c67bc181c5041a1b67bf0ec54452ec8a6da33a62</SHA1>
+  <SHA1>b2dc19c091766d201e14edf8a704800bc71e684f</SHA1>
  </PackageUpdate>
  <PackageUpdate>
   <Name>gridimporter_plugin.unstructured2dgridtriangle</Name>
@@ -111,9 +111,9 @@
   <ReleaseDate>2017-04-18</ReleaseDate>
   <SortingPriority>100</SortingPriority>
   <Script>installscript.qs</Script>
-  <UpdateFile CompressedSize="9657" UncompressedSize="24925" OS="Any"/>
+  <UpdateFile CompressedSize="9657" OS="Any" UncompressedSize="24925"/>
   <DownloadableArchives>content.7z</DownloadableArchives>
-  <SHA1>73ac135f37f455307b5a63cdb679980efdb66e97</SHA1>
+  <SHA1>871d3e04f0854d512acce27c573a1a1884077402</SHA1>
  </PackageUpdate>
  <PackageUpdate>
   <Name>gui</Name>
@@ -122,8 +122,8 @@
   <Version>1.0.0</Version>
   <ReleaseDate>2017-04-18</ReleaseDate>
   <SortingPriority>100</SortingPriority>
-  <UpdateFile CompressedSize="0" UncompressedSize="0" OS="Any"/>
-  <SHA1>f7ad1ba6d6adee4bf64b0d75bbe0c04e5d8506ad</SHA1>
+  <UpdateFile CompressedSize="0" OS="Any" UncompressedSize="0"/>
+  <SHA1>50b0671440b2d14ad382590a241e39b18267850c</SHA1>
  </PackageUpdate>
  <PackageUpdate>
   <Name>gui.prepost</Name>
@@ -134,12 +134,12 @@
   <SortingPriority>100</SortingPriority>
   <ForcedInstallation>true</ForcedInstallation>
   <Script>installscript.qs</Script>
-  <UpdateFile CompressedSize="67567688" UncompressedSize="262277291" OS="Any"/>
+  <UpdateFile CompressedSize="67566965" OS="Any" UncompressedSize="262284569"/>
   <DownloadableArchives>accessible.7z,bearer.7z,iconengines.7z,imageformats.7z,languages.7z,licenses.7z,platforms.7z,pythonmodule.7z,content.7z</DownloadableArchives>
   <Licenses>
    <License file="license-english.txt" name="Terms of use of the iRIC software"/>
   </Licenses>
-  <SHA1>478660f20c19f496e8093aaf8903f5bfff8c2a2a</SHA1>
+  <SHA1>b102879841a6002b80f78b7327231c5a1ff3ab50</SHA1>
  </PackageUpdate>
  <PackageUpdate>
   <Name>gui.rivmaker</Name>
@@ -150,9 +150,9 @@
   <ReleaseDate>2017-04-18</ReleaseDate>
   <SortingPriority>50</SortingPriority>
   <Script>installscript.qs</Script>
-  <UpdateFile CompressedSize="7154014" UncompressedSize="23229855" OS="Any"/>
+  <UpdateFile CompressedSize="7525781" OS="Any" UncompressedSize="24754247"/>
   <DownloadableArchives>accessible.7z,bearer.7z,iconengines.7z,imageformats.7z,languages.7z,platforms.7z,samples.7z,testdata.7z,content.7z</DownloadableArchives>
-  <SHA1>7fc4d8040c4a42b1e462d21c4cd1d8a25047c59e</SHA1>
+  <SHA1>98e57ec33c6f0e551981c2c24d856fee2a278a52</SHA1>
  </PackageUpdate>
  <PackageUpdate>
   <Name>runtime</Name>
@@ -163,9 +163,9 @@
   <SortingPriority>5</SortingPriority>
   <ForcedInstallation>true</ForcedInstallation>
   <Script>installscript.qs</Script>
-  <UpdateFile CompressedSize="6987845" UncompressedSize="7195872" OS="Any"/>
+  <UpdateFile CompressedSize="6987845" OS="Any" UncompressedSize="7195872"/>
   <DownloadableArchives>content.7z</DownloadableArchives>
-  <SHA1>be81292d6502bdde32ae7d9a0e931253c38dfc14</SHA1>
+  <SHA1>b7a7162d062013f03cd8d69e8e1fb80f2f5624ec</SHA1>
  </PackageUpdate>
  <PackageUpdate>
   <Name>solver</Name>
@@ -175,8 +175,8 @@
   <Default>true</Default>
   <ReleaseDate>2017-04-18</ReleaseDate>
   <SortingPriority>20</SortingPriority>
-  <UpdateFile CompressedSize="0" UncompressedSize="0" OS="Any"/>
-  <SHA1>cbae52ed646d87077104ee7fd3850abb150ef74a</SHA1>
+  <UpdateFile CompressedSize="0" OS="Any" UncompressedSize="0"/>
+  <SHA1>56e315dbd242c60c04a665adea5c9efb4564ec6a</SHA1>
  </PackageUpdate>
  <PackageUpdate>
   <Name>solver.cap</Name>
@@ -187,9 +187,9 @@
   <ReleaseDate>2017-04-18</ReleaseDate>
   <SortingPriority>80</SortingPriority>
   <Script>installscript.qs</Script>
-  <UpdateFile CompressedSize="299528" UncompressedSize="531430" OS="Any"/>
+  <UpdateFile CompressedSize="299546" OS="Any" UncompressedSize="531274"/>
   <DownloadableArchives>content.7z</DownloadableArchives>
-  <SHA1>45ae7c60a3cf37832fffe3361d9ebaa4754bf4d4</SHA1>
+  <SHA1>bbe03de8c93045e8916cb7d8d7c194c9c86464f6</SHA1>
  </PackageUpdate>
  <PackageUpdate>
   <Name>solver.ceri1d</Name>
@@ -200,9 +200,9 @@
   <ReleaseDate>2017-04-18</ReleaseDate>
   <SortingPriority>70</SortingPriority>
   <Script>installscript.qs</Script>
-  <UpdateFile CompressedSize="89488" UncompressedSize="294254" OS="Any"/>
+  <UpdateFile CompressedSize="89488" OS="Any" UncompressedSize="294254"/>
   <DownloadableArchives>content.7z</DownloadableArchives>
-  <SHA1>2a97bbcc835818e3f857daaad430f57429344d01</SHA1>
+  <SHA1>075bb9cbe9747288a022e7a8cd151844abdef288</SHA1>
  </PackageUpdate>
  <PackageUpdate>
   <Name>solver.elimo</Name>
@@ -214,9 +214,9 @@
   <ReleaseDate>2017-04-18</ReleaseDate>
   <SortingPriority>65</SortingPriority>
   <Script>installscript.qs</Script>
-  <UpdateFile CompressedSize="527582" UncompressedSize="2516320" OS="Any"/>
+  <UpdateFile CompressedSize="527582" OS="Any" UncompressedSize="2516320"/>
   <DownloadableArchives>content.7z</DownloadableArchives>
-  <SHA1>17686f342f61ecbf3f56d73e5a13ea8a4e4d8704</SHA1>
+  <SHA1>112dccafc405dad6254b71bdba5bb8775405968c</SHA1>
  </PackageUpdate>
  <PackageUpdate>
   <Name>solver.mflow</Name>
@@ -227,9 +227,9 @@
   <ReleaseDate>2017-04-18</ReleaseDate>
   <SortingPriority>60</SortingPriority>
   <Script>installscript.qs</Script>
-  <UpdateFile CompressedSize="182021" UncompressedSize="575702" OS="Any"/>
+  <UpdateFile CompressedSize="182021" OS="Any" UncompressedSize="575702"/>
   <DownloadableArchives>content.7z</DownloadableArchives>
-  <SHA1>09649470834b6ee13a86b45d07e9a8c8f14b6a11</SHA1>
+  <SHA1>875d74bf9da0a835f53628a4d40372fe0571b07b</SHA1>
  </PackageUpdate>
  <PackageUpdate>
   <Name>solver.nays2dflood</Name>
@@ -240,9 +240,9 @@
   <ReleaseDate>2017-04-18</ReleaseDate>
   <SortingPriority>60</SortingPriority>
   <Script>installscript.qs</Script>
-  <UpdateFile CompressedSize="191606" UncompressedSize="584188" OS="Any"/>
+  <UpdateFile CompressedSize="191606" OS="Any" UncompressedSize="584188"/>
   <DownloadableArchives>content.7z</DownloadableArchives>
-  <SHA1>bb35b52d9b43c87dae769bb4c9e86a0bc5eed98f</SHA1>
+  <SHA1>ef8664d13c812f3e89f4306592b1ab76c194465b</SHA1>
  </PackageUpdate>
  <PackageUpdate>
   <Name>solver.nays2dh</Name>
@@ -253,9 +253,9 @@
   <ReleaseDate>2017-04-18</ReleaseDate>
   <SortingPriority>55</SortingPriority>
   <Script>installscript.qs</Script>
-  <UpdateFile CompressedSize="383965" UncompressedSize="1176749" OS="Any"/>
+  <UpdateFile CompressedSize="383965" OS="Any" UncompressedSize="1176749"/>
   <DownloadableArchives>content.7z</DownloadableArchives>
-  <SHA1>553c58ee20de9e7f8d231361d6ebb088195e5dd0</SHA1>
+  <SHA1>5e4b4c811b32dd895e74ca42bc9c8e6ff73a75e7</SHA1>
  </PackageUpdate>
  <PackageUpdate>
   <Name>solver.nayseddy</Name>
@@ -266,9 +266,9 @@
   <ReleaseDate>2017-04-18</ReleaseDate>
   <SortingPriority>50</SortingPriority>
   <Script>installscript.qs</Script>
-  <UpdateFile CompressedSize="167238" UncompressedSize="507898" OS="Any"/>
+  <UpdateFile CompressedSize="167238" OS="Any" UncompressedSize="507898"/>
   <DownloadableArchives>content.7z</DownloadableArchives>
-  <SHA1>11f38ce4a80abf9199b67e80132966499c5b7ca2</SHA1>
+  <SHA1>fdfaab3c9f9193263150087b935961f34da53531</SHA1>
  </PackageUpdate>
  <PackageUpdate>
   <Name>solver.sac</Name>
@@ -279,9 +279,9 @@
   <ReleaseDate>2017-04-18</ReleaseDate>
   <SortingPriority>45</SortingPriority>
   <Script>installscript.qs</Script>
-  <UpdateFile CompressedSize="49364" UncompressedSize="125173" OS="Any"/>
+  <UpdateFile CompressedSize="49364" OS="Any" UncompressedSize="125173"/>
   <DownloadableArchives>content.7z</DownloadableArchives>
-  <SHA1>a0e44e29483e1da51e47ecd50f731ef07d5bf2dc</SHA1>
+  <SHA1>f35cf79b7a402bef858bfbb4171e61d6a909c911</SHA1>
  </PackageUpdate>
  <PackageUpdate>
   <Name>solver.srm</Name>
@@ -292,8 +292,8 @@
   <ReleaseDate>2017-04-18</ReleaseDate>
   <SortingPriority>40</SortingPriority>
   <Script>installscript.qs</Script>
-  <UpdateFile CompressedSize="36419" UncompressedSize="112452" OS="Any"/>
+  <UpdateFile CompressedSize="36419" OS="Any" UncompressedSize="112452"/>
   <DownloadableArchives>content.7z</DownloadableArchives>
-  <SHA1>34cb9c0b5a00a563b586d0b95fde97361edfc91d</SHA1>
+  <SHA1>11a4505dd2563397d1b90306ce4f5d74528ac7be</SHA1>
  </PackageUpdate>
 </Updates>
