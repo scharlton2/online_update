@@ -10,7 +10,7 @@
   <Default>true</Default>
   <ReleaseDate>2017-04-18</ReleaseDate>
   <SortingPriority>29</SortingPriority>
-  <UpdateFile OS="Any" CompressedSize="0" UncompressedSize="0"/>
+  <UpdateFile CompressedSize="0" UncompressedSize="0" OS="Any"/>
   <SHA1>03448627383e888111f110a32eec8f615aeb6092</SHA1>
  </PackageUpdate>
  <PackageUpdate>
@@ -22,7 +22,7 @@
   <ReleaseDate>2015-07-01</ReleaseDate>
   <SortingPriority>30</SortingPriority>
   <Script>installscript.qs</Script>
-  <UpdateFile OS="Any" CompressedSize="9302" UncompressedSize="22597"/>
+  <UpdateFile CompressedSize="9302" UncompressedSize="22597" OS="Any"/>
   <DownloadableArchives>content.7z</DownloadableArchives>
   <SHA1>b723259f5b0463532f23d6b3e65609cec27985b7</SHA1>
  </PackageUpdate>
@@ -35,7 +35,7 @@
   <ReleaseDate>2015-07-01</ReleaseDate>
   <SortingPriority>30</SortingPriority>
   <Script>installscript.qs</Script>
-  <UpdateFile OS="Any" CompressedSize="9161" UncompressedSize="22108"/>
+  <UpdateFile CompressedSize="9161" UncompressedSize="22108" OS="Any"/>
   <DownloadableArchives>content.7z</DownloadableArchives>
   <SHA1>2dd675514b3f61f9f4d3b176310c513736623cef</SHA1>
  </PackageUpdate>
@@ -48,7 +48,7 @@
   <ReleaseDate>2015-07-01</ReleaseDate>
   <SortingPriority>30</SortingPriority>
   <Script>installscript.qs</Script>
-  <UpdateFile OS="Any" CompressedSize="8678" UncompressedSize="21013"/>
+  <UpdateFile CompressedSize="8678" UncompressedSize="21013" OS="Any"/>
   <DownloadableArchives>content.7z</DownloadableArchives>
   <SHA1>6daae555b84657b7947a180b3a4fc9adb8637445</SHA1>
  </PackageUpdate>
@@ -61,7 +61,7 @@
   <ReleaseDate>2015-07-01</ReleaseDate>
   <SortingPriority>30</SortingPriority>
   <Script>installscript.qs</Script>
-  <UpdateFile OS="Any" CompressedSize="8705" UncompressedSize="21019"/>
+  <UpdateFile CompressedSize="8705" UncompressedSize="21019" OS="Any"/>
   <DownloadableArchives>content.7z</DownloadableArchives>
   <SHA1>c2ecf8ceee3c580d1abd687d093a6785f099bd9d</SHA1>
  </PackageUpdate>
@@ -73,7 +73,7 @@
   <Default>true</Default>
   <ReleaseDate>2017-04-18</ReleaseDate>
   <SortingPriority>30</SortingPriority>
-  <UpdateFile OS="Any" CompressedSize="0" UncompressedSize="0"/>
+  <UpdateFile CompressedSize="0" UncompressedSize="0" OS="Any"/>
   <SHA1>4a5d1e5db36d38f368e6eb01d095aeda753f5796</SHA1>
  </PackageUpdate>
  <PackageUpdate>
@@ -85,7 +85,7 @@
   <ReleaseDate>2015-07-01</ReleaseDate>
   <SortingPriority>100</SortingPriority>
   <Script>installscript.qs</Script>
-  <UpdateFile OS="Any" CompressedSize="12560" UncompressedSize="32563"/>
+  <UpdateFile CompressedSize="12560" UncompressedSize="32563" OS="Any"/>
   <DownloadableArchives>content.7z</DownloadableArchives>
   <SHA1>eb395dcc96aa72d6e00c1e5d5e1904101ba6a4d2</SHA1>
  </PackageUpdate>
@@ -98,7 +98,7 @@
   <ReleaseDate>2015-07-01</ReleaseDate>
   <SortingPriority>100</SortingPriority>
   <Script>installscript.qs</Script>
-  <UpdateFile OS="Any" CompressedSize="10048" UncompressedSize="24379"/>
+  <UpdateFile CompressedSize="10048" UncompressedSize="24379" OS="Any"/>
   <DownloadableArchives>content.7z</DownloadableArchives>
   <SHA1>575a14b27178697ddb4e0a840446726b6cd926be</SHA1>
  </PackageUpdate>
@@ -111,7 +111,7 @@
   <ReleaseDate>2015-07-01</ReleaseDate>
   <SortingPriority>100</SortingPriority>
   <Script>installscript.qs</Script>
-  <UpdateFile OS="Any" CompressedSize="9656" UncompressedSize="24925"/>
+  <UpdateFile CompressedSize="9656" UncompressedSize="24925" OS="Any"/>
   <DownloadableArchives>content.7z</DownloadableArchives>
   <SHA1>b36a6b779b13c09b6a81788f3c27fdec3cb912a4</SHA1>
  </PackageUpdate>
@@ -122,7 +122,7 @@
   <Version>1.0.0</Version>
   <ReleaseDate>2017-04-18</ReleaseDate>
   <SortingPriority>100</SortingPriority>
-  <UpdateFile OS="Any" CompressedSize="0" UncompressedSize="0"/>
+  <UpdateFile CompressedSize="0" UncompressedSize="0" OS="Any"/>
   <SHA1>60453f7cb30fd6c5bb20e801d20100942197195e</SHA1>
  </PackageUpdate>
  <PackageUpdate>
@@ -134,10 +134,10 @@
   <SortingPriority>100</SortingPriority>
   <ForcedInstallation>true</ForcedInstallation>
   <Script>installscript.qs</Script>
-  <UpdateFile OS="Any" CompressedSize="67795384" UncompressedSize="263113833"/>
+  <UpdateFile CompressedSize="67795384" UncompressedSize="263113833" OS="Any"/>
   <DownloadableArchives>accessible.7z,bearer.7z,iconengines.7z,imageformats.7z,languages.7z,licenses.7z,platforms.7z,pythonmodule.7z,content.7z</DownloadableArchives>
   <Licenses>
-   <License name="Terms of use of the iRIC software" file="license-english.txt"/>
+   <License file="license-english.txt" name="Terms of use of the iRIC software"/>
   </Licenses>
   <SHA1>528b5cbc5aa09aeb75888a221967d818be95bd03</SHA1>
  </PackageUpdate>
@@ -150,7 +150,7 @@
   <ReleaseDate>2017-04-04</ReleaseDate>
   <SortingPriority>50</SortingPriority>
   <Script>installscript.qs</Script>
-  <UpdateFile OS="Any" CompressedSize="7525788" UncompressedSize="24754247"/>
+  <UpdateFile CompressedSize="7525788" UncompressedSize="24754247" OS="Any"/>
   <DownloadableArchives>accessible.7z,bearer.7z,iconengines.7z,imageformats.7z,languages.7z,platforms.7z,samples.7z,testdata.7z,content.7z</DownloadableArchives>
   <SHA1>8462b478f3d636b9d8f7fc653862d7604923ca67</SHA1>
  </PackageUpdate>
@@ -163,7 +163,7 @@
   <SortingPriority>5</SortingPriority>
   <ForcedInstallation>true</ForcedInstallation>
   <Script>installscript.qs</Script>
-  <UpdateFile OS="Any" CompressedSize="6987845" UncompressedSize="7195872"/>
+  <UpdateFile CompressedSize="6987845" UncompressedSize="7195872" OS="Any"/>
   <DownloadableArchives>content.7z</DownloadableArchives>
   <SHA1>c43e8a204d2614e14a46f7362758762270aeb151</SHA1>
  </PackageUpdate>
@@ -175,7 +175,7 @@
   <Default>true</Default>
   <ReleaseDate>2017-04-18</ReleaseDate>
   <SortingPriority>20</SortingPriority>
-  <UpdateFile OS="Any" CompressedSize="0" UncompressedSize="0"/>
+  <UpdateFile CompressedSize="0" UncompressedSize="0" OS="Any"/>
   <SHA1>b1a66048f7d0cee2635233c0292ff39cbd05d669</SHA1>
  </PackageUpdate>
  <PackageUpdate>
@@ -187,7 +187,7 @@
   <ReleaseDate>2017-04-21</ReleaseDate>
   <SortingPriority>50</SortingPriority>
   <Script>installscript.qs</Script>
-  <UpdateFile OS="Any" CompressedSize="299556" UncompressedSize="531274"/>
+  <UpdateFile CompressedSize="299556" UncompressedSize="531274" OS="Any"/>
   <DownloadableArchives>content.7z</DownloadableArchives>
   <SHA1>8920cce40d7309da6062015504e4f802550493e7</SHA1>
  </PackageUpdate>
@@ -200,7 +200,7 @@
   <ReleaseDate>2014-11-18</ReleaseDate>
   <SortingPriority>50</SortingPriority>
   <Script>installscript.qs</Script>
-  <UpdateFile OS="Any" CompressedSize="89488" UncompressedSize="294254"/>
+  <UpdateFile CompressedSize="89488" UncompressedSize="294254" OS="Any"/>
   <DownloadableArchives>content.7z</DownloadableArchives>
   <SHA1>2d2e8220e996eb8f101fff8480729ee03dd6be4a</SHA1>
  </PackageUpdate>
@@ -214,7 +214,7 @@
   <ReleaseDate>2015-03-29</ReleaseDate>
   <SortingPriority>50</SortingPriority>
   <Script>installscript.qs</Script>
-  <UpdateFile OS="Any" CompressedSize="527562" UncompressedSize="2516320"/>
+  <UpdateFile CompressedSize="527562" UncompressedSize="2516320" OS="Any"/>
   <DownloadableArchives>content.7z</DownloadableArchives>
   <SHA1>95068b374ae7f505356834d346228c7761a3ec1b</SHA1>
  </PackageUpdate>
@@ -227,7 +227,7 @@
   <ReleaseDate>2009-11-01</ReleaseDate>
   <SortingPriority>50</SortingPriority>
   <Script>installscript.qs</Script>
-  <UpdateFile OS="Any" CompressedSize="299054" UncompressedSize="1099614"/>
+  <UpdateFile CompressedSize="299054" UncompressedSize="1099614" OS="Any"/>
   <DownloadableArchives>content.7z</DownloadableArchives>
   <SHA1>48d43cf8affff985ee7d6b265a0d35203c339039</SHA1>
  </PackageUpdate>
@@ -240,7 +240,7 @@
   <ReleaseDate>2015-04-30</ReleaseDate>
   <SortingPriority>50</SortingPriority>
   <Script>installscript.qs</Script>
-  <UpdateFile OS="Any" CompressedSize="182022" UncompressedSize="575702"/>
+  <UpdateFile CompressedSize="182022" UncompressedSize="575702" OS="Any"/>
   <DownloadableArchives>content.7z</DownloadableArchives>
   <SHA1>0d1d38029b1a3ddb26d40936d68c2b3d485df1aa</SHA1>
  </PackageUpdate>
@@ -253,7 +253,7 @@
   <ReleaseDate>2016-01-20</ReleaseDate>
   <SortingPriority>50</SortingPriority>
   <Script>installscript.qs</Script>
-  <UpdateFile OS="Any" CompressedSize="110149" UncompressedSize="331646"/>
+  <UpdateFile CompressedSize="110149" UncompressedSize="331646" OS="Any"/>
   <DownloadableArchives>content.7z</DownloadableArchives>
   <SHA1>7a1519b52093b4f6dcd3c2c91205de53302fe57a</SHA1>
  </PackageUpdate>
@@ -266,7 +266,7 @@
   <ReleaseDate>2017-04-18</ReleaseDate>
   <SortingPriority>50</SortingPriority>
   <Script>installscript.qs</Script>
-  <UpdateFile OS="Any" CompressedSize="191607" UncompressedSize="584188"/>
+  <UpdateFile CompressedSize="191607" UncompressedSize="584188" OS="Any"/>
   <DownloadableArchives>content.7z</DownloadableArchives>
   <SHA1>1fde959bdf74e4e8ca46d9661feb25fe3261e910</SHA1>
  </PackageUpdate>
@@ -279,7 +279,7 @@
   <ReleaseDate>2015-03-17</ReleaseDate>
   <SortingPriority>50</SortingPriority>
   <Script>installscript.qs</Script>
-  <UpdateFile OS="Any" CompressedSize="386440" UncompressedSize="1184402"/>
+  <UpdateFile CompressedSize="386440" UncompressedSize="1184402" OS="Any"/>
   <DownloadableArchives>content.7z</DownloadableArchives>
   <SHA1>9737ab161d0231c5fdf15f196dbc1274a92b56b1</SHA1>
  </PackageUpdate>
@@ -292,7 +292,7 @@
   <ReleaseDate>2017-05-10</ReleaseDate>
   <SortingPriority>50</SortingPriority>
   <Script>installscript.qs</Script>
-  <UpdateFile OS="Any" CompressedSize="1024540" UncompressedSize="8345721"/>
+  <UpdateFile CompressedSize="1024540" UncompressedSize="8345721" OS="Any"/>
   <DownloadableArchives>content.7z</DownloadableArchives>
   <SHA1>91b92bb1f74ccd02e509c361236c7f16cd9e9be1</SHA1>
  </PackageUpdate>
@@ -305,7 +305,7 @@
   <ReleaseDate>2017-04-18</ReleaseDate>
   <SortingPriority>50</SortingPriority>
   <Script>installscript.qs</Script>
-  <UpdateFile OS="Any" CompressedSize="167241" UncompressedSize="507898"/>
+  <UpdateFile CompressedSize="167241" UncompressedSize="507898" OS="Any"/>
   <DownloadableArchives>content.7z</DownloadableArchives>
   <SHA1>9760cabb00207c893d15880706bb339e0b9173e1</SHA1>
  </PackageUpdate>
@@ -318,7 +318,7 @@
   <ReleaseDate>2017-04-18</ReleaseDate>
   <SortingPriority>50</SortingPriority>
   <Script>installscript.qs</Script>
-  <UpdateFile OS="Any" CompressedSize="49365" UncompressedSize="125173"/>
+  <UpdateFile CompressedSize="49365" UncompressedSize="125173" OS="Any"/>
   <DownloadableArchives>content.7z</DownloadableArchives>
   <SHA1>bc57b9be328571d26701655f685067f8f278c803</SHA1>
  </PackageUpdate>
@@ -331,8 +331,45 @@
   <ReleaseDate>2017-04-18</ReleaseDate>
   <SortingPriority>50</SortingPriority>
   <Script>installscript.qs</Script>
-  <UpdateFile OS="Any" CompressedSize="36418" UncompressedSize="112452"/>
+  <UpdateFile CompressedSize="36418" UncompressedSize="112452" OS="Any"/>
   <DownloadableArchives>content.7z</DownloadableArchives>
   <SHA1>722a2df5c4c275b53da4db50359b72f0186a8a35</SHA1>
+ </PackageUpdate>
+ <PackageUpdate>
+  <Name>gridcreator</Name>
+  <DisplayName>Grid Generators</DisplayName>
+  <Description>Grid Generators that run on iRIC GUI</Description>
+  <Version>1.0.0</Version>
+  <Default>true</Default>
+  <ReleaseDate>2017-04-18</ReleaseDate>
+  <SortingPriority>20</SortingPriority>
+  <UpdateFile CompressedSize="0" UncompressedSize="0" OS="Any"/>
+  <SHA1>7883de74d2f2a8be4681e228c5369d1d1323f82e</SHA1>
+ </PackageUpdate>
+ <PackageUpdate>
+  <Name>gridcreator.multi_grid_generator</Name>
+  <DisplayName>Multifunction Grid Genarator</DisplayName>
+  <Description>Multifunction Grid Genarator</Description>
+  <Version>1.0</Version>
+  <Default>true</Default>
+  <ReleaseDate>2017-06-06</ReleaseDate>
+  <SortingPriority>50</SortingPriority>
+  <Script>installscript.qs</Script>
+  <UpdateFile CompressedSize="38841" UncompressedSize="121159" OS="Any"/>
+  <DownloadableArchives>content.7z</DownloadableArchives>
+  <SHA1>23ec091a0154ede8069f272253ea2131bd34b7eb</SHA1>
+ </PackageUpdate>
+ <PackageUpdate>
+  <Name>gridcreator.simplegridgen</Name>
+  <DisplayName>Simple Grid Generator</DisplayName>
+  <Description>Simple Grid Generator</Description>
+  <Version>1.0</Version>
+  <Default>true</Default>
+  <ReleaseDate>2017-06-06</ReleaseDate>
+  <SortingPriority>50</SortingPriority>
+  <Script>installscript.qs</Script>
+  <UpdateFile CompressedSize="14281" UncompressedSize="61997" OS="Any"/>
+  <DownloadableArchives>content.7z</DownloadableArchives>
+  <SHA1>89f5c491bae3149b559482edb5060150503485da</SHA1>
  </PackageUpdate>
 </Updates>
