@@ -2,9 +2,9 @@
 <Package>
 	<DisplayName>SAC</DisplayName>
 	<Description>Slope Area Computation Program</Description>
-	<Version>1.0.0</Version>
+	<Version>2.0.1</Version>
 	<Default>true</Default>
-	<ReleaseDate>2017-04-18</ReleaseDate>
+	<ReleaseDate>2017-06-09</ReleaseDate>
 	<SortingPriority>50</SortingPriority>
 	<Script>installscript.qs</Script>
 </Package>

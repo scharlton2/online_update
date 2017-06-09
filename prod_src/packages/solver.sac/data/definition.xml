@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <SolverDefinition 
     xmlns="www.iric.net/SolverDefinition/1.0"
-    name="sac" caption="Slope-Area Computation Program" version="2.0.0" copyright="USGS"
-    release="2016.06.06" 
+    name="sac" caption="Slope-Area Computation Program" version="2.0.1" copyright="USGS"
+    release="2016.06.09" 
     homepage="http://water.usgs.gov/software/SAC/"
     executable="SAC.exe"
     iterationtype="time"
@@ -99,6 +99,14 @@
 				</VBoxLayout>
 			</HBoxLayout>
 		</Tab>
+		<Tab name="wse" caption="Water Surface Elevation">
+			<Item name="wse" caption="Water Surface Elevation">
+				<Definition conditionType="functional" noSort="true">
+					<Parameter caption="Distance Upstream" valueType="real" />
+					<Value caption="Elevation" valueType="real" />
+				</Definition>
+			</Item>
+		</Tab>
 	</CalculationCondition>
 	<GridRelatedCondition>
 		<Item name="Elevation" caption="Elevation">
@@ -106,6 +114,11 @@
 		</Item>
 		<Item name="Crosssection" caption="Crosssection">
 			<Definition position="node" valueType="complex" grouped="false">
+				<GroupBox caption="Name">
+					<Item name="name" caption="Name">
+						<Definition valueType="string" default="" />
+					</Item>
+				</GroupBox>
 				<GroupBox caption="Crosssection and Roughness">
 					<Item name="n_type" caption="Type">
 						<Definition valueType="integer" option="true" default="0">
@@ -128,7 +141,7 @@
 							<Condition type="isEqual" target="n_type" value="0"/>
 						</Definition>
 					</Item>
-					<Item name="n_h" caption="Horizontal distribution:">
+					<Item name="n_h" caption="Horizontal distribution: (X, Y, NVAL)">
 						<Definition conditionType="functional" noSort="true">
 							<Parameter name="X" caption="X" valueType="real" />
 							<Value name="Y" caption="Y" valueType="real" />
@@ -136,7 +149,7 @@
 							<Condition type="isEqual" target="n_type" value="1"/>
 						</Definition>
 					</Item>
-					<Item name="n_h_v" caption="Horizontal + vertical distribution">
+					<Item name="n_h_v" caption="Horizontal + vertical distribution (X, Y, BOTD, TOPD, BOTN, TOPN)">
 						<Definition conditionType="functional" noSort="true">
 							<Parameter name="X" caption="X" valueType="real" />
 							<Value name="Y" caption="Y" valueType="real" axis="left" />
@@ -146,11 +159,6 @@
 							<Value name="TOPN" caption="TOPN" valueType="real" axis="right" span="true" />
 							<Condition type="isEqual" target="n_type" value="2"/>
 						</Definition>
-					</Item>
-				</GroupBox>
-				<GroupBox caption="Water surface elevation">
-					<Item name="wse" caption="Value">
-						<Definition valueType="real" default="0"/>
 					</Item>
 				</GroupBox>
 			</Definition>

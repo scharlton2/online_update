@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <SolverDefinition 
     xmlns="www.iric.net/SolverDefinition/1.0"
-    name="cap" caption="Culvert Analysis Program" version="2.0.2" copyright="USGS"
-    release="2017.04.21" 
+    name="cap" caption="Culvert Analysis Program" version="2.0.3" copyright="USGS"
+    release="2017.06.09" 
     homepage="http://water.usgs.gov/software/CAP/"
     executable="CAP.exe"
     iterationtype="time"
@@ -266,7 +266,9 @@
 									<Enumeration value="6" caption="Corrugated metal pipe with corner radius 47 inch (J=6)"/>
 								</Enumerations>
 								<Condition type="or" >
+									<Condition type="isEqual" target="shape_type" value="2"/>
 									<Condition type="isEqual" target="shape_type" value="3"/>
+									<Condition type="isEqual" target="shape_type" value="4"/>
 								</Condition>
 							</Definition>
 						</Item>
@@ -368,50 +370,51 @@
 								</Condition>
 							</Definition>
 						</Item>
-						<Item name="v_datum" caption="Vertical Datum">
-							<Definition valueType="real" default="0">
-								<Condition type="or" >
-									<Condition type="isEqual" target="ali_type" value="1"/>
-									<Condition type="isEqual" target="ali_type" value="2"/>
-									<Condition type="isEqual" target="ali_type" value="3"/>
-								</Condition>
-							</Definition>
-						</Item>
-						<Item name="hw_e" caption="Headwater Elevation">
-							<Definition valueType="real" default="0">
-								<Condition type="isEqual" target="ali_type" value="3"/>
-							</Definition>
-						</Item>
-						<Item name="tw_e" caption="Tailwater Elevation">
-							<Definition valueType="real" default="0">
-								<Condition type="isEqual" target="ali_type" value="3"/>
-							</Definition>
-						</Item>
 					</GroupBox>
 					<GroupBox caption="Size">
-						<Item name="l_cul" caption="L&lt;sub&gt;cul&lt;/sub&gt; (CVLENG)">
-							<Definition valueType="real" default="0">
-								<Condition type="or" >
-									<Condition type="isEqual" target="ali_type" value="1"/>
-									<Condition type="isEqual" target="ali_type" value="2"/>
-								</Condition>
-							</Definition>
-						</Item>
-						<Item name="l_cul1" caption="L&lt;sub&gt;cul1&lt;/sub&gt; (CVLENG)">
-							<Definition valueType="real" default="0">
-								<Condition type="isEqual" target="ali_type" value="3"/>
-							</Definition>
-						</Item>
-						<Item name="l_cul2" caption="L&lt;sub&gt;cul2&lt;/sub&gt; (CVLENG)">
-							<Definition valueType="real" default="0">
-								<Condition type="isEqual" target="ali_type" value="3"/>
-							</Definition>
-						</Item>
-						<Item name="l_cul3" caption="L&lt;sub&gt;cul3&lt;/sub&gt; (CVLENG)">
-							<Definition valueType="real" default="0">
-								<Condition type="isEqual" target="ali_type" value="3"/>
-							</Definition>
-						</Item>
+						<VBoxLayout>
+							<Label caption="Manual override of CVLENG for Mitered culvert is &lt;br&gt;done by selecting &quot;No Skew&quot; for Type."/>
+							<GridLayout>
+								<Label caption="L&lt;sub&gt;cul&lt;/sub&gt; (CVLENG)" row="0" col="0" />
+								<Item name="l_cul" row="0" col="1" >
+									<Definition valueType="real" default="0">
+										<Condition type="or" >
+											<Condition type="isEqual" target="ali_type" value="1"/>
+											<Condition type="isEqual" target="ali_type" value="2"/>
+										</Condition>
+									</Definition>
+								</Item>
+
+								<Label caption="L&lt;sub&gt;cul1&lt;/sub&gt; (CVLENG)" row="1" col="0" />
+								<Item name="l_cul1" row="1" col="1">
+									<Definition valueType="real" default="0">
+										<Condition type="isEqual" target="ali_type" value="3"/>
+									</Definition>
+								</Item>
+
+								<Label caption="L&lt;sub&gt;cul2&lt;/sub&gt; (CVLENG)" row="2" col="0" />
+								<Item name="l_cul2" row="2" col="1">
+									<Definition valueType="real" default="0">
+										<Condition type="isEqual" target="ali_type" value="3"/>
+									</Definition>
+								</Item>
+
+								<Label caption="L&lt;sub&gt;cul3&lt;/sub&gt; (CVLENG)" row="3" col="0" />
+								<Item name="l_cul3" row="3" col="1">
+									<Definition valueType="real" default="0">
+										<Condition type="isEqual" target="ali_type" value="3"/>
+									</Definition>
+								</Item>
+
+								<Label caption="Headwater Depth (d&lt;sub&gt;2&lt;/sub&gt;)" row="4" col="0" />
+								<Item name="hw_d" row="4" col="1">
+									<Definition valueType="real" default="0">
+										<Condition type="isEqual" target="ali_type" value="3"/>
+									</Definition>
+								</Item>
+
+							</GridLayout>
+						</VBoxLayout>
 					</GroupBox>
 					<GroupBox caption="Other">
 						<Item name="us_invert" caption="U/S Invert (USINV)">
@@ -699,7 +702,7 @@
 							</Definition>
 						</Item>
 					</GroupBox>
-					<Label caption="When Type=&quot;Unequal Angled&quot;, THETA is calculated as &lt;br&gt;the average value of Theta&lt;sub&gt;1&lt;/sub&gt; and Theta&lt;sub&gt;2&lt;/sub&gt;" />
+					<Label caption="When Type=&quot;Unequal Angled&quot;, k&lt;sub&gt;theta&lt;/sub&gt; is calculated as &lt;br&gt;the average value of k&lt;sub&gt;theta&lt;/sub&gt; values for each angles.&lt;br&gt;&lt;br&gt;For unequal wingwall angles and Type 4 flow, the user&lt;br&gt;will need to manually compute and average C value (C46)&lt;br&gt;and either compute discharge by hand computation or by&lt;br&gt;setting the C46 value in this program.&lt;br&gt;&lt;br&gt;You can input C46 value on &quot;Coefficients&quot; page." />
 				</VBoxLayout>
 			</HBoxLayout>
 		</Tab>
@@ -752,7 +755,7 @@
 						</Definition>
 					</Item>
 					<Item name="cb12" caption="Coefficient for flow type 1 and 2 (CB12)">
-						<Definition valueType="real" default="0.98">
+						<Definition valueType="real" default="0.95">
 							<Condition type="isEqual" target="c1_enable" value="1"/>
 						</Definition>
 					</Item>
@@ -765,7 +768,7 @@
 					</Item>
 				</GroupBox>
 				<VBoxLayout withSpacer="true" row="0" col="1">
-					<Label caption="0.85 &amp;lt;= CB12 &amp;lt;= 0.98&lt;br&gt;0.65 &amp;lt;= CP &amp;lt;= 0.98&lt;br&gt;The number of CP values must be less than 5." />
+					<Label caption="0.85 &amp;lt;= CB12 &amp;lt;= 0.98&lt;br&gt;0.65 &amp;lt;= CP &amp;lt;= 0.98&lt;br&gt;The number of CP, HP pairs must be &lt;br&gt;between 1 and 4." />
 				</VBoxLayout>
 
 				<GroupBox caption="Flow Types 4 to 6" row="1" col="0">
@@ -778,7 +781,7 @@
 						</Definition>
 					</Item>
 					<Item name="c46" caption="Coefficient for flow type 4 and 6 (C46)">
-						<Definition valueType="real" default="0.98">
+						<Definition valueType="real" default="0.95">
 							<Condition type="isEqual" target="c5_enable" value="1"/>
 						</Definition>
 					</Item>
@@ -792,7 +795,7 @@
 				</GroupBox>
 
 				<VBoxLayout withSpacer="true" row="1" col="1">
-					<Label caption="0.65 &amp;lt;= C46 &amp;lt;= 0.98&lt;br&gt;0.39 &amp;lt;= C5 &amp;lt;= 0.75&lt;br&gt;The number of C5 values must be less than 5." />
+					<Label caption="0.65 &amp;lt;= C46 &amp;lt;= 0.98&lt;br&gt;0.39 &amp;lt;= C5 &amp;lt;= 0.75&lt;br&gt;The number of C5, H5 pairs must be &lt;br&gt;between 1 and 4.&lt;br&gt;&lt;br&gt;For unequal wingwall angles and Type 4&lt;br&gt;flow, the user needs to manually compute&lt;br&gt;an average C46 value and input here." />
 				</VBoxLayout>
 
 				<GroupBox caption="High head flow" row="2" col="0">
