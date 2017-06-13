@@ -13,17 +13,7 @@ Component.prototype.createOperations = function()
 	component.addOperation("CreateShortcut", "@TargetDir@/guis/prepost/iRIC.exe",
 		"@StartMenuDir@/iRIC.lnk", "workingDirectory=@TargetDir@/guis/prepost");
 	component.addOperation("CreateShortcut", "@TargetDir@/guis/prepost/iRIC.exe",
-		"@DesktopDir@/iRIC.lnk", "workingDirectory=@TargetDir@/guis/prepost");
+		"@DesktopDir@/iRIC(develop).lnk", "workingDirectory=@TargetDir@/guis/prepost");
 	component.addOperation("CreateShortcut", "@TargetDir@/maintenancetool.exe",
 		"@StartMenuDir@/iRIC Maintainance.lnk", "workingDirectory=@TargetDir@");
-
-/*
-	var notepadPath = installer.environmentVariable("SystemRoot") + "\\notepad.exe";
-	component.addOperation("RegisterFileType", "bob", notepadPath + " \"%1\"",
-		"BobSoft", "application/bob", "@TargetDir@/guis/prepost/iconiRICFile.ico");
-*/
-
-	component.addOperation("RegisterFileType", "ipro", "@TargetDir@\\guis\\prepost\\iRIC.exe" + " \"%1\"",
-		"iRIC Project file", "application/iric", "@TargetDir@/guis/prepost/iconiRICFile.ico",
-		"ProgId=iRICProject.ipro");
 }
