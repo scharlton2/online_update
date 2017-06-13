@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Installer>
+	<Name>iRIC Software</Name>
+	<Version>3.0.0</Version>
+	<Title>iRIC Software</Title>
+	<Publisher>iRIC organization</Publisher>
+	<!-- Directory name is used in component.xml -->
+	<StartMenuDir>iRIC</StartMenuDir>
+	<TargetDir>@HomeDir@/iRIC</TargetDir>
+	<RemoteRepositories>
+		<Repository>
+			<Url>https://i-ric.org/svn/iric/prod</Url>
+			<Username>installer</Username>
+			<Password>iR1Cv3Installer</Password>
+			<DisplayName>iRIC Repository for production</DisplayName>
+		</Repository>
+	</RemoteRepositories>
+</Installer>
