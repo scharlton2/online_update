@@ -65,12 +65,12 @@ def build_repository():
     print('updating repository...')
 
     repogen = QT_IFW_PATH + '\\bin\\repogen.exe'
-    cmd = repogen + ' -p packages --update --include gui.prepost ..\\prod'
+    cmd = repogen + ' -p packages --update --include gui.prepost ..\\dev'
 
     subprocess.check_output(cmd)
 
 # update_version_number()
-build_installer()
+#build_installer()
 build_repository()
 
 print('finished')
