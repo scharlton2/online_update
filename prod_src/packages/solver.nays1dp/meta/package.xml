@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<Package>
+	<DisplayName>Nays1Dp</DisplayName>
+	<Description>"Nays1D" is an analytical solver for calculation of steady and unsteady 1D-dimensional open channel flows and riverbed deformations.</Description>
+	<Version>1.0.5</Version>
+	<Default>true</Default>
+	<ReleaseDate>2016-01-20</ReleaseDate>
+	<SortingPriority>50</SortingPriority>
+	<Script>installscript.qs</Script>
+</Package>

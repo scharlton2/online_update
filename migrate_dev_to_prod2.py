@@ -15,6 +15,7 @@ for item in items:
     # print(cmd)
     subprocess.check_output(cmd)
 
+cmd = 'svn rm prod/Updates.xml'
 cmd = 'svn cp dev/Updates.xml prod/Updates.xml'
 # print(cmd)
 subprocess.check_output(cmd)

@@ -3,6 +3,43 @@
  <ApplicationVersion>1.0.0</ApplicationVersion>
  <Checksum>true</Checksum>
  <PackageUpdate>
+  <Name>gridcreator</Name>
+  <DisplayName>Grid Generators</DisplayName>
+  <Description>Grid Generators that run on iRIC GUI</Description>
+  <Version>1.0.0</Version>
+  <Default>true</Default>
+  <ReleaseDate>2017-04-18</ReleaseDate>
+  <SortingPriority>20</SortingPriority>
+  <UpdateFile OS="Any" UncompressedSize="0" CompressedSize="0"/>
+  <SHA1>673be26c1b7019ef052c4618a32559d936f69aac</SHA1>
+ </PackageUpdate>
+ <PackageUpdate>
+  <Name>gridcreator.multi_grid_generator</Name>
+  <DisplayName>Multifunction Grid Genarator</DisplayName>
+  <Description>Multifunction Grid Genarator</Description>
+  <Version>1.0</Version>
+  <Default>true</Default>
+  <ReleaseDate>2017-06-06</ReleaseDate>
+  <SortingPriority>50</SortingPriority>
+  <Script>installscript.qs</Script>
+  <UpdateFile OS="Any" UncompressedSize="121159" CompressedSize="38832"/>
+  <DownloadableArchives>content.7z</DownloadableArchives>
+  <SHA1>7b6baefa82cddfbce08b32692b2a1a630d36f4a2</SHA1>
+ </PackageUpdate>
+ <PackageUpdate>
+  <Name>gridcreator.simplegridgen</Name>
+  <DisplayName>Simple Grid Generator</DisplayName>
+  <Description>Simple Grid Generator</Description>
+  <Version>1.0</Version>
+  <Default>true</Default>
+  <ReleaseDate>2017-06-06</ReleaseDate>
+  <SortingPriority>50</SortingPriority>
+  <Script>installscript.qs</Script>
+  <UpdateFile OS="Any" UncompressedSize="61997" CompressedSize="14266"/>
+  <DownloadableArchives>content.7z</DownloadableArchives>
+  <SHA1>92f0dac5a22a0eae188dbf1ab8896bc380dcb50f</SHA1>
+ </PackageUpdate>
+ <PackageUpdate>
   <Name>gridexporter_plugin</Name>
   <DisplayName>Grid Exporter plugins</DisplayName>
   <Description>Plugins for exporting grid</Description>
@@ -10,8 +47,8 @@
   <Default>true</Default>
   <ReleaseDate>2017-04-18</ReleaseDate>
   <SortingPriority>29</SortingPriority>
-  <UpdateFile UncompressedSize="0" OS="Any" CompressedSize="0"/>
-  <SHA1>03448627383e888111f110a32eec8f615aeb6092</SHA1>
+  <UpdateFile OS="Any" UncompressedSize="0" CompressedSize="0"/>
+  <SHA1>365b1f219aef86f2be139e85a0b903ac5746e96f</SHA1>
  </PackageUpdate>
  <PackageUpdate>
   <Name>gridexporter_plugin.structured2dgridnayscsv</Name>
@@ -22,9 +59,9 @@
   <ReleaseDate>2015-07-01</ReleaseDate>
   <SortingPriority>30</SortingPriority>
   <Script>installscript.qs</Script>
-  <UpdateFile UncompressedSize="22597" OS="Any" CompressedSize="9302"/>
+  <UpdateFile OS="Any" UncompressedSize="22604" CompressedSize="9288"/>
   <DownloadableArchives>content.7z</DownloadableArchives>
-  <SHA1>b723259f5b0463532f23d6b3e65609cec27985b7</SHA1>
+  <SHA1>2d77c9cd9e29bbf0a9bf6336cbf896a4fdb7baec</SHA1>
  </PackageUpdate>
  <PackageUpdate>
   <Name>gridexporter_plugin.structured2dgridnaysgrid</Name>
@@ -35,9 +72,9 @@
   <ReleaseDate>2015-07-01</ReleaseDate>
   <SortingPriority>30</SortingPriority>
   <Script>installscript.qs</Script>
-  <UpdateFile UncompressedSize="22108" OS="Any" CompressedSize="9161"/>
+  <UpdateFile OS="Any" UncompressedSize="22115" CompressedSize="9150"/>
   <DownloadableArchives>content.7z</DownloadableArchives>
-  <SHA1>2dd675514b3f61f9f4d3b176310c513736623cef</SHA1>
+  <SHA1>08f7d08f66af5a58637a626a00a54dbde55f2bc2</SHA1>
  </PackageUpdate>
  <PackageUpdate>
   <Name>gridexporter_plugin.structured2dgridvtk</Name>
@@ -48,9 +85,9 @@
   <ReleaseDate>2015-07-01</ReleaseDate>
   <SortingPriority>30</SortingPriority>
   <Script>installscript.qs</Script>
-  <UpdateFile UncompressedSize="21013" OS="Any" CompressedSize="8678"/>
+  <UpdateFile OS="Any" UncompressedSize="21020" CompressedSize="8661"/>
   <DownloadableArchives>content.7z</DownloadableArchives>
-  <SHA1>6daae555b84657b7947a180b3a4fc9adb8637445</SHA1>
+  <SHA1>744b0c1b46870860ae8ac305fdd8cb518405aa1b</SHA1>
  </PackageUpdate>
  <PackageUpdate>
   <Name>gridexporter_plugin.unstructured2dgridvtk</Name>
@@ -61,9 +98,9 @@
   <ReleaseDate>2015-07-01</ReleaseDate>
   <SortingPriority>30</SortingPriority>
   <Script>installscript.qs</Script>
-  <UpdateFile UncompressedSize="21019" OS="Any" CompressedSize="8705"/>
+  <UpdateFile OS="Any" UncompressedSize="21026" CompressedSize="8690"/>
   <DownloadableArchives>content.7z</DownloadableArchives>
-  <SHA1>c2ecf8ceee3c580d1abd687d093a6785f099bd9d</SHA1>
+  <SHA1>685db7257cdb31a3842a1f9c24defef238b3f391</SHA1>
  </PackageUpdate>
  <PackageUpdate>
   <Name>gridimporter_plugin</Name>
@@ -73,8 +110,8 @@
   <Default>true</Default>
   <ReleaseDate>2017-04-18</ReleaseDate>
   <SortingPriority>30</SortingPriority>
-  <UpdateFile UncompressedSize="0" OS="Any" CompressedSize="0"/>
-  <SHA1>4a5d1e5db36d38f368e6eb01d095aeda753f5796</SHA1>
+  <UpdateFile OS="Any" UncompressedSize="0" CompressedSize="0"/>
+  <SHA1>e49bcacd553f8b81b20bcbbb04833938911d8f3b</SHA1>
  </PackageUpdate>
  <PackageUpdate>
   <Name>gridimporter_plugin.structured2dgridnayscsv</Name>
@@ -85,9 +122,9 @@
   <ReleaseDate>2015-07-01</ReleaseDate>
   <SortingPriority>100</SortingPriority>
   <Script>installscript.qs</Script>
-  <UpdateFile UncompressedSize="32563" OS="Any" CompressedSize="12560"/>
+  <UpdateFile OS="Any" UncompressedSize="32570" CompressedSize="12544"/>
   <DownloadableArchives>content.7z</DownloadableArchives>
-  <SHA1>eb395dcc96aa72d6e00c1e5d5e1904101ba6a4d2</SHA1>
+  <SHA1>ea6922a13685f2744fd3b5fa72cfff740a394ac0</SHA1>
  </PackageUpdate>
  <PackageUpdate>
   <Name>gridimporter_plugin.structured2dgridnaysgrid</Name>
@@ -98,9 +135,9 @@
   <ReleaseDate>2015-07-01</ReleaseDate>
   <SortingPriority>100</SortingPriority>
   <Script>installscript.qs</Script>
-  <UpdateFile UncompressedSize="24379" OS="Any" CompressedSize="10048"/>
+  <UpdateFile OS="Any" UncompressedSize="24386" CompressedSize="10035"/>
   <DownloadableArchives>content.7z</DownloadableArchives>
-  <SHA1>575a14b27178697ddb4e0a840446726b6cd926be</SHA1>
+  <SHA1>73b887bb5cc35daa191d4ca56eebeedbbebe458e</SHA1>
  </PackageUpdate>
  <PackageUpdate>
   <Name>gridimporter_plugin.unstructured2dgridtriangle</Name>
@@ -111,9 +148,9 @@
   <ReleaseDate>2015-07-01</ReleaseDate>
   <SortingPriority>100</SortingPriority>
   <Script>installscript.qs</Script>
-  <UpdateFile UncompressedSize="24925" OS="Any" CompressedSize="9656"/>
+  <UpdateFile OS="Any" UncompressedSize="24932" CompressedSize="9643"/>
   <DownloadableArchives>content.7z</DownloadableArchives>
-  <SHA1>b36a6b779b13c09b6a81788f3c27fdec3cb912a4</SHA1>
+  <SHA1>438572939ff223976faa83e559129624f6d50daf</SHA1>
  </PackageUpdate>
  <PackageUpdate>
   <Name>gui</Name>
@@ -122,8 +159,8 @@
   <Version>1.0.0</Version>
   <ReleaseDate>2017-04-18</ReleaseDate>
   <SortingPriority>100</SortingPriority>
-  <UpdateFile UncompressedSize="0" OS="Any" CompressedSize="0"/>
-  <SHA1>60453f7cb30fd6c5bb20e801d20100942197195e</SHA1>
+  <UpdateFile OS="Any" UncompressedSize="0" CompressedSize="0"/>
+  <SHA1>80cae654be6c9f4c0c00151a5e229f3ac2f64dc7</SHA1>
  </PackageUpdate>
  <PackageUpdate>
   <Name>runtime</Name>
@@ -134,9 +171,9 @@
   <SortingPriority>5</SortingPriority>
   <ForcedInstallation>true</ForcedInstallation>
   <Script>installscript.qs</Script>
-  <UpdateFile UncompressedSize="7195872" OS="Any" CompressedSize="6987845"/>
+  <UpdateFile OS="Any" UncompressedSize="7195872" CompressedSize="6987845"/>
   <DownloadableArchives>content.7z</DownloadableArchives>
-  <SHA1>c43e8a204d2614e14a46f7362758762270aeb151</SHA1>
+  <SHA1>fbc4c5285e970e048c14ad4843aad19e329af9a2</SHA1>
  </PackageUpdate>
  <PackageUpdate>
   <Name>solver</Name>
@@ -146,8 +183,21 @@
   <Default>true</Default>
   <ReleaseDate>2017-04-18</ReleaseDate>
   <SortingPriority>20</SortingPriority>
-  <UpdateFile UncompressedSize="0" OS="Any" CompressedSize="0"/>
-  <SHA1>b1a66048f7d0cee2635233c0292ff39cbd05d669</SHA1>
+  <UpdateFile OS="Any" UncompressedSize="0" CompressedSize="0"/>
+  <SHA1>ef7d47cc40503db20a514a8ee7a555eee0316a7f</SHA1>
+ </PackageUpdate>
+ <PackageUpdate>
+  <Name>solver.cap</Name>
+  <DisplayName>CAP</DisplayName>
+  <Description>Culvart Analysis Program</Description>
+  <Version>2.0.3</Version>
+  <Default>true</Default>
+  <ReleaseDate>2017-06-09</ReleaseDate>
+  <SortingPriority>50</SortingPriority>
+  <Script>installscript.qs</Script>
+  <UpdateFile OS="Any" UncompressedSize="563523" CompressedSize="330394"/>
+  <DownloadableArchives>content.7z</DownloadableArchives>
+  <SHA1>48e827df39292a5b8535f3992100b86fe6a4ea57</SHA1>
  </PackageUpdate>
  <PackageUpdate>
   <Name>solver.ceri1d</Name>
@@ -158,9 +208,9 @@
   <ReleaseDate>2014-11-18</ReleaseDate>
   <SortingPriority>50</SortingPriority>
   <Script>installscript.qs</Script>
-  <UpdateFile UncompressedSize="294254" OS="Any" CompressedSize="89488"/>
+  <UpdateFile OS="Any" UncompressedSize="294254" CompressedSize="89457"/>
   <DownloadableArchives>content.7z</DownloadableArchives>
-  <SHA1>2d2e8220e996eb8f101fff8480729ee03dd6be4a</SHA1>
+  <SHA1>c3ac84a03b8f73778b78271f42a9dc0e0c822127</SHA1>
  </PackageUpdate>
  <PackageUpdate>
   <Name>solver.elimo</Name>
@@ -172,9 +222,9 @@
   <ReleaseDate>2015-03-29</ReleaseDate>
   <SortingPriority>50</SortingPriority>
   <Script>installscript.qs</Script>
-  <UpdateFile UncompressedSize="2516320" OS="Any" CompressedSize="527562"/>
+  <UpdateFile OS="Any" UncompressedSize="2516320" CompressedSize="527523"/>
   <DownloadableArchives>content.7z</DownloadableArchives>
-  <SHA1>95068b374ae7f505356834d346228c7761a3ec1b</SHA1>
+  <SHA1>f4068f56e02a908a2664c9a85553b20dcc307e2d</SHA1>
  </PackageUpdate>
  <PackageUpdate>
   <Name>solver.fastmech</Name>
@@ -185,9 +235,9 @@
   <ReleaseDate>2009-11-01</ReleaseDate>
   <SortingPriority>50</SortingPriority>
   <Script>installscript.qs</Script>
-  <UpdateFile UncompressedSize="1099614" OS="Any" CompressedSize="299054"/>
+  <UpdateFile OS="Any" UncompressedSize="1099614" CompressedSize="299033"/>
   <DownloadableArchives>content.7z</DownloadableArchives>
-  <SHA1>48d43cf8affff985ee7d6b265a0d35203c339039</SHA1>
+  <SHA1>f7c0275c56b182ed55afa1a1dd88ca83f3c0c448</SHA1>
  </PackageUpdate>
  <PackageUpdate>
   <Name>solver.mflow</Name>
@@ -198,9 +248,9 @@
   <ReleaseDate>2015-04-30</ReleaseDate>
   <SortingPriority>50</SortingPriority>
   <Script>installscript.qs</Script>
-  <UpdateFile UncompressedSize="575702" OS="Any" CompressedSize="182022"/>
+  <UpdateFile OS="Any" UncompressedSize="575702" CompressedSize="181992"/>
   <DownloadableArchives>content.7z</DownloadableArchives>
-  <SHA1>0d1d38029b1a3ddb26d40936d68c2b3d485df1aa</SHA1>
+  <SHA1>1c9611af3863ba44831d0334283a97e429f69309</SHA1>
  </PackageUpdate>
  <PackageUpdate>
   <Name>solver.nays1dp</Name>
@@ -211,9 +261,9 @@
   <ReleaseDate>2016-01-20</ReleaseDate>
   <SortingPriority>50</SortingPriority>
   <Script>installscript.qs</Script>
-  <UpdateFile UncompressedSize="331646" OS="Any" CompressedSize="110149"/>
+  <UpdateFile OS="Any" UncompressedSize="331646" CompressedSize="110142"/>
   <DownloadableArchives>content.7z</DownloadableArchives>
-  <SHA1>7a1519b52093b4f6dcd3c2c91205de53302fe57a</SHA1>
+  <SHA1>b99564df166db795c9da91a6e0a66140bd149d58</SHA1>
  </PackageUpdate>
  <PackageUpdate>
   <Name>solver.nays2dflood</Name>
@@ -224,9 +274,9 @@
   <ReleaseDate>2017-04-18</ReleaseDate>
   <SortingPriority>50</SortingPriority>
   <Script>installscript.qs</Script>
-  <UpdateFile UncompressedSize="584188" OS="Any" CompressedSize="191607"/>
+  <UpdateFile OS="Any" UncompressedSize="584188" CompressedSize="191577"/>
   <DownloadableArchives>content.7z</DownloadableArchives>
-  <SHA1>1fde959bdf74e4e8ca46d9661feb25fe3261e910</SHA1>
+  <SHA1>ce4196b5badf9240f01ecc8da4c77bf5e8539bcb</SHA1>
  </PackageUpdate>
  <PackageUpdate>
   <Name>solver.nays2dh</Name>
@@ -237,9 +287,9 @@
   <ReleaseDate>2015-03-17</ReleaseDate>
   <SortingPriority>50</SortingPriority>
   <Script>installscript.qs</Script>
-  <UpdateFile UncompressedSize="1184402" OS="Any" CompressedSize="386440"/>
+  <UpdateFile OS="Any" UncompressedSize="1184402" CompressedSize="386406"/>
   <DownloadableArchives>content.7z</DownloadableArchives>
-  <SHA1>9737ab161d0231c5fdf15f196dbc1274a92b56b1</SHA1>
+  <SHA1>9e9f5264b5d912f8293acd042790bb6950571571</SHA1>
  </PackageUpdate>
  <PackageUpdate>
   <Name>solver.nayscube</Name>
@@ -250,9 +300,9 @@
   <ReleaseDate>2017-05-10</ReleaseDate>
   <SortingPriority>50</SortingPriority>
   <Script>installscript.qs</Script>
-  <UpdateFile UncompressedSize="8345721" OS="Any" CompressedSize="1024540"/>
+  <UpdateFile OS="Any" UncompressedSize="8345721" CompressedSize="1024519"/>
   <DownloadableArchives>content.7z</DownloadableArchives>
-  <SHA1>91b92bb1f74ccd02e509c361236c7f16cd9e9be1</SHA1>
+  <SHA1>1c67db59c92581d008163be867a0c32b03c76166</SHA1>
  </PackageUpdate>
  <PackageUpdate>
   <Name>solver.nayseddy</Name>
@@ -263,101 +313,9 @@
   <ReleaseDate>2017-04-18</ReleaseDate>
   <SortingPriority>50</SortingPriority>
   <Script>installscript.qs</Script>
-  <UpdateFile UncompressedSize="507898" OS="Any" CompressedSize="167241"/>
+  <UpdateFile OS="Any" UncompressedSize="507898" CompressedSize="167224"/>
   <DownloadableArchives>content.7z</DownloadableArchives>
-  <SHA1>9760cabb00207c893d15880706bb339e0b9173e1</SHA1>
- </PackageUpdate>
- <PackageUpdate>
-  <Name>solver.srm</Name>
-  <DisplayName>SRM</DisplayName>
-  <Description>The Storage Routing Model (SRM) solver is a runoff calculation solver that uses storage routing models.</Description>
-  <Version>1.0.0</Version>
-  <Default>true</Default>
-  <ReleaseDate>2017-04-18</ReleaseDate>
-  <SortingPriority>50</SortingPriority>
-  <Script>installscript.qs</Script>
-  <UpdateFile UncompressedSize="112452" OS="Any" CompressedSize="36418"/>
-  <DownloadableArchives>content.7z</DownloadableArchives>
-  <SHA1>722a2df5c4c275b53da4db50359b72f0186a8a35</SHA1>
- </PackageUpdate>
- <PackageUpdate>
-  <Name>gridcreator</Name>
-  <DisplayName>Grid Generators</DisplayName>
-  <Description>Grid Generators that run on iRIC GUI</Description>
-  <Version>1.0.0</Version>
-  <Default>true</Default>
-  <ReleaseDate>2017-04-18</ReleaseDate>
-  <SortingPriority>20</SortingPriority>
-  <UpdateFile UncompressedSize="0" OS="Any" CompressedSize="0"/>
-  <SHA1>7883de74d2f2a8be4681e228c5369d1d1323f82e</SHA1>
- </PackageUpdate>
- <PackageUpdate>
-  <Name>gridcreator.multi_grid_generator</Name>
-  <DisplayName>Multifunction Grid Genarator</DisplayName>
-  <Description>Multifunction Grid Genarator</Description>
-  <Version>1.0</Version>
-  <Default>true</Default>
-  <ReleaseDate>2017-06-06</ReleaseDate>
-  <SortingPriority>50</SortingPriority>
-  <Script>installscript.qs</Script>
-  <UpdateFile UncompressedSize="121159" OS="Any" CompressedSize="38841"/>
-  <DownloadableArchives>content.7z</DownloadableArchives>
-  <SHA1>23ec091a0154ede8069f272253ea2131bd34b7eb</SHA1>
- </PackageUpdate>
- <PackageUpdate>
-  <Name>gridcreator.simplegridgen</Name>
-  <DisplayName>Simple Grid Generator</DisplayName>
-  <Description>Simple Grid Generator</Description>
-  <Version>1.0</Version>
-  <Default>true</Default>
-  <ReleaseDate>2017-06-06</ReleaseDate>
-  <SortingPriority>50</SortingPriority>
-  <Script>installscript.qs</Script>
-  <UpdateFile UncompressedSize="61997" OS="Any" CompressedSize="14281"/>
-  <DownloadableArchives>content.7z</DownloadableArchives>
-  <SHA1>89f5c491bae3149b559482edb5060150503485da</SHA1>
- </PackageUpdate>
- <PackageUpdate>
-  <Name>gui.prepost</Name>
-  <DisplayName>iRIC GUI 3.0</DisplayName>
-  <Description>iRIC Main GUI</Description>
-  <Version>3.0.0.6193</Version>
-  <ReleaseDate>2017-06-09</ReleaseDate>
-  <SortingPriority>100</SortingPriority>
-  <ForcedInstallation>true</ForcedInstallation>
-  <Script>installscript.qs</Script>
-  <UpdateFile UncompressedSize="263092554" OS="Any" CompressedSize="67795881"/>
-  <DownloadableArchives>accessible.7z,bearer.7z,iconengines.7z,imageformats.7z,languages.7z,licenses.7z,platforms.7z,pythonmodule.7z,content.7z</DownloadableArchives>
-  <Licenses>
-   <License file="license-english.txt" name="Terms of use of the iRIC software"/>
-  </Licenses>
-  <SHA1>bb2491691ddee67cfd87b01a99d9bf4d6675cbd4</SHA1>
- </PackageUpdate>
- <PackageUpdate>
-  <Name>gui.rivmaker</Name>
-  <DisplayName>Rivmaker</DisplayName>
-  <Description>Riv file maker. You can create *.riv files from survey data.</Description>
-  <Version>1.0.3</Version>
-  <Default>true</Default>
-  <ReleaseDate>2017-06-09</ReleaseDate>
-  <SortingPriority>50</SortingPriority>
-  <Script>installscript.qs</Script>
-  <UpdateFile UncompressedSize="26281979" OS="Any" CompressedSize="7932152"/>
-  <DownloadableArchives>accessible.7z,bearer.7z,iconengines.7z,imageformats.7z,languages.7z,platforms.7z,samples.7z,testdata.7z,content.7z</DownloadableArchives>
-  <SHA1>36b0475dd62d5522e3642d79917bc1de7a647a02</SHA1>
- </PackageUpdate>
- <PackageUpdate>
-  <Name>solver.cap</Name>
-  <DisplayName>CAP</DisplayName>
-  <Description>Culvart Analysis Program</Description>
-  <Version>2.0.3</Version>
-  <Default>true</Default>
-  <ReleaseDate>2017-06-09</ReleaseDate>
-  <SortingPriority>50</SortingPriority>
-  <Script>installscript.qs</Script>
-  <UpdateFile UncompressedSize="563523" OS="Any" CompressedSize="330681"/>
-  <DownloadableArchives>content.7z</DownloadableArchives>
-  <SHA1>61d5c73869b1640ea4c6fd2ab3b8e46200f88cf9</SHA1>
+  <SHA1>8e23939c05c6a7c0307c77055994abdd1887012f</SHA1>
  </PackageUpdate>
  <PackageUpdate>
   <Name>solver.sac</Name>
@@ -368,8 +326,50 @@
   <ReleaseDate>2017-06-09</ReleaseDate>
   <SortingPriority>50</SortingPriority>
   <Script>installscript.qs</Script>
-  <UpdateFile UncompressedSize="131672" OS="Any" CompressedSize="51548"/>
+  <UpdateFile OS="Any" UncompressedSize="131672" CompressedSize="51534"/>
   <DownloadableArchives>content.7z</DownloadableArchives>
-  <SHA1>e9ec1af93de1f077a65c80852f90ffa9b9ed01a1</SHA1>
+  <SHA1>45a8206f128c6a1d5fdc09214258041c6c17851e</SHA1>
+ </PackageUpdate>
+ <PackageUpdate>
+  <Name>solver.srm</Name>
+  <DisplayName>SRM</DisplayName>
+  <Description>The Storage Routing Model (SRM) solver is a runoff calculation solver that uses storage routing models.</Description>
+  <Version>1.0.0</Version>
+  <Default>true</Default>
+  <ReleaseDate>2017-04-18</ReleaseDate>
+  <SortingPriority>50</SortingPriority>
+  <Script>installscript.qs</Script>
+  <UpdateFile OS="Any" UncompressedSize="112452" CompressedSize="36381"/>
+  <DownloadableArchives>content.7z</DownloadableArchives>
+  <SHA1>e66b8bc525192d320bd470e7b8621dead09dfea6</SHA1>
+ </PackageUpdate>
+ <PackageUpdate>
+  <Name>gui.prepost</Name>
+  <DisplayName>iRIC GUI 3.0</DisplayName>
+  <Description>iRIC Main GUI</Description>
+  <Version>3.0.0.6195</Version>
+  <ReleaseDate>2017-06-20</ReleaseDate>
+  <SortingPriority>100</SortingPriority>
+  <ForcedInstallation>true</ForcedInstallation>
+  <Script>installscript.qs</Script>
+  <UpdateFile OS="Any" UncompressedSize="263107680" CompressedSize="67797002"/>
+  <DownloadableArchives>accessible.7z,bearer.7z,iconengines.7z,imageformats.7z,languages.7z,licenses.7z,platforms.7z,pythonmodule.7z,content.7z</DownloadableArchives>
+  <Licenses>
+   <License file="license-english.txt" name="Terms of use of the iRIC software"/>
+  </Licenses>
+  <SHA1>cfe56cf4991e84d9c2ff3995fec8fab938b1b885</SHA1>
+ </PackageUpdate>
+ <PackageUpdate>
+  <Name>gui.rivmaker</Name>
+  <DisplayName>Rivmaker</DisplayName>
+  <Description>Riv file maker. You can create *.riv files from survey data.</Description>
+  <Version>1.0.4</Version>
+  <Default>true</Default>
+  <ReleaseDate>2017-06-15</ReleaseDate>
+  <SortingPriority>50</SortingPriority>
+  <Script>installscript.qs</Script>
+  <UpdateFile OS="Any" UncompressedSize="26303678" CompressedSize="7937543"/>
+  <DownloadableArchives>accessible.7z,bearer.7z,iconengines.7z,imageformats.7z,languages.7z,platforms.7z,samples.7z,testdata.7z,content.7z</DownloadableArchives>
+  <SHA1>9b54aae0905cd03c8607fcc35724a24aec72ffb0</SHA1>
  </PackageUpdate>
 </Updates>
