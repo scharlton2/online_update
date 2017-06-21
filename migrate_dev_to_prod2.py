@@ -29,6 +29,12 @@ def copy_dev():
         cmd = 'svn cp dev/' + item + ' prod/' + item
         subprocess.check_output(cmd)
 
+    cmd = 'svn rm prod/Updates.xml'
+    subprocess.check_output(cmd)
+
+    cmd = 'svn cp dev/Updates.xml prod/Updates.xml'
+    subprocess.check_output(cmd)
+
     print('prod copied')
 
 def modify_qs():
@@ -68,7 +74,7 @@ def build_installer():
     subprocess.check_output(cmd)
 
 
-#copy_dev_src()
+copy_dev_src()
 #copy_dev()
 #modify_qs()
 #build_repository()
