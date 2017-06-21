@@ -4,7 +4,7 @@
 	<Description>"NaysEddy" is a three-dimensional solver for calculation of unsteady flows using Cartesian coordinates.</Description>
 	<Version>1.0.0</Version>
 	<Default>true</Default>
-	<ReleaseDate>2017-04-18</ReleaseDate>
+	<ReleaseDate>2014-04-23</ReleaseDate>
 	<SortingPriority>50</SortingPriority>
 	<Script>installscript.qs</Script>
 </Package>

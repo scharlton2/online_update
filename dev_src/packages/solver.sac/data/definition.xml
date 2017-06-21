@@ -2,7 +2,7 @@
 <SolverDefinition 
     xmlns="www.iric.net/SolverDefinition/1.0"
     name="sac" caption="Slope-Area Computation Program" version="2.0.1" copyright="USGS"
-    release="2016.06.09" 
+    release="2017.06.09" 
     homepage="http://water.usgs.gov/software/SAC/"
     executable="SAC.exe"
     iterationtype="time"

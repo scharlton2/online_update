@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <SolverDefinition
 
-	name="Nays1Dp_v1" caption="Nays1Dp v.1.00.5 64bit v3" version="1.00.5" copyright="Ichiro Kimura"
+	name="Nays1Dp_v1" caption="Nays1Dp v.1.0.5 64bit v3" version="1.0.5" copyright="Ichiro Kimura"
 	release="2016.1.20" homepage="http://i-ric.org/"
 	executable="Nays1Dp_v1005_64bit_v3.exe"
 	iterationtype="time"

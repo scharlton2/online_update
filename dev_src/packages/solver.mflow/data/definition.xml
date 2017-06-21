@@ -493,7 +493,7 @@
 				<GroupBox caption="River survey file">
 					<HBoxLayout>
 						<Label row="0" col="0" caption="     River survey file name"/>
-						<Item row="0"col="1" name="SURVEY_FILE" >
+						<Item row="0" col="1" name="SURVEY_FILE" >
 							<Definition conditionType="constant" valueType="filename" option="false" default="Select File" >
 							<Condition type="or">
 								<Condition type="isEqual" target="IAREA" value="1"/>
@@ -505,7 +505,7 @@
 					</HBoxLayout>
 					<HBoxLayout>
 						<Label row="0" col="0" caption="     Initial water-elevation at downstream"/>
-						<Item row="1"col="0" name="HQ_00" >
+						<Item row="1" col="0" name="HQ_00" >
 							<Definition conditionType="constant" valueType="real" option="true" default="0" >
 							<Condition type="or">
 								<Condition type="isEqual" target="IAREA" value="1"/>
@@ -515,7 +515,7 @@
 							</Definition>
 						</Item>
 						<Label row="0" col="1" caption="     Initial water-surface slope"/>
-						<Item row="1"col="1" name="DSX_00" >
+						<Item row="1" col="1" name="DSX_00" >
 							<Definition conditionType="constant" valueType="real" option="true" default="0" >
 							<Condition type="or">
 								<Condition type="isEqual" target="IAREA" value="1"/>

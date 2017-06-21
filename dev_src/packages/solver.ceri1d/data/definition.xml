@@ -322,13 +322,13 @@
 
 							<Label row="1" col="0" caption="Q1"/>
 							<Item row="1" col="1" name="q1">
-								<Definition valueType="real"default="0.0">
+								<Definition valueType="real" default="0.0">
 									<Condition type="isEqual" target="non-uniform_iric" value="1"/>
 								</Definition>
 							</Item>
 							<Label row="1" col="2" caption="H1"/>
 							<Item row="1" col="3" name="h1">
-								<Definition valueType="real"default="0.0">
+								<Definition valueType="real" default="0.0">
 									<Condition type="and">
 										<Condition type="isEqual" target="non-uniform_iric" value="1"/>
 										<Condition type="isEqual" target="j_wl" value="0"/>
@@ -338,7 +338,7 @@
 
 							<Label row="2" col="0" caption="Q2"/>
 							<Item row="2" col="1" name="q2">
-								<Definition valueType="real"default="0.0">
+								<Definition valueType="real" default="0.0">
 									<Condition type="and">
 										<Condition type="isEqual" target="non-uniform_iric" value="1"/>
 										<Condition type="isGreaterEqual" target="n_case" value="2"/>
@@ -347,7 +347,7 @@
 							</Item>
 							<Label row="2" col="2" caption="H2"/>
 							<Item row="2" col="3" name="h2">
-								<Definition valueType="real"default="0.0">
+								<Definition valueType="real" default="0.0">
 									<Condition type="and">
 										<Condition type="isEqual" target="non-uniform_iric" value="1"/>
 										<Condition type="isGreaterEqual" target="n_case" value="2"/>
@@ -358,7 +358,7 @@
 
 							<Label row="3" col="0" caption="Q3"/>
 							<Item row="3" col="1" name="q3">
-								<Definition valueType="real"default="0.0">
+								<Definition valueType="real" default="0.0">
 									<Condition type="and">
 										<Condition type="isEqual" target="non-uniform_iric" value="1"/>
 										<Condition type="isGreaterEqual" target="n_case" value="3"/>
@@ -367,7 +367,7 @@
 							</Item>
 							<Label row="3" col="2" caption="H3"/>
 							<Item row="3" col="3" name="h3">
-								<Definition valueType="real"default="0.0">
+								<Definition valueType="real" default="0.0">
 									<Condition type="and">
 										<Condition type="isEqual" target="non-uniform_iric" value="1"/>
 										<Condition type="isGreaterEqual" target="n_case" value="3"/>
@@ -378,7 +378,7 @@
 
 							<Label row="4" col="0" caption="Q4"/>
 							<Item row="4" col="1" name="q4">
-								<Definition valueType="real"default="0.0">
+								<Definition valueType="real" default="0.0">
 									<Condition type="and">
 										<Condition type="isEqual" target="non-uniform_iric" value="1"/>
 										<Condition type="isGreaterEqual" target="n_case" value="4"/>
@@ -387,7 +387,7 @@
 							</Item>
 							<Label row="4" col="2" caption="H4"/>
 							<Item row="4" col="3" name="h4">
-								<Definition valueType="real"default="0.0">
+								<Definition valueType="real" default="0.0">
 									<Condition type="and">
 										<Condition type="isEqual" target="non-uniform_iric" value="1"/>
 										<Condition type="isGreaterEqual" target="n_case" value="4"/>
@@ -398,7 +398,7 @@
 
 							<Label row="5" col="0" caption="Q5"/>
 							<Item row="5" col="1" name="q5">
-								<Definition valueType="real"default="0.0">
+								<Definition valueType="real" default="0.0">
 									<Condition type="and">
 										<Condition type="isEqual" target="non-uniform_iric" value="1"/>
 										<Condition type="isGreaterEqual" target="n_case" value="5"/>
@@ -407,7 +407,7 @@
 							</Item>
 							<Label row="5" col="2" caption="H5"/>
 							<Item row="5" col="3" name="h5">
-								<Definition valueType="real"default="0.0">
+								<Definition valueType="real" default="0.0">
 									<Condition type="and">
 										<Condition type="isEqual" target="non-uniform_iric" value="1"/>
 										<Condition type="isGreaterEqual" target="n_case" value="5"/>
@@ -418,7 +418,7 @@
 
 							<Label row="6" col="0" caption="Q6"/>
 							<Item row="6" col="1" name="q6">
-								<Definition valueType="real"default="0.0">
+								<Definition valueType="real" default="0.0">
 									<Condition type="and">
 										<Condition type="isEqual" target="non-uniform_iric" value="1"/>
 										<Condition type="isGreaterEqual" target="n_case" value="6"/>
@@ -427,7 +427,7 @@
 							</Item>
 							<Label row="6" col="2" caption="H6"/>
 							<Item row="6" col="3" name="h6">
-								<Definition valueType="real"default="0.0">
+								<Definition valueType="real" default="0.0">
 									<Condition type="and">
 										<Condition type="isEqual" target="non-uniform_iric" value="1"/>
 										<Condition type="isGreaterEqual" target="n_case" value="6"/>
@@ -438,7 +438,7 @@
 
 							<Label row="7" col="0" caption="Q7"/>
 							<Item row="7" col="1" name="q7">
-								<Definition valueType="real"default="0.0">
+								<Definition valueType="real" default="0.0">
 									<Condition type="and">
 										<Condition type="isEqual" target="non-uniform_iric" value="1"/>
 										<Condition type="isGreaterEqual" target="n_case" value="7"/>
@@ -447,7 +447,7 @@
 							</Item>
 							<Label row="7" col="2" caption="H7"/>
 							<Item row="7" col="3" name="h7">
-								<Definition valueType="real"default="0.0">
+								<Definition valueType="real" default="0.0">
 									<Condition type="and">
 										<Condition type="isEqual" target="non-uniform_iric" value="1"/>
 										<Condition type="isGreaterEqual" target="n_case" value="7"/>
@@ -458,7 +458,7 @@
 
 							<Label row="8" col="0" caption="Q8"/>
 							<Item row="8" col="1" name="q8">
-								<Definition valueType="real"default="0.0">
+								<Definition valueType="real" default="0.0">
 									<Condition type="and">
 										<Condition type="isEqual" target="non-uniform_iric" value="1"/>
 										<Condition type="isGreaterEqual" target="n_case" value="8"/>
@@ -467,7 +467,7 @@
 							</Item>
 							<Label row="8" col="2" caption="H8"/>
 							<Item row="8" col="3" name="h8">
-								<Definition valueType="real"default="0.0">
+								<Definition valueType="real" default="0.0">
 									<Condition type="and">
 										<Condition type="isEqual" target="non-uniform_iric" value="1"/>
 										<Condition type="isGreaterEqual" target="n_case" value="8"/>
@@ -478,7 +478,7 @@
 
 							<Label row="9" col="0" caption="Q9"/>
 							<Item row="9" col="1" name="q9">
-								<Definition valueType="real"default="0.0">
+								<Definition valueType="real" default="0.0">
 									<Condition type="and">
 										<Condition type="isEqual" target="non-uniform_iric" value="1"/>
 										<Condition type="isGreaterEqual" target="n_case" value="9"/>
@@ -487,7 +487,7 @@
 							</Item>
 							<Label row="9" col="2" caption="H9"/>
 							<Item row="9" col="3" name="h9">
-								<Definition valueType="real"default="0.0">
+								<Definition valueType="real" default="0.0">
 									<Condition type="and">
 										<Condition type="isEqual" target="non-uniform_iric" value="1"/>
 										<Condition type="isGreaterEqual" target="n_case" value="9"/>
@@ -498,7 +498,7 @@
 
 							<Label row="10" col="0" caption="Q10"/>
 							<Item row="10" col="1" name="q10">
-								<Definition valueType="real"default="0.0">
+								<Definition valueType="real" default="0.0">
 									<Condition type="and">
 										<Condition type="isEqual" target="non-uniform_iric" value="1"/>
 										<Condition type="isGreaterEqual" target="n_case" value="10"/>
@@ -507,7 +507,7 @@
 							</Item>
 							<Label row="10" col="2" caption="H10"/>
 							<Item row="10" col="3" name="h10">
-								<Definition valueType="real"default="0.0">
+								<Definition valueType="real" default="0.0">
 									<Condition type="and">
 										<Condition type="isEqual" target="non-uniform_iric" value="1"/>
 										<Condition type="isGreaterEqual" target="n_case" value="10"/>

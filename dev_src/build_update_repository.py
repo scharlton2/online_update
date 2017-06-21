@@ -1,76 +1,41 @@
 """
-Script to build installer and repository, with updated iRIC GUI.
+Script to build updated repository.
 
-Please note that this script only update iRIC GUI. When you updated
-other solvers, please do not use this to build installer and repository.
-
-To run this script, copy qt_ifw_path.template.py to qt_ifw_path.py,
-and modify the path to fit your environment.
+This script uses svn status for recognizing which package is updated.
+So, user should not commit changes to packages before executing 
+this script.
 """
 
 import subprocess
-from datetime import datetime
-import xml.etree.ElementTree as ET
+import re
 from qt_ifw_path import QT_IFW_PATH
 
 # Qt installer framework path
 
-def update_version_number():
-    """
-    Update version number of iRIC GUI
-    This function is not finished, and not used now.
-    """
+def updated_package_list():
+    """Return the list of updated packages"""
 
-    def_path = 'packages/gui.prepost/data/definition.xml'
-    tree = ET.parse(def_path)
-    # tree.register_namespace('', 'www.iric.net/GuiDefinition/1.0')
-    root = tree.getroot()
-    version = root.attrib['version']
+    cmd = 'svn status'
+    out = subprocess.check_output(cmd, shell=True)
+    outstr = out.decode("utf-8")
+    lines = outstr.split("\r\n")
+    p = re.compile(r"packages\\(.+?)\\.+")
 
-    (major, minor, fix, release) = version.split('.')
-    # update fix number
-    fix = str(int(fix) + 1)
-    # update release number
-    release = str(int(release) + 1)
+    ret = set()
 
-    newversion = ".".join([major, minor, fix, release])
+    for line in lines:
+        ex = p.search(line)
+        if ex is None: continue
 
-    print ('new version: ' + newversion)
-    root.attrib['version'] = newversion
+        pname = ex.group(1)
+        ret.add(pname)
 
-    # @TODO IMCOMPLETE!
+    return list(ret)
 
-def build_installer():
-    """
-    Run binarycreator to build offline installer
-    """
+updated_packages = updated_package_list()
+print('Following packages are updated:')
+print("\r\n".join(updated_packages))
 
-    print('building installer...')
-
-    binc = QT_IFW_PATH + '\\bin\\binarycreator.exe'
-    now = datetime.now()
-    installer_name = 'iRIC_Installer_' + now.strftime('%y%m%d')
-
-    cmd = binc + ' --offline-only -c config/config.xml'
-    cmd += ' -p packages ..\\prod\\' + installer_name
-
-    subprocess.check_output(cmd)
-
-def build_repository():
-    """
-    Run repogen build files for online update
-    Note that this only update iRIC GUI.
-    """
-
-    print('updating repository...')
-
-    repogen = QT_IFW_PATH + '\\bin\\repogen.exe'
-    cmd = repogen + ' -p packages --update --include gui.prepost ..\\dev'
-
-    subprocess.check_output(cmd)
-
-# update_version_number()
-#build_installer()
-build_repository()
-
-print('finished')
+repogen = QT_IFW_PATH + '\\bin\\repogen.exe'
+cmd = repogen + ' -p packages --update --include ' + ','.join(updated_packages)+ ' ..\dev'
+subprocess.check_output(cmd)
