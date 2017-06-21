@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<Package>
+	<DisplayName>ELIMO</DisplayName>
+	<Description>iRIC-ELIMO has been developed with a motto of "simple and easy tsunami computation" for people with minimum knowledge to operate Window softwares, which is capable of reliable estimations of tsunami generation, propagation and evolution on coasts on easy-performable GUI environment provided by iRIC.   
+</Description>
+	<Version>2.0.0</Version>
+	<Default>true</Default>
+	<ReleaseDate>2015-03-29</ReleaseDate>
+	<SortingPriority>50</SortingPriority>
+	<Script>installscript.qs</Script>
+</Package>

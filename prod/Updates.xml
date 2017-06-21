@@ -10,34 +10,8 @@
   <Default>true</Default>
   <ReleaseDate>2017-04-18</ReleaseDate>
   <SortingPriority>20</SortingPriority>
-  <UpdateFile UncompressedSize="0" OS="Any" CompressedSize="0"/>
+  <UpdateFile CompressedSize="0" UncompressedSize="0" OS="Any"/>
   <SHA1>673be26c1b7019ef052c4618a32559d936f69aac</SHA1>
- </PackageUpdate>
- <PackageUpdate>
-  <Name>gridcreator.multi_grid_generator</Name>
-  <DisplayName>Multifunction Grid Genarator</DisplayName>
-  <Description>Multifunction Grid Genarator</Description>
-  <Version>1.0</Version>
-  <Default>true</Default>
-  <ReleaseDate>2017-06-06</ReleaseDate>
-  <SortingPriority>50</SortingPriority>
-  <Script>installscript.qs</Script>
-  <UpdateFile UncompressedSize="121159" OS="Any" CompressedSize="38832"/>
-  <DownloadableArchives>content.7z</DownloadableArchives>
-  <SHA1>7b6baefa82cddfbce08b32692b2a1a630d36f4a2</SHA1>
- </PackageUpdate>
- <PackageUpdate>
-  <Name>gridcreator.simplegridgen</Name>
-  <DisplayName>Simple Grid Generator</DisplayName>
-  <Description>Simple Grid Generator</Description>
-  <Version>1.0</Version>
-  <Default>true</Default>
-  <ReleaseDate>2017-06-06</ReleaseDate>
-  <SortingPriority>50</SortingPriority>
-  <Script>installscript.qs</Script>
-  <UpdateFile UncompressedSize="61997" OS="Any" CompressedSize="14266"/>
-  <DownloadableArchives>content.7z</DownloadableArchives>
-  <SHA1>92f0dac5a22a0eae188dbf1ab8896bc380dcb50f</SHA1>
  </PackageUpdate>
  <PackageUpdate>
   <Name>gridexporter_plugin</Name>
@@ -47,7 +21,7 @@
   <Default>true</Default>
   <ReleaseDate>2017-04-18</ReleaseDate>
   <SortingPriority>29</SortingPriority>
-  <UpdateFile UncompressedSize="0" OS="Any" CompressedSize="0"/>
+  <UpdateFile CompressedSize="0" UncompressedSize="0" OS="Any"/>
   <SHA1>365b1f219aef86f2be139e85a0b903ac5746e96f</SHA1>
  </PackageUpdate>
  <PackageUpdate>
@@ -59,7 +33,7 @@
   <ReleaseDate>2015-07-01</ReleaseDate>
   <SortingPriority>30</SortingPriority>
   <Script>installscript.qs</Script>
-  <UpdateFile UncompressedSize="22604" OS="Any" CompressedSize="9288"/>
+  <UpdateFile CompressedSize="9288" UncompressedSize="22604" OS="Any"/>
   <DownloadableArchives>content.7z</DownloadableArchives>
   <SHA1>2d77c9cd9e29bbf0a9bf6336cbf896a4fdb7baec</SHA1>
  </PackageUpdate>
@@ -72,7 +46,7 @@
   <ReleaseDate>2015-07-01</ReleaseDate>
   <SortingPriority>30</SortingPriority>
   <Script>installscript.qs</Script>
-  <UpdateFile UncompressedSize="22115" OS="Any" CompressedSize="9150"/>
+  <UpdateFile CompressedSize="9150" UncompressedSize="22115" OS="Any"/>
   <DownloadableArchives>content.7z</DownloadableArchives>
   <SHA1>08f7d08f66af5a58637a626a00a54dbde55f2bc2</SHA1>
  </PackageUpdate>
@@ -85,7 +59,7 @@
   <ReleaseDate>2015-07-01</ReleaseDate>
   <SortingPriority>30</SortingPriority>
   <Script>installscript.qs</Script>
-  <UpdateFile UncompressedSize="21020" OS="Any" CompressedSize="8661"/>
+  <UpdateFile CompressedSize="8661" UncompressedSize="21020" OS="Any"/>
   <DownloadableArchives>content.7z</DownloadableArchives>
   <SHA1>744b0c1b46870860ae8ac305fdd8cb518405aa1b</SHA1>
  </PackageUpdate>
@@ -98,7 +72,7 @@
   <ReleaseDate>2015-07-01</ReleaseDate>
   <SortingPriority>30</SortingPriority>
   <Script>installscript.qs</Script>
-  <UpdateFile UncompressedSize="21026" OS="Any" CompressedSize="8690"/>
+  <UpdateFile CompressedSize="8690" UncompressedSize="21026" OS="Any"/>
   <DownloadableArchives>content.7z</DownloadableArchives>
   <SHA1>685db7257cdb31a3842a1f9c24defef238b3f391</SHA1>
  </PackageUpdate>
@@ -110,7 +84,7 @@
   <Default>true</Default>
   <ReleaseDate>2017-04-18</ReleaseDate>
   <SortingPriority>30</SortingPriority>
-  <UpdateFile UncompressedSize="0" OS="Any" CompressedSize="0"/>
+  <UpdateFile CompressedSize="0" UncompressedSize="0" OS="Any"/>
   <SHA1>e49bcacd553f8b81b20bcbbb04833938911d8f3b</SHA1>
  </PackageUpdate>
  <PackageUpdate>
@@ -122,7 +96,7 @@
   <ReleaseDate>2015-07-01</ReleaseDate>
   <SortingPriority>100</SortingPriority>
   <Script>installscript.qs</Script>
-  <UpdateFile UncompressedSize="32570" OS="Any" CompressedSize="12544"/>
+  <UpdateFile CompressedSize="12544" UncompressedSize="32570" OS="Any"/>
   <DownloadableArchives>content.7z</DownloadableArchives>
   <SHA1>ea6922a13685f2744fd3b5fa72cfff740a394ac0</SHA1>
  </PackageUpdate>
@@ -135,7 +109,7 @@
   <ReleaseDate>2015-07-01</ReleaseDate>
   <SortingPriority>100</SortingPriority>
   <Script>installscript.qs</Script>
-  <UpdateFile UncompressedSize="24386" OS="Any" CompressedSize="10035"/>
+  <UpdateFile CompressedSize="10035" UncompressedSize="24386" OS="Any"/>
   <DownloadableArchives>content.7z</DownloadableArchives>
   <SHA1>73b887bb5cc35daa191d4ca56eebeedbbebe458e</SHA1>
  </PackageUpdate>
@@ -148,7 +122,7 @@
   <ReleaseDate>2015-07-01</ReleaseDate>
   <SortingPriority>100</SortingPriority>
   <Script>installscript.qs</Script>
-  <UpdateFile UncompressedSize="24932" OS="Any" CompressedSize="9643"/>
+  <UpdateFile CompressedSize="9643" UncompressedSize="24932" OS="Any"/>
   <DownloadableArchives>content.7z</DownloadableArchives>
   <SHA1>438572939ff223976faa83e559129624f6d50daf</SHA1>
  </PackageUpdate>
@@ -159,7 +133,7 @@
   <Version>1.0.0</Version>
   <ReleaseDate>2017-04-18</ReleaseDate>
   <SortingPriority>100</SortingPriority>
-  <UpdateFile UncompressedSize="0" OS="Any" CompressedSize="0"/>
+  <UpdateFile CompressedSize="0" UncompressedSize="0" OS="Any"/>
   <SHA1>80cae654be6c9f4c0c00151a5e229f3ac2f64dc7</SHA1>
  </PackageUpdate>
  <PackageUpdate>
@@ -171,7 +145,7 @@
   <SortingPriority>5</SortingPriority>
   <ForcedInstallation>true</ForcedInstallation>
   <Script>installscript.qs</Script>
-  <UpdateFile UncompressedSize="7195872" OS="Any" CompressedSize="6987845"/>
+  <UpdateFile CompressedSize="6987845" UncompressedSize="7195872" OS="Any"/>
   <DownloadableArchives>content.7z</DownloadableArchives>
   <SHA1>fbc4c5285e970e048c14ad4843aad19e329af9a2</SHA1>
  </PackageUpdate>
@@ -183,7 +157,7 @@
   <Default>true</Default>
   <ReleaseDate>2017-04-18</ReleaseDate>
   <SortingPriority>20</SortingPriority>
-  <UpdateFile UncompressedSize="0" OS="Any" CompressedSize="0"/>
+  <UpdateFile CompressedSize="0" UncompressedSize="0" OS="Any"/>
   <SHA1>ef7d47cc40503db20a514a8ee7a555eee0316a7f</SHA1>
  </PackageUpdate>
  <PackageUpdate>
@@ -195,22 +169,9 @@
   <ReleaseDate>2017-06-09</ReleaseDate>
   <SortingPriority>50</SortingPriority>
   <Script>installscript.qs</Script>
-  <UpdateFile UncompressedSize="563523" OS="Any" CompressedSize="330394"/>
+  <UpdateFile CompressedSize="330394" UncompressedSize="563523" OS="Any"/>
   <DownloadableArchives>content.7z</DownloadableArchives>
   <SHA1>48e827df39292a5b8535f3992100b86fe6a4ea57</SHA1>
- </PackageUpdate>
- <PackageUpdate>
-  <Name>solver.ceri1d</Name>
-  <DisplayName>CERI1D</DisplayName>
-  <Description>CERI1D is an analytical solver developed by Yasuhiro YOSHIKAWA (Kitami Institute of Technology) and CERI for calculation of one-dimensional unsteady flow in rivers.</Description>
-  <Version>1.1.5</Version>
-  <Default>true</Default>
-  <ReleaseDate>2014-11-18</ReleaseDate>
-  <SortingPriority>50</SortingPriority>
-  <Script>installscript.qs</Script>
-  <UpdateFile UncompressedSize="294254" OS="Any" CompressedSize="89457"/>
-  <DownloadableArchives>content.7z</DownloadableArchives>
-  <SHA1>c3ac84a03b8f73778b78271f42a9dc0e0c822127</SHA1>
  </PackageUpdate>
  <PackageUpdate>
   <Name>solver.elimo</Name>
@@ -222,74 +183,9 @@
   <ReleaseDate>2015-03-29</ReleaseDate>
   <SortingPriority>50</SortingPriority>
   <Script>installscript.qs</Script>
-  <UpdateFile UncompressedSize="2516320" OS="Any" CompressedSize="527523"/>
+  <UpdateFile CompressedSize="527523" UncompressedSize="2516320" OS="Any"/>
   <DownloadableArchives>content.7z</DownloadableArchives>
   <SHA1>f4068f56e02a908a2664c9a85553b20dcc307e2d</SHA1>
- </PackageUpdate>
- <PackageUpdate>
-  <Name>solver.mflow</Name>
-  <DisplayName>Mflow</DisplayName>
-  <Description>Mflow_02 is a solver to calculate two-dimensional plane unsteady flow and riverbed variation using unstructured meshes of the finite element method.</Description>
-  <Version>2.2.4</Version>
-  <Default>true</Default>
-  <ReleaseDate>2015-04-30</ReleaseDate>
-  <SortingPriority>50</SortingPriority>
-  <Script>installscript.qs</Script>
-  <UpdateFile UncompressedSize="575702" OS="Any" CompressedSize="181992"/>
-  <DownloadableArchives>content.7z</DownloadableArchives>
-  <SHA1>1c9611af3863ba44831d0334283a97e429f69309</SHA1>
- </PackageUpdate>
- <PackageUpdate>
-  <Name>solver.nays1dp</Name>
-  <DisplayName>Nays1Dp</DisplayName>
-  <Description>"Nays1D" is an analytical solver for calculation of steady and unsteady 1D-dimensional open channel flows and riverbed deformations.</Description>
-  <Version>1.0.5</Version>
-  <Default>true</Default>
-  <ReleaseDate>2016-01-20</ReleaseDate>
-  <SortingPriority>50</SortingPriority>
-  <Script>installscript.qs</Script>
-  <UpdateFile UncompressedSize="331646" OS="Any" CompressedSize="110142"/>
-  <DownloadableArchives>content.7z</DownloadableArchives>
-  <SHA1>b99564df166db795c9da91a6e0a66140bd149d58</SHA1>
- </PackageUpdate>
- <PackageUpdate>
-  <Name>solver.nayseddy</Name>
-  <DisplayName>NaysEddy</DisplayName>
-  <Description>"NaysEddy" is a three-dimensional solver for calculation of unsteady flows using Cartesian coordinates.</Description>
-  <Version>1.0.0</Version>
-  <Default>true</Default>
-  <ReleaseDate>2017-04-18</ReleaseDate>
-  <SortingPriority>50</SortingPriority>
-  <Script>installscript.qs</Script>
-  <UpdateFile UncompressedSize="507898" OS="Any" CompressedSize="167224"/>
-  <DownloadableArchives>content.7z</DownloadableArchives>
-  <SHA1>8e23939c05c6a7c0307c77055994abdd1887012f</SHA1>
- </PackageUpdate>
- <PackageUpdate>
-  <Name>solver.sac</Name>
-  <DisplayName>SAC</DisplayName>
-  <Description>Slope Area Computation Program</Description>
-  <Version>2.0.1</Version>
-  <Default>true</Default>
-  <ReleaseDate>2017-06-09</ReleaseDate>
-  <SortingPriority>50</SortingPriority>
-  <Script>installscript.qs</Script>
-  <UpdateFile UncompressedSize="131672" OS="Any" CompressedSize="51534"/>
-  <DownloadableArchives>content.7z</DownloadableArchives>
-  <SHA1>45a8206f128c6a1d5fdc09214258041c6c17851e</SHA1>
- </PackageUpdate>
- <PackageUpdate>
-  <Name>solver.srm</Name>
-  <DisplayName>SRM</DisplayName>
-  <Description>The Storage Routing Model (SRM) solver is a runoff calculation solver that uses storage routing models.</Description>
-  <Version>1.0.0</Version>
-  <Default>true</Default>
-  <ReleaseDate>2017-04-18</ReleaseDate>
-  <SortingPriority>50</SortingPriority>
-  <Script>installscript.qs</Script>
-  <UpdateFile UncompressedSize="112452" OS="Any" CompressedSize="36381"/>
-  <DownloadableArchives>content.7z</DownloadableArchives>
-  <SHA1>e66b8bc525192d320bd470e7b8621dead09dfea6</SHA1>
  </PackageUpdate>
  <PackageUpdate>
   <Name>gui.rivmaker</Name>
@@ -300,7 +196,7 @@
   <ReleaseDate>2017-06-15</ReleaseDate>
   <SortingPriority>50</SortingPriority>
   <Script>installscript.qs</Script>
-  <UpdateFile UncompressedSize="26303678" OS="Any" CompressedSize="7937543"/>
+  <UpdateFile CompressedSize="7937543" UncompressedSize="26303678" OS="Any"/>
   <DownloadableArchives>accessible.7z,bearer.7z,iconengines.7z,imageformats.7z,languages.7z,platforms.7z,samples.7z,testdata.7z,content.7z</DownloadableArchives>
   <SHA1>9b54aae0905cd03c8607fcc35724a24aec72ffb0</SHA1>
  </PackageUpdate>
@@ -321,55 +217,159 @@
   <SHA1>abe89e29841bb007b31c9208bbc410f67baec89f</SHA1>
  </PackageUpdate>
  <PackageUpdate>
+  <Name>gridcreator.multi_grid_generator</Name>
+  <DisplayName>Multifunction Grid Genarator</DisplayName>
+  <Description>Multifunction Grid Genarator</Description>
+  <Version>1.0.0</Version>
+  <Default>true</Default>
+  <ReleaseDate>2017-06-06</ReleaseDate>
+  <SortingPriority>50</SortingPriority>
+  <Script>installscript.qs</Script>
+  <UpdateFile CompressedSize="38828" UncompressedSize="121159" OS="Any"/>
+  <DownloadableArchives>content.7z</DownloadableArchives>
+  <SHA1>4d770cb16c742655f53935f9c0772be31fa0df5e</SHA1>
+ </PackageUpdate>
+ <PackageUpdate>
+  <Name>gridcreator.simplegridgen</Name>
+  <DisplayName>Simple Grid Generator</DisplayName>
+  <Description>Simple Grid Generator</Description>
+  <Version>1.0.0</Version>
+  <Default>true</Default>
+  <ReleaseDate>2017-06-06</ReleaseDate>
+  <SortingPriority>50</SortingPriority>
+  <Script>installscript.qs</Script>
+  <UpdateFile CompressedSize="14267" UncompressedSize="61997" OS="Any"/>
+  <DownloadableArchives>content.7z</DownloadableArchives>
+  <SHA1>ea8721d1146b9270b886d413517bda37fb5ee11f</SHA1>
+ </PackageUpdate>
+ <PackageUpdate>
+  <Name>solver.ceri1d</Name>
+  <DisplayName>CERI1D</DisplayName>
+  <Description>CERI1D is an analytical solver developed by Yasuhiro YOSHIKAWA (Kitami Institute of Technology) and CERI for calculation of one-dimensional unsteady flow in rivers.</Description>
+  <Version>1.1.5</Version>
+  <Default>true</Default>
+  <ReleaseDate>2014-11-18</ReleaseDate>
+  <SortingPriority>50</SortingPriority>
+  <Script>installscript.qs</Script>
+  <UpdateFile CompressedSize="89464" UncompressedSize="294274" OS="Any"/>
+  <DownloadableArchives>content.7z</DownloadableArchives>
+  <SHA1>8bc3bbe311911797056120b1226a1073b586052c</SHA1>
+ </PackageUpdate>
+ <PackageUpdate>
   <Name>solver.fastmech</Name>
   <DisplayName>FaSTMECH</DisplayName>
   <Description>FaSTMECH</Description>
-  <Version>1.0.0</Version>
+  <Version>1.0.1</Version>
   <Default>true</Default>
-  <ReleaseDate>2009-11-01</ReleaseDate>
+  <ReleaseDate>2017-06-21</ReleaseDate>
   <SortingPriority>50</SortingPriority>
   <Script>installscript.qs</Script>
-  <UpdateFile UncompressedSize="1119232" OS="Any" CompressedSize="301103"/>
+  <UpdateFile CompressedSize="301113" UncompressedSize="1119233" OS="Any"/>
   <DownloadableArchives>content.7z</DownloadableArchives>
-  <SHA1>eff400a466bc619afc33753c226ea43bd6da54fe</SHA1>
+  <SHA1>5c210287425e1661acd826f718fdaff2188832bd</SHA1>
+ </PackageUpdate>
+ <PackageUpdate>
+  <Name>solver.mflow</Name>
+  <DisplayName>Mflow</DisplayName>
+  <Description>Mflow_02 is a solver to calculate two-dimensional plane unsteady flow and riverbed variation using unstructured meshes of the finite element method.</Description>
+  <Version>2.2.4</Version>
+  <Default>true</Default>
+  <ReleaseDate>2015-04-30</ReleaseDate>
+  <SortingPriority>50</SortingPriority>
+  <Script>installscript.qs</Script>
+  <UpdateFile CompressedSize="181990" UncompressedSize="575705" OS="Any"/>
+  <DownloadableArchives>content.7z</DownloadableArchives>
+  <SHA1>7fd40cf92e51d05798cd3b5d3d6a0de71c218e9f</SHA1>
+ </PackageUpdate>
+ <PackageUpdate>
+  <Name>solver.nays1dp</Name>
+  <DisplayName>Nays1Dp</DisplayName>
+  <Description>"Nays1D" is an analytical solver for calculation of steady and unsteady 1D-dimensional open channel flows and riverbed deformations.</Description>
+  <Version>1.0.5</Version>
+  <Default>true</Default>
+  <ReleaseDate>2016-01-20</ReleaseDate>
+  <SortingPriority>50</SortingPriority>
+  <Script>installscript.qs</Script>
+  <UpdateFile CompressedSize="110142" UncompressedSize="331644" OS="Any"/>
+  <DownloadableArchives>content.7z</DownloadableArchives>
+  <SHA1>f788ed9dcc9a6a0d72c154cde664a8344f04689f</SHA1>
  </PackageUpdate>
  <PackageUpdate>
   <Name>solver.nays2dflood</Name>
   <DisplayName>Nays2DFlood</DisplayName>
   <Description>Nays 2D Flood is a flood flow analysis solver that relies on unsteady 2-dimensional plane flow simulation using boundary-fitted coordinates as the general curvilinear coordinates.</Description>
-  <Version>1.0.0</Version>
+  <Version>5.0.1507</Version>
   <Default>true</Default>
-  <ReleaseDate>2017-04-18</ReleaseDate>
+  <ReleaseDate>2017-06-21</ReleaseDate>
   <SortingPriority>50</SortingPriority>
   <Script>installscript.qs</Script>
-  <UpdateFile UncompressedSize="616516" OS="Any" CompressedSize="194339"/>
+  <UpdateFile CompressedSize="194346" UncompressedSize="616516" OS="Any"/>
   <DownloadableArchives>content.7z</DownloadableArchives>
-  <SHA1>5ccc4f0e491b5bca50a2f0d82984eaa0373f7d3a</SHA1>
+  <SHA1>aff80352225443c48c908282758151ca87559da2</SHA1>
  </PackageUpdate>
  <PackageUpdate>
   <Name>solver.nays2dh</Name>
   <DisplayName>Nays2DH</DisplayName>
   <Description>Nays2DH is a computational model for simulating horizontal two-dimensional (2D) flow, sediment transport, morphological changes of bed and banks in rivers.</Description>
-  <Version>1.5.100</Version>
+  <Version>1.5.101</Version>
   <Default>true</Default>
-  <ReleaseDate>2015-03-17</ReleaseDate>
+  <ReleaseDate>2017-06-21</ReleaseDate>
   <SortingPriority>50</SortingPriority>
   <Script>installscript.qs</Script>
-  <UpdateFile UncompressedSize="1214887" OS="Any" CompressedSize="389304"/>
+  <UpdateFile CompressedSize="389308" UncompressedSize="1214887" OS="Any"/>
   <DownloadableArchives>content.7z</DownloadableArchives>
-  <SHA1>960daf75d2031e68b4f6642a67db8e75f11fb93b</SHA1>
+  <SHA1>a4787163cf9838091015eafa3083cb964dc62e4a</SHA1>
  </PackageUpdate>
  <PackageUpdate>
   <Name>solver.nayscube</Name>
   <DisplayName>NaysCUBE</DisplayName>
   <Description>"NaysCUBE" is an analytical solver for calculation of unsteady three-dimensional open channel flows, riverbed deformations and driftwood behavior using boundary-fitted coordinates within generalized curvilinear coordinates.</Description>
-  <Version>3.30.4</Version>
+  <Version>3.30.5</Version>
   <Default>true</Default>
-  <ReleaseDate>2017-05-10</ReleaseDate>
+  <ReleaseDate>2017-06-21</ReleaseDate>
   <SortingPriority>50</SortingPriority>
   <Script>installscript.qs</Script>
-  <UpdateFile UncompressedSize="8381398" OS="Any" CompressedSize="1027355"/>
+  <UpdateFile CompressedSize="1027375" UncompressedSize="8381398" OS="Any"/>
   <DownloadableArchives>content.7z</DownloadableArchives>
-  <SHA1>b0798c4a1e32eef51cb8f678c69b38b023702576</SHA1>
+  <SHA1>1bb123f65eac3562cb42c9244df9cae19d122651</SHA1>
+ </PackageUpdate>
+ <PackageUpdate>
+  <Name>solver.nayseddy</Name>
+  <DisplayName>NaysEddy</DisplayName>
+  <Description>"NaysEddy" is a three-dimensional solver for calculation of unsteady flows using Cartesian coordinates.</Description>
+  <Version>1.0.0</Version>
+  <Default>true</Default>
+  <ReleaseDate>2014-04-23</ReleaseDate>
+  <SortingPriority>50</SortingPriority>
+  <Script>installscript.qs</Script>
+  <UpdateFile CompressedSize="167220" UncompressedSize="507898" OS="Any"/>
+  <DownloadableArchives>content.7z</DownloadableArchives>
+  <SHA1>64df0bc4a3852980e5c1c38dc506497a9bf3d176</SHA1>
+ </PackageUpdate>
+ <PackageUpdate>
+  <Name>solver.sac</Name>
+  <DisplayName>SAC</DisplayName>
+  <Description>Slope Area Computation Program</Description>
+  <Version>2.0.1</Version>
+  <Default>true</Default>
+  <ReleaseDate>2017-06-09</ReleaseDate>
+  <SortingPriority>50</SortingPriority>
+  <Script>installscript.qs</Script>
+  <UpdateFile CompressedSize="51541" UncompressedSize="131672" OS="Any"/>
+  <DownloadableArchives>content.7z</DownloadableArchives>
+  <SHA1>15c313ca47e0ee010216bbf5350888c7aca229c0</SHA1>
+ </PackageUpdate>
+ <PackageUpdate>
+  <Name>solver.srm</Name>
+  <DisplayName>SRM</DisplayName>
+  <Description>The Storage Routing Model (SRM) solver is a runoff calculation solver that uses storage routing models.</Description>
+  <Version>1.0.2</Version>
+  <Default>true</Default>
+  <ReleaseDate>2016-02-10</ReleaseDate>
+  <SortingPriority>50</SortingPriority>
+  <Script>installscript.qs</Script>
+  <UpdateFile CompressedSize="36377" UncompressedSize="112452" OS="Any"/>
+  <DownloadableArchives>content.7z</DownloadableArchives>
+  <SHA1>f9c4a22533c21ca3c465a8881c75eb37863ddab2</SHA1>
  </PackageUpdate>
 </Updates>

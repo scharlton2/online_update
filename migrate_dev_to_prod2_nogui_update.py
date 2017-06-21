@@ -19,8 +19,7 @@ def copy_dev_src():
             continue
 
         cmd = 'svn cp dev_src/packages/' + item + ' prod_src/packages/' + item
-        print(cmd)
-        # subprocess.check_output(cmd)
+        subprocess.check_output(cmd)
 
     print('prod_src copied')
 
@@ -72,7 +71,8 @@ def setup_updates():
     f = open(prod_update_path, 'w')
     f.write(new_prod_updates)
     f.close()
+    print('Updates.xml updated')
 
-# copy_dev_src()
-# copy_dev()
+copy_dev_src()
+copy_dev()
 setup_updates()
