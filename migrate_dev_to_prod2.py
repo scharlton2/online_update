@@ -75,7 +75,7 @@ def build_installer():
 
 
 copy_dev_src()
-#copy_dev()
-#modify_qs()
-#build_repository()
+copy_dev()
+modify_qs()
+build_repository()
 build_installer()
