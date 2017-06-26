@@ -188,19 +188,6 @@
   <SHA1>f4068f56e02a908a2664c9a85553b20dcc307e2d</SHA1>
  </PackageUpdate>
  <PackageUpdate>
-  <Name>gui.rivmaker</Name>
-  <DisplayName>Rivmaker</DisplayName>
-  <Description>Riv file maker. You can create *.riv files from survey data.</Description>
-  <Version>1.0.4</Version>
-  <Default>true</Default>
-  <ReleaseDate>2017-06-15</ReleaseDate>
-  <SortingPriority>50</SortingPriority>
-  <Script>installscript.qs</Script>
-  <UpdateFile UncompressedSize="26303678" OS="Any" CompressedSize="7937543"/>
-  <DownloadableArchives>accessible.7z,bearer.7z,iconengines.7z,imageformats.7z,languages.7z,platforms.7z,samples.7z,testdata.7z,content.7z</DownloadableArchives>
-  <SHA1>9b54aae0905cd03c8607fcc35724a24aec72ffb0</SHA1>
- </PackageUpdate>
- <PackageUpdate>
   <Name>gridcreator.multi_grid_generator</Name>
   <DisplayName>Multifunction Grid Genarator</DisplayName>
   <Description>Multifunction Grid Genarator</Description>
@@ -360,16 +347,29 @@
   <Name>gui.prepost</Name>
   <DisplayName>iRIC GUI 3.0</DisplayName>
   <Description>iRIC Main GUI</Description>
-  <Version>3.0.0.6197</Version>
+  <Version>3.0.0.6198</Version>
   <ReleaseDate>2017-06-23</ReleaseDate>
   <SortingPriority>100</SortingPriority>
   <ForcedInstallation>true</ForcedInstallation>
   <Script>installscript.qs</Script>
-  <UpdateFile UncompressedSize="263534599" OS="Any" CompressedSize="67842963"/>
+  <UpdateFile UncompressedSize="263534087" OS="Any" CompressedSize="67844311"/>
   <DownloadableArchives>accessible.7z,bearer.7z,iconengines.7z,imageformats.7z,languages.7z,licenses.7z,platforms.7z,pythonmodule.7z,content.7z</DownloadableArchives>
   <Licenses>
    <License name="Terms of use of the iRIC software" file="license-english.txt"/>
   </Licenses>
-  <SHA1>b558388ad3cac8efd79b0f382555fbbd557bef8b</SHA1>
+  <SHA1>42a98c7b03e53093bb38ac2ad2e4941f18b8aecd</SHA1>
+ </PackageUpdate>
+ <PackageUpdate>
+  <Name>gui.rivmaker</Name>
+  <DisplayName>Rivmaker</DisplayName>
+  <Description>Riv file maker. You can create *.riv files from survey data.</Description>
+  <Version>1.0.5</Version>
+  <Default>true</Default>
+  <ReleaseDate>2017-06-23</ReleaseDate>
+  <SortingPriority>50</SortingPriority>
+  <Script>installscript.qs</Script>
+  <UpdateFile UncompressedSize="26606782" OS="Any" CompressedSize="8053741"/>
+  <DownloadableArchives>accessible.7z,bearer.7z,iconengines.7z,imageformats.7z,languages.7z,platforms.7z,samples.7z,testdata.7z,content.7z</DownloadableArchives>
+  <SHA1>adbd5ee00a73bcebdbaea87b6a99dd61a79c9cdb</SHA1>
  </PackageUpdate>
 </Updates>

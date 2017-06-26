@@ -38,20 +38,53 @@ def copy_dev():
     print('prod copied')
 
 def modify_qs():
-    """Modify iRIC GUI installscript.qs"""
+    """Modify iRIC GUI installscript.qs, RivMaker installscript.qs"""
 
     qs_path = 'prod_src/packages/gui.prepost/meta/installscript.qs'
     f = open(qs_path, 'r')
     content = f.read()
     f.close()
 
+    # Remove "(develop)"
     content = content.replace('(develop)', '')
+
+    # Add Operation to register "ipro" file as iRIC project
+    placeHolder = '"@StartMenuDir@/Uninstall iRIC.lnk", "workingDirectory=@TargetDir@");\n'
+
+    additional = (
+        '\tcomponent.addOperation("RegisterFileType", "ipro", "@TargetDir@\\\\guis\\\\prepost\\\\iRIC.exe" + " \\"%1\\"",\n' +
+        '\t\t"iRIC Project file", "application/iric",\n' +
+        '\t\t"@TargetDir@/guis/prepost/iconiRICFile.ico", "ProgId=iRICProject.ipro");\n')
+
+    content = content.replace(placeHolder + additional, placeHolder)
+    content = content.replace(placeHolder, placeHolder + additional)
 
     f = open(qs_path, 'w')
     f.write(content)
     f.close()
 
     print('iRIC GUI installscript.qs modified')
+
+    qs_path = 'prod_src/packages/gui.rivmaker/meta/installscript.qs'
+    f = open(qs_path, 'r')
+    content = f.read()
+    f.close()
+
+    # Add Operation to register "rpro" file as RivMaker project
+    placeHolder = '"@StartMenuDir@/Rivmaker.lnk", "workingDirectory=@TargetDir@/guis/rivmaker");\n'
+
+    additional = (
+        '\tcomponent.addOperation("RegisterFileType", "rpro", "@TargetDir@\\\\guis\\\\rivmaker\\\\Rivmaker.exe" + " \\"%1\\"",\n' +
+        '\t\t"RivMaker Project file", "application/rivmaker",\n' +
+        '\t\t"@TargetDir@/guis/rivmaker/iconRivMakerFile.ico", "ProgId=RivMakerProject.rpro");\n')
+    content = content.replace(placeHolder + additional, placeHolder)
+    content = content.replace(placeHolder, placeHolder + additional)
+
+    f = open(qs_path, 'w')
+    f.write(content)
+    f.close()
+
+    print('RivMaker installscript.qs modified')
 
 def build_repository():
     """Run repogen to build files for online update"""
@@ -72,7 +105,6 @@ def build_installer():
     cmd += ' -p prod_src\\packages prod\\' + installer_name
 
     subprocess.check_output(cmd)
-
 
 copy_dev_src()
 copy_dev()
