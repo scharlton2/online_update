@@ -66,6 +66,9 @@ def modify_qs():
     print('iRIC GUI installscript.qs modified')
 
     qs_path = 'prod_src/packages/gui.rivmaker/meta/installscript.qs'
+    if not os.path.exists(qs_path):
+        return
+
     f = open(qs_path, 'r')
     content = f.read()
     f.close()
