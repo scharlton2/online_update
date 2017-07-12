@@ -161,19 +161,6 @@
   <SHA1>ef7d47cc40503db20a514a8ee7a555eee0316a7f</SHA1>
  </PackageUpdate>
  <PackageUpdate>
-  <Name>solver.cap</Name>
-  <DisplayName>CAP</DisplayName>
-  <Description>Culvart Analysis Program</Description>
-  <Version>2.0.3</Version>
-  <Default>true</Default>
-  <ReleaseDate>2017-06-09</ReleaseDate>
-  <SortingPriority>50</SortingPriority>
-  <Script>installscript.qs</Script>
-  <UpdateFile UncompressedSize="563523" OS="Any" CompressedSize="330394"/>
-  <DownloadableArchives>content.7z</DownloadableArchives>
-  <SHA1>48e827df39292a5b8535f3992100b86fe6a4ea57</SHA1>
- </PackageUpdate>
- <PackageUpdate>
   <Name>solver.elimo</Name>
   <DisplayName>ELIMO</DisplayName>
   <Description>iRIC-ELIMO has been developed with a motto of "simple and easy tsunami computation" for people with minimum knowledge to operate Window softwares, which is capable of reliable estimations of tsunami generation, propagation and evolution on coasts on easy-performable GUI environment provided by iRIC.   &#xd;
@@ -318,19 +305,6 @@
   <SHA1>64df0bc4a3852980e5c1c38dc506497a9bf3d176</SHA1>
  </PackageUpdate>
  <PackageUpdate>
-  <Name>solver.sac</Name>
-  <DisplayName>SAC</DisplayName>
-  <Description>Slope Area Computation Program</Description>
-  <Version>2.0.1</Version>
-  <Default>true</Default>
-  <ReleaseDate>2017-06-09</ReleaseDate>
-  <SortingPriority>50</SortingPriority>
-  <Script>installscript.qs</Script>
-  <UpdateFile UncompressedSize="131672" OS="Any" CompressedSize="51541"/>
-  <DownloadableArchives>content.7z</DownloadableArchives>
-  <SHA1>15c313ca47e0ee010216bbf5350888c7aca229c0</SHA1>
- </PackageUpdate>
- <PackageUpdate>
   <Name>solver.srm</Name>
   <DisplayName>SRM</DisplayName>
   <Description>The Storage Routing Model (SRM) solver is a runoff calculation solver that uses storage routing models.</Description>
@@ -358,18 +332,5 @@
    <License name="Terms of use of the iRIC software" file="license-english.txt"/>
   </Licenses>
   <SHA1>42a98c7b03e53093bb38ac2ad2e4941f18b8aecd</SHA1>
- </PackageUpdate>
- <PackageUpdate>
-  <Name>gui.rivmaker</Name>
-  <DisplayName>Rivmaker</DisplayName>
-  <Description>Riv file maker. You can create *.riv files from survey data.</Description>
-  <Version>1.0.5</Version>
-  <Default>true</Default>
-  <ReleaseDate>2017-06-23</ReleaseDate>
-  <SortingPriority>50</SortingPriority>
-  <Script>installscript.qs</Script>
-  <UpdateFile UncompressedSize="26606782" OS="Any" CompressedSize="8053741"/>
-  <DownloadableArchives>accessible.7z,bearer.7z,iconengines.7z,imageformats.7z,languages.7z,platforms.7z,samples.7z,testdata.7z,content.7z</DownloadableArchives>
-  <SHA1>adbd5ee00a73bcebdbaea87b6a99dd61a79c9cdb</SHA1>
  </PackageUpdate>
 </Updates>
