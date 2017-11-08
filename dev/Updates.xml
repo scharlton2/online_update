@@ -346,4 +346,43 @@
   </Licenses>
   <SHA1>4fdf068d0b84d1619d4d039dab2562df22435454</SHA1>
  </PackageUpdate>
+ <PackageUpdate>
+  <Name>gui.rivmaker</Name>
+  <DisplayName>Rivmaker</DisplayName>
+  <Description>Riv file maker. You can create *.riv files from survey data.</Description>
+  <Version>1.0.3</Version>
+  <Default>true</Default>
+  <ReleaseDate>2017-06-09</ReleaseDate>
+  <SortingPriority>50</SortingPriority>
+  <Script>installscript.qs</Script>
+  <UpdateFile UncompressedSize="26606782" CompressedSize="8053565" OS="Any"/>
+  <DownloadableArchives>accessible.7z,bearer.7z,iconengines.7z,imageformats.7z,languages.7z,platforms.7z,samples.7z,testdata.7z,content.7z</DownloadableArchives>
+  <SHA1>89b7a49cd5382cde84668501e71e8ce23b241c8d</SHA1>
+ </PackageUpdate>
+ <PackageUpdate>
+  <Name>solver.cap</Name>
+  <DisplayName>CAP</DisplayName>
+  <Description>Culvart Analysis Program</Description>
+  <Version>2.0.3</Version>
+  <Default>true</Default>
+  <ReleaseDate>2017-06-09</ReleaseDate>
+  <SortingPriority>50</SortingPriority>
+  <Script>installscript.qs</Script>
+  <UpdateFile UncompressedSize="1392787" CompressedSize="627759" OS="Any"/>
+  <DownloadableArchives>content.7z</DownloadableArchives>
+  <SHA1>d4cbf752ecd3f3456b74047cc8cb774167d4d4b6</SHA1>
+ </PackageUpdate>
+ <PackageUpdate>
+  <Name>solver.sac</Name>
+  <DisplayName>SAC</DisplayName>
+  <Description>Slope Area Computation Program</Description>
+  <Version>2.0.0</Version>
+  <Default>true</Default>
+  <ReleaseDate>2016-06-06</ReleaseDate>
+  <SortingPriority>50</SortingPriority>
+  <Script>installscript.qs</Script>
+  <UpdateFile UncompressedSize="131672" CompressedSize="51600" OS="Any"/>
+  <DownloadableArchives>content.7z</DownloadableArchives>
+  <SHA1>c82813b43abb66d5115d1c0794965bab2fe63efb</SHA1>
+ </PackageUpdate>
 </Updates>
