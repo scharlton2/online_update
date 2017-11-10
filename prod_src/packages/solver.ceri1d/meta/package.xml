@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<Package>
+	<DisplayName>CERI1D</DisplayName>
+	<Description>CERI1D is an analytical solver developed by Yasuhiro YOSHIKAWA (Kitami Institute of Technology) and CERI for calculation of one-dimensional unsteady flow in rivers.</Description>
+	<Version>1.1.5</Version>
+	<Default>true</Default>
+	<ReleaseDate>2014-11-18</ReleaseDate>
+	<SortingPriority>50</SortingPriority>
+	<Script>installscript.qs</Script>
+</Package>
