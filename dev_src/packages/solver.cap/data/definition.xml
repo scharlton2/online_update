@@ -868,7 +868,7 @@
 					</Definition>
 				</Item>
 				<Item name="max_depth" caption="Maximum Depth (DMAX)">
-					<Definition valueType="real" default="2">
+					<Definition valueType="real" default="100">
 					</Definition>
 				</Item>
 				<Item name="spacing_ratio" caption="Spacing Ratio (RATIO)">
