@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <SolverDefinition
 	xmlns="www.iric.net/SolverDefinition/1.0"
-	name="fastmech" caption="FaSTMECH" version="1.0.1" copyright="Jonathan Nelson"
-	release="2017.6.21" homepage="http://www.google.co.jp/"
+	name="fastmech" caption="FaSTMECH" version="1.0.2" copyright="None"
+	release="2017.12.08" homepage="http://www.google.co.jp/"
 	executable="Fastmech.exe"
 	iterationtype="time"
 	gridtype="structured2d"
@@ -143,22 +143,6 @@
 							</Enumerations>
 						</Definition>
 					</Item>
-					<Item name="FM_HydAttCDVegOpt" caption="Use Vegetation Roughness">
-						<Definition conditionType="constant" valueType="integer" option="true"
-							default="0">
-							<Enumerations>
-								<Enumeration value="0" caption="False" />
-								<Enumeration value="1" caption="True" />
-							</Enumerations>
-            	<Dependency>
-                <Condition type="and">
-							    <Condition type="isEqual" target="FM_HydAttRoughnessType" value="0" />
-                  <Condition type="isEqual" target="FM_HydAttCDType" value="1" />
-                </Condition>
-							  <Action type="enable" />
-						</Dependency>
-						</Definition>
-					</Item>
 					<Item name="FM_HydAttCD" caption="Constant Roughness Value">
 						<Definition conditionType="constant" valueType="real" option="false"
 							default="0.003"
@@ -189,15 +173,6 @@
 						</Dependency>
 						</Definition>
 					</Item>
-					<Item name="FM_HydAttCDVeg" caption="Vegetaion Drag Coefficient">
-						<Definition conditionType="constant" valueType="real" option="false"
-							default="1.0">
-						<Dependency>
-							<Condition type="isEqual" target="FM_HydAttCDVegOpt" value="1" />
-							<Action type="enable" />
-						</Dependency>
-						</Definition>
-					</Item>        
 				</Items>
 			</Content>
 		</Tab>
@@ -559,7 +534,7 @@
 					</Item>
 					<Item name="FM_SolAttDbgTimeStep" caption="Time-Step to Stop">
 						<Definition conditionType="constant" valueType="integer" option="false"
-							default="1" max="100000">
+							default="1">
 							<Dependency>
 								<Condition type="and">
 									<Condition type="isEqual" target="FM_SolAttType" value="1"/>
@@ -571,7 +546,7 @@
 					</Item>
 					<Item name="FM_SolAttDbgIterNum" caption="Iteration to Stop">
 						<Definition conditionType="constant" valueType="integer" option="false"
-							default="1" max="100000">
+							default="1">
 							<Dependency>
 								<Condition type="and">
 									<Condition type="isEqual" target="FM_SolAttType" value="1"/>
@@ -1211,16 +1186,22 @@
 		<Item name="roughness" caption="Roughness">
 			<Definition position="node" valueType="real" default="0.003" option="false"/>
 		</Item>
-		<Item name="vegdensity" caption="Vegetation Density">
-			<Definition position="node" valueType="real" default="0.0" option="false"/>
+    <Item name="vegroughness" caption="Vegetation Roughness">
+      <Definition position="node" valueType="real" default="0.003" option="false"/>
+    </Item>
+    <Item name="minelevation" caption="Minimum_Elevation">
+			<Definition position="node" valueType="real" default="0.002" option="false"/>
 		</Item>
-		<Item name="vegheight" caption="Vegetation Height">
-			<Definition position="node" valueType="real" default="0.0" option="false"/>
-		</Item>    
-		<Item name="sanddepth" caption="Sand Depth">
+    <!--<Item name="depth" caption="Depth">
+			<Definition position="node" valueType="real" default="0.002" option="false"/>
+		</Item>-->
+		<Item name="grainsize" caption="Grainsize">
+			<Definition position="node" valueType="real" default="0.002" option="false"/>
+		</Item>
+		<Item name="sanddepth" caption="Sand_Depth">
 			<Definition position="node" valueType="real" default="0.003" option="false"/>
 		</Item>
-		<Item name="sandfraction" caption="Sand Fraction">
+		<Item name="sandfraction" caption="Sand_Fraction">
 			<Definition position="node" valueType="real" default="0.003" option="false"/>
 		</Item>
 	</GridRelatedCondition>
