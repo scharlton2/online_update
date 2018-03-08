@@ -370,22 +370,6 @@
   <SHA1>3f8f6c2ab99c9c9d8bad5ece5a3b189b99bca9e9</SHA1>
  </PackageUpdate>
  <PackageUpdate>
-  <Name>gui.prepost</Name>
-  <DisplayName>iRIC GUI 3.0</DisplayName>
-  <Description>iRIC Main GUI</Description>
-  <Version>3.0.0.6208</Version>
-  <ReleaseDate>2018-03-08</ReleaseDate>
-  <SortingPriority>100</SortingPriority>
-  <ForcedInstallation>true</ForcedInstallation>
-  <Script>installscript.qs</Script>
-  <UpdateFile OS="Any" CompressedSize="67913726" UncompressedSize="263879211"/>
-  <DownloadableArchives>accessible.7z,bearer.7z,iconengines.7z,imageformats.7z,languages.7z,licenses.7z,platforms.7z,pythonmodule.7z,content.7z</DownloadableArchives>
-  <Licenses>
-   <License file="license-english.txt" name="Terms of use of the iRIC software"/>
-  </Licenses>
-  <SHA1>3c52e865f490a7197f989abe600729d32bd27605</SHA1>
- </PackageUpdate>
- <PackageUpdate>
   <Name>gui.rivmaker</Name>
   <DisplayName>Rivmaker</DisplayName>
   <Description>Riv file maker. You can create *.riv files from survey data.</Description>
@@ -397,5 +381,21 @@
   <UpdateFile OS="Any" CompressedSize="8056684" UncompressedSize="26610366"/>
   <DownloadableArchives>accessible.7z,bearer.7z,iconengines.7z,imageformats.7z,languages.7z,platforms.7z,samples.7z,testdata.7z,content.7z</DownloadableArchives>
   <SHA1>aaaaefb76762b0a364bf0bfa2b2e35800b95a7c2</SHA1>
+ </PackageUpdate>
+ <PackageUpdate>
+  <Name>gui.prepost</Name>
+  <DisplayName>iRIC GUI 3.0</DisplayName>
+  <Description>iRIC Main GUI</Description>
+  <Version>3.0.0.6209</Version>
+  <ReleaseDate>2018-03-08</ReleaseDate>
+  <SortingPriority>100</SortingPriority>
+  <ForcedInstallation>true</ForcedInstallation>
+  <Script>installscript.qs</Script>
+  <UpdateFile OS="Any" CompressedSize="67904943" UncompressedSize="263879723"/>
+  <DownloadableArchives>accessible.7z,bearer.7z,iconengines.7z,imageformats.7z,languages.7z,licenses.7z,platforms.7z,pythonmodule.7z,content.7z</DownloadableArchives>
+  <Licenses>
+   <License file="license-english.txt" name="Terms of use of the iRIC software"/>
+  </Licenses>
+  <SHA1>2ed210c6df071ef854d4d57254bdcbbd1d97fecb</SHA1>
  </PackageUpdate>
 </Updates>
