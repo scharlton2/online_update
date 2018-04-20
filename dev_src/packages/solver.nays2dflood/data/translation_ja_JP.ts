@@ -735,7 +735,7 @@
         <translation>ポンプ</translation>
     </message>
     <message>
-        <source>A couple of code number</source>
+        <source>Coupling code number</source>
         <translation>コード番号(入口/出口で番号を合わせる)</translation>
     </message>
     <message>
@@ -779,15 +779,15 @@
         <translation>自由流出の係数</translation>
     </message>
     <message>
-        <source>Inside/Outside</source>
+        <source>Inlet/Outlet</source>
         <translation>入口/出口</translation>
     </message>
     <message>
-        <source>Inside</source>
+        <source>Inlet</source>
         <translation>入口</translation>
     </message>
     <message>
-        <source>Outside</source>
+        <source>Outlet</source>
         <translation>出口</translation>
     </message>
     <message>

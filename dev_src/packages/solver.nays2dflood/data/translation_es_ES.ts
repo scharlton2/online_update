@@ -720,7 +720,7 @@
         <translation>Pompa</translation>
     </message>
     <message>
-        <source>A couple of code number</source>
+        <source>Coupling code number</source>
         <translation>Un par de numero de codigo</translation>
     </message>
     <message>
@@ -764,15 +764,15 @@
         <translation>Coeficiente de flugo libre</translation>
     </message>
     <message>
-        <source>Inside/Outside</source>
+        <source>Inlet/Outlet</source>
         <translation>Dentro/Afuera</translation>
     </message>
     <message>
-        <source>Inside</source>
+        <source>Inlet</source>
         <translation>Dentro</translation>
     </message>
     <message>
-        <source>Outside</source>
+        <source>Outlet</source>
         <translation>Afuera</translation>
     </message>
     <message>
