@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <SolverDefinition 
 	xmlns="www.iric.net/SolverDefinition/1.0"
-	name="naysflood" caption="Nays2D Flood v5.0 64 bit" version="5.0.1507" copyright="Yasuyuki Shimizu"
-	release="2017.6.21" homepage="http://i-ric.org"
+	name="naysflood" caption="Nays2D Flood v5.0 64 bit" version="5.0.1508" copyright="Yasuyuki Shimizu"
+	release="2018.4.20" homepage="http://i-ric.org"
 	executable="Nays2d_flood.exe"
 	iterationtype="time"
 	gridtype="structured2d"
@@ -246,14 +246,14 @@
     <!--docon add start-->
     <!--ボックスカルバート関連-->
 	<BoundaryCondition name="BoxCulvert" caption="BoxCulvert" position="cell">
-		<Item name="bc_couple_num" caption="A couple of code number">
+		<Item name="bc_couple_num" caption="Coupling code number">
 			<Definition valueType="integer" default="1">
 			</Definition>
 		</Item>
-		<Item name="bc_inout" caption="Inside/Outside">
+		<Item name="bc_inout" caption="Inlet/Outlet">
 			<Definition valueType="integer" default="0">
-                <Enumeration value="0" caption="Inside"/>
-                <Enumeration value="1" caption="Outside"/>
+                <Enumeration value="0" caption="Inlet"/>
+                <Enumeration value="1" caption="Outlet"/>
 			</Definition>
 		</Item>
 		<Item name="bc_width" caption="Width(m)">
@@ -305,14 +305,14 @@
 
     <!--樋門関連-->
 	<BoundaryCondition name="Gate" caption="Gate" position="cell">
-		<Item name="gt_couple_num" caption="A couple of code number">
+		<Item name="gt_couple_num" caption="Coupling code number">
 			<Definition valueType="integer" default="1">
 			</Definition>
 		</Item>
-		<Item name="gt_inout" caption="Inside/Outside">
+		<Item name="gt_inout" caption="Inlet/Outlet">
 			<Definition valueType="integer" default="0">
-                <Enumeration value="0" caption="Inside"/>
-                <Enumeration value="1" caption="Outside"/>
+                <Enumeration value="0" caption="Inlet"/>
+                <Enumeration value="1" caption="Outlet"/>
 			</Definition>
 		</Item>
 		<Item name="gt_width" caption="Width(m)">
@@ -398,14 +398,14 @@
 
     <!--ポンプ関連-->
 	<BoundaryCondition name="Pump" caption="Pump" position="cell">
-		<Item name="p_couple_num" caption="A couple of code number">
+		<Item name="p_couple_num" caption="Coupling code number">
 			<Definition valueType="integer" default="1">
 			</Definition>
 		</Item>
-		<Item name="p_inout" caption="Inside/Outside">
+		<Item name="p_inout" caption="Inlet/Outlet">
 			<Definition valueType="integer" default="0">
-                <Enumeration value="0" caption="Inside"/>
-                <Enumeration value="1" caption="Outside"/>
+                <Enumeration value="0" caption="Inlet"/>
+                <Enumeration value="1" caption="Outlet"/>
 			</Definition>
 		</Item>
 		<Item name="p_method" caption="Auto/Set data">
