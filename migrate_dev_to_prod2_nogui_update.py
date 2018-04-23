@@ -9,6 +9,7 @@ from datetime import datetime
 import subprocess
 import os
 import re
+import shutil
 
 def copy_dev_src():
     """Copy dev_src folder to prod_src folder, except for gui.prepost"""
@@ -18,8 +19,7 @@ def copy_dev_src():
         if item == 'gui.prepost':
             continue
 
-        cmd = 'svn cp dev_src/packages/' + item + ' prod_src/packages/' + item
-        subprocess.check_output(cmd)
+        shutil.copytree('dev_src/packages/' + item, 'prod_src/packages/' + item)
 
     print('prod_src copied')
 
@@ -35,8 +35,7 @@ def copy_dev():
         if not os.path.isdir(fullitem):
             continue
 
-        cmd = 'svn cp dev/' + item + ' prod/' + item
-        subprocess.check_output(cmd)
+        shutil.copytree('dev/' + item, ' prod/' + item)
 
     print('prod copied')
 
