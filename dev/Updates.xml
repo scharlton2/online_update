@@ -331,19 +331,6 @@
   <SHA1>e7d8880a149103e864704ec75daa1d153e1cf54c</SHA1>
  </PackageUpdate>
  <PackageUpdate>
-  <Name>solver.rri</Name>
-  <DisplayName>RRI</DisplayName>
-  <Description/>
-  <Version>1.4.2.2</Version>
-  <Default>true</Default>
-  <ReleaseDate>2018-01-01</ReleaseDate>
-  <SortingPriority>50</SortingPriority>
-  <Script>installscript.qs</Script>
-  <UpdateFile OS="Any" CompressedSize="5472168" UncompressedSize="31846792"/>
-  <DownloadableArchives>content.7z</DownloadableArchives>
-  <SHA1>e77ed728550b6e5c61bceeb0aec01ed883338d80</SHA1>
- </PackageUpdate>
- <PackageUpdate>
   <Name>gui.rivmaker</Name>
   <DisplayName>Rivmaker</DisplayName>
   <Description>Riv file maker. You can create *.riv files from survey data.</Description>
