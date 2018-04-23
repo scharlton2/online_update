@@ -1,5 +1,6 @@
 import subprocess
 import os
+import shutil
 
 items = os.listdir('prod_src/packages')
 for item in items:
@@ -8,8 +9,7 @@ for item in items:
 
     fullitem = 'prod_src/packages/'+ item
 
-    cmd = 'svn rm ' + fullitem
-    subprocess.check_output(cmd)
+    shutil.rmtree(fullitem)
 
 items = os.listdir('prod')
 for item in items:
@@ -19,6 +19,4 @@ for item in items:
     if item == 'gui.prepost':
         continue
 
-    cmd = 'svn rm ' + fullitem
-    # print(cmd)
-    subprocess.check_output(cmd)
+    shutil.rmtree(fullitem)
