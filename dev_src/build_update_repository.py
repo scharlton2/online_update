@@ -15,11 +15,11 @@ from qt_ifw_path import QT_IFW_PATH
 def updated_package_list():
     """Return the list of updated packages"""
 
-    cmd = 'svn status'
+    cmd = 'git status -s'
     out = subprocess.check_output(cmd, shell=True)
     outstr = out.decode("utf-8")
-    lines = outstr.split("\r\n")
-    p = re.compile(r"packages\\(.+?)\\.+")
+    lines = outstr.split("\n")
+    p = re.compile(r"M packages/(.+?)/.+")
 
     ret = set()
 

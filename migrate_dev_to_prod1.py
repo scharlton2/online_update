@@ -1,9 +1,8 @@
 import subprocess
 import os
+import shutil
 
-cmd = 'svn rm prod_src/packages'
-# print(cmd)
-subprocess.check_output(cmd)
+shutil.rmtree('prod_src/packages')
 
 items = os.listdir('prod')
 for item in items:
@@ -11,6 +10,4 @@ for item in items:
     if not os.path.isdir(fullitem):
         continue
 
-    cmd = 'svn rm prod/' + item
-    # print(cmd)
-    subprocess.check_output(cmd)
+    shutil.rmtree(fullitem)

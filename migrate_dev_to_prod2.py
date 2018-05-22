@@ -8,13 +8,13 @@ and modify the path to fit your environment.
 from datetime import datetime
 import subprocess
 import os
+import shutil
 from qt_ifw_path import QT_IFW_PATH
 
 def copy_dev_src():
     """Copy dev_src folder to prod_src folder"""
 
-    cmd = 'svn cp dev_src/packages prod_src/packages'
-    subprocess.check_output(cmd)
+    shutil.copytree('dev_src/packages', 'prod_src/packages')
     print('prod_src copied')
 
 def copy_dev():
@@ -26,14 +26,10 @@ def copy_dev():
         if not os.path.isdir(fullitem):
             continue
 
-        cmd = 'svn cp dev/' + item + ' prod/' + item
-        subprocess.check_output(cmd)
+        shutil.copytree('dev/' + item, 'prod/' + item)
 
-    cmd = 'svn rm prod/Updates.xml'
-    subprocess.check_output(cmd)
-
-    cmd = 'svn cp dev/Updates.xml prod/Updates.xml'
-    subprocess.check_output(cmd)
+    os.remove('prod/Updates.xml')
+    shutil.copy('dev/Updates.xml', 'prod/Updates.xml')
 
     print('prod copied')
 
