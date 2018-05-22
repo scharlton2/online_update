@@ -163,7 +163,7 @@
  <PackageUpdate>
   <Name>solver.elimo</Name>
   <DisplayName>ELIMO</DisplayName>
-  <Description>iRIC-ELIMO has been developed with a motto of "simple and easy tsunami computation" for people with minimum knowledge to operate Window softwares, which is capable of reliable estimations of tsunami generation, propagation and evolution on coasts on easy-performable GUI environment provided by iRIC.   &#xd;
+  <Description>iRIC-ELIMO has been developed with a motto of "simple and easy tsunami computation" for people with minimum knowledge to operate Window softwares, which is capable of reliable estimations of tsunami generation, propagation and evolution on coasts on easy-performable GUI environment provided by iRIC.   &#xd;&#xd;
 </Description>
   <Version>2.0.0</Version>
   <Default>true</Default>
@@ -292,19 +292,6 @@
   <SHA1>b4471705706a27026b1b1baf5920f53a8cdf42ea</SHA1>
  </PackageUpdate>
  <PackageUpdate>
-  <Name>solver.cap</Name>
-  <DisplayName>CAP</DisplayName>
-  <Description>Culvart Analysis Program</Description>
-  <Version>2.0.3</Version>
-  <Default>true</Default>
-  <ReleaseDate>2017-06-09</ReleaseDate>
-  <SortingPriority>50</SortingPriority>
-  <Script>installscript.qs</Script>
-  <UpdateFile OS="Any" CompressedSize="627759" UncompressedSize="1392787"/>
-  <DownloadableArchives>content.7z</DownloadableArchives>
-  <SHA1>d4cbf752ecd3f3456b74047cc8cb774167d4d4b6</SHA1>
- </PackageUpdate>
- <PackageUpdate>
   <Name>solver.sac</Name>
   <DisplayName>SAC</DisplayName>
   <Description>Slope Area Computation Program</Description>
@@ -331,35 +318,6 @@
   <SHA1>e7d8880a149103e864704ec75daa1d153e1cf54c</SHA1>
  </PackageUpdate>
  <PackageUpdate>
-  <Name>gui.rivmaker</Name>
-  <DisplayName>Rivmaker</DisplayName>
-  <Description>Riv file maker. You can create *.riv files from survey data.</Description>
-  <Version>1.0.4</Version>
-  <Default>true</Default>
-  <ReleaseDate>2018-03-08</ReleaseDate>
-  <SortingPriority>50</SortingPriority>
-  <Script>installscript.qs</Script>
-  <UpdateFile OS="Any" CompressedSize="8056684" UncompressedSize="26610366"/>
-  <DownloadableArchives>accessible.7z,bearer.7z,iconengines.7z,imageformats.7z,languages.7z,platforms.7z,samples.7z,testdata.7z,content.7z</DownloadableArchives>
-  <SHA1>aaaaefb76762b0a364bf0bfa2b2e35800b95a7c2</SHA1>
- </PackageUpdate>
- <PackageUpdate>
-  <Name>gui.prepost</Name>
-  <DisplayName>iRIC GUI 3.0</DisplayName>
-  <Description>iRIC Main GUI</Description>
-  <Version>3.0.0.6210</Version>
-  <ReleaseDate>2018-03-08</ReleaseDate>
-  <SortingPriority>100</SortingPriority>
-  <ForcedInstallation>true</ForcedInstallation>
-  <Script>installscript.qs</Script>
-  <UpdateFile CompressedSize="67905601" OS="Any" UncompressedSize="263852779"/>
-  <DownloadableArchives>accessible.7z,bearer.7z,iconengines.7z,imageformats.7z,languages.7z,licenses.7z,platforms.7z,pythonmodule.7z,content.7z</DownloadableArchives>
-  <Licenses>
-   <License name="Terms of use of the iRIC software" file="license-english.txt"/>
-  </Licenses>
-  <SHA1>265ddb4fbbf85ffeb91ff4834a692ccb2c331489</SHA1>
- </PackageUpdate>
- <PackageUpdate>
   <Name>solver.fastmech</Name>
   <DisplayName>FaSTMECH</DisplayName>
   <Description>FaSTMECH</Description>
@@ -384,5 +342,47 @@
   <UpdateFile OS="Any" CompressedSize="194377" UncompressedSize="616481"/>
   <DownloadableArchives>content.7z</DownloadableArchives>
   <SHA1>7433a69161ea617bf9b27c2882754b5cd4265ec5</SHA1>
+ </PackageUpdate>
+ <PackageUpdate>
+  <Name>gui.rivmaker</Name>
+  <DisplayName>Rivmaker</DisplayName>
+  <Description>Riv file maker. You can create *.riv files from survey data.</Description>
+  <Version>1.0.5</Version>
+  <Default>true</Default>
+  <ReleaseDate>2018-05-22</ReleaseDate>
+  <SortingPriority>50</SortingPriority>
+  <Script>installscript.qs</Script>
+  <UpdateFile OS="Any" CompressedSize="8053713" UncompressedSize="26604222"/>
+  <DownloadableArchives>accessible.7z,bearer.7z,iconengines.7z,imageformats.7z,languages.7z,platforms.7z,samples.7z,testdata.7z,content.7z</DownloadableArchives>
+  <SHA1>52a0185b736d54719b832dce25d87a81628ff066</SHA1>
+ </PackageUpdate>
+ <PackageUpdate>
+  <Name>solver.cap</Name>
+  <DisplayName>CAP</DisplayName>
+  <Description>Culvart Analysis Program</Description>
+  <Version>2.0.4</Version>
+  <Default>true</Default>
+  <ReleaseDate>2018-05-22</ReleaseDate>
+  <SortingPriority>50</SortingPriority>
+  <Script>installscript.qs</Script>
+  <UpdateFile OS="Any" CompressedSize="628453" UncompressedSize="1392751"/>
+  <DownloadableArchives>content.7z</DownloadableArchives>
+  <SHA1>d3ecd5bc1aa35cc37b30fed2e36d5946de8121ec</SHA1>
+ </PackageUpdate>
+ <PackageUpdate>
+  <Name>gui.prepost</Name>
+  <DisplayName>iRIC GUI 3.0</DisplayName>
+  <Description>iRIC Main GUI</Description>
+  <Version>3.0.0.6211</Version>
+  <ReleaseDate>2018-05-22</ReleaseDate>
+  <SortingPriority>100</SortingPriority>
+  <ForcedInstallation>true</ForcedInstallation>
+  <Script>installscript.qs</Script>
+  <UpdateFile OS="Any" CompressedSize="67904575" UncompressedSize="263904406"/>
+  <DownloadableArchives>accessible.7z,bearer.7z,iconengines.7z,imageformats.7z,languages.7z,licenses.7z,platforms.7z,pythonmodule.7z,content.7z</DownloadableArchives>
+  <Licenses>
+   <License file="license-english.txt" name="Terms of use of the iRIC software"/>
+  </Licenses>
+  <SHA1>9b2ec372e18b3399582281dbc5324962ebb0662b</SHA1>
  </PackageUpdate>
 </Updates>

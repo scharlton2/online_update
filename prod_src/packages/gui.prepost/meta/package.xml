@@ -2,8 +2,8 @@
 <Package>
 	<DisplayName>iRIC GUI 3.0</DisplayName>
 	<Description>iRIC Main GUI</Description>
-	<Version>3.0.0.6210</Version>
-	<ReleaseDate>2018-03-08</ReleaseDate>
+	<Version>3.0.0.6211</Version>
+	<ReleaseDate>2018-05-22</ReleaseDate>
 	<SortingPriority>100</SortingPriority>
 	<ForcedInstallation>true</ForcedInstallation>
 	<Script>installscript.qs</Script>
