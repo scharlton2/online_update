@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <SolverDefinition 
     xmlns="www.iric.net/SolverDefinition/1.0"
-    name="EvaTRiP" caption="EvaTRiP" version="2.0.0" copyright="PWRI, M.Sekine, N.Tanaka and J.Yagisawa, JAPAN"
-    release="2017.8.8"
+    name="EvaTRiP" caption="EvaTRiP" version="2.1.0" copyright="PWRI, M.Sekine, N.Tanaka and J.Yagisawa, JAPAN"
+    release="2018.6.5"
     homepage="http://www.pwri.go.jp/team/kyousei/jpn/index.htm"
     executable="EvaTRiP.exe"
     iterationtype="time"

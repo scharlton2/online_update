@@ -19,7 +19,7 @@ def updated_package_list():
     out = subprocess.check_output(cmd, shell=True)
     outstr = out.decode("utf-8")
     lines = outstr.split("\n")
-    p = re.compile(r"M packages/(.+?)/.+")
+    p = re.compile(r"(A |M|D) packages/(.+?)/.+")
 
     ret = set()
 
@@ -27,7 +27,7 @@ def updated_package_list():
         ex = p.search(line)
         if ex is None: continue
 
-        pname = ex.group(1)
+        pname = ex.group(2)
         ret.add(pname)
 
     return list(ret)
