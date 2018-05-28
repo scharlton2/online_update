@@ -3,5 +3,5 @@ function Component()
 
 Component.prototype.createOperationsForArchive = function(archive)
 {
-	component.addOperation("Extract", archive, "@TargetDir@/solvers/morpho2d");
+	component.addOperation("Extract", archive, "@TargetDir@/solvers/morpho2dh");
 }
