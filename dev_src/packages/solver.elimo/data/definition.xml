@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <SolverDefinition 
 	xmlns="www.iric.net/SolverDefinition/1.0"
-	name="elimo" caption="Elimo" version="2.0" copyright="Yasunori Watanabe"
-	release="2015.3.29" homepage="http://i-ric.org"
+	name="elimo" caption="Elimo" version="2.0.1" copyright="Yasunori Watanabe"
+	release="2018.5.28" homepage="http://i-ric.org"
 	executable="elimo.exe"
 	iterationtype="time"
 	 gridtype="structured2d"

@@ -161,20 +161,6 @@
   <SHA1>ef7d47cc40503db20a514a8ee7a555eee0316a7f</SHA1>
  </PackageUpdate>
  <PackageUpdate>
-  <Name>solver.elimo</Name>
-  <DisplayName>ELIMO</DisplayName>
-  <Description>iRIC-ELIMO has been developed with a motto of "simple and easy tsunami computation" for people with minimum knowledge to operate Window softwares, which is capable of reliable estimations of tsunami generation, propagation and evolution on coasts on easy-performable GUI environment provided by iRIC.   &#xd;&#xd;&#xd;
-</Description>
-  <Version>2.0.0</Version>
-  <Default>true</Default>
-  <ReleaseDate>2015-03-29</ReleaseDate>
-  <SortingPriority>50</SortingPriority>
-  <Script>installscript.qs</Script>
-  <UpdateFile UncompressedSize="2516320" OS="Any" CompressedSize="527523"/>
-  <DownloadableArchives>content.7z</DownloadableArchives>
-  <SHA1>f4068f56e02a908a2664c9a85553b20dcc307e2d</SHA1>
- </PackageUpdate>
- <PackageUpdate>
   <Name>gridcreator.multi_grid_generator</Name>
   <DisplayName>Multifunction Grid Genarator</DisplayName>
   <Description>Multifunction Grid Genarator</Description>
@@ -199,58 +185,6 @@
   <UpdateFile UncompressedSize="61997" OS="Any" CompressedSize="14267"/>
   <DownloadableArchives>content.7z</DownloadableArchives>
   <SHA1>ea8721d1146b9270b886d413517bda37fb5ee11f</SHA1>
- </PackageUpdate>
- <PackageUpdate>
-  <Name>solver.ceri1d</Name>
-  <DisplayName>CERI1D</DisplayName>
-  <Description>CERI1D is an analytical solver developed by Yasuhiro YOSHIKAWA (Kitami Institute of Technology) and CERI for calculation of one-dimensional unsteady flow in rivers.</Description>
-  <Version>1.1.5</Version>
-  <Default>true</Default>
-  <ReleaseDate>2014-11-18</ReleaseDate>
-  <SortingPriority>50</SortingPriority>
-  <Script>installscript.qs</Script>
-  <UpdateFile UncompressedSize="294274" OS="Any" CompressedSize="89464"/>
-  <DownloadableArchives>content.7z</DownloadableArchives>
-  <SHA1>8bc3bbe311911797056120b1226a1073b586052c</SHA1>
- </PackageUpdate>
- <PackageUpdate>
-  <Name>solver.nays1dp</Name>
-  <DisplayName>Nays1Dp</DisplayName>
-  <Description>"Nays1D" is an analytical solver for calculation of steady and unsteady 1D-dimensional open channel flows and riverbed deformations.</Description>
-  <Version>1.0.5</Version>
-  <Default>true</Default>
-  <ReleaseDate>2016-01-20</ReleaseDate>
-  <SortingPriority>50</SortingPriority>
-  <Script>installscript.qs</Script>
-  <UpdateFile UncompressedSize="331644" OS="Any" CompressedSize="110142"/>
-  <DownloadableArchives>content.7z</DownloadableArchives>
-  <SHA1>f788ed9dcc9a6a0d72c154cde664a8344f04689f</SHA1>
- </PackageUpdate>
- <PackageUpdate>
-  <Name>solver.nayscube</Name>
-  <DisplayName>NaysCUBE</DisplayName>
-  <Description>"NaysCUBE" is an analytical solver for calculation of unsteady three-dimensional open channel flows, riverbed deformations and driftwood behavior using boundary-fitted coordinates within generalized curvilinear coordinates.</Description>
-  <Version>3.30.5</Version>
-  <Default>true</Default>
-  <ReleaseDate>2017-06-21</ReleaseDate>
-  <SortingPriority>50</SortingPriority>
-  <Script>installscript.qs</Script>
-  <UpdateFile UncompressedSize="8381398" OS="Any" CompressedSize="1027375"/>
-  <DownloadableArchives>content.7z</DownloadableArchives>
-  <SHA1>1bb123f65eac3562cb42c9244df9cae19d122651</SHA1>
- </PackageUpdate>
- <PackageUpdate>
-  <Name>solver.nayseddy</Name>
-  <DisplayName>NaysEddy</DisplayName>
-  <Description>"NaysEddy" is a three-dimensional solver for calculation of unsteady flows using Cartesian coordinates.</Description>
-  <Version>1.0.0</Version>
-  <Default>true</Default>
-  <ReleaseDate>2014-04-23</ReleaseDate>
-  <SortingPriority>50</SortingPriority>
-  <Script>installscript.qs</Script>
-  <UpdateFile UncompressedSize="507898" OS="Any" CompressedSize="167220"/>
-  <DownloadableArchives>content.7z</DownloadableArchives>
-  <SHA1>64df0bc4a3852980e5c1c38dc506497a9bf3d176</SHA1>
  </PackageUpdate>
  <PackageUpdate>
   <Name>solver.sac</Name>
@@ -394,8 +328,35 @@
   <UpdateFile UncompressedSize="263905942" OS="Any" CompressedSize="67914615"/>
   <DownloadableArchives>accessible.7z,bearer.7z,iconengines.7z,imageformats.7z,languages.7z,licenses.7z,platforms.7z,pythonmodule.7z,content.7z</DownloadableArchives>
   <Licenses>
-   <License name="Terms of use of the iRIC software" file="license-english.txt"/>
+   <License file="license-english.txt" name="Terms of use of the iRIC software"/>
   </Licenses>
   <SHA1>b7d1387d582dc274b13d5b96daa1ed3633f10f3b</SHA1>
+ </PackageUpdate>
+ <PackageUpdate>
+  <Name>solver.elimo</Name>
+  <DisplayName>ELIMO</DisplayName>
+  <Description>iRIC-ELIMO has been developed with a motto of "simple and easy tsunami computation" for people with minimum knowledge to operate Window softwares, which is capable of reliable estimations of tsunami generation, propagation and evolution on coasts on easy-performable GUI environment provided by iRIC.   &#xd;
+</Description>
+  <Version>2.0.1</Version>
+  <Default>true</Default>
+  <ReleaseDate>2018-05-28</ReleaseDate>
+  <SortingPriority>50</SortingPriority>
+  <Script>installscript.qs</Script>
+  <UpdateFile UncompressedSize="2543458" OS="Any" CompressedSize="533152"/>
+  <DownloadableArchives>content.7z</DownloadableArchives>
+  <SHA1>9e00eccec79759721d910b03d8069b330bb5884c</SHA1>
+ </PackageUpdate>
+ <PackageUpdate>
+  <Name>solver.nayscube</Name>
+  <DisplayName>NaysCUBE</DisplayName>
+  <Description>"NaysCUBE" is an analytical solver for calculation of unsteady three-dimensional open channel flows, riverbed deformations and driftwood behavior using boundary-fitted coordinates within generalized curvilinear coordinates.</Description>
+  <Version>3.42.9</Version>
+  <Default>true</Default>
+  <ReleaseDate>2018-05-24</ReleaseDate>
+  <SortingPriority>50</SortingPriority>
+  <Script>installscript.qs</Script>
+  <UpdateFile UncompressedSize="4287393" OS="Any" CompressedSize="1048818"/>
+  <DownloadableArchives>content.7z</DownloadableArchives>
+  <SHA1>3dd0bd2f5ed6d631e734e40ad9fb268a09594062</SHA1>
  </PackageUpdate>
 </Updates>
