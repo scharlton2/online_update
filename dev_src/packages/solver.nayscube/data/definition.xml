@@ -908,7 +908,7 @@ gridtype="structured2d"
   			</Definition>
 			</Item>
 			<Item name="rho_dn" caption="Density of DriftWood[kg/m3]">
-		  	<Definition conditionType="constant" valueType="real" option="false" default="0.9">
+		  	<Definition conditionType="constant" valueType="real" option="false" default="900">
 		    	<Dependency>
                     <Condition type="and">
                         <Condition type="isGreaterEqual" target="i_DRIFT" value="2"/>

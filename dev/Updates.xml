@@ -10,7 +10,7 @@
   <Default>true</Default>
   <ReleaseDate>2017-04-18</ReleaseDate>
   <SortingPriority>20</SortingPriority>
-  <UpdateFile CompressedSize="0" OS="Any" UncompressedSize="0"/>
+  <UpdateFile CompressedSize="0" UncompressedSize="0" OS="Any"/>
   <SHA1>673be26c1b7019ef052c4618a32559d936f69aac</SHA1>
  </PackageUpdate>
  <PackageUpdate>
@@ -21,7 +21,7 @@
   <Default>true</Default>
   <ReleaseDate>2017-04-18</ReleaseDate>
   <SortingPriority>29</SortingPriority>
-  <UpdateFile CompressedSize="0" OS="Any" UncompressedSize="0"/>
+  <UpdateFile CompressedSize="0" UncompressedSize="0" OS="Any"/>
   <SHA1>365b1f219aef86f2be139e85a0b903ac5746e96f</SHA1>
  </PackageUpdate>
  <PackageUpdate>
@@ -33,7 +33,7 @@
   <ReleaseDate>2015-07-01</ReleaseDate>
   <SortingPriority>30</SortingPriority>
   <Script>installscript.qs</Script>
-  <UpdateFile CompressedSize="9288" OS="Any" UncompressedSize="22604"/>
+  <UpdateFile CompressedSize="9288" UncompressedSize="22604" OS="Any"/>
   <DownloadableArchives>content.7z</DownloadableArchives>
   <SHA1>2d77c9cd9e29bbf0a9bf6336cbf896a4fdb7baec</SHA1>
  </PackageUpdate>
@@ -46,7 +46,7 @@
   <ReleaseDate>2015-07-01</ReleaseDate>
   <SortingPriority>30</SortingPriority>
   <Script>installscript.qs</Script>
-  <UpdateFile CompressedSize="9150" OS="Any" UncompressedSize="22115"/>
+  <UpdateFile CompressedSize="9150" UncompressedSize="22115" OS="Any"/>
   <DownloadableArchives>content.7z</DownloadableArchives>
   <SHA1>08f7d08f66af5a58637a626a00a54dbde55f2bc2</SHA1>
  </PackageUpdate>
@@ -59,7 +59,7 @@
   <ReleaseDate>2015-07-01</ReleaseDate>
   <SortingPriority>30</SortingPriority>
   <Script>installscript.qs</Script>
-  <UpdateFile CompressedSize="8661" OS="Any" UncompressedSize="21020"/>
+  <UpdateFile CompressedSize="8661" UncompressedSize="21020" OS="Any"/>
   <DownloadableArchives>content.7z</DownloadableArchives>
   <SHA1>744b0c1b46870860ae8ac305fdd8cb518405aa1b</SHA1>
  </PackageUpdate>
@@ -72,7 +72,7 @@
   <ReleaseDate>2015-07-01</ReleaseDate>
   <SortingPriority>30</SortingPriority>
   <Script>installscript.qs</Script>
-  <UpdateFile CompressedSize="8690" OS="Any" UncompressedSize="21026"/>
+  <UpdateFile CompressedSize="8690" UncompressedSize="21026" OS="Any"/>
   <DownloadableArchives>content.7z</DownloadableArchives>
   <SHA1>685db7257cdb31a3842a1f9c24defef238b3f391</SHA1>
  </PackageUpdate>
@@ -84,7 +84,7 @@
   <Default>true</Default>
   <ReleaseDate>2017-04-18</ReleaseDate>
   <SortingPriority>30</SortingPriority>
-  <UpdateFile CompressedSize="0" OS="Any" UncompressedSize="0"/>
+  <UpdateFile CompressedSize="0" UncompressedSize="0" OS="Any"/>
   <SHA1>e49bcacd553f8b81b20bcbbb04833938911d8f3b</SHA1>
  </PackageUpdate>
  <PackageUpdate>
@@ -96,7 +96,7 @@
   <ReleaseDate>2015-07-01</ReleaseDate>
   <SortingPriority>100</SortingPriority>
   <Script>installscript.qs</Script>
-  <UpdateFile CompressedSize="12544" OS="Any" UncompressedSize="32570"/>
+  <UpdateFile CompressedSize="12544" UncompressedSize="32570" OS="Any"/>
   <DownloadableArchives>content.7z</DownloadableArchives>
   <SHA1>ea6922a13685f2744fd3b5fa72cfff740a394ac0</SHA1>
  </PackageUpdate>
@@ -109,7 +109,7 @@
   <ReleaseDate>2015-07-01</ReleaseDate>
   <SortingPriority>100</SortingPriority>
   <Script>installscript.qs</Script>
-  <UpdateFile CompressedSize="10035" OS="Any" UncompressedSize="24386"/>
+  <UpdateFile CompressedSize="10035" UncompressedSize="24386" OS="Any"/>
   <DownloadableArchives>content.7z</DownloadableArchives>
   <SHA1>73b887bb5cc35daa191d4ca56eebeedbbebe458e</SHA1>
  </PackageUpdate>
@@ -122,7 +122,7 @@
   <ReleaseDate>2015-07-01</ReleaseDate>
   <SortingPriority>100</SortingPriority>
   <Script>installscript.qs</Script>
-  <UpdateFile CompressedSize="9643" OS="Any" UncompressedSize="24932"/>
+  <UpdateFile CompressedSize="9643" UncompressedSize="24932" OS="Any"/>
   <DownloadableArchives>content.7z</DownloadableArchives>
   <SHA1>438572939ff223976faa83e559129624f6d50daf</SHA1>
  </PackageUpdate>
@@ -133,7 +133,7 @@
   <Version>1.0.0</Version>
   <ReleaseDate>2017-04-18</ReleaseDate>
   <SortingPriority>100</SortingPriority>
-  <UpdateFile CompressedSize="0" OS="Any" UncompressedSize="0"/>
+  <UpdateFile CompressedSize="0" UncompressedSize="0" OS="Any"/>
   <SHA1>80cae654be6c9f4c0c00151a5e229f3ac2f64dc7</SHA1>
  </PackageUpdate>
  <PackageUpdate>
@@ -145,7 +145,7 @@
   <SortingPriority>5</SortingPriority>
   <ForcedInstallation>true</ForcedInstallation>
   <Script>installscript.qs</Script>
-  <UpdateFile CompressedSize="6987845" OS="Any" UncompressedSize="7195872"/>
+  <UpdateFile CompressedSize="6987845" UncompressedSize="7195872" OS="Any"/>
   <DownloadableArchives>content.7z</DownloadableArchives>
   <SHA1>fbc4c5285e970e048c14ad4843aad19e329af9a2</SHA1>
  </PackageUpdate>
@@ -157,7 +157,7 @@
   <Default>true</Default>
   <ReleaseDate>2017-04-18</ReleaseDate>
   <SortingPriority>20</SortingPriority>
-  <UpdateFile CompressedSize="0" OS="Any" UncompressedSize="0"/>
+  <UpdateFile CompressedSize="0" UncompressedSize="0" OS="Any"/>
   <SHA1>ef7d47cc40503db20a514a8ee7a555eee0316a7f</SHA1>
  </PackageUpdate>
  <PackageUpdate>
@@ -169,7 +169,7 @@
   <ReleaseDate>2017-06-06</ReleaseDate>
   <SortingPriority>50</SortingPriority>
   <Script>installscript.qs</Script>
-  <UpdateFile CompressedSize="38828" OS="Any" UncompressedSize="121159"/>
+  <UpdateFile CompressedSize="38828" UncompressedSize="121159" OS="Any"/>
   <DownloadableArchives>content.7z</DownloadableArchives>
   <SHA1>4d770cb16c742655f53935f9c0772be31fa0df5e</SHA1>
  </PackageUpdate>
@@ -182,7 +182,7 @@
   <ReleaseDate>2017-06-06</ReleaseDate>
   <SortingPriority>50</SortingPriority>
   <Script>installscript.qs</Script>
-  <UpdateFile CompressedSize="14267" OS="Any" UncompressedSize="61997"/>
+  <UpdateFile CompressedSize="14267" UncompressedSize="61997" OS="Any"/>
   <DownloadableArchives>content.7z</DownloadableArchives>
   <SHA1>ea8721d1146b9270b886d413517bda37fb5ee11f</SHA1>
  </PackageUpdate>
@@ -195,7 +195,7 @@
   <ReleaseDate>2016-06-06</ReleaseDate>
   <SortingPriority>50</SortingPriority>
   <Script>installscript.qs</Script>
-  <UpdateFile CompressedSize="51600" OS="Any" UncompressedSize="131672"/>
+  <UpdateFile CompressedSize="51600" UncompressedSize="131672" OS="Any"/>
   <DownloadableArchives>content.7z</DownloadableArchives>
   <SHA1>c82813b43abb66d5115d1c0794965bab2fe63efb</SHA1>
  </PackageUpdate>
@@ -208,7 +208,7 @@
   <ReleaseDate>2018-03-15</ReleaseDate>
   <SortingPriority>50</SortingPriority>
   <Script>installscript.qs</Script>
-  <UpdateFile CompressedSize="3587512" OS="Any" UncompressedSize="17945132"/>
+  <UpdateFile CompressedSize="3587512" UncompressedSize="17945132" OS="Any"/>
   <DownloadableArchives>content.7z</DownloadableArchives>
   <SHA1>8c38e6ac0ffd37d48a825760f8e2dd2962b9650a</SHA1>
  </PackageUpdate>
@@ -221,7 +221,7 @@
   <ReleaseDate>2018-04-20</ReleaseDate>
   <SortingPriority>50</SortingPriority>
   <Script>installscript.qs</Script>
-  <UpdateFile CompressedSize="194377" OS="Any" UncompressedSize="616481"/>
+  <UpdateFile CompressedSize="194377" UncompressedSize="616481" OS="Any"/>
   <DownloadableArchives>content.7z</DownloadableArchives>
   <SHA1>7433a69161ea617bf9b27c2882754b5cd4265ec5</SHA1>
  </PackageUpdate>
@@ -234,7 +234,7 @@
   <ReleaseDate>2018-05-22</ReleaseDate>
   <SortingPriority>50</SortingPriority>
   <Script>installscript.qs</Script>
-  <UpdateFile CompressedSize="8053713" OS="Any" UncompressedSize="26604222"/>
+  <UpdateFile CompressedSize="8053713" UncompressedSize="26604222" OS="Any"/>
   <DownloadableArchives>accessible.7z,bearer.7z,iconengines.7z,imageformats.7z,languages.7z,platforms.7z,samples.7z,testdata.7z,content.7z</DownloadableArchives>
   <SHA1>52a0185b736d54719b832dce25d87a81628ff066</SHA1>
  </PackageUpdate>
@@ -247,7 +247,7 @@
   <ReleaseDate>2018-05-22</ReleaseDate>
   <SortingPriority>50</SortingPriority>
   <Script>installscript.qs</Script>
-  <UpdateFile CompressedSize="628453" OS="Any" UncompressedSize="1392751"/>
+  <UpdateFile CompressedSize="628453" UncompressedSize="1392751" OS="Any"/>
   <DownloadableArchives>content.7z</DownloadableArchives>
   <SHA1>d3ecd5bc1aa35cc37b30fed2e36d5946de8121ec</SHA1>
  </PackageUpdate>
@@ -260,7 +260,7 @@
   <ReleaseDate>2018-06-05</ReleaseDate>
   <SortingPriority>50</SortingPriority>
   <Script>installscript.qs</Script>
-  <UpdateFile CompressedSize="3489344" OS="Any" UncompressedSize="17227021"/>
+  <UpdateFile CompressedSize="3489344" UncompressedSize="17227021" OS="Any"/>
   <DownloadableArchives>content.7z</DownloadableArchives>
   <SHA1>5aeec41c626a9f64ea5f77356899ccfd94750c65</SHA1>
  </PackageUpdate>
@@ -273,7 +273,7 @@
   <ReleaseDate>2018-05-21</ReleaseDate>
   <SortingPriority>50</SortingPriority>
   <Script>installscript.qs</Script>
-  <UpdateFile CompressedSize="2392933" OS="Any" UncompressedSize="11346847"/>
+  <UpdateFile CompressedSize="2392933" UncompressedSize="11346847" OS="Any"/>
   <DownloadableArchives>content.7z</DownloadableArchives>
   <SHA1>d3e76a670ac0fbdc87979094484b90b9cb750bdb</SHA1>
  </PackageUpdate>
@@ -286,7 +286,7 @@
   <ReleaseDate>2018-06-05</ReleaseDate>
   <SortingPriority>50</SortingPriority>
   <Script>installscript.qs</Script>
-  <UpdateFile CompressedSize="4503040" OS="Any" UncompressedSize="20820961"/>
+  <UpdateFile CompressedSize="4503040" UncompressedSize="20820961" OS="Any"/>
   <DownloadableArchives>content.7z</DownloadableArchives>
   <SHA1>014e95c2e3dbf71cabbca2058fbffe85ea18be8c</SHA1>
  </PackageUpdate>
@@ -300,22 +300,9 @@
   <ReleaseDate>2018-05-28</ReleaseDate>
   <SortingPriority>50</SortingPriority>
   <Script>installscript.qs</Script>
-  <UpdateFile CompressedSize="533152" OS="Any" UncompressedSize="2543458"/>
+  <UpdateFile CompressedSize="533152" UncompressedSize="2543458" OS="Any"/>
   <DownloadableArchives>content.7z</DownloadableArchives>
   <SHA1>9e00eccec79759721d910b03d8069b330bb5884c</SHA1>
- </PackageUpdate>
- <PackageUpdate>
-  <Name>solver.nayscube</Name>
-  <DisplayName>NaysCUBE</DisplayName>
-  <Description>"NaysCUBE" is an analytical solver for calculation of unsteady three-dimensional open channel flows, riverbed deformations and driftwood behavior using boundary-fitted coordinates within generalized curvilinear coordinates.</Description>
-  <Version>3.42.9</Version>
-  <Default>true</Default>
-  <ReleaseDate>2018-05-24</ReleaseDate>
-  <SortingPriority>50</SortingPriority>
-  <Script>installscript.qs</Script>
-  <UpdateFile CompressedSize="1048818" OS="Any" UncompressedSize="4287393"/>
-  <DownloadableArchives>content.7z</DownloadableArchives>
-  <SHA1>9ec3e86c4ba8300f80355a1bdfda6457bf71c518</SHA1>
  </PackageUpdate>
  <PackageUpdate>
   <Name>solver.morpho2dh</Name>
@@ -326,7 +313,7 @@
   <ReleaseDate>2014-11-01</ReleaseDate>
   <SortingPriority>50</SortingPriority>
   <Script>installscript.qs</Script>
-  <UpdateFile CompressedSize="304736" OS="Any" UncompressedSize="852462"/>
+  <UpdateFile CompressedSize="304736" UncompressedSize="852462" OS="Any"/>
   <DownloadableArchives>content.7z</DownloadableArchives>
   <SHA1>3c9591cc87144116aef4cf478ba86b92a65e6e36</SHA1>
  </PackageUpdate>
@@ -339,7 +326,7 @@
   <ReleaseDate>2016-02-10</ReleaseDate>
   <SortingPriority>50</SortingPriority>
   <Script>installscript.qs</Script>
-  <UpdateFile CompressedSize="36310" OS="Any" UncompressedSize="112785"/>
+  <UpdateFile CompressedSize="36310" UncompressedSize="112785" OS="Any"/>
   <DownloadableArchives>content.7z</DownloadableArchives>
   <SHA1>1903bd9d5f6081e2e6d99e14d84a71a1e48f1228</SHA1>
  </PackageUpdate>
@@ -352,11 +339,24 @@
   <SortingPriority>100</SortingPriority>
   <ForcedInstallation>true</ForcedInstallation>
   <Script>installscript.qs</Script>
-  <UpdateFile CompressedSize="67910703" OS="Any" UncompressedSize="263911062"/>
+  <UpdateFile CompressedSize="67910703" UncompressedSize="263911062" OS="Any"/>
   <DownloadableArchives>accessible.7z,bearer.7z,iconengines.7z,imageformats.7z,languages.7z,licenses.7z,platforms.7z,pythonmodule.7z,content.7z</DownloadableArchives>
   <Licenses>
    <License name="Terms of use of the iRIC software" file="license-english.txt"/>
   </Licenses>
   <SHA1>56597979e96097e88532473af8f649f764e00c7f</SHA1>
+ </PackageUpdate>
+ <PackageUpdate>
+  <Name>solver.nayscube</Name>
+  <DisplayName>NaysCUBE</DisplayName>
+  <Description>"NaysCUBE" is an analytical solver for calculation of unsteady three-dimensional open channel flows, riverbed deformations and driftwood behavior using boundary-fitted coordinates within generalized curvilinear coordinates.</Description>
+  <Version>3.42.9</Version>
+  <Default>true</Default>
+  <ReleaseDate>2018-05-24</ReleaseDate>
+  <SortingPriority>50</SortingPriority>
+  <Script>installscript.qs</Script>
+  <UpdateFile CompressedSize="1049513" UncompressedSize="4288929" OS="Any"/>
+  <DownloadableArchives>content.7z</DownloadableArchives>
+  <SHA1>1df5422511834877f08a88d085159df70dffa4bc</SHA1>
  </PackageUpdate>
 </Updates>
