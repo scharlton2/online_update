@@ -17,6 +17,22 @@
             <translation>ファイル名</translation>
         </message>
         <message>
+            <source>Time</source>
+            <translation>時刻</translation>
+        </message>
+        <message>
+            <source>Average Time Start[s]</source>
+            <translation>平均処理開始時刻[s]</translation>
+        </message>
+        <message>
+            <source>Average Time End[s]</source>
+            <translation>平均処理終了時刻[s]</translation>
+        </message>
+        <message>
+            <source>Used for Plants Growth Evaluation and Fish Habitat Evaluation</source>
+            <translation>陸生植物生育可否の評価と魚類生息場の評価に使用</translation>
+        </message>
+        <message>
             <source>Bank Protection Evaluation</source>
             <translation>護岸要否の評価</translation>
         </message>
@@ -85,16 +101,36 @@
             <translation>水深しきい値 [m]</translation>
         </message>
         <message>
-            <source>DLimit 1</source>
-            <translation>しきい値1以下の水深</translation>
+            <source>DLimit 1 (DL1)</source>
+            <translation>水深しきい値1 (DL1)</translation>
         </message>
         <message>
-            <source>DLimit 2</source>
-            <translation>しきい値1としきい値3の間の水深</translation>
+            <source>DLimit 2 (DL2)</source>
+            <translation>水深しきい値2 (DL2)</translation>
         </message>
         <message>
-            <source>DLimit 3</source>
-            <translation>しきい値3以上の水深</translation>
+            <source>DLimit 3 (DL3)</source>
+            <translation>水深しきい値3 (DL3)</translation>
+        </message>
+        <message>
+            <source>Manning's Roughness</source>
+            <translation>マニングの粗度係数</translation>
+        </message>
+        <message>
+            <source>For depth less than DL1 (N1)</source>
+            <translation>水深がDL1より浅い領域 (N1)</translation>
+        </message>
+        <message>
+            <source>For depth between DL1 and DL2 (N2)</source>
+            <translation>水深がDL1とDL2の間の領域 (N2)</translation>
+        </message>
+        <message>
+            <source>For depth between DL2 and DL3 (N3)</source>
+            <translation>水深がDL2とDL3の間の領域 (N3)</translation>
+        </message>
+        <message>
+            <source>For depth larger than DL3 (N4)</source>
+            <translation>水深がDL3より深い領域 (N4)</translation>
         </message>
         <message>
             <source>Estimated Depth</source>
@@ -159,6 +195,14 @@
         <message>
             <source>Cover Index</source>
             <translation>河道係数</translation>
+        </message>
+        <message>
+            <source>Average Time Start[s]</source>
+            <translation>平均処理開始時刻[s]</translation>
+        </message>
+        <message>
+            <source>Average Time End[s]</source>
+            <translation>平均処理終了時刻[s]</translation>
         </message>
     </context>
 </TS>
