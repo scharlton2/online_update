@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <SolverDefinition 
     xmlns="www.iric.net/SolverDefinition/1.0"
-    name="EvaTRiP" caption="EvaTRiP" version="2.0.0" copyright="PWRI, M.Sekine, N.Tanaka and J.Yagisawa, JAPAN"
-    release="2017.8.8"
+    name="EvaTRiP" caption="EvaTRiP" version="2.1.0" copyright="PWRI, M.Sekine, N.Tanaka and J.Yagisawa, JAPAN"
+    release="2018.6.5"
     homepage="http://www.pwri.go.jp/team/kyousei/jpn/index.htm"
     executable="EvaTRiP.exe"
     iterationtype="time"
@@ -13,6 +13,23 @@
 			<Item name="inputfile" caption="File Name">
 				<Definition conditionType="constant" valueType="filename" default="Select CGNS file name" />
 			</Item>
+			<GroupBox caption="Time">
+				<VBoxLayout>
+					<GridLayout>
+						<Label caption="Average Time Start[s]" row="1" col="1" />
+						<Item name="ave_time_start" row="1" col="2">
+							<Definition conditionType="constant" valueType="real" default="-1">
+							</Definition>
+						</Item>
+						<Label caption="Average Time End[s]" row="2" col="1" />
+						<Item name="ave_time_end" row="2" col="2">
+							<Definition conditionType="constant" valueType="real" default="-1">
+							</Definition>
+						</Item>
+					</GridLayout>
+					<Label caption="Used for Plants Growth Evaluation and Fish Habitat Evaluation" />
+				</VBoxLayout>
+			</GroupBox>
 		</Tab>
 
 		<!-- 護岸要否判定 -->
@@ -40,13 +57,10 @@
 					<Definition conditionType="constant" valueType="string" default="ProtectLevel2">
 					</Definition>
 				</Item>
-			</GroupBox>                  
-
-<Label caption="Please select Static for most of cases." /> 
-
+			</GroupBox>
 		</Tab>
-
-<!-- 河床安定判定 -->
+    
+		<!-- 河床安定判定 -->
 		<Tab name="bed_stability" caption="Bed Stability Evaluation">
 			<GroupBox caption="Density of Water">
 				<Item name="rhotype" caption="Input Type">
@@ -73,26 +87,43 @@
 				</Item>
 			</GroupBox>
 		</Tab>
-
-    <!-- 
-	 植物生育条件判定 
-    -->  
-    <Tab name="plants_growth_analysis" caption="Plants Growth Evaluation">
-      <Content layout="custom">
+		<!-- 植物生育条件判定 -->
+		<Tab name="plants_growth_analysis" caption="Plants Growth Evaluation">
+			<Content layout="custom">
 				<GroupBox caption="Depth Limits [m]">
-					<Item name="limitDepth1" caption="DLimit 1">
+					<Item name="limitDepth1" caption="DLimit 1 (DL1)">
 						<Definition conditionType="constant" valueType="real" default="0.2" >
 						</Definition>
 					</Item>
-					<Item name="limitDepth2" caption="DLimit 2">
+					<Item name="limitDepth2" caption="DLimit 2 (DL2)">
 						<Definition conditionType="constant" valueType="real" default="0.3">
 						</Definition>
 					</Item>
-					<Item name="limitDepth3" caption="DLimit 3">
+					<Item name="limitDepth3" caption="DLimit 3 (DL3)">
 						<Definition conditionType="constant" valueType="real" default="0.4">
 						</Definition>
 					</Item>
 				</GroupBox>
+				<!--
+				<GroupBox caption="Manning's Roughness">
+					<Item name="roughness1" caption="For depth less than DL1 (N1)">
+						<Definition conditionType="constant" valueType="real" default="0.3" >
+						</Definition>
+					</Item>
+					<Item name="roughness2" caption="For depth between DL1 and DL2 (N2)">
+						<Definition conditionType="constant" valueType="real" default="0.1" >
+						</Definition>
+					</Item>
+					<Item name="roughness3" caption="For depth between DL2 and DL3 (N3)">
+						<Definition conditionType="constant" valueType="real" default="0.08" >
+						</Definition>
+					</Item>
+					<Item name="roughness4" caption="For depth larger than DL3 (N4)">
+						<Definition conditionType="constant" valueType="real" default="0.02" >
+						</Definition>
+					</Item>
+				</GroupBox>
+				-->
 
 				<GroupBox caption="Estimated Depth">
 					<HBoxLayout>
@@ -106,23 +137,20 @@
 						</Item>
 					</HBoxLayout>
 				</GroupBox>
-      </Content>
-    </Tab>
-
-
-
+			</Content>
+		</Tab>
 
 		<!-- 魚類生息場評価 -->
 		<Tab name="fishhabitat" caption="Fish Habitat Evaluation (SimpleHabitat)">
 			<Item name="HSItype" caption="Analysis target">
 				<Definition conditionType="constant" valueType="integer" option="true" default="0">
 					<Enumerations>
-						<Enumeration value="0" caption="One species"/>
+						<Enumeration value="0" caption="One specie"/>
 						<Enumeration value="1" caption="Multiple species"/>
 					</Enumerations>
 				</Definition>
 			</Item>
-			<GroupBox caption="One species">
+			<GroupBox caption="One specie">
 				<Item name="HSIv" caption="HSI for Velocity[m/s]">
 					<Definition valueType="functional">
 						<Parameter valueType="real" caption="Velocity[m/s]"/>
@@ -176,19 +204,18 @@
 			</GroupBox>
 		</Tab>
 	</CalculationCondition>
-  <GridRelatedCondition>
-   <Item name="Elevation" caption="Elevation">
-      <Definition position="node" valueType="real" default="max" />
-     </Item>
-    <Item name="CoverIndex" caption="Cover Index">
-      <Definition position="node" valueType="real" default="0" />
-    </Item>
-    <Item name="d50" caption="d50">
-      <Definition position="node" valueType="real" default="0" />
-    </Item>
-    <Item name="d90" caption="d90">
-      <Definition position="node" valueType="real" default="0" />
-    </Item>
-  </GridRelatedCondition>    
-  
+	<GridRelatedCondition>
+		<Item name="Elevation" caption="Elevation">
+			<Definition position="node" valueType="real" default="max" />
+		</Item>
+		<Item name="CoverIndex" caption="Cover Index">
+			<Definition position="node" valueType="real" default="0" />
+		</Item>
+		<Item name="d50" caption="d50">
+			<Definition position="node" valueType="real" default="0" />
+		</Item>
+		<Item name="d90" caption="d90">
+			<Definition position="node" valueType="real" default="0" />
+		</Item>
+	</GridRelatedCondition>
 </SolverDefinition>

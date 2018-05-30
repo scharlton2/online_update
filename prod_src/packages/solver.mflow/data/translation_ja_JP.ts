@@ -541,6 +541,10 @@
         <translation>     浮遊砂の基準点濃度</translation>
     </message>
     <message>
+        <source>Lane-Kalinske development formula</source>
+        <translation>Lane-Kalinske 発展式</translation>
+    </message>
+    <message>
         <source>Lane-Kalinske formula</source>
         <translation>Lane-Kalinske 式</translation>
     </message>
@@ -717,16 +721,12 @@
         <translation>渦動粘性係数</translation>
     </message>
     <message>
-        <source>Eddy viscosity coefficient
-(Zero equation model paramter A)</source>
-        <translation>渦動粘性係数
-（０方程式モデル係数Ａ）</translation>
+        <source>Eddy viscosity coefficient(paramter A)</source>
+        <translation>渦動粘性係数（係数Ａ）</translation>
     </message>
     <message>
-        <source>Eddy viscosity coefficient
-(Specific value)</source>
-        <translation>渦動粘性係数
-（直接入力）</translation>
+        <source>Eddy viscosity coefficient(Specific value)</source>
+        <translation>渦動粘性係数（直接入力）</translation>
     </message>
     <message>
         <source>Fixed or movable bed</source>
@@ -989,12 +989,20 @@
         <translation>斜面崩落</translation>
     </message>
     <message>
+        <source>Slope failure and riparian erosion</source>
+        <translation>斜面崩落と河岸浸食</translation>
+    </message>
+    <message>
         <source>     Slope failure</source>
         <translation>     斜面崩落</translation>
     </message>
     <message>
         <source>Angle of repose (deg)</source>
         <translation>安息角（度）</translation>
+    </message>
+    <message>
+        <source>Angle of repose for slope failure (deg)</source>
+        <translation>斜面崩壊の安息角（度）</translation>
     </message>
     <message>
         <source>Dike break</source>
@@ -1223,14 +1231,68 @@
         <translation>浮遊砂の拡散係数</translation>
     </message>
     <message>
-        <source>Diffusion coefficient of suspended load
-(Specific value)</source>
-        <translation>浮遊砂の拡散係数
-（直接入力）</translation>
+        <source>Diffusion coefficient of suspended load(Specific value)</source>
+        <translation>浮遊砂の拡散係数（直接入力）</translation>
     </message>
     <message>
         <source>Morphological factor</source>
         <translation>河床変動加速係数</translation>
+    </message>
+    <message>
+        <source>     Grain size distribution ob substrate</source>
+        <translation>     貯蓄層の粒径分布</translation>
+    </message>
+    <message>
+        <source>     Grain size distribution ob transrate and substrate layer</source>
+        <translation>     遷移層と貯蓄層の粒径分布</translation>
+    </message>
+    <message>
+        <source>Same as exchange layer</source>
+        <translation>交換層と同一</translation>
+    </message>
+    <message>
+        <source>Different from exchange layer</source>
+        <translation>交換層とは異なる</translation>
+    </message>
+    <message>
+        <source>Pattern of grain size distribution (exchange layer)</source>
+        <translation>粒径分布パターン（交換層）</translation>
+    </message>
+    <message>
+        <source>Grain size distribution (exchange layer)</source>
+        <translation>粒径分布（交換層）</translation>
+    </message>
+    <message>
+        <source>Pattern of grain size distribution (substrate layer)</source>
+        <translation>粒径分布パターン（貯蓄層）</translation>
+    </message>
+    <message>
+        <source>Grain size distribution (substrate layer)</source>
+        <translation>粒径分布（貯蓄層）</translation>
+    </message>
+    <message>
+        <source>Pattern of grain size distribution (transrate layer)</source>
+        <translation>粒径分布パターン（遷移層）</translation>
+    </message>
+    <message>
+        <source>Grain size distribution (transrate layer)</source>
+        <translation>粒径分布（遷移層）</translation>
+    </message>
+    <message>
+        <source>Riparian erosion</source>
+        <translation>河岸浸食</translation>
+    </message>
+    <message>
+        <source>     Riparian erosion</source>
+        <translation>     河岸浸食</translation>
+    </message>
+    <message>
+        <source>Angle of repose for riparian erosion (deg)</source>
+        <translation>河岸浸食の安息角（度）</translation>
+    </message>
+    <message>
+        <source>     Shelter effect</source>
+        <translation>     遮蔽効果</translation>
     </message>
 </context>
 </TS>

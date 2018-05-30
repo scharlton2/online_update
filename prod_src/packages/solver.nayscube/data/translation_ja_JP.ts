@@ -1102,5 +1102,224 @@
         <source>Coefficient for critical shear stress</source>
         <translation>限界掃流力の係数</translation>
     </message>
+    <message>
+        <source>Variable DT with CFL condition</source>
+        <translation>CFL条件による可変Δt</translation>
+    </message>
+    <message>
+        <source>Coefficient for CFL condition</source>
+        <translation>CFL条件の係数</translation>
+    </message>
+    <message>
+        <source>Inlet Discharge and Outlet WaterLevel</source>
+        <translation>上流端流量と下流端水位</translation>
+    </message>
+    <message>
+        <source>Hydrograph Data Type</source>
+        <translation>ハイドログラフの型</translation>
+    </message>
+    <message>
+        <source>Constant discharge</source>
+        <translation>一定流量</translation>
+    </message>
+    <message>
+        <source>Set as a table</source>
+        <translation>流量の時間変化を表で与える</translation>
+    </message>
+    <message>
+        <source>Constant Discharge[m3/s]</source>
+        <translation>一定流量の値[m3/s]</translation>
+    </message>
+    <message>
+        <source>Outlet water level for fixed Q</source>
+        <translation>一定流量に対する下流端水位</translation>
+    </message>
+    <message>
+        <source>set from uniform flow</source>
+        <translation>等流条件で与える</translation>
+    </message>
+    <message>
+        <source>given as a constant</source>
+        <translation>定数で与える</translation>
+    </message>
+    <message>
+        <source>Outlet water level for variable Q</source>
+        <translation>可変流量の場合の下流端水位</translation>
+    </message>
+    <message>
+        <source>read from hydrograph</source>
+        <translation>ハイドログラフの表から読込</translation>
+    </message>
+    <message>
+        <source>Constant outlet water level[m]</source>
+        <translation>下流端水位一定の場合の値[m]</translation>
+    </message>
+    <message>
+        <source>Unit of time for Q</source>
+        <translation>ハイドログラフの時間単位</translation>
+    </message>
+    <message>
+        <source>second</source>
+        <translation>秒</translation>
+    </message>
+    <message>
+        <source>hour</source>
+        <translation>時間</translation>
+    </message>
+    <message>
+        <source>day</source>
+        <translation>日</translation>
+    </message>
+    <message>
+        <source>year</source>
+        <translation>年</translation>
+    </message>
+    <message>
+        <source>Time series of Q at inlet</source>
+        <translation>上流端流量の時間変化</translation>
+    </message>
+    <message>
+        <source>Time series of Q at inlet and WL at outlet</source>
+        <translation>上流端流量と下流端水位の時間変化</translation>
+    </message>
+    <message>
+        <source>Depth and Wet-Dry Conditions</source>
+        <translation>水深と水際移動条件</translation>
+    </message>
+    <message>
+        <source>Wet and Dry Cells</source>
+        <translation>水際条件</translation>
+    </message>
+    <message>
+        <source>Fixed wet and dry cells</source>
+        <translation>水際を固定</translation>
+    </message>
+    <message>
+        <source>Changeble wet and dry cells</source>
+        <translation>水際移動を考慮する</translation>
+    </message>
+    <message>
+        <source>Relaxation coefficient</source>
+        <translation>緩和係数</translation>
+    </message>
+    <message>
+        <source>Upstream and downstream B.C. for bed and surface</source>
+        <translation>河床と水面の上下流端条件</translation>
+    </message>
+    <message>
+        <source>Paralell to the averaged bed slope</source>
+        <translation>平均河床勾配に平行とする</translation>
+    </message>
+    <message>
+        <source>Extrapolation</source>
+        <translation>外挿で与える</translation>
+    </message>
+    <message>
+        <source>Given by parabolic curve fit</source>
+        <translation>二次放物線内挿で与える</translation>
+    </message>
+    <message>
+        <source>Given by Nonuniform flow model</source>
+        <translation>不等流計算で与える</translation>
+    </message>
+    <message>
+        <source>Cal. surf. inclded in press iteration?</source>
+        <translation>水面変動を圧力計算ループに含める?</translation>
+    </message>
+    <message>
+        <source>Number of adjuscent wet cells for re-wet dry cell</source>
+        <translation>水際進行に考慮する隣接セル数</translation>
+    </message>
+    <message>
+        <source>Inflow velocity profile</source>
+        <translation>上流端流速分布</translation>
+    </message>
+    <message>
+        <source>Take over profile at previous time step</source>
+        <translation>前時間ステップの分布を与える</translation>
+    </message>
+    <message>
+        <source>Log law</source>
+        <translation>対数則で与える</translation>
+    </message>
+    <message>
+        <source>Maximum number of pressure iteration</source>
+        <translation>圧力収束計算の最大反復数</translation>
+    </message>
+    <message>
+        <source>One-way or Two-way</source>
+        <translation>流木が流れに及ぼす抗力を考慮?</translation>
+    </message>
+    <message>
+        <source>One-Way model</source>
+        <translation>無視する(1-Way)</translation>
+    </message>
+    <message>
+        <source>Two-Way model</source>
+        <translation>考慮する(2-Way)</translation>
+    </message>
+    <message>
+        <source>Output driftwood as dot-type?</source>
+        <translation>ドット形式流木ファイル出力</translation>
+    </message>
+    <message>
+        <source>Drag coefficient for driftwood</source>
+        <translation>流木の抗力係数</translation>
+    </message>
+    <message>
+        <source>How to set particle number?</source>
+        <translation>流木構成球体数の決定方法</translation>
+    </message>
+    <message>
+        <source>set arbitral number</source>
+        <translation>ユーザが個数を指定</translation>
+    </message>
+    <message>
+        <source>set as length/diamter</source>
+        <translation>流木長/流木径で指定</translation>
+    </message>
+
+    <message>
+        <source>Stop driftwood supply during computation?</source>
+        <translation>計算途中で流木供給を打切る?</translation>
+    </message>
+    <message>
+        <source>Stop time of driftwood supply[sec]</source>
+        <translation>流木供給打切り時刻[sec]</translation>
+    </message>
+    <message>
+        <source>Display output interval</source>
+        <translation>画面出力ステップ間隔</translation>
+    </message>
+    <message>
+        <source>Fixed DT</source>
+        <translation>固定Δt</translation>
+    </message>
+    <message>
+        <source>Variable DT</source>
+        <translation>可変Δt</translation>
+    </message>
+
+    <message>
+        <source>Obstacle height [m]</source>
+        <translation>障害物高さ[m]</translation>
+    </message>
+    <message>
+        <source>Underpass top height [m]</source>
+        <translation>アンダーパス天井高さ[m]</translation>
+    </message>
+    <message>
+        <source>Underpass top height [m]</source>
+        <translation>アンダーパス天井高さ[m]</translation>
+    </message>
+    <message>
+        <source>Underpass bottom height [m]</source>
+        <translation>アンダーパス底面高さ[m]</translation>
+    </message>
+    <message>
+        <source>UnderPass Cell</source>
+        <translation>アンダーパスセル</translation>
+    </message>
+
 </context>
 </TS>
