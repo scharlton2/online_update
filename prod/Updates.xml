@@ -280,7 +280,7 @@
  <PackageUpdate>
   <Name>solver.elimo</Name>
   <DisplayName>ELIMO</DisplayName>
-  <Description>iRIC-ELIMO has been developed with a motto of "simple and easy tsunami computation" for people with minimum knowledge to operate Window softwares, which is capable of reliable estimations of tsunami generation, propagation and evolution on coasts on easy-performable GUI environment provided by iRIC.   &#xd;
+  <Description>iRIC-ELIMO has been developed with a motto of "simple and easy tsunami computation" for people with minimum knowledge to operate Window softwares, which is capable of reliable estimations of tsunami generation, propagation and evolution on coasts on easy-performable GUI environment provided by iRIC.   &#xd;&#xd;&#xd;
 </Description>
   <Version>2.0.1</Version>
   <Default>true</Default>
@@ -334,29 +334,29 @@
   <Name>solver.evatrip</Name>
   <DisplayName>EvaTRiP</DisplayName>
   <Description>EvaTRiP (Evaluation Tools for River environmental Planning) are developed by Aqua Restoration Research Center in PWRI(National Research and Development Agency Public Works Research Institute),Masahiko Sekine Dr.Eng. Professor of Yamaguchi University, Norio Tanaka Dr.Eng. Professor of Saitama University and Junji Yagisawa Dr.Eng Associate Professor of Saitama University.</Description>
-  <Version>2.1.0</Version>
+  <Version>3.0.0</Version>
   <Default>true</Default>
   <ReleaseDate>2018-06-05</ReleaseDate>
   <SortingPriority>50</SortingPriority>
   <Script>installscript.qs</Script>
-  <UpdateFile UncompressedSize="204524" OS="Any" CompressedSize="64002"/>
+  <UpdateFile UncompressedSize="204390" OS="Any" CompressedSize="64044"/>
   <DownloadableArchives>content.7z</DownloadableArchives>
-  <SHA1>0f2b391cc04504b8a18510b45482c2acd4ccc732</SHA1>
+  <SHA1>f2245f49b873b1226203258c1f37a7620c514ce3</SHA1>
  </PackageUpdate>
  <PackageUpdate>
   <Name>gui.prepost</Name>
   <DisplayName>iRIC GUI 3.0</DisplayName>
   <Description>iRIC Main GUI</Description>
-  <Version>3.0.0.6219</Version>
+  <Version>3.0.0.6221</Version>
   <ReleaseDate>2018-06-05</ReleaseDate>
   <SortingPriority>100</SortingPriority>
   <ForcedInstallation>true</ForcedInstallation>
   <Script>installscript.qs</Script>
-  <UpdateFile UncompressedSize="263910294" OS="Any" CompressedSize="67917331"/>
+  <UpdateFile UncompressedSize="263910294" OS="Any" CompressedSize="67901230"/>
   <DownloadableArchives>accessible.7z,bearer.7z,iconengines.7z,imageformats.7z,languages.7z,licenses.7z,platforms.7z,pythonmodule.7z,content.7z</DownloadableArchives>
   <Licenses>
-   <License name="Terms of use of the iRIC software" file="license-english.txt"/>
+   <License file="license-english.txt" name="Terms of use of the iRIC software"/>
   </Licenses>
-  <SHA1>4e093ae8fd1c06833a6bdd1eb356c16e0a20f624</SHA1>
+  <SHA1>230d3f672a6c0ab3d8213ba26b4d62079bb1382b</SHA1>
  </PackageUpdate>
 </Updates>
