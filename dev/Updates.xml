@@ -280,7 +280,7 @@
  <PackageUpdate>
   <Name>solver.elimo</Name>
   <DisplayName>ELIMO</DisplayName>
-  <Description>iRIC-ELIMO has been developed with a motto of "simple and easy tsunami computation" for people with minimum knowledge to operate Window softwares, which is capable of reliable estimations of tsunami generation, propagation and evolution on coasts on easy-performable GUI environment provided by iRIC.   &#xd;&#xd;
+  <Description>iRIC-ELIMO has been developed with a motto of "simple and easy tsunami computation" for people with minimum knowledge to operate Window softwares, which is capable of reliable estimations of tsunami generation, propagation and evolution on coasts on easy-performable GUI environment provided by iRIC.   &#xd;&#xd;&#xd;
 </Description>
   <Version>2.0.1</Version>
   <Default>true</Default>
@@ -347,16 +347,16 @@
   <Name>gui.prepost</Name>
   <DisplayName>iRIC GUI 3.0</DisplayName>
   <Description>iRIC Main GUI</Description>
-  <Version>3.0.0.6221</Version>
-  <ReleaseDate>2018-06-05</ReleaseDate>
+  <Version>3.0.0.6222</Version>
+  <ReleaseDate>2018-06-13</ReleaseDate>
   <SortingPriority>100</SortingPriority>
   <ForcedInstallation>true</ForcedInstallation>
   <Script>installscript.qs</Script>
-  <UpdateFile UncompressedSize="263910294" CompressedSize="67900444" OS="Any"/>
+  <UpdateFile UncompressedSize="263912072" CompressedSize="67917106" OS="Any"/>
   <DownloadableArchives>accessible.7z,bearer.7z,iconengines.7z,imageformats.7z,languages.7z,licenses.7z,platforms.7z,pythonmodule.7z,content.7z</DownloadableArchives>
   <Licenses>
    <License name="Terms of use of the iRIC software" file="license-english.txt"/>
   </Licenses>
-  <SHA1>f9c2161b5f015327c76a9b64b4ad62e0db41438d</SHA1>
+  <SHA1>65b90a183d23a04cc3cd326d6822246148c416af</SHA1>
  </PackageUpdate>
 </Updates>
