@@ -9,10 +9,8 @@
 	<TargetDir>@HomeDir@/iRIC_dev</TargetDir>
 	<RemoteRepositories>
 		<Repository>
-			<Url>https://i-ric.org/svn/iric/dev</Url>
-			<Username>installer</Username>
-			<Password>iR1Cv3Installer</Password>
-			<DisplayName>iRIC Repository for production</DisplayName>
+			<Url>https://raw.githubusercontent.com/i-RIC/online_update/master/dev</Url>
+			<DisplayName>iRIC Repository for development</DisplayName>
 		</Repository>
 	</RemoteRepositories>
 </Installer>

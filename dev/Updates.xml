@@ -347,16 +347,16 @@
   <Name>gui.prepost</Name>
   <DisplayName>iRIC GUI 3.0</DisplayName>
   <Description>iRIC Main GUI</Description>
-  <Version>3.0.1.6222</Version>
-  <ReleaseDate>2018-06-13</ReleaseDate>
+  <Version>3.0.1.6224</Version>
+  <ReleaseDate>2018-06-20</ReleaseDate>
   <SortingPriority>100</SortingPriority>
   <ForcedInstallation>true</ForcedInstallation>
   <Script>installscript.qs</Script>
-  <UpdateFile OS="Any" CompressedSize="67917107" UncompressedSize="263912072"/>
+  <UpdateFile CompressedSize="67937218" OS="Any" UncompressedSize="264081608"/>
   <DownloadableArchives>accessible.7z,bearer.7z,iconengines.7z,imageformats.7z,languages.7z,licenses.7z,platforms.7z,pythonmodule.7z,content.7z</DownloadableArchives>
   <Licenses>
    <License file="license-english.txt" name="Terms of use of the iRIC software"/>
   </Licenses>
-  <SHA1>c536fe95e8317c0d401cda6085ac1242a753dbea</SHA1>
+  <SHA1>c57f864e0e3962af46190461f3eb6fe86d8d6e4b</SHA1>
  </PackageUpdate>
 </Updates>
