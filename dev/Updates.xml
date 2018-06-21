@@ -254,7 +254,7 @@
  <PackageUpdate>
   <Name>solver.elimo</Name>
   <DisplayName>ELIMO</DisplayName>
-  <Description>iRIC-ELIMO has been developed with a motto of "simple and easy tsunami computation" for people with minimum knowledge to operate Window softwares, which is capable of reliable estimations of tsunami generation, propagation and evolution on coasts on easy-performable GUI environment provided by iRIC.   &#xd;&#xd;&#xd;&#xd;
+  <Description>iRIC-ELIMO has been developed with a motto of "simple and easy tsunami computation" for people with minimum knowledge to operate Window softwares, which is capable of reliable estimations of tsunami generation, propagation and evolution on coasts on easy-performable GUI environment provided by iRIC.   &#xd;&#xd;&#xd;&#xd;&#xd;
 </Description>
   <Version>2.0.1</Version>
   <Default>true</Default>
@@ -329,7 +329,7 @@
   <UpdateFile OS="Any" UncompressedSize="264081608" CompressedSize="67937218"/>
   <DownloadableArchives>accessible.7z,bearer.7z,iconengines.7z,imageformats.7z,languages.7z,licenses.7z,platforms.7z,pythonmodule.7z,content.7z</DownloadableArchives>
   <Licenses>
-   <License file="license-english.txt" name="Terms of use of the iRIC software"/>
+   <License name="Terms of use of the iRIC software" file="license-english.txt"/>
   </Licenses>
   <SHA1>9bb5691c7a9ca81f62b79a4d42d355bd951ef408</SHA1>
  </PackageUpdate>
@@ -355,8 +355,34 @@
   <ReleaseDate>2018-06-04</ReleaseDate>
   <SortingPriority>50</SortingPriority>
   <Script>installscript.qs</Script>
-  <UpdateFile OS="Any" UncompressedSize="17941587" CompressedSize="3581530"/>
+  <UpdateFile OS="Any" UncompressedSize="17941587" CompressedSize="3581521"/>
   <DownloadableArchives>content.7z</DownloadableArchives>
-  <SHA1>b9dd405c031c0abfa9a463995f01ce1acff3cdcc</SHA1>
+  <SHA1>523ee40a631b03776ec8fae15e9f3a72198cb7c0</SHA1>
+ </PackageUpdate>
+ <PackageUpdate>
+  <Name>solver.river2d</Name>
+  <DisplayName>River2D</DisplayName>
+  <Description/>
+  <Version>1.0.0</Version>
+  <Default>true</Default>
+  <ReleaseDate>2011-02-15</ReleaseDate>
+  <SortingPriority>50</SortingPriority>
+  <Script>installscript.qs</Script>
+  <UpdateFile OS="Any" UncompressedSize="900944" CompressedSize="238476"/>
+  <DownloadableArchives>content.7z</DownloadableArchives>
+  <SHA1>4d57d07da6ebbef2f15fae253f53ff757d50c834</SHA1>
+ </PackageUpdate>
+ <PackageUpdate>
+  <Name>solver.storm</Name>
+  <DisplayName>SToRM</DisplayName>
+  <Description/>
+  <Version>0.4.0</Version>
+  <Default>true</Default>
+  <ReleaseDate>2018-06-21</ReleaseDate>
+  <SortingPriority>50</SortingPriority>
+  <Script>installscript.qs</Script>
+  <UpdateFile OS="Any" UncompressedSize="605865" CompressedSize="209086"/>
+  <DownloadableArchives>content.7z</DownloadableArchives>
+  <SHA1>488eed948c5cd0acd29b09f771fea58d1c9f1e7b</SHA1>
  </PackageUpdate>
 </Updates>
