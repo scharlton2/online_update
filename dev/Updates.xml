@@ -137,19 +137,6 @@
   <SHA1>80cae654be6c9f4c0c00151a5e229f3ac2f64dc7</SHA1>
  </PackageUpdate>
  <PackageUpdate>
-  <Name>runtime</Name>
-  <DisplayName>Runtime libraries</DisplayName>
-  <Description>Visual C++ runtime libraries needed to run iRIC system</Description>
-  <Version>1.0.0</Version>
-  <ReleaseDate>2017-04-18</ReleaseDate>
-  <SortingPriority>5</SortingPriority>
-  <ForcedInstallation>true</ForcedInstallation>
-  <Script>installscript.qs</Script>
-  <UpdateFile OS="Any" CompressedSize="6987845" UncompressedSize="7195872"/>
-  <DownloadableArchives>content.7z</DownloadableArchives>
-  <SHA1>fbc4c5285e970e048c14ad4843aad19e329af9a2</SHA1>
- </PackageUpdate>
- <PackageUpdate>
   <Name>solver</Name>
   <DisplayName>Solvers</DisplayName>
   <Description>Solvers that run on iRIC GUI</Description>
@@ -352,11 +339,24 @@
   <SortingPriority>100</SortingPriority>
   <ForcedInstallation>true</ForcedInstallation>
   <Script>installscript.qs</Script>
-  <UpdateFile CompressedSize="67937218" OS="Any" UncompressedSize="264081608"/>
+  <UpdateFile OS="Any" CompressedSize="67937218" UncompressedSize="264081608"/>
   <DownloadableArchives>accessible.7z,bearer.7z,iconengines.7z,imageformats.7z,languages.7z,licenses.7z,platforms.7z,pythonmodule.7z,content.7z</DownloadableArchives>
   <Licenses>
    <License file="license-english.txt" name="Terms of use of the iRIC software"/>
   </Licenses>
   <SHA1>c57f864e0e3962af46190461f3eb6fe86d8d6e4b</SHA1>
+ </PackageUpdate>
+ <PackageUpdate>
+  <Name>runtime</Name>
+  <DisplayName>Runtime libraries</DisplayName>
+  <Description>Visual C++ runtime libraries needed to run iRIC system</Description>
+  <Version>1.1.0</Version>
+  <ReleaseDate>2018-06-21</ReleaseDate>
+  <SortingPriority>5</SortingPriority>
+  <ForcedInstallation>true</ForcedInstallation>
+  <Script>installscript.qs</Script>
+  <UpdateFile OS="Any" CompressedSize="20421909" UncompressedSize="22498856"/>
+  <DownloadableArchives>content.7z</DownloadableArchives>
+  <SHA1>9c94b0712b454c50ef1cd25fdeeb93126cf87fff</SHA1>
  </PackageUpdate>
 </Updates>
