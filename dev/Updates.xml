@@ -254,8 +254,7 @@
  <PackageUpdate>
   <Name>solver.elimo</Name>
   <DisplayName>ELIMO</DisplayName>
-  <Description>iRIC-ELIMO has been developed with a motto of "simple and easy tsunami computation" for people with minimum knowledge to operate Window softwares, which is capable of reliable estimations of tsunami generation, propagation and evolution on coasts on easy-performable GUI environment provided by iRIC.   &#xd;&#xd;&#xd;&#xd;&#xd;
-</Description>
+  <Description>iRIC-ELIMO has been developed with a motto of "simple and easy tsunami computation" for people with minimum knowledge to operate Window softwares, which is capable of reliable estimations of tsunami generation, propagation and evolution on coasts on easy-performable GUI environment provided by iRIC.</Description>
   <Version>2.0.1</Version>
   <Default>true</Default>
   <ReleaseDate>2018-05-28</ReleaseDate>
@@ -318,22 +317,6 @@
   <SHA1>f2245f49b873b1226203258c1f37a7620c514ce3</SHA1>
  </PackageUpdate>
  <PackageUpdate>
-  <Name>gui.prepost</Name>
-  <DisplayName>iRIC GUI 3.0</DisplayName>
-  <Description>iRIC Main GUI</Description>
-  <Version>3.0.1.6224</Version>
-  <ReleaseDate>2018-06-20</ReleaseDate>
-  <SortingPriority>100</SortingPriority>
-  <ForcedInstallation>true</ForcedInstallation>
-  <Script>installscript.qs</Script>
-  <UpdateFile OS="Any" UncompressedSize="264081608" CompressedSize="67937218"/>
-  <DownloadableArchives>accessible.7z,bearer.7z,iconengines.7z,imageformats.7z,languages.7z,licenses.7z,platforms.7z,pythonmodule.7z,content.7z</DownloadableArchives>
-  <Licenses>
-   <License name="Terms of use of the iRIC software" file="license-english.txt"/>
-  </Licenses>
-  <SHA1>9bb5691c7a9ca81f62b79a4d42d355bd951ef408</SHA1>
- </PackageUpdate>
- <PackageUpdate>
   <Name>runtime</Name>
   <DisplayName>Runtime libraries</DisplayName>
   <Description>Visual C++ runtime libraries needed to run iRIC system</Description>
@@ -384,5 +367,21 @@
   <UpdateFile OS="Any" UncompressedSize="605865" CompressedSize="209086"/>
   <DownloadableArchives>content.7z</DownloadableArchives>
   <SHA1>488eed948c5cd0acd29b09f771fea58d1c9f1e7b</SHA1>
+ </PackageUpdate>
+ <PackageUpdate>
+  <Name>gui.prepost</Name>
+  <DisplayName>iRIC GUI 3.0</DisplayName>
+  <Description>iRIC Main GUI</Description>
+  <Version>3.0.2.6225</Version>
+  <ReleaseDate>2018-06-29</ReleaseDate>
+  <SortingPriority>100</SortingPriority>
+  <ForcedInstallation>true</ForcedInstallation>
+  <Script>installscript.qs</Script>
+  <UpdateFile OS="Any" UncompressedSize="264081608" CompressedSize="67952170"/>
+  <DownloadableArchives>accessible.7z,bearer.7z,iconengines.7z,imageformats.7z,languages.7z,licenses.7z,platforms.7z,pythonmodule.7z,content.7z</DownloadableArchives>
+  <Licenses>
+   <License name="Terms of use of the iRIC software" file="license-english.txt"/>
+  </Licenses>
+  <SHA1>eb09e8137b6021db588fed71d59307eaa4fc113b</SHA1>
  </PackageUpdate>
 </Updates>
