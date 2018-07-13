@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 
 <SolverDefinition
-name="NaysCUBE_v3" caption="CUBE3 v1.00.7" version="3.42.9" copyright="Ichiro Kimura"
-release="2018.5.24" homepage="http://i-ric.org/"
+name="NaysCUBE_v3" caption="CUBE3 v1.00.12" version="3.43.3" copyright="Ichiro Kimura"
+release="2018.6.28" homepage="http://i-ric.org/"
 executable="nayscube.exe"
 iterationtype="time"
 gridtype="structured2d"
@@ -884,6 +884,19 @@ gridtype="structured2d"
   			</Definition>
 			</Item>
 
+			<Item name="i_DRI_2d" caption="Calculate wood motion in 2D or 3D?">
+        <Definition conditionType="constant" valueType="integer" option="true" default="0" max="1">
+		    	<Dependency>
+            <Condition type="isGreaterEqual" target="i_DRIFT" value="1"/>
+            <Action type="enable"/>
+		    	</Dependency>
+					<Enumerations>
+			  		<Enumeration value="0" caption="3-D computation"/>
+			  		<Enumeration value="1" caption="2-D computation"/>
+					</Enumerations>
+  			</Definition>
+			</Item>
+
 			<Item name="dn_len" caption="Length of DriftWood[m]">
 		  	<Definition conditionType="constant" valueType="real" option="false" default="1.0">
 		    	<Dependency>
@@ -921,6 +934,10 @@ gridtype="structured2d"
 
       <Item name="i_nsp" caption="How to set particle number?">
 	  	  <Definition conditionType="constant" valueType="integer" option="true" default="0" max="1">
+		    	<Dependency>
+            <Condition type="isGreaterEqual" target="i_DRIFT" value="2"/>
+						<Action type="enable"/>
+		    	</Dependency>
           <Enumerations>
             <Enumeration value="0" caption="set arbitral number"/>
             <Enumeration value="1" caption="set as length/diamter"/>
@@ -942,9 +959,26 @@ gridtype="structured2d"
 
 	    <Item name="i_DRI_imp" caption="Impinging of driftwood">
 		  	<Definition conditionType="constant" valueType="integer" option="true" default="0" max="1">
+		    	<Dependency>
+            <Condition type="isGreaterEqual" target="i_DRIFT" value="1"/>
+						<Action type="enable"/>
+		    	</Dependency>
 					<Enumerations>
 			  		<Enumeration value="0" caption="No"/>
 			  		<Enumeration value="1" caption="Yes"/>
+					</Enumerations>
+  			</Definition>
+	    </Item>
+
+	    <Item name="i_DRI_set" caption="How to supply driftwood?">
+		  	<Definition conditionType="constant" valueType="integer" option="true" default="0" max="1">
+		    	<Dependency>
+            <Condition type="isGreaterEqual" target="i_DRIFT" value="1"/>
+						<Action type="enable"/>
+		    	</Dependency>
+					<Enumerations>
+			  		<Enumeration value="0" caption="Pack from the air"/>
+			  		<Enumeration value="1" caption="Set at the surface without overlapping"/>
 					</Enumerations>
   			</Definition>
 	    </Item>
@@ -1029,6 +1063,11 @@ gridtype="structured2d"
 
 	<Item name="i_drag_drft" caption="One-way or Two-way">
   	<Definition conditionType="constant" valueType="integer" option="true" default="0" max="1">
+		    	<Dependency>
+						<Condition type="isGreaterEqual" target="i_DRIFT" value="1"/>
+						<Action type="enable"/>
+		    	</Dependency>
+
  		<Enumerations>
 	  	<Enumeration value="0" caption="One-Way model"/>
 	  	<Enumeration value="1" caption="Two-Way model"/>

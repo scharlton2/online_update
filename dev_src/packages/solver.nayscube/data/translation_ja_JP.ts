@@ -1320,6 +1320,34 @@
         <source>UnderPass Cell</source>
         <translation>アンダーパスセル</translation>
     </message>
+    <message>
+        <source>Calculate wood motion in 2D or 3D?</source>
+        <translation>流木移動は二次元的／三次元的？</translation>
+    </message>
+    <message>
+        <source>2-D computation</source>
+        <translation>二次元的</translation>
+    </message>
+    <message>
+        <source>3-D computation</source>
+        <translation>三次元的</translation>
+    </message>
+    <message>
+        <source>How to supply driftwood?</source>
+        <translation>流木供給の方法</translation>
+    </message>
+    <message>
+        <source>Set at the surface without overlapping</source>
+        <translation>重なりが生じないよう水面に順に与える</translation>
+    </message>
+    <message>
+        <source>Set at the surface without overlapping</source>
+        <translation>重なりが生じないよう水面に順に与える</translation>
+    </message>
+    <message>
+        <source>Pack from the air</source>
+        <translation>空中から落としこむ</translation>
+    </message>
 
 </context>
 </TS>
