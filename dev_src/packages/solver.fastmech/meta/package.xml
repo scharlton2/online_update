@@ -2,9 +2,9 @@
 <Package>
 	<DisplayName>FaSTMECH</DisplayName>
 	<Description>FaSTMECH</Description>
-	<Version>1.1.0</Version>
+	<Version>1.1.1</Version>
 	<Default>true</Default>
-	<ReleaseDate>2018-06-04</ReleaseDate>
+	<ReleaseDate>2018-08-20</ReleaseDate>
 	<SortingPriority>50</SortingPriority>
 	<Script>installscript.qs</Script>
 </Package>
