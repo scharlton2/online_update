@@ -317,19 +317,6 @@
   <SHA1>1b5fa9f78d6fa5e50a84b258cddcb6507f9fb9ba</SHA1>
  </PackageUpdate>
  <PackageUpdate>
-  <Name>solver.fastmech</Name>
-  <DisplayName>FaSTMECH</DisplayName>
-  <Description>FaSTMECH</Description>
-  <Version>1.1.0</Version>
-  <Default>true</Default>
-  <ReleaseDate>2018-06-04</ReleaseDate>
-  <SortingPriority>50</SortingPriority>
-  <Script>installscript.qs</Script>
-  <UpdateFile CompressedSize="3581521" UncompressedSize="17941587" OS="Any"/>
-  <DownloadableArchives>content.7z</DownloadableArchives>
-  <SHA1>523ee40a631b03776ec8fae15e9f3a72198cb7c0</SHA1>
- </PackageUpdate>
- <PackageUpdate>
   <Name>solver.river2d</Name>
   <DisplayName>River2D</DisplayName>
   <Description/>
@@ -367,6 +354,19 @@
   <UpdateFile CompressedSize="1043814" UncompressedSize="4283281" OS="Any"/>
   <DownloadableArchives>content.7z</DownloadableArchives>
   <SHA1>277f0064c801960959193c085dbf3232192fe845</SHA1>
+ </PackageUpdate>
+ <PackageUpdate>
+  <Name>solver.fastmech</Name>
+  <DisplayName>FaSTMECH</DisplayName>
+  <Description>FaSTMECH</Description>
+  <Version>1.1.1</Version>
+  <Default>true</Default>
+  <ReleaseDate>2018-08-20</ReleaseDate>
+  <SortingPriority>50</SortingPriority>
+  <Script>installscript.qs</Script>
+  <UpdateFile UncompressedSize="17941563" OS="Any" CompressedSize="3581527"/>
+  <DownloadableArchives>content.7z</DownloadableArchives>
+  <SHA1>099752fcfb31f4f3977f2ef94963b974e9da98a8</SHA1>
  </PackageUpdate>
  <PackageUpdate>
   <Name>gui.prepost</Name>
