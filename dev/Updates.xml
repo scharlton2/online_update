@@ -369,22 +369,6 @@
   <SHA1>099752fcfb31f4f3977f2ef94963b974e9da98a8</SHA1>
  </PackageUpdate>
  <PackageUpdate>
-  <Name>gui.prepost</Name>
-  <DisplayName>iRIC GUI 3.0</DisplayName>
-  <Description>iRIC Main GUI</Description>
-  <Version>3.0.5.6233</Version>
-  <ReleaseDate>2018-09-14</ReleaseDate>
-  <SortingPriority>100</SortingPriority>
-  <ForcedInstallation>true</ForcedInstallation>
-  <Script>installscript.qs</Script>
-  <UpdateFile CompressedSize="68303180" OS="Any" UncompressedSize="265000402"/>
-  <DownloadableArchives>accessible.7z,bearer.7z,iconengines.7z,imageformats.7z,languages.7z,licenses.7z,platforms.7z,pythonmodule.7z,content.7z</DownloadableArchives>
-  <Licenses>
-   <License file="license-english.txt" name="Terms of use of the iRIC software"/>
-  </Licenses>
-  <SHA1>851cc46e7560933fdd57ecae1b850ac3198d29ef</SHA1>
- </PackageUpdate>
- <PackageUpdate>
   <Name>solver.ceri1d</Name>
   <DisplayName>CERI1D</DisplayName>
   <Description>CERI1D</Description>
@@ -396,5 +380,21 @@
   <UpdateFile CompressedSize="89604" OS="Any" UncompressedSize="315348"/>
   <DownloadableArchives>content.7z</DownloadableArchives>
   <SHA1>4937672c72292725a56099704ac4405438e0ffc4</SHA1>
+ </PackageUpdate>
+ <PackageUpdate>
+  <Name>gui.prepost</Name>
+  <DisplayName>iRIC GUI 3.0</DisplayName>
+  <Description>iRIC Main GUI</Description>
+  <Version>3.0.6.6234</Version>
+  <ReleaseDate>2018-10-03</ReleaseDate>
+  <SortingPriority>100</SortingPriority>
+  <ForcedInstallation>true</ForcedInstallation>
+  <Script>installscript.qs</Script>
+  <UpdateFile CompressedSize="68299073" OS="Any" UncompressedSize="264986577"/>
+  <DownloadableArchives>accessible.7z,bearer.7z,iconengines.7z,imageformats.7z,languages.7z,licenses.7z,platforms.7z,pythonmodule.7z,content.7z</DownloadableArchives>
+  <Licenses>
+   <License file="license-english.txt" name="Terms of use of the iRIC software"/>
+  </Licenses>
+  <SHA1>deb6b2134ea096e2e6225cde7f5043b25c115d6f</SHA1>
  </PackageUpdate>
 </Updates>
