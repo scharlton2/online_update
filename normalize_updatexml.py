@@ -10,3 +10,4 @@ def normalize_xml(filename):
 
 normalize_xml('dev/Updates.xml')
 normalize_xml('prod/Updates.xml')
+normalize_xml('yasu/Updates.xml')
