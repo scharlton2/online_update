@@ -390,11 +390,11 @@
   <SortingPriority>100</SortingPriority>
   <ForcedInstallation>true</ForcedInstallation>
   <Script>installscript.qs</Script>
-  <UpdateFile CompressedSize="68297789" OS="Any" UncompressedSize="264985042"/>
+  <UpdateFile CompressedSize="68380895" OS="Any" UncompressedSize="265555727"/>
   <DownloadableArchives>accessible.7z,bearer.7z,iconengines.7z,imageformats.7z,languages.7z,licenses.7z,platforms.7z,pythonmodule.7z,content.7z</DownloadableArchives>
   <Licenses>
    <License file="license-english.txt" name="Terms of use of the iRIC software"/>
   </Licenses>
-  <SHA1>abc2ebacd43c54b442005a4081682904ba51a831</SHA1>
+  <SHA1>674f64d72c1924bb3255d2c34fdfa1903e6c02db</SHA1>
  </PackageUpdate>
 </Updates>
