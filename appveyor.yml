@@ -6,7 +6,7 @@ before_build:
   - set HEAD=%APPVEYOR_REPO_COMMIT:~0,7%
 
 build_script:
-  - C:\Qt\Tools\QtInstallerFramework\2.0\bin\binarycreator --offline-only -c prod_src/config/config.xml -p packages iric_prod_%HEAD%
+  - C:\Qt\Tools\QtInstallerFramework\2.0\bin\binarycreator --offline-only -c prod_src/config/config.xml -p prod_src/packages iRIC_Installer_prod-%HEAD%.exe
 
 artifacts:
-  - path: iric_prod_$(HEAD).exe
+  - path: iRIC_Installer_prod-$(HEAD).exe
