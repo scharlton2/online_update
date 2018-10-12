@@ -3,14 +3,19 @@ version: '{build}'
 image: Visual Studio 2013
 
 before_build:
-  - set HEAD=%APPVEYOR_REPO_COMMIT:~0,8%
+  - ps: [xml]$prod = Get-Content .\prod_src\packages\gui.prepost\data\definition.xml
+  - ps: [xml]$dev = Get-Content .\dev_src\packages\gui.prepost\data\definition.xml
+  - ps: [xml]$yasu = Get-Content .\yasu_src\packages\gui.prepost\data\definition.xml
+  - ps: $Env:PROD_SHA1=$prod.GuiDefinition.'github-sha1'.Substring(0,8)
+  - ps: $Env:DEV_SHA1=$dev.GuiDefinition.'github-sha1'.Substring(0,8)
+  - ps: $Env:YASU_SHA1=$yasu.GuiDefinition.'github-sha1'.Substring(0,8)
 
 build_script:
-  - C:\Qt\Tools\QtInstallerFramework\2.0\bin\binarycreator --offline-only -c prod_src/config/config.xml -p prod_src/packages iRIC_Offline_Installer_prod-%HEAD%.exe
-  - C:\Qt\Tools\QtInstallerFramework\2.0\bin\binarycreator --offline-only -c dev_src/config/config.xml  -p dev_src/packages  iRIC_Offline_Installer_dev-%HEAD%.exe
-  - C:\Qt\Tools\QtInstallerFramework\2.0\bin\binarycreator --offline-only -c yasu_src/config/config.xml -p yasu_src/packages iRIC_Offline_Installer_yasu-%HEAD%.exe
+  - C:\Qt\Tools\QtInstallerFramework\2.0\bin\binarycreator --offline-only -c prod_src/config/config.xml -p prod_src/packages iRIC_Offline_Installer_prod-%PROD_SHA1%.exe
+  - C:\Qt\Tools\QtInstallerFramework\2.0\bin\binarycreator --offline-only -c dev_src/config/config.xml  -p dev_src/packages  iRIC_Offline_Installer_dev-%DEV_SHA1%.exe
+  - C:\Qt\Tools\QtInstallerFramework\2.0\bin\binarycreator --offline-only -c yasu_src/config/config.xml -p yasu_src/packages iRIC_Offline_Installer_yasu-%YASU_SHA1%.exe
 
 artifacts:
   - path: iRIC_Offline_Installer_prod-$(HEAD).exe
-  - path: iRIC_Offline_Installer_dev-$(HEAD).exe
-  - path: iRIC_Offline_Installer_yasu-$(HEAD).exe
+  - path: iRIC_Offline_Installer_dev-$(DEV_SHA1).exe
+  - path: iRIC_Offline_Installer_yasu-$(YASU_SHA1).exe
