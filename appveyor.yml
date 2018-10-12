@@ -3,10 +3,14 @@ version: '{build}'
 image: Visual Studio 2013
 
 before_build:
-  - set HEAD=%APPVEYOR_REPO_COMMIT:~0,7%
+  - set HEAD=%APPVEYOR_REPO_COMMIT:~0,8%
 
 build_script:
-  - C:\Qt\Tools\QtInstallerFramework\2.0\bin\binarycreator --offline-only -c prod_src/config/config.xml -p prod_src/packages iRIC_Installer_prod-%HEAD%.exe
+  - C:\Qt\Tools\QtInstallerFramework\2.0\bin\binarycreator --offline-only -c prod_src/config/config.xml -p prod_src/packages iRIC_Offline_Installer_prod-%HEAD%.exe
+  - C:\Qt\Tools\QtInstallerFramework\2.0\bin\binarycreator --offline-only -c dev_src/config/config.xml  -p dev_src/packages  iRIC_Offline_Installer_dev-%HEAD%.exe
+  - C:\Qt\Tools\QtInstallerFramework\2.0\bin\binarycreator --offline-only -c yasu_src/config/config.xml -p yasu_src/packages iRIC_Offline_Installer_yasu-%HEAD%.exe
 
 artifacts:
-  - path: iRIC_Installer_prod-$(HEAD).exe
+  - path: iRIC_Offline_Installer_prod-$(HEAD).exe
+  - path: iRIC_Offline_Installer_dev-$(HEAD).exe
+  - path: iRIC_Offline_Installer_yasu-$(HEAD).exe
