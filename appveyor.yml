@@ -2,18 +2,11 @@ version: '{build}'
 
 image: Visual Studio 2013
 
-# called before clone
-init:
-  - set
-  - set HEAD=%APPVEYOR_REPO_COMMIT:~0,7%
-  - dir /s C:\Qt\Tools\QtInstallerFramework
-  - set QT_IFW_PATH=C:\Qt\Tools\QtInstallerFramework\3.0.1
-
 before_build:
-  - dir %QT_IFW_PATH%
+  - set HEAD=%APPVEYOR_REPO_COMMIT:~0,7%
 
 build_script:
-  - C:\Qt\Tools\QtInstallerFramework\3.0.1\bin\binarycreator --offline-only -c prod_src/config/config.xml -p packages iric_prod_%HEAD%
+  - C:\Qt\Tools\QtInstallerFramework\2.0\bin\binarycreator --offline-only -c prod_src/config/config.xml -p packages iric_prod_%HEAD%
 
 artifacts:
   - path: iric_prod_$(HEAD).exe
