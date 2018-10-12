@@ -16,6 +16,6 @@ build_script:
   - C:\Qt\Tools\QtInstallerFramework\2.0\bin\binarycreator --offline-only -c yasu_src/config/config.xml -p yasu_src/packages iRIC_Offline_Installer_yasu-%YASU_SHA1%.exe
 
 artifacts:
-  - path: iRIC_Offline_Installer_prod-$(HEAD).exe
+  - path: iRIC_Offline_Installer_prod-$(PROD_SHA1).exe
   - path: iRIC_Offline_Installer_dev-$(DEV_SHA1).exe
   - path: iRIC_Offline_Installer_yasu-$(YASU_SHA1).exe
