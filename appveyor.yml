@@ -13,7 +13,7 @@ before_build:
   - dir %QT_IFW_PATH%
 
 build_script:
-  - %QT_IFW_PATH%\bin\binarycreator --offline-only -c prod_src/config/config.xml -p packages iric_prod_%HEAD%
+  - C:\Qt\Tools\QtInstallerFramework\3.0.1\bin\binarycreator --offline-only -c prod_src/config/config.xml -p packages iric_prod_%HEAD%
 
 artifacts:
   - path: iric_prod_$(HEAD).exe
