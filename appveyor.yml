@@ -3,9 +3,9 @@ version: '{build}'
 image: Visual Studio 2013
 
 before_build:
-  - ps: [xml]$prod = Get-Content .\prod_src\packages\gui.prepost\data\definition.xml
-  - ps: [xml]$dev = Get-Content .\dev_src\packages\gui.prepost\data\definition.xml
-  - ps: [xml]$yasu = Get-Content .\yasu_src\packages\gui.prepost\data\definition.xml
+  - ps: '[xml]$prod = Get-Content .\prod_src\packages\gui.prepost\data\definition.xml'
+  - ps: '[xml]$dev = Get-Content .\dev_src\packages\gui.prepost\data\definition.xml'
+  - ps: '[xml]$yasu = Get-Content .\yasu_src\packages\gui.prepost\data\definition.xml'
   - ps: $Env:PROD_SHA1=$prod.GuiDefinition.'github-sha1'.Substring(0,8)
   - ps: $Env:DEV_SHA1=$dev.GuiDefinition.'github-sha1'.Substring(0,8)
   - ps: $Env:YASU_SHA1=$yasu.GuiDefinition.'github-sha1'.Substring(0,8)
