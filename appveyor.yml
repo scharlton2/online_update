@@ -14,8 +14,18 @@ build_script:
   - C:\Qt\Tools\QtInstallerFramework\2.0\bin\binarycreator --offline-only -c prod_src/config/config.xml -p prod_src/packages iRIC_Offline_Installer_prod-%PROD_SHA1%.exe
   - C:\Qt\Tools\QtInstallerFramework\2.0\bin\binarycreator --offline-only -c dev_src/config/config.xml  -p dev_src/packages  iRIC_Offline_Installer_dev-%DEV_SHA1%.exe
   - C:\Qt\Tools\QtInstallerFramework\2.0\bin\binarycreator --offline-only -c yasu_src/config/config.xml -p yasu_src/packages iRIC_Offline_Installer_yasu-%YASU_SHA1%.exe
+  # build versions with no runtime libraries
+  - rd /s /q prod_src\packages\runtime
+  - rd /s /q dev_src\packages\runtime
+  - rd /s /q yasu_src\packages\runtime
+  - C:\Qt\Tools\QtInstallerFramework\2.0\bin\binarycreator --offline-only -c prod_src/config/config.xml -p prod_src/packages iRIC_Offline_Installer_No_Runtime_prod-%PROD_SHA1%.exe
+  - C:\Qt\Tools\QtInstallerFramework\2.0\bin\binarycreator --offline-only -c dev_src/config/config.xml  -p dev_src/packages  iRIC_Offline_Installer_No_Runtime_dev-%DEV_SHA1%.exe
+  - C:\Qt\Tools\QtInstallerFramework\2.0\bin\binarycreator --offline-only -c yasu_src/config/config.xml -p yasu_src/packages iRIC_Offline_Installer_No_Runtime_yasu-%YASU_SHA1%.exe
 
 artifacts:
   - path: iRIC_Offline_Installer_prod-$(PROD_SHA1).exe
   - path: iRIC_Offline_Installer_dev-$(DEV_SHA1).exe
   - path: iRIC_Offline_Installer_yasu-$(YASU_SHA1).exe
+  - path: iRIC_Offline_Installer_No_Runtime_prod-$(PROD_SHA1).exe
+  - path: iRIC_Offline_Installer_No_Runtime_dev-$(DEV_SHA1).exe
+  - path: iRIC_Offline_Installer_No_Runtime_yasu-$(YASU_SHA1).exe
