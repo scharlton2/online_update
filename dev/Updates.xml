@@ -304,19 +304,6 @@
   <SHA1>f2245f49b873b1226203258c1f37a7620c514ce3</SHA1>
  </PackageUpdate>
  <PackageUpdate>
-  <Name>runtime</Name>
-  <DisplayName>Runtime libraries</DisplayName>
-  <Description>Visual C++ runtime libraries needed to run iRIC system</Description>
-  <Version>1.1.0</Version>
-  <ReleaseDate>2018-06-21</ReleaseDate>
-  <SortingPriority>5</SortingPriority>
-  <ForcedInstallation>true</ForcedInstallation>
-  <Script>installscript.qs</Script>
-  <UpdateFile CompressedSize="20421907" OS="Any" UncompressedSize="22498856"/>
-  <DownloadableArchives>content.7z</DownloadableArchives>
-  <SHA1>1b5fa9f78d6fa5e50a84b258cddcb6507f9fb9ba</SHA1>
- </PackageUpdate>
- <PackageUpdate>
   <Name>solver.river2d</Name>
   <DisplayName>River2D</DisplayName>
   <Description/>
@@ -396,5 +383,18 @@
    <License file="license-english.txt" name="Terms of use of the iRIC software"/>
   </Licenses>
   <SHA1>66ec381a939257849dfa0262f7c061ea2c0734c9</SHA1>
+ </PackageUpdate>
+ <PackageUpdate>
+  <Name>runtime</Name>
+  <DisplayName>Runtime libraries</DisplayName>
+  <Description>Visual C++ runtime libraries needed to run iRIC system</Description>
+  <Version>1.1.0</Version>
+  <ReleaseDate>2018-10-31</ReleaseDate>
+  <SortingPriority>5</SortingPriority>
+  <ForcedInstallation>true</ForcedInstallation>
+  <Script>installscript.qs</Script>
+  <UpdateFile CompressedSize="20422832" OS="Any" UncompressedSize="22497760"/>
+  <DownloadableArchives>content.7z</DownloadableArchives>
+  <SHA1>245f43a2ceaa1c7d27946744f2a85a31d87a10ac</SHA1>
  </PackageUpdate>
 </Updates>
