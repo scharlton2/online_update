@@ -10,8 +10,8 @@ Component.prototype.createOperations = function()
 
 	if (systemInfo.productType === "windows") {
 		component.addOperation("Execute", "@TargetDir@/vc2013_vcredist_x64.exe", "/q");
-		component.addOperation("Execute", "@TargetDir@/vc2015_vcredist_x64.exe", "/q");
+		component.addOperation("Execute", "@TargetDir@/vc2017_vcredist_x64.exe", "/q");
 		component.addOperation("Delete", "@TargetDir@/vc2013_vcredist_x64.exe");
-		component.addOperation("Delete", "@TargetDir@/vc2015_vcredist_x64.exe");
+		component.addOperation("Delete", "@TargetDir@/vc2017_vcredist_x64.exe");
 	}
 }
