@@ -369,22 +369,6 @@
   <SHA1>4937672c72292725a56099704ac4405438e0ffc4</SHA1>
  </PackageUpdate>
  <PackageUpdate>
-  <Name>gui.prepost</Name>
-  <DisplayName>iRIC GUI 3.0</DisplayName>
-  <Description>iRIC Main GUI</Description>
-  <Version>3.0.7.6238</Version>
-  <ReleaseDate>2018-10-11</ReleaseDate>
-  <SortingPriority>100</SortingPriority>
-  <ForcedInstallation>true</ForcedInstallation>
-  <Script>installscript.qs</Script>
-  <UpdateFile CompressedSize="68299202" OS="Any" UncompressedSize="264962526"/>
-  <DownloadableArchives>accessible.7z,bearer.7z,iconengines.7z,imageformats.7z,languages.7z,licenses.7z,platforms.7z,pythonmodule.7z,content.7z</DownloadableArchives>
-  <Licenses>
-   <License file="license-english.txt" name="Terms of use of the iRIC software"/>
-  </Licenses>
-  <SHA1>66ec381a939257849dfa0262f7c061ea2c0734c9</SHA1>
- </PackageUpdate>
- <PackageUpdate>
   <Name>runtime</Name>
   <DisplayName>Runtime libraries</DisplayName>
   <Description>Visual C++ runtime libraries needed to run iRIC system</Description>
@@ -396,5 +380,21 @@
   <UpdateFile CompressedSize="20329980" OS="Any" UncompressedSize="22378920"/>
   <DownloadableArchives>content.7z</DownloadableArchives>
   <SHA1>8a64c4f8e5cca637692dfdde9bd888acca740ec3</SHA1>
+ </PackageUpdate>
+ <PackageUpdate>
+  <Name>gui.prepost</Name>
+  <DisplayName>iRIC GUI 3.0</DisplayName>
+  <Description>iRIC Main GUI</Description>
+  <Version>3.0.8.6239</Version>
+  <ReleaseDate>2018-11-02</ReleaseDate>
+  <SortingPriority>100</SortingPriority>
+  <ForcedInstallation>true</ForcedInstallation>
+  <Script>installscript.qs</Script>
+  <UpdateFile CompressedSize="68318891" OS="Any" UncompressedSize="265152989"/>
+  <DownloadableArchives>accessible.7z,bearer.7z,iconengines.7z,imageformats.7z,languages.7z,licenses.7z,platforms.7z,pythonmodule.7z,content.7z</DownloadableArchives>
+  <Licenses>
+   <License file="license-english.txt" name="Terms of use of the iRIC software"/>
+  </Licenses>
+  <SHA1>1302dfb7c4642dba5158e1ab26d291c203f98b96</SHA1>
  </PackageUpdate>
 </Updates>
