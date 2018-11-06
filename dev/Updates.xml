@@ -397,4 +397,17 @@
   </Licenses>
   <SHA1>1302dfb7c4642dba5158e1ab26d291c203f98b96</SHA1>
  </PackageUpdate>
+ <PackageUpdate>
+  <Name>solver.dhabsim</Name>
+  <DisplayName>DHABSIM</DisplayName>
+  <Description>DHABSIM</Description>
+  <Version>1.1.0</Version>
+  <Default>true</Default>
+  <ReleaseDate>2018-09-05</ReleaseDate>
+  <SortingPriority>50</SortingPriority>
+  <Script>installscript.qs</Script>
+  <UpdateFile CompressedSize="69121" OS="Any" UncompressedSize="199744"/>
+  <DownloadableArchives>content.7z</DownloadableArchives>
+  <SHA1>1040013c00d5c2d321f9b9840daa07fcfc54e176</SHA1>
+ </PackageUpdate>
 </Updates>
