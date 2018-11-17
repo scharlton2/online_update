@@ -95,7 +95,7 @@ capture_and_push_artifact("iRIC-Install-07.png") # ReadytoInstall
 # click Install
 pyautogui.moveTo(nextButton)  # this might not be necessary (needs further testing - at least for iric installers)
 pyautogui.click(nextButton)
-time.sleep(120.0)
+time.sleep(360.0)
 capture_and_push_artifact("iRIC-Install-08.png") # Finished
 
 # click Finish
