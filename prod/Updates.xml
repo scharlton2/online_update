@@ -187,19 +187,6 @@
   <SHA1>c82813b43abb66d5115d1c0794965bab2fe63efb</SHA1>
  </PackageUpdate>
  <PackageUpdate>
-  <Name>solver.nays2dflood</Name>
-  <DisplayName>Nays2DFlood</DisplayName>
-  <Description>Nays 2D Flood is a flood flow analysis solver that relies on unsteady 2-dimensional plane flow simulation using boundary-fitted coordinates as the general curvilinear coordinates.</Description>
-  <Version>5.0.1508</Version>
-  <Default>true</Default>
-  <ReleaseDate>2018-04-20</ReleaseDate>
-  <SortingPriority>50</SortingPriority>
-  <Script>installscript.qs</Script>
-  <UpdateFile CompressedSize="194377" OS="Any" UncompressedSize="616481"/>
-  <DownloadableArchives>content.7z</DownloadableArchives>
-  <SHA1>7433a69161ea617bf9b27c2882754b5cd4265ec5</SHA1>
- </PackageUpdate>
- <PackageUpdate>
   <Name>gui.rivmaker</Name>
   <DisplayName>Rivmaker</DisplayName>
   <Description>Riv file maker. You can create *.riv files from survey data.</Description>
@@ -304,19 +291,6 @@
   <SHA1>f2245f49b873b1226203258c1f37a7620c514ce3</SHA1>
  </PackageUpdate>
  <PackageUpdate>
-  <Name>solver.river2d</Name>
-  <DisplayName>River2D</DisplayName>
-  <Description/>
-  <Version>1.0.0</Version>
-  <Default>true</Default>
-  <ReleaseDate>2011-02-15</ReleaseDate>
-  <SortingPriority>50</SortingPriority>
-  <Script>installscript.qs</Script>
-  <UpdateFile CompressedSize="238476" OS="Any" UncompressedSize="900944"/>
-  <DownloadableArchives>content.7z</DownloadableArchives>
-  <SHA1>4d57d07da6ebbef2f15fae253f53ff757d50c834</SHA1>
- </PackageUpdate>
- <PackageUpdate>
   <Name>solver.storm</Name>
   <DisplayName>SToRM</DisplayName>
   <Description/>
@@ -395,19 +369,45 @@
   <SHA1>1040013c00d5c2d321f9b9840daa07fcfc54e176</SHA1>
  </PackageUpdate>
  <PackageUpdate>
+  <Name>solver.river2d</Name>
+  <DisplayName>River2D</DisplayName>
+  <Description/>
+  <Version>1.0.1</Version>
+  <Default>true</Default>
+  <ReleaseDate>2018-11-16</ReleaseDate>
+  <SortingPriority>50</SortingPriority>
+  <Script>installscript.qs</Script>
+  <UpdateFile CompressedSize="238486" OS="Any" UncompressedSize="900946"/>
+  <DownloadableArchives>content.7z</DownloadableArchives>
+  <SHA1>07f002fc4e5577f4c96e16687bbe8e2d6080fc50</SHA1>
+ </PackageUpdate>
+ <PackageUpdate>
+  <Name>solver.nays2dflood</Name>
+  <DisplayName>Nays2DFlood</DisplayName>
+  <Description>Nays 2D Flood is a flood flow analysis solver that relies on unsteady 2-dimensional plane flow simulation using boundary-fitted coordinates as the general curvilinear coordinates.</Description>
+  <Version>5.0.1509</Version>
+  <Default>true</Default>
+  <ReleaseDate>2018-11-30</ReleaseDate>
+  <SortingPriority>50</SortingPriority>
+  <Script>installscript.qs</Script>
+  <UpdateFile CompressedSize="3920029" OS="Any" UncompressedSize="19217553"/>
+  <DownloadableArchives>content.7z</DownloadableArchives>
+  <SHA1>19ae422601fe7867f5b5987d1e6ef200b13b0b2d</SHA1>
+ </PackageUpdate>
+ <PackageUpdate>
   <Name>gui.prepost</Name>
   <DisplayName>iRIC GUI 3.0</DisplayName>
   <Description>iRIC Main GUI</Description>
-  <Version>3.0.9.6242</Version>
-  <ReleaseDate>2018-11-08</ReleaseDate>
+  <Version>3.0.10.6244</Version>
+  <ReleaseDate>2018-12-06</ReleaseDate>
   <SortingPriority>100</SortingPriority>
   <ForcedInstallation>true</ForcedInstallation>
   <Script>installscript.qs</Script>
-  <UpdateFile CompressedSize="68321052" OS="Any" UncompressedSize="265154576"/>
+  <UpdateFile CompressedSize="68338712" OS="Any" UncompressedSize="265211586"/>
   <DownloadableArchives>accessible.7z,bearer.7z,iconengines.7z,imageformats.7z,languages.7z,licenses.7z,platforms.7z,pythonmodule.7z,content.7z</DownloadableArchives>
   <Licenses>
    <License file="license-english.txt" name="Terms of use of the iRIC software"/>
   </Licenses>
-  <SHA1>0edb7190523edfe19d6c15340fdf249f3fdc21cf</SHA1>
+  <SHA1>51ac855cab36da24a4141d3c087b87d43b147194</SHA1>
  </PackageUpdate>
 </Updates>

@@ -2,9 +2,9 @@
 <Package>
 	<DisplayName>River2D</DisplayName>
 	<Description></Description>
-	<Version>1.0.0</Version>
+	<Version>1.0.1</Version>
 	<Default>true</Default>
-	<ReleaseDate>2011-02-15</ReleaseDate>
+	<ReleaseDate>2018-11-16</ReleaseDate>
 	<SortingPriority>50</SortingPriority>
 	<Script>installscript.qs</Script>
 </Package>
