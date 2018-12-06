@@ -382,22 +382,6 @@
   <SHA1>07f002fc4e5577f4c96e16687bbe8e2d6080fc50</SHA1>
  </PackageUpdate>
  <PackageUpdate>
-  <Name>gui.prepost</Name>
-  <DisplayName>iRIC GUI 3.0</DisplayName>
-  <Description>iRIC Main GUI</Description>
-  <Version>3.0.10.6243</Version>
-  <ReleaseDate>2018-11-28</ReleaseDate>
-  <SortingPriority>100</SortingPriority>
-  <ForcedInstallation>true</ForcedInstallation>
-  <Script>installscript.qs</Script>
-  <UpdateFile CompressedSize="68334300" OS="Any" UncompressedSize="265211586"/>
-  <DownloadableArchives>accessible.7z,bearer.7z,iconengines.7z,imageformats.7z,languages.7z,licenses.7z,platforms.7z,pythonmodule.7z,content.7z</DownloadableArchives>
-  <Licenses>
-   <License file="license-english.txt" name="Terms of use of the iRIC software"/>
-  </Licenses>
-  <SHA1>542050740b809858eaa550e60af0e38ae564ef08</SHA1>
- </PackageUpdate>
- <PackageUpdate>
   <Name>solver.nays2dflood</Name>
   <DisplayName>Nays2DFlood</DisplayName>
   <Description>Nays 2D Flood is a flood flow analysis solver that relies on unsteady 2-dimensional plane flow simulation using boundary-fitted coordinates as the general curvilinear coordinates.</Description>
@@ -409,5 +393,21 @@
   <UpdateFile CompressedSize="3920029" OS="Any" UncompressedSize="19217553"/>
   <DownloadableArchives>content.7z</DownloadableArchives>
   <SHA1>19ae422601fe7867f5b5987d1e6ef200b13b0b2d</SHA1>
+ </PackageUpdate>
+ <PackageUpdate>
+  <Name>gui.prepost</Name>
+  <DisplayName>iRIC GUI 3.0</DisplayName>
+  <Description>iRIC Main GUI</Description>
+  <Version>3.0.10.6244</Version>
+  <ReleaseDate>2018-12-06</ReleaseDate>
+  <SortingPriority>100</SortingPriority>
+  <ForcedInstallation>true</ForcedInstallation>
+  <Script>installscript.qs</Script>
+  <UpdateFile CompressedSize="68338004" OS="Any" UncompressedSize="265211586"/>
+  <DownloadableArchives>accessible.7z,bearer.7z,iconengines.7z,imageformats.7z,languages.7z,licenses.7z,platforms.7z,pythonmodule.7z,content.7z</DownloadableArchives>
+  <Licenses>
+   <License file="license-english.txt" name="Terms of use of the iRIC software"/>
+  </Licenses>
+  <SHA1>8764028742aa0f5324e0fd93b186e3410fa87df6</SHA1>
  </PackageUpdate>
 </Updates>
