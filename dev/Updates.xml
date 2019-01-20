@@ -410,4 +410,17 @@
   </Licenses>
   <SHA1>a9e6b3f2b5ff5d4d718c043cba8e6b44255abbb4</SHA1>
  </PackageUpdate>
+ <PackageUpdate>
+  <Name>solver.nayseddy</Name>
+  <DisplayName>NaysEddy</DisplayName>
+  <Description>&quot;NaysEddy&quot; is a three-dimensional solver for calculation of unsteady flows using Cartesian coordinates.</Description>
+  <Version>1.1.0</Version>
+  <Default>true</Default>
+  <ReleaseDate>2019-01-01</ReleaseDate>
+  <SortingPriority>50</SortingPriority>
+  <Script>installscript.qs</Script>
+  <UpdateFile CompressedSize="1001692" OS="Any" UncompressedSize="3869776"/>
+  <DownloadableArchives>content.7z</DownloadableArchives>
+  <SHA1>4f09852ec9daad687ee2e0481db022fb6f8ff94d</SHA1>
+ </PackageUpdate>
 </Updates>
