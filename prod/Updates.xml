@@ -356,19 +356,6 @@
   <SHA1>8a64c4f8e5cca637692dfdde9bd888acca740ec3</SHA1>
  </PackageUpdate>
  <PackageUpdate>
-  <Name>solver.dhabsim</Name>
-  <DisplayName>DHABSIM</DisplayName>
-  <Description>DHABSIM</Description>
-  <Version>1.1.0</Version>
-  <Default>true</Default>
-  <ReleaseDate>2018-09-05</ReleaseDate>
-  <SortingPriority>50</SortingPriority>
-  <Script>installscript.qs</Script>
-  <UpdateFile CompressedSize="69121" OS="Any" UncompressedSize="199744"/>
-  <DownloadableArchives>content.7z</DownloadableArchives>
-  <SHA1>1040013c00d5c2d321f9b9840daa07fcfc54e176</SHA1>
- </PackageUpdate>
- <PackageUpdate>
   <Name>solver.river2d</Name>
   <DisplayName>River2D</DisplayName>
   <Description/>
@@ -395,19 +382,58 @@
   <SHA1>19ae422601fe7867f5b5987d1e6ef200b13b0b2d</SHA1>
  </PackageUpdate>
  <PackageUpdate>
+  <Name>solver.nayseddy</Name>
+  <DisplayName>NaysEddy</DisplayName>
+  <Description>&quot;NaysEddy&quot; is a three-dimensional solver for calculation of unsteady flows using Cartesian coordinates.</Description>
+  <Version>1.1.0</Version>
+  <Default>true</Default>
+  <ReleaseDate>2019-01-01</ReleaseDate>
+  <SortingPriority>50</SortingPriority>
+  <Script>installscript.qs</Script>
+  <UpdateFile CompressedSize="1001692" OS="Any" UncompressedSize="3869776"/>
+  <DownloadableArchives>content.7z</DownloadableArchives>
+  <SHA1>4f09852ec9daad687ee2e0481db022fb6f8ff94d</SHA1>
+ </PackageUpdate>
+ <PackageUpdate>
+  <Name>gridcreator.nayseddygrid</Name>
+  <DisplayName>NaysEddyGrid</DisplayName>
+  <Description>&quot;Cartesian Grid for NaysEddy&quot; is a Cartesian grid generator for the solver &quot;NaysEddy&quot;.</Description>
+  <Version>1.1.0</Version>
+  <Default>true</Default>
+  <ReleaseDate>2019-01-01</ReleaseDate>
+  <SortingPriority>50</SortingPriority>
+  <Script>installscript.qs</Script>
+  <UpdateFile CompressedSize="18704" OS="Any" UncompressedSize="48567"/>
+  <DownloadableArchives>content.7z</DownloadableArchives>
+  <SHA1>0bad72a4c4d65fdcb010af26aaf2a5b73f6f6e3f</SHA1>
+ </PackageUpdate>
+ <PackageUpdate>
+  <Name>solver.dhabsim</Name>
+  <DisplayName>DHABSIM</DisplayName>
+  <Description>DHABSIM</Description>
+  <Version>1.1.1</Version>
+  <Default>true</Default>
+  <ReleaseDate>2019-01-22</ReleaseDate>
+  <SortingPriority>50</SortingPriority>
+  <Script>installscript.qs</Script>
+  <UpdateFile CompressedSize="69218" OS="Any" UncompressedSize="199956"/>
+  <DownloadableArchives>content.7z</DownloadableArchives>
+  <SHA1>373c7a8afac1de4ad84d98813ad4380f6a08fd65</SHA1>
+ </PackageUpdate>
+ <PackageUpdate>
   <Name>gui.prepost</Name>
   <DisplayName>iRIC GUI 3.0</DisplayName>
   <Description>iRIC Main GUI</Description>
-  <Version>3.0.11.6245</Version>
-  <ReleaseDate>2018-12-28</ReleaseDate>
+  <Version>3.0.12.6246</Version>
+  <ReleaseDate>2019-01-25</ReleaseDate>
   <SortingPriority>100</SortingPriority>
   <ForcedInstallation>true</ForcedInstallation>
   <Script>installscript.qs</Script>
-  <UpdateFile CompressedSize="68355559" OS="Any" UncompressedSize="265305610"/>
+  <UpdateFile CompressedSize="68360789" OS="Any" UncompressedSize="265308170"/>
   <DownloadableArchives>accessible.7z,bearer.7z,iconengines.7z,imageformats.7z,languages.7z,licenses.7z,platforms.7z,pythonmodule.7z,content.7z</DownloadableArchives>
   <Licenses>
    <License file="license-english.txt" name="Terms of use of the iRIC software"/>
   </Licenses>
-  <SHA1>3f96c2e55e1afb720f34e7684e24a386dc983912</SHA1>
+  <SHA1>123f6090fe3764f010334b1faa43336395d14715</SHA1>
  </PackageUpdate>
 </Updates>
