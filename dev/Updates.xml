@@ -395,22 +395,6 @@
   <SHA1>19ae422601fe7867f5b5987d1e6ef200b13b0b2d</SHA1>
  </PackageUpdate>
  <PackageUpdate>
-  <Name>gui.prepost</Name>
-  <DisplayName>iRIC GUI 3.0</DisplayName>
-  <Description>iRIC Main GUI</Description>
-  <Version>3.0.11.6245</Version>
-  <ReleaseDate>2018-12-28</ReleaseDate>
-  <SortingPriority>100</SortingPriority>
-  <ForcedInstallation>true</ForcedInstallation>
-  <Script>installscript.qs</Script>
-  <UpdateFile CompressedSize="68354833" OS="Any" UncompressedSize="265305610"/>
-  <DownloadableArchives>accessible.7z,bearer.7z,iconengines.7z,imageformats.7z,languages.7z,licenses.7z,platforms.7z,pythonmodule.7z,content.7z</DownloadableArchives>
-  <Licenses>
-   <License file="license-english.txt" name="Terms of use of the iRIC software"/>
-  </Licenses>
-  <SHA1>a9e6b3f2b5ff5d4d718c043cba8e6b44255abbb4</SHA1>
- </PackageUpdate>
- <PackageUpdate>
   <Name>solver.nayseddy</Name>
   <DisplayName>NaysEddy</DisplayName>
   <Description>&quot;NaysEddy&quot; is a three-dimensional solver for calculation of unsteady flows using Cartesian coordinates.</Description>
@@ -435,5 +419,21 @@
   <UpdateFile CompressedSize="18704" OS="Any" UncompressedSize="48567"/>
   <DownloadableArchives>content.7z</DownloadableArchives>
   <SHA1>0bad72a4c4d65fdcb010af26aaf2a5b73f6f6e3f</SHA1>
+ </PackageUpdate>
+ <PackageUpdate>
+  <Name>gui.prepost</Name>
+  <DisplayName>iRIC GUI 3.0</DisplayName>
+  <Description>iRIC Main GUI</Description>
+  <Version>3.0.12.6246</Version>
+  <ReleaseDate>2019-01-25</ReleaseDate>
+  <SortingPriority>100</SortingPriority>
+  <ForcedInstallation>true</ForcedInstallation>
+  <Script>installscript.qs</Script>
+  <UpdateFile CompressedSize="68360092" OS="Any" UncompressedSize="265308170"/>
+  <DownloadableArchives>accessible.7z,bearer.7z,iconengines.7z,imageformats.7z,languages.7z,licenses.7z,platforms.7z,pythonmodule.7z,content.7z</DownloadableArchives>
+  <Licenses>
+   <License file="license-english.txt" name="Terms of use of the iRIC software"/>
+  </Licenses>
+  <SHA1>59bf90d9b5b4b57970a07a8b9c88beb657cada33</SHA1>
  </PackageUpdate>
 </Updates>
