@@ -408,22 +408,6 @@
   <SHA1>0bad72a4c4d65fdcb010af26aaf2a5b73f6f6e3f</SHA1>
  </PackageUpdate>
  <PackageUpdate>
-  <Name>gui.prepost</Name>
-  <DisplayName>iRIC GUI 3.0</DisplayName>
-  <Description>iRIC Main GUI</Description>
-  <Version>3.0.12.6246</Version>
-  <ReleaseDate>2019-01-25</ReleaseDate>
-  <SortingPriority>100</SortingPriority>
-  <ForcedInstallation>true</ForcedInstallation>
-  <Script>installscript.qs</Script>
-  <UpdateFile CompressedSize="68360092" OS="Any" UncompressedSize="265308170"/>
-  <DownloadableArchives>accessible.7z,bearer.7z,iconengines.7z,imageformats.7z,languages.7z,licenses.7z,platforms.7z,pythonmodule.7z,content.7z</DownloadableArchives>
-  <Licenses>
-   <License file="license-english.txt" name="Terms of use of the iRIC software"/>
-  </Licenses>
-  <SHA1>59bf90d9b5b4b57970a07a8b9c88beb657cada33</SHA1>
- </PackageUpdate>
- <PackageUpdate>
   <Name>solver.dhabsim</Name>
   <DisplayName>DHABSIM</DisplayName>
   <Description>DHABSIM</Description>
@@ -435,5 +419,21 @@
   <UpdateFile CompressedSize="43580" OS="Any" UncompressedSize="127764"/>
   <DownloadableArchives>content.7z</DownloadableArchives>
   <SHA1>c46404e95fabd2e12cc96935b13b5f5e7d93dc66</SHA1>
+ </PackageUpdate>
+ <PackageUpdate>
+  <Name>gui.prepost</Name>
+  <DisplayName>iRIC GUI 3.0</DisplayName>
+  <Description>iRIC Main GUI</Description>
+  <Version>3.0.13.6247</Version>
+  <ReleaseDate>2019-02-22</ReleaseDate>
+  <SortingPriority>100</SortingPriority>
+  <ForcedInstallation>true</ForcedInstallation>
+  <Script>installscript.qs</Script>
+  <UpdateFile CompressedSize="68415166" OS="Any" UncompressedSize="265598256"/>
+  <DownloadableArchives>accessible.7z,bearer.7z,iconengines.7z,imageformats.7z,languages.7z,licenses.7z,platforms.7z,pythonmodule.7z,content.7z</DownloadableArchives>
+  <Licenses>
+   <License file="license-english.txt" name="Terms of use of the iRIC software"/>
+  </Licenses>
+  <SHA1>1b84c99ba0ef7ce16b96027aab21d727be9ab74e</SHA1>
  </PackageUpdate>
 </Updates>
