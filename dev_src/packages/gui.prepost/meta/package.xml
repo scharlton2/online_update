@@ -2,7 +2,7 @@
 <Package>
 	<DisplayName>iRIC GUI 3.0</DisplayName>
 	<Description>iRIC Main GUI</Description>
-	<Version>3.0.14.6248</Version>
+	<Version>3.0.14.6249</Version>
 	<ReleaseDate>2019-04-05</ReleaseDate>
 	<SortingPriority>100</SortingPriority>
 	<ForcedInstallation>true</ForcedInstallation>
