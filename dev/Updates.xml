@@ -317,19 +317,6 @@
   <SHA1>277f0064c801960959193c085dbf3232192fe845</SHA1>
  </PackageUpdate>
  <PackageUpdate>
-  <Name>solver.fastmech</Name>
-  <DisplayName>FaSTMECH</DisplayName>
-  <Description>FaSTMECH</Description>
-  <Version>1.1.1</Version>
-  <Default>true</Default>
-  <ReleaseDate>2018-08-20</ReleaseDate>
-  <SortingPriority>50</SortingPriority>
-  <Script>installscript.qs</Script>
-  <UpdateFile CompressedSize="3581527" OS="Any" UncompressedSize="17941563"/>
-  <DownloadableArchives>content.7z</DownloadableArchives>
-  <SHA1>099752fcfb31f4f3977f2ef94963b974e9da98a8</SHA1>
- </PackageUpdate>
- <PackageUpdate>
   <Name>solver.ceri1d</Name>
   <DisplayName>CERI1D</DisplayName>
   <Description>CERI1D</Description>
@@ -435,5 +422,18 @@
    <License file="license-english.txt" name="Terms of use of the iRIC software"/>
   </Licenses>
   <SHA1>824ee70659b87d1b6301c7131600c0594b1fdd9a</SHA1>
+ </PackageUpdate>
+ <PackageUpdate>
+  <Name>solver.fastmech</Name>
+  <DisplayName>FaSTMECH</DisplayName>
+  <Description>FaSTMECH</Description>
+  <Version>1.1.2</Version>
+  <Default>true</Default>
+  <ReleaseDate>2018-08-20</ReleaseDate>
+  <SortingPriority>50</SortingPriority>
+  <Script>installscript.qs</Script>
+  <UpdateFile CompressedSize="3583571" OS="Any" UncompressedSize="17961799"/>
+  <DownloadableArchives>content.7z</DownloadableArchives>
+  <SHA1>9bffe7b1ea0e5c2543bfec124206a548435ecc8f</SHA1>
  </PackageUpdate>
 </Updates>
