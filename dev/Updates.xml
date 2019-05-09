@@ -421,19 +421,32 @@
   <SHA1>f255b598fea154c82249414f8f4160ccbcd73111</SHA1>
  </PackageUpdate>
  <PackageUpdate>
+  <Name>gui.runtime</Name>
+  <DisplayName>iRIC GUI Runtime</DisplayName>
+  <Description>Runtime DLLs for iRIC Main GUI</Description>
+  <Version>1.0.0</Version>
+  <ReleaseDate>2019-05-09</ReleaseDate>
+  <SortingPriority>100</SortingPriority>
+  <ForcedInstallation>true</ForcedInstallation>
+  <Script>installscript.qs</Script>
+  <UpdateFile CompressedSize="65713764" OS="Any" UncompressedSize="252229376"/>
+  <DownloadableArchives>accessible.7z,bearer.7z,iconengines.7z,imageformats.7z,languages.7z,licenses.7z,platforms.7z,pythonmodule.7z,content.7z</DownloadableArchives>
+  <SHA1>43b439f907be661b394e16879cd2134a77a6b5d7</SHA1>
+ </PackageUpdate>
+ <PackageUpdate>
   <Name>gui.prepost</Name>
   <DisplayName>iRIC GUI 3.0</DisplayName>
   <Description>iRIC Main GUI</Description>
-  <Version>3.0.17.6253</Version>
+  <Version>3.0.17.6254</Version>
   <ReleaseDate>2019-05-28</ReleaseDate>
   <SortingPriority>100</SortingPriority>
   <ForcedInstallation>true</ForcedInstallation>
   <Script>installscript.qs</Script>
-  <UpdateFile CompressedSize="68604100" OS="Any" UncompressedSize="266678384"/>
-  <DownloadableArchives>accessible.7z,bearer.7z,iconengines.7z,imageformats.7z,languages.7z,licenses.7z,platforms.7z,pythonmodule.7z,content.7z</DownloadableArchives>
+  <UpdateFile CompressedSize="2830117" OS="Any" UncompressedSize="13872746"/>
+  <DownloadableArchives>languages.7z,content.7z</DownloadableArchives>
   <Licenses>
    <License file="license-english.txt" name="Terms of use of the iRIC software"/>
   </Licenses>
-  <SHA1>a916048907dd15afb769ab3391eab8976ad0a7d5</SHA1>
+  <SHA1>568ab0cc7821f75f682787a0f02c07fc86201f5c</SHA1>
  </PackageUpdate>
 </Updates>
