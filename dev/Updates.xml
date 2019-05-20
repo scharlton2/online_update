@@ -200,19 +200,6 @@
   <SHA1>52a0185b736d54719b832dce25d87a81628ff066</SHA1>
  </PackageUpdate>
  <PackageUpdate>
-  <Name>solver.cap</Name>
-  <DisplayName>CAP</DisplayName>
-  <Description>Culvart Analysis Program</Description>
-  <Version>2.0.4</Version>
-  <Default>true</Default>
-  <ReleaseDate>2018-05-22</ReleaseDate>
-  <SortingPriority>50</SortingPriority>
-  <Script>installscript.qs</Script>
-  <UpdateFile CompressedSize="628453" OS="Any" UncompressedSize="1392751"/>
-  <DownloadableArchives>content.7z</DownloadableArchives>
-  <SHA1>d3ecd5bc1aa35cc37b30fed2e36d5946de8121ec</SHA1>
- </PackageUpdate>
- <PackageUpdate>
   <Name>solver.mflow</Name>
   <DisplayName>Mflow</DisplayName>
   <Description>Mflow_02 is a solver to calculate two-dimensional plane unsteady flow and riverbed variation using unstructured meshes of the finite element method.</Description>
@@ -435,5 +422,18 @@
    <License file="license-english.txt" name="Terms of use of the iRIC software"/>
   </Licenses>
   <SHA1>6c0b7a0798d63dcc0faa995379339f7a2ac6758c</SHA1>
+ </PackageUpdate>
+ <PackageUpdate>
+  <Name>solver.cap</Name>
+  <DisplayName>CAP</DisplayName>
+  <Description>Culvart Analysis Program</Description>
+  <Version>2.0.5</Version>
+  <Default>true</Default>
+  <ReleaseDate>2019-05-20</ReleaseDate>
+  <SortingPriority>50</SortingPriority>
+  <Script>installscript.qs</Script>
+  <UpdateFile CompressedSize="865393" OS="Any" UncompressedSize="2127243"/>
+  <DownloadableArchives>content.7z</DownloadableArchives>
+  <SHA1>f255b598fea154c82249414f8f4160ccbcd73111</SHA1>
  </PackageUpdate>
 </Updates>
