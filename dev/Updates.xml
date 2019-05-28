@@ -408,22 +408,6 @@
   <SHA1>9bffe7b1ea0e5c2543bfec124206a548435ecc8f</SHA1>
  </PackageUpdate>
  <PackageUpdate>
-  <Name>gui.prepost</Name>
-  <DisplayName>iRIC GUI 3.0</DisplayName>
-  <Description>iRIC Main GUI</Description>
-  <Version>3.0.16.6252</Version>
-  <ReleaseDate>2019-05-09</ReleaseDate>
-  <SortingPriority>100</SortingPriority>
-  <ForcedInstallation>true</ForcedInstallation>
-  <Script>installscript.qs</Script>
-  <UpdateFile CompressedSize="68504167" OS="Any" UncompressedSize="266023005"/>
-  <DownloadableArchives>accessible.7z,bearer.7z,iconengines.7z,imageformats.7z,languages.7z,licenses.7z,platforms.7z,pythonmodule.7z,content.7z</DownloadableArchives>
-  <Licenses>
-   <License file="license-english.txt" name="Terms of use of the iRIC software"/>
-  </Licenses>
-  <SHA1>6c0b7a0798d63dcc0faa995379339f7a2ac6758c</SHA1>
- </PackageUpdate>
- <PackageUpdate>
   <Name>solver.cap</Name>
   <DisplayName>CAP</DisplayName>
   <Description>Culvart Analysis Program</Description>
@@ -435,5 +419,21 @@
   <UpdateFile CompressedSize="865393" OS="Any" UncompressedSize="2127243"/>
   <DownloadableArchives>content.7z</DownloadableArchives>
   <SHA1>f255b598fea154c82249414f8f4160ccbcd73111</SHA1>
+ </PackageUpdate>
+ <PackageUpdate>
+  <Name>gui.prepost</Name>
+  <DisplayName>iRIC GUI 3.0</DisplayName>
+  <Description>iRIC Main GUI</Description>
+  <Version>3.0.17.6253</Version>
+  <ReleaseDate>2019-05-28</ReleaseDate>
+  <SortingPriority>100</SortingPriority>
+  <ForcedInstallation>true</ForcedInstallation>
+  <Script>installscript.qs</Script>
+  <UpdateFile CompressedSize="68604100" OS="Any" UncompressedSize="266678384"/>
+  <DownloadableArchives>accessible.7z,bearer.7z,iconengines.7z,imageformats.7z,languages.7z,licenses.7z,platforms.7z,pythonmodule.7z,content.7z</DownloadableArchives>
+  <Licenses>
+   <License file="license-english.txt" name="Terms of use of the iRIC software"/>
+  </Licenses>
+  <SHA1>a916048907dd15afb769ab3391eab8976ad0a7d5</SHA1>
  </PackageUpdate>
 </Updates>
