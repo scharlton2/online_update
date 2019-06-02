@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <SolverDefinition 
     xmlns="www.iric.net/SolverDefinition/1.0"
-    name="cap" caption="Culvert Analysis Program" version="2.0.4" copyright="USGS"
-    release="2018.05.22" 
+    name="cap" caption="Culvert Analysis Program" version="2.0.5" copyright="USGS"
+    release="2019.05.20" 
     homepage="http://water.usgs.gov/software/CAP/"
     executable="CAP.exe"
     iterationtype="time"
@@ -50,9 +50,9 @@
 							<Definition valueType="integer" option="true" default="0">
 								<Enumerations>
 									<Enumeration value="0" caption="English / English"/>
-									<Enumeration value="1" caption="English / SI"/>
-									<Enumeration value="2" caption="SI / English"/>
-									<Enumeration value="3" caption="SI / SI"/>
+									<Enumeration value="2" caption="English / SI"/>
+									<Enumeration value="3" caption="SI / English"/>
+									<Enumeration value="1" caption="SI / SI"/>
 								</Enumerations>
 							</Definition>
 						</Item>
@@ -98,7 +98,7 @@
 								<Condition type="isEqual" target="shape_type" value="1" />
 								<Condition type="or">
 									<Condition type="isEqual" target="units" value="0" />
-									<Condition type="isEqual" target="units" value="1" />
+									<Condition type="isEqual" target="units" value="2" />
 								</Condition>
 							</Condition>
 						</SubImage>
@@ -106,7 +106,7 @@
 							<Condition type="and">
 								<Condition type="isEqual" target="shape_type" value="1" />
 								<Condition type="or">
-									<Condition type="isEqual" target="units" value="2" />
+									<Condition type="isEqual" target="units" value="1" />
 									<Condition type="isEqual" target="units" value="3" />
 								</Condition>
 							</Condition>
@@ -117,7 +117,7 @@
 								<Condition type="isEqual" target="shape_type" value="2" />
 								<Condition type="or">
 									<Condition type="isEqual" target="units" value="0" />
-									<Condition type="isEqual" target="units" value="1" />
+									<Condition type="isEqual" target="units" value="2" />
 								</Condition>
 							</Condition>
 						</SubImage>
@@ -125,7 +125,7 @@
 							<Condition type="and">
 								<Condition type="isEqual" target="shape_type" value="2" />
 								<Condition type="or">
-									<Condition type="isEqual" target="units" value="2" />
+									<Condition type="isEqual" target="units" value="1" />
 									<Condition type="isEqual" target="units" value="3" />
 								</Condition>
 							</Condition>
@@ -136,7 +136,7 @@
 								<Condition type="isEqual" target="shape_type" value="3" />
 								<Condition type="or">
 									<Condition type="isEqual" target="units" value="0" />
-									<Condition type="isEqual" target="units" value="1" />
+									<Condition type="isEqual" target="units" value="2" />
 								</Condition>
 							</Condition>
 						</SubImage>
@@ -144,7 +144,7 @@
 							<Condition type="and">
 								<Condition type="isEqual" target="shape_type" value="3" />
 								<Condition type="or">
-									<Condition type="isEqual" target="units" value="2" />
+									<Condition type="isEqual" target="units" value="1" />
 									<Condition type="isEqual" target="units" value="3" />
 								</Condition>
 							</Condition>
@@ -154,7 +154,7 @@
 								<Condition type="isEqual" target="shape_type" value="4" />
 								<Condition type="or">
 									<Condition type="isEqual" target="units" value="0" />
-									<Condition type="isEqual" target="units" value="1" />
+									<Condition type="isEqual" target="units" value="2" />
 								</Condition>
 							</Condition>
 						</SubImage>
@@ -162,7 +162,7 @@
 							<Condition type="and">
 								<Condition type="isEqual" target="shape_type" value="4" />
 								<Condition type="or">
-									<Condition type="isEqual" target="units" value="2" />
+									<Condition type="isEqual" target="units" value="1" />
 									<Condition type="isEqual" target="units" value="3" />
 								</Condition>
 							</Condition>
@@ -172,7 +172,7 @@
 								<Condition type="isEqual" target="shape_type" value="5" />
 								<Condition type="or">
 									<Condition type="isEqual" target="units" value="0" />
-									<Condition type="isEqual" target="units" value="1" />
+									<Condition type="isEqual" target="units" value="2" />
 								</Condition>
 							</Condition>
 						</SubImage>
@@ -180,7 +180,7 @@
 							<Condition type="and">
 								<Condition type="isEqual" target="shape_type" value="5" />
 								<Condition type="or">
-									<Condition type="isEqual" target="units" value="2" />
+									<Condition type="isEqual" target="units" value="1" />
 									<Condition type="isEqual" target="units" value="3" />
 								</Condition>
 							</Condition>
@@ -286,7 +286,7 @@
 								<Condition type="isEqual" target="ali_type" value="1" />
 								<Condition type="or">
 									<Condition type="isEqual" target="units" value="0" />
-									<Condition type="isEqual" target="units" value="1" />
+									<Condition type="isEqual" target="units" value="2" />
 								</Condition>
 							</Condition>
 						</SubImage>
@@ -294,7 +294,7 @@
 							<Condition type="and">
 								<Condition type="isEqual" target="ali_type" value="1" />
 								<Condition type="or">
-									<Condition type="isEqual" target="units" value="2" />
+									<Condition type="isEqual" target="units" value="1" />
 									<Condition type="isEqual" target="units" value="3" />
 								</Condition>
 							</Condition>
@@ -304,7 +304,7 @@
 								<Condition type="isEqual" target="ali_type" value="2" />
 								<Condition type="or">
 									<Condition type="isEqual" target="units" value="0" />
-									<Condition type="isEqual" target="units" value="1" />
+									<Condition type="isEqual" target="units" value="2" />
 								</Condition>
 							</Condition>
 						</SubImage>
@@ -312,7 +312,7 @@
 							<Condition type="and">
 								<Condition type="isEqual" target="ali_type" value="2" />
 								<Condition type="or">
-									<Condition type="isEqual" target="units" value="2" />
+									<Condition type="isEqual" target="units" value="1" />
 									<Condition type="isEqual" target="units" value="3" />
 								</Condition>
 							</Condition>
@@ -322,7 +322,7 @@
 								<Condition type="isEqual" target="ali_type" value="3" />
 								<Condition type="or">
 									<Condition type="isEqual" target="units" value="0" />
-									<Condition type="isEqual" target="units" value="1" />
+									<Condition type="isEqual" target="units" value="2" />
 								</Condition>
 							</Condition>
 						</SubImage>
@@ -330,7 +330,7 @@
 							<Condition type="and">
 								<Condition type="isEqual" target="ali_type" value="3" />
 								<Condition type="or">
-									<Condition type="isEqual" target="units" value="2" />
+									<Condition type="isEqual" target="units" value="1" />
 									<Condition type="isEqual" target="units" value="3" />
 								</Condition>
 							</Condition>
@@ -464,13 +464,13 @@
 				<Label caption="&lt;h3&gt;Specify inlet geometry&lt;/h3&gt;
 &lt;ul&gt;
   &lt;li&gt;Use &quot;Edging&quot; page, &quot;Projection&quot; page to specify the inlet geometry.&lt;/li&gt;
-  &lt;li&gt;This corresponds to useing &quot;*CC&quot; record.&lt;/li&gt;
+  &lt;li&gt;This corresponds to using &quot;*CC&quot; record.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3&gt;Specify discharge coefficient adjustment settings&lt;/h3&gt;
 &lt;ul&gt;
   &lt;li&gt;Use &quot;Wingwalls&quot; page and &quot;Adjustment parameters&quot; page to specify adjustment settings.&lt;/li&gt;
-  &lt;li&gt;This corresponds to useing &quot;*C3&quot; record.&lt;/li&gt;
+  &lt;li&gt;This corresponds to using &quot;*C3&quot; record.&lt;/li&gt;
 &lt;/ul&gt;
 
 " />
@@ -486,7 +486,7 @@
 								<Condition type="isEqual" target="edg_type" value="2" />
 								<Condition type="or">
 									<Condition type="isEqual" target="units" value="0" />
-									<Condition type="isEqual" target="units" value="1" />
+									<Condition type="isEqual" target="units" value="2" />
 								</Condition>
 							</Condition>
 						</SubImage>
@@ -494,7 +494,7 @@
 							<Condition type="and">
 								<Condition type="isEqual" target="edg_type" value="2" />
 								<Condition type="or">
-									<Condition type="isEqual" target="units" value="2" />
+									<Condition type="isEqual" target="units" value="1" />
 									<Condition type="isEqual" target="units" value="3" />
 								</Condition>
 							</Condition>
@@ -504,7 +504,7 @@
 								<Condition type="isEqual" target="edg_type" value="3" />
 								<Condition type="or">
 									<Condition type="isEqual" target="units" value="0" />
-									<Condition type="isEqual" target="units" value="1" />
+									<Condition type="isEqual" target="units" value="2" />
 								</Condition>
 							</Condition>
 						</SubImage>
@@ -512,7 +512,7 @@
 							<Condition type="and">
 								<Condition type="isEqual" target="edg_type" value="3" />
 								<Condition type="or">
-									<Condition type="isEqual" target="units" value="2" />
+									<Condition type="isEqual" target="units" value="1" />
 									<Condition type="isEqual" target="units" value="3" />
 								</Condition>
 							</Condition>
@@ -544,7 +544,7 @@
 								</Condition>
 							</Definition>
 						</Item>
-						<Item name="edg_wb" caption="Widgh of Bevel (W)">
+						<Item name="edg_wb" caption="Width of Bevel (W)">
 							<Definition valueType="real" default="0">
 								<Condition type="and" >
 									<Condition type="isEqual" target="discharge_method" value="0"/>
@@ -574,7 +574,7 @@
 								<Condition type="isEqual" target="proj_type" value="2" />
 								<Condition type="or">
 									<Condition type="isEqual" target="units" value="0" />
-									<Condition type="isEqual" target="units" value="1" />
+									<Condition type="isEqual" target="units" value="2" />
 								</Condition>
 							</Condition>
 						</SubImage>
@@ -582,7 +582,7 @@
 							<Condition type="and">
 								<Condition type="isEqual" target="proj_type" value="2" />
 								<Condition type="or">
-									<Condition type="isEqual" target="units" value="2" />
+									<Condition type="isEqual" target="units" value="1" />
 									<Condition type="isEqual" target="units" value="3" />
 								</Condition>
 							</Condition>
@@ -592,7 +592,7 @@
 								<Condition type="isEqual" target="proj_type" value="3" />
 								<Condition type="or">
 									<Condition type="isEqual" target="units" value="0" />
-									<Condition type="isEqual" target="units" value="1" />
+									<Condition type="isEqual" target="units" value="2" />
 								</Condition>
 							</Condition>
 						</SubImage>
@@ -600,7 +600,7 @@
 							<Condition type="and">
 								<Condition type="isEqual" target="proj_type" value="3" />
 								<Condition type="or">
-									<Condition type="isEqual" target="units" value="2" />
+									<Condition type="isEqual" target="units" value="1" />
 									<Condition type="isEqual" target="units" value="3" />
 								</Condition>
 							</Condition>
@@ -804,7 +804,7 @@
 							<Enumerations>
 								<Enumeration value="6" caption="Flow type 6 (6)"/>
 								<Enumeration value="5" caption="Flow type 5 (5)"/>
-								<Enumeration value="65" caption="Both (65)"/>
+								<Enumeration value="65" caption="Both (6 5)"/>
 							</Enumerations>
 						</Definition>
 					</Item>
@@ -880,7 +880,7 @@
 			<Image src="approach_english.png">
 				<SubImage src="approach_si.png">
 					<Condition type="or">
-						<Condition type="isEqual" target="units" value="2" />
+						<Condition type="isEqual" target="units" value="1" />
 						<Condition type="isEqual" target="units" value="3" />
 					</Condition>
 				</SubImage>
@@ -910,7 +910,7 @@
 				<Image src="flows_tailwater_english.png">
 					<SubImage src="flows_tailwater_si.png">
 						<Condition type="or">
-							<Condition type="isEqual" target="units" value="2" />
+							<Condition type="isEqual" target="units" value="1" />
 							<Condition type="isEqual" target="units" value="3" />
 						</Condition>
 					</SubImage>
