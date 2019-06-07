@@ -1,5 +1,10 @@
 version: '{branch}-{build}'
 
+# Skip any branches that start with two underscores (__)
+branches:
+  except:
+    - /__.*/
+
 # This allows testing of GUI
 # See https://help.appveyor.com/discussions/questions/678-gui-unit-testing-in-appveyor
 # and https://twitter.com/appveyor/status/525658624593375236
