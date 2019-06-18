@@ -25,19 +25,6 @@
   <SHA1>365b1f219aef86f2be139e85a0b903ac5746e96f</SHA1>
  </PackageUpdate>
  <PackageUpdate>
-  <Name>gridexporter_plugin.structured2dgridnayscsv</Name>
-  <DisplayName>Structured grid Nays CSV exporter</DisplayName>
-  <Description>Structured grid Nays CSV exporter</Description>
-  <Version>1.0.0</Version>
-  <Default>true</Default>
-  <ReleaseDate>2015-07-01</ReleaseDate>
-  <SortingPriority>30</SortingPriority>
-  <Script>installscript.qs</Script>
-  <UpdateFile CompressedSize="9288" OS="Any" UncompressedSize="22604"/>
-  <DownloadableArchives>content.7z</DownloadableArchives>
-  <SHA1>2d77c9cd9e29bbf0a9bf6336cbf896a4fdb7baec</SHA1>
- </PackageUpdate>
- <PackageUpdate>
   <Name>gridexporter_plugin.structured2dgridnaysgrid</Name>
   <DisplayName>Structured grid Nays grid file exporter</DisplayName>
   <Description>Structured grid Nays grid file exporter</Description>
@@ -448,5 +435,18 @@
    <License file="license-english.txt" name="Terms of use of the iRIC software"/>
   </Licenses>
   <SHA1>52eab43e3ddfd96c76501ed3f69428fac4ee7f2c</SHA1>
+ </PackageUpdate>
+ <PackageUpdate>
+  <Name>gridexporter_plugin.structured2dgridnayscsv</Name>
+  <DisplayName>Structured grid Nays CSV exporter</DisplayName>
+  <Description>Structured grid Nays CSV exporter</Description>
+  <Version>1.0.1</Version>
+  <Default>true</Default>
+  <ReleaseDate>2019-06-19</ReleaseDate>
+  <SortingPriority>30</SortingPriority>
+  <Script>installscript.qs</Script>
+  <UpdateFile CompressedSize="9187" OS="Any" UncompressedSize="22607"/>
+  <DownloadableArchives>content.7z</DownloadableArchives>
+  <SHA1>51511e083be75a73177a494e61b9385cca98a086</SHA1>
  </PackageUpdate>
 </Updates>
