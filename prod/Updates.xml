@@ -25,19 +25,6 @@
   <SHA1>365b1f219aef86f2be139e85a0b903ac5746e96f</SHA1>
  </PackageUpdate>
  <PackageUpdate>
-  <Name>gridexporter_plugin.structured2dgridnayscsv</Name>
-  <DisplayName>Structured grid Nays CSV exporter</DisplayName>
-  <Description>Structured grid Nays CSV exporter</Description>
-  <Version>1.0.0</Version>
-  <Default>true</Default>
-  <ReleaseDate>2015-07-01</ReleaseDate>
-  <SortingPriority>30</SortingPriority>
-  <Script>installscript.qs</Script>
-  <UpdateFile CompressedSize="9288" OS="Any" UncompressedSize="22604"/>
-  <DownloadableArchives>content.7z</DownloadableArchives>
-  <SHA1>2d77c9cd9e29bbf0a9bf6336cbf896a4fdb7baec</SHA1>
- </PackageUpdate>
- <PackageUpdate>
   <Name>gridexporter_plugin.structured2dgridnaysgrid</Name>
   <DisplayName>Structured grid Nays grid file exporter</DisplayName>
   <Description>Structured grid Nays grid file exporter</Description>
@@ -421,19 +408,46 @@
   <SHA1>f255b598fea154c82249414f8f4160ccbcd73111</SHA1>
  </PackageUpdate>
  <PackageUpdate>
-  <Name>gui.prepost</Name>
-  <DisplayName>iRIC GUI 3.0</DisplayName>
-  <Description>iRIC Main GUI</Description>
-  <Version>3.0.15.6251</Version>
-  <ReleaseDate>2019-04-26</ReleaseDate>
+  <Name>gui.runtime</Name>
+  <DisplayName>iRIC GUI Runtime</DisplayName>
+  <Description>Runtime DLLs for iRIC Main GUI</Description>
+  <Version>1.0.0</Version>
+  <ReleaseDate>2019-05-09</ReleaseDate>
   <SortingPriority>100</SortingPriority>
   <ForcedInstallation>true</ForcedInstallation>
   <Script>installscript.qs</Script>
-  <UpdateFile CompressedSize="68505028" OS="Any" UncompressedSize="266054774"/>
+  <UpdateFile CompressedSize="65713764" OS="Any" UncompressedSize="252229376"/>
   <DownloadableArchives>accessible.7z,bearer.7z,iconengines.7z,imageformats.7z,languages.7z,licenses.7z,platforms.7z,pythonmodule.7z,content.7z</DownloadableArchives>
+  <SHA1>43b439f907be661b394e16879cd2134a77a6b5d7</SHA1>
+ </PackageUpdate>
+ <PackageUpdate>
+  <Name>gridexporter_plugin.structured2dgridnayscsv</Name>
+  <DisplayName>Structured grid Nays CSV exporter</DisplayName>
+  <Description>Structured grid Nays CSV exporter</Description>
+  <Version>1.0.1</Version>
+  <Default>true</Default>
+  <ReleaseDate>2019-06-19</ReleaseDate>
+  <SortingPriority>30</SortingPriority>
+  <Script>installscript.qs</Script>
+  <UpdateFile CompressedSize="9187" OS="Any" UncompressedSize="22607"/>
+  <DownloadableArchives>content.7z</DownloadableArchives>
+  <SHA1>51511e083be75a73177a494e61b9385cca98a086</SHA1>
+ </PackageUpdate>
+ <PackageUpdate>
+  <Name>gui.prepost</Name>
+  <DisplayName>iRIC GUI 3.0</DisplayName>
+  <Description>iRIC Main GUI</Description>
+  <Dependencies>runtime,gui.runtime</Dependencies>
+  <Version>3.0.17.6256</Version>
+  <ReleaseDate>2019-06-19</ReleaseDate>
+  <SortingPriority>100</SortingPriority>
+  <ForcedInstallation>true</ForcedInstallation>
+  <Script>installscript.qs</Script>
+  <UpdateFile CompressedSize="2829718" OS="Any" UncompressedSize="13867094"/>
+  <DownloadableArchives>languages.7z,content.7z</DownloadableArchives>
   <Licenses>
    <License file="license-english.txt" name="Terms of use of the iRIC software"/>
   </Licenses>
-  <SHA1>a48555a59007b36062458cbfc7a03cea8a539d6d</SHA1>
+  <SHA1>7e6fdf6161a2aa3e067b52bb0685653c49f6c04a</SHA1>
  </PackageUpdate>
 </Updates>
