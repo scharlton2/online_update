@@ -421,22 +421,6 @@
   <SHA1>43b439f907be661b394e16879cd2134a77a6b5d7</SHA1>
  </PackageUpdate>
  <PackageUpdate>
-  <Name>gui.prepost</Name>
-  <DisplayName>iRIC GUI 3.0</DisplayName>
-  <Description>iRIC Main GUI</Description>
-  <Version>3.0.17.6255</Version>
-  <ReleaseDate>2019-06-19</ReleaseDate>
-  <SortingPriority>100</SortingPriority>
-  <ForcedInstallation>true</ForcedInstallation>
-  <Script>installscript.qs</Script>
-  <UpdateFile CompressedSize="2829110" OS="Any" UncompressedSize="13867114"/>
-  <DownloadableArchives>languages.7z,content.7z</DownloadableArchives>
-  <Licenses>
-   <License file="license-english.txt" name="Terms of use of the iRIC software"/>
-  </Licenses>
-  <SHA1>52eab43e3ddfd96c76501ed3f69428fac4ee7f2c</SHA1>
- </PackageUpdate>
- <PackageUpdate>
   <Name>gridexporter_plugin.structured2dgridnayscsv</Name>
   <DisplayName>Structured grid Nays CSV exporter</DisplayName>
   <Description>Structured grid Nays CSV exporter</Description>
@@ -448,5 +432,22 @@
   <UpdateFile CompressedSize="9187" OS="Any" UncompressedSize="22607"/>
   <DownloadableArchives>content.7z</DownloadableArchives>
   <SHA1>51511e083be75a73177a494e61b9385cca98a086</SHA1>
+ </PackageUpdate>
+ <PackageUpdate>
+  <Name>gui.prepost</Name>
+  <DisplayName>iRIC GUI 3.0</DisplayName>
+  <Description>iRIC Main GUI</Description>
+  <Dependencies>runtime,gui.runtime</Dependencies>
+  <Version>3.0.17.6255</Version>
+  <ReleaseDate>2019-06-19</ReleaseDate>
+  <SortingPriority>100</SortingPriority>
+  <ForcedInstallation>true</ForcedInstallation>
+  <Script>installscript.qs</Script>
+  <UpdateFile CompressedSize="2828886" OS="Any" UncompressedSize="13867114"/>
+  <DownloadableArchives>languages.7z,content.7z</DownloadableArchives>
+  <Licenses>
+   <License file="license-english.txt" name="Terms of use of the iRIC software"/>
+  </Licenses>
+  <SHA1>6627155eb24fa925bf4e8ad271e30926e597dd58</SHA1>
  </PackageUpdate>
 </Updates>
