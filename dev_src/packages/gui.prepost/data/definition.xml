@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GuiDefinition 
   xmlns="www.iric.net/GuiDefinition/1.0"
-  name="prepost" caption="iRIC GUI 3.0.18" version="3.0.18.6277" release="2019.10.22" github-sha1="fbc46279ba8e99288ab9f733a0001a9513604c9d"
+  name="prepost" caption="iRIC GUI 3.0.18" version="3.0.18.6278" release="2019.11.01" github-sha1="104374760645b55b5e4bd3c2c90d9b6ec4421f14"
   copyright="iRIC Organization" essential="true"
 >
 </GuiDefinition>
