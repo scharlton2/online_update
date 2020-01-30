@@ -187,19 +187,6 @@
   <SHA1>d3e76a670ac0fbdc87979094484b90b9cb750bdb</SHA1>
  </PackageUpdate>
  <PackageUpdate>
-  <Name>solver.nays2dh</Name>
-  <DisplayName>Nays2DH</DisplayName>
-  <Description>Nays2DH is a computational model for simulating horizontal two-dimensional (2D) flow, sediment transport, morphological changes of bed and banks in rivers.</Description>
-  <Version>1.5.300</Version>
-  <Default>true</Default>
-  <ReleaseDate>2018-06-05</ReleaseDate>
-  <SortingPriority>50</SortingPriority>
-  <Script>installscript.qs</Script>
-  <UpdateFile CompressedSize="4503040" OS="Any" UncompressedSize="20820961"/>
-  <DownloadableArchives>content.7z</DownloadableArchives>
-  <SHA1>014e95c2e3dbf71cabbca2058fbffe85ea18be8c</SHA1>
- </PackageUpdate>
- <PackageUpdate>
   <Name>solver.elimo</Name>
   <DisplayName>ELIMO</DisplayName>
   <Description>iRIC-ELIMO has been developed with a motto of &quot;simple and easy tsunami computation&quot; for people with minimum knowledge to operate Window softwares, which is capable of reliable estimations of tsunami generation, propagation and evolution on coasts on easy-performable GUI environment provided by iRIC.</Description>
@@ -514,5 +501,18 @@
   <UpdateFile CompressedSize="68812" OS="Any" UncompressedSize="219214"/>
   <DownloadableArchives>content.7z</DownloadableArchives>
   <SHA1>98f03601e8a72a1c9d0d49cea5c2cdc428459510</SHA1>
+ </PackageUpdate>
+ <PackageUpdate>
+  <Name>solver.nays2dh</Name>
+  <DisplayName>Nays2DH</DisplayName>
+  <Description>Nays2DH is a computational model for simulating horizontal two-dimensional (2D) flow, sediment transport, morphological changes of bed and banks in rivers.</Description>
+  <Version>1.5.301</Version>
+  <Default>true</Default>
+  <ReleaseDate>2010-01-30</ReleaseDate>
+  <SortingPriority>50</SortingPriority>
+  <Script>installscript.qs</Script>
+  <UpdateFile CompressedSize="4505649" OS="Any" UncompressedSize="20851800"/>
+  <DownloadableArchives>content.7z</DownloadableArchives>
+  <SHA1>683ad31fc715e0c6233692a4e11a4f8e5ff99a52</SHA1>
  </PackageUpdate>
 </Updates>
