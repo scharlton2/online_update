@@ -463,4 +463,56 @@
   </Licenses>
   <SHA1>0e6aa10bb0fd519abc06c565a72735c67af75a19</SHA1>
  </PackageUpdate>
+ <PackageUpdate>
+  <Name>solver.nays2dflood_dev</Name>
+  <DisplayName>Nays2D Flood v5.0 64 bit Dev</DisplayName>
+  <Description>Nays 2D Flood is a flood flow analysis solver that relies on unsteady 2-dimensional plane flow simulation using boundary-fitted coordinates as the general curvilinear coordinates.</Description>
+  <Version>5.1.1509</Version>
+  <Default>true</Default>
+  <ReleaseDate>2018-11-30</ReleaseDate>
+  <SortingPriority>50</SortingPriority>
+  <Script>installscript.qs</Script>
+  <UpdateFile CompressedSize="3931125" OS="Any" UncompressedSize="19234117"/>
+  <DownloadableArchives>content.7z</DownloadableArchives>
+  <SHA1>fccd18520bd1f97e839377bf589a9c852aa65bea</SHA1>
+ </PackageUpdate>
+ <PackageUpdate>
+  <Name>solver.nays2d+</Name>
+  <DisplayName>Nays2D+</DisplayName>
+  <Description/>
+  <Version>1.0.0</Version>
+  <Default>true</Default>
+  <ReleaseDate>2018-12-06</ReleaseDate>
+  <SortingPriority>50</SortingPriority>
+  <Script>installscript.qs</Script>
+  <UpdateFile CompressedSize="701598" OS="Any" UncompressedSize="2062805"/>
+  <DownloadableArchives>content.7z</DownloadableArchives>
+  <SHA1>df7f35f370592a1a82f2d0515f6f8f17f22e8957</SHA1>
+ </PackageUpdate>
+ <PackageUpdate>
+  <Name>solver.nays2dv</Name>
+  <DisplayName>Nays2dV vertical 2D model</DisplayName>
+  <Description/>
+  <Version>1.5.200</Version>
+  <Default>true</Default>
+  <ReleaseDate>2017-11-10</ReleaseDate>
+  <SortingPriority>50</SortingPriority>
+  <Script>installscript.qs</Script>
+  <UpdateFile CompressedSize="116589" OS="Any" UncompressedSize="320984"/>
+  <DownloadableArchives>content.7z</DownloadableArchives>
+  <SHA1>1424e12b30059c61c4cae2658d442bbf72370876</SHA1>
+ </PackageUpdate>
+ <PackageUpdate>
+  <Name>solver.tracerdens</Name>
+  <DisplayName>TracerDens</DisplayName>
+  <Description/>
+  <Version>2.0.0</Version>
+  <Default>true</Default>
+  <ReleaseDate>2018-12-06</ReleaseDate>
+  <SortingPriority>50</SortingPriority>
+  <Script>installscript.qs</Script>
+  <UpdateFile CompressedSize="68812" OS="Any" UncompressedSize="219214"/>
+  <DownloadableArchives>content.7z</DownloadableArchives>
+  <SHA1>98f03601e8a72a1c9d0d49cea5c2cdc428459510</SHA1>
+ </PackageUpdate>
 </Updates>
