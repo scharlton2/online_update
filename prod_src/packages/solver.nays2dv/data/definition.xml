@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SolverDefinition 
+	xmlns="www.iric.net/SolverDefinition/1.0"
+	name="nays2dv" 
+	caption="Nays2dV vertical 2D model"
+	version="1.5.200"
+	copyright="Yasuyuki SHIMIZU"
+	release="2017.11.10"
+	homepage="http://i-ric.org"
+	executable="nays2dv.exe"
+	iterationtype="time"
+	gridtype="structured2d"
+>
+<CalculationCondition>
+<Tab name="Parameters(1)" caption="Computational Parameters">
+	<GroupBox caption="Boundary Condition">
+		<Item name="j_bound" caption="Upstream and Dounstream Boundary">
+			<Definition conditionType="constant" valueType="integer" option="true" default="1">
+				<Enumerations>
+					<Enumeration value="1" caption="Closed"/>
+					<Enumeration value="2" caption="Open Channel Flow with Periodic Boundary"/>
+				</Enumerations>
+			</Definition>
+		</Item>
+		<Item name="u_ave" caption="Averaged Velocoty">
+		<Definition valueType="real" default="0.3">
+		<Dependency>
+			<Condition type="and">
+			<Condition type="isEqual" target="j_bound" value="2"/>
+			</Condition>
+			<Action type="enable"/>
+		</Dependency>
+		</Definition>
+		</Item>
+		<Item name="hs_ave" caption="Averaged Depth">
+		<Definition valueType="real" default="0.17">
+		<Dependency>
+			<Condition type="and">
+			<Condition type="isEqual" target="j_bound" value="2"/>
+			</Condition>
+			<Action type="enable"/>
+		</Dependency>
+		</Definition>
+		</Item>
+		<Item name="diam" caption="Grain Size of Bed Material">
+		<Definition valueType="real" default="0.0001">
+		</Definition>
+		</Item>
+		<Item name="dy1" caption="Relative Length to the Depth of the First Grid From Bottom ">
+			<Definition valueType="real" default="0.02">
+			</Definition>
+		</Item>
+		<Item name="j_snu" caption="Eddy Viscusty">
+			<Definition conditionType="constant" valueType="integer" default="0">
+				<Enumerations>
+					<Enumeration value="0" caption="Constant"/>
+					<Enumeration value="1" caption="Paraboric"/>
+				</Enumerations>
+			</Definition>
+		</Item>
+		<Item name="al_ep" caption="Coefficient for Eddy Viscusty">
+		<Definition valueType="real" default="1.0">
+		</Definition>
+		</Item>
+	</GroupBox>
+</Tab>
+
+<Tab name="Parameters(2)" caption="Time and Iteration Parameters">
+	<GroupBox caption="Time Parameters">
+		<Item name="tuk" caption="Output Interval(sec)">
+			<Definition valueType="real" default="0.01">
+			</Definition>
+		</Item>
+		<Item name="etime" caption="Computation Finishing Time(sec)">
+			<Definition valueType="real" default="5">
+			</Definition>
+		</Item>
+		<Item name="dt" caption="Time Step of Computation(sec)">
+			<Definition valueType="real" default="0.001">
+			</Definition>
+		</Item>
+	</GroupBox>
+	<GroupBox caption="Iteration Parameters">
+		<Item name="sorerr" caption="Error Limitation in SOR Computation">
+			<Definition valueType="real" default="1e-4">
+			</Definition>
+		</Item>
+		<Item name="lsor" caption="Max. Times of Iteration">
+			<Definition valueType="integer" default="10">
+			</Definition>
+		</Item>
+		<Item name="soralpha" caption="Relaxation Coefficient">
+			<Definition valueType="real" default=".7">
+			</Definition>
+		</Item>
+		<Item name="j_surf" caption="Free Surface Calculation">
+			<Definition conditionType="constant" valueType="integer" option="true" default="0">
+				<Enumerations>
+					<Enumeration value="0" caption="No"/>
+					<Enumeration value="1" caption="Yes"/>
+				</Enumerations>
+			</Definition>
+		</Item>
+		<Item name="alpha_surf" caption="Reluxation Coefficient for Free Surface Computation">
+		<Definition valueType="real" default="0.1">
+			<Dependency>
+				<Condition type="and">
+				<Condition type="isEqual" target="j_surf" value="1"/>
+				</Condition>
+				<Action type="enable"/>
+			</Dependency>
+		</Definition>
+		</Item>
+		<Item name="stime_surf" caption="Starting Time of Free Surface Computation">
+		<Definition valueType="real" default="1">
+			<Dependency>
+				<Condition type="and">
+				<Condition type="isEqual" target="j_surf" value="1"/>
+				</Condition>
+				<Action type="enable"/>
+			</Dependency>
+		</Definition>
+		</Item>
+
+		<Item name="hloop" caption="Iteration time for water surface">
+		<Definition valueType="integer" default="1">
+		<Dependency>
+			<Condition type="and">
+			<Condition type="isEqual" target="j_surf" value="1"/>
+			</Condition>
+			<Action type="enable"/>
+		</Dependency>
+		</Definition>
+		</Item>
+		<Item name="hloop_err" caption="Truncation error">
+		<Definition valueType="real" default="0.001">
+		<Dependency>
+			<Condition type="and">
+			<Condition type="isEqual" target="j_surf" value="1"/>
+			</Condition>
+			<Action type="enable"/>
+		</Dependency>
+		</Definition>
+		</Item>
+	</GroupBox>
+	<GroupBox caption="Discharge Adjustment">
+
+		<Item name="j_qadj" caption="Discharge Adjustment">
+		<Definition conditionType="constant" valueType="integer" default="0">
+			<Enumerations>
+				<Enumeration value="0" caption="No"/>
+				<Enumeration value="1" caption="Yes"/>
+			</Enumerations>
+			<Dependency>
+				<Condition type="and">
+				<Condition type="isEqual" target="j_bound" value="2"/>
+				</Condition>
+				<Action type="enable"/>
+			</Dependency>
+		</Definition>
+		</Item>
+
+		<Item name="coefs_discharge" caption="Discharge Adjustment Coefficient">
+		<Definition valueType="real" default="0.01">
+			<Dependency>
+				<Condition type="and">
+				<Condition type="isEqual" target="j_bound" value="2"/>
+				<Condition type="isEqual" target="j_qadj" value="1"/>
+				</Condition>
+				<Action type="enable"/>
+			</Dependency>
+		</Definition>
+		</Item>
+
+		<Item name="stime_discharge" caption="Discharge Adjustment Starting Time">
+		<Definition valueType="real" default="1">
+			<Dependency>
+				<Condition type="and">
+				<Condition type="isEqual" target="j_bound" value="2"/>
+				<Condition type="isEqual" target="j_qadj" value="1"/>
+				</Condition>
+				<Action type="enable"/>
+			</Dependency>
+		</Definition>
+		</Item>
+         
+	</GroupBox>
+</Tab>
+<Tab name="Physicals" caption="Physical Parameters">
+	<Item name="snu" caption="Kinematic Viscosity Coefficient">
+		<Definition valueType="real" default="1e-6">
+		</Definition>
+	</Item>
+	<Item name="skt" caption="Diffusion Coefficient for Heat">
+		<Definition valueType="real" default="0.000">
+		</Definition>
+	</Item>
+	<Item name="skc" caption="Diffusion Coefficient for Concentration">
+		<Definition valueType="real" default="0.000">
+		</Definition>
+	</Item>
+	<Item name="beta_t" caption="Volume expansion coefficient">
+		<Definition valueType="real" default="0.00021">
+		</Definition>
+	</Item>
+	<Item name="rho" caption="Dencity(kg/m**3)">
+		<Definition valueType="real" default="1000.">
+		</Definition>
+	</Item>
+	<Item name="surf_tension" caption="Surface Tension Coefficient">
+		<Definition valueType="real" default="0.072">
+		</Definition>
+	</Item>
+
+	<GroupBox caption="Background Values">
+		<Item name="j_bcv" caption="Background Temperature and Concentration">
+			<Definition conditionType="constant" valueType="integer" option="true" default="1">
+				<Enumerations>
+					<Enumeration value="0" caption="Use Minimum Value"/>
+					<Enumeration value="1" caption="Use Maximum Value"/>
+					<Enumeration value="2" caption="Use Averaged Value"/>
+					<Enumeration value="3" caption="Give Secific Value"/>
+				</Enumerations>
+			</Definition>
+		</Item>
+
+		<Item name="tmp0" caption="Back Ground Temperature">
+			<Definition valueType="real" default="15">
+			<Dependency>
+				<Condition type="and">
+				<Condition type="isEqual" target="j_bcv" value="3"/>
+				</Condition>
+				<Action type="enable"/>
+			</Dependency>
+			</Definition>
+		</Item>
+		<Item name="con0" caption="Back Ground Cocentration">
+			<Definition valueType="real" default="0">
+			<Dependency>
+				<Condition type="and">
+				<Condition type="isEqual" target="j_bcv" value="3"/>
+				</Condition>
+				<Action type="enable"/>
+			</Dependency>
+			</Definition>
+		</Item>
+	</GroupBox>
+</Tab>
+		
+</CalculationCondition>
+<GridRelatedCondition>
+	<Item name="Elevation" caption="Elevation">
+		<Definition position="node" valueType="real" default="max" />
+	</Item>
+	<Item name="Ini_tmp" caption="Initial Temperature (degree)">
+		<Definition position="cell" valueType="real" default="0">
+		</Definition>
+	</Item>
+	<Item name="Ini_con" caption="Initial Concentration">
+		<Definition position="cell" valueType="real" default="0">
+		</Definition>
+	</Item>
+	<Item name="Obstacle" caption="Obstacle Cell">
+		<Definition position="cell" valueType="integer" default="0" option="true">
+			<Enumerations>
+                    		<Enumeration value="0" caption="Normal cell" />
+                    		<Enumeration value="1" caption="Obstacle" />
+                	</Enumerations>
+		</Definition>
+	</Item>
+</GridRelatedCondition>
+<BoundaryCondition name="b_tmp" caption="T_Bound" position="edge">
+	<Item name="b_tmp_val" caption="Tempetarure at Boundary">
+		<Definition valueType="real" default="20.">
+		</Definition>
+	</Item>
+</BoundaryCondition>
+
+</SolverDefinition>

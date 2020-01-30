@@ -450,4 +450,17 @@
   </Licenses>
   <SHA1>fd58333e50bf0f5e50a7bbd82b9933444d6e705b</SHA1>
  </PackageUpdate>
+ <PackageUpdate>
+  <Name>solver.nays2dv</Name>
+  <DisplayName>Nays2dV vertical 2D model</DisplayName>
+  <Description/>
+  <Version>1.5.200</Version>
+  <Default>true</Default>
+  <ReleaseDate>2017-11-10</ReleaseDate>
+  <SortingPriority>50</SortingPriority>
+  <Script>installscript.qs</Script>
+  <UpdateFile CompressedSize="116586" OS="Any" UncompressedSize="320984"/>
+  <DownloadableArchives>content.7z</DownloadableArchives>
+  <SHA1>82110db8d07e3d9c484feb063fe08ba69b88e4ed</SHA1>
+ </PackageUpdate>
 </Updates>
