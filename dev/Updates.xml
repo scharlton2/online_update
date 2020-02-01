@@ -434,23 +434,6 @@
   <SHA1>84eefa4244453df4dc19f391fb6e541b81b31925</SHA1>
  </PackageUpdate>
  <PackageUpdate>
-  <Name>gui.prepost</Name>
-  <DisplayName>iRIC GUI 3.0</DisplayName>
-  <Description>iRIC Main GUI</Description>
-  <Dependencies>runtime,gui.runtime</Dependencies>
-  <Version>3.0.18.6305</Version>
-  <ReleaseDate>2020-01-28</ReleaseDate>
-  <SortingPriority>100</SortingPriority>
-  <ForcedInstallation>true</ForcedInstallation>
-  <Script>installscript.qs</Script>
-  <UpdateFile CompressedSize="2967475" OS="Any" UncompressedSize="14554652"/>
-  <DownloadableArchives>languages.7z,pythonmodule.7z,content.7z</DownloadableArchives>
-  <Licenses>
-   <License file="license-english.txt" name="Terms of use of the iRIC software"/>
-  </Licenses>
-  <SHA1>0e6aa10bb0fd519abc06c565a72735c67af75a19</SHA1>
- </PackageUpdate>
- <PackageUpdate>
   <Name>solver.nays2dflood_dev</Name>
   <DisplayName>Nays2D Flood v5.0 64 bit Dev</DisplayName>
   <Description>Nays 2D Flood is a flood flow analysis solver that relies on unsteady 2-dimensional plane flow simulation using boundary-fitted coordinates as the general curvilinear coordinates.</Description>
@@ -514,5 +497,22 @@
   <UpdateFile CompressedSize="4505649" OS="Any" UncompressedSize="20851800"/>
   <DownloadableArchives>content.7z</DownloadableArchives>
   <SHA1>683ad31fc715e0c6233692a4e11a4f8e5ff99a52</SHA1>
+ </PackageUpdate>
+ <PackageUpdate>
+  <Name>gui.prepost</Name>
+  <DisplayName>iRIC GUI 3.0</DisplayName>
+  <Description>iRIC Main GUI</Description>
+  <Dependencies>runtime,gui.runtime</Dependencies>
+  <Version>3.0.18.6306</Version>
+  <ReleaseDate>2020-02-01</ReleaseDate>
+  <SortingPriority>100</SortingPriority>
+  <ForcedInstallation>true</ForcedInstallation>
+  <Script>installscript.qs</Script>
+  <UpdateFile CompressedSize="2967026" OS="Any" UncompressedSize="14554652"/>
+  <DownloadableArchives>languages.7z,pythonmodule.7z,content.7z</DownloadableArchives>
+  <Licenses>
+   <License file="license-english.txt" name="Terms of use of the iRIC software"/>
+  </Licenses>
+  <SHA1>52139f67959cdcb7e35a65e3948b623244876bfb</SHA1>
  </PackageUpdate>
 </Updates>
