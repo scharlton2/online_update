@@ -83,32 +83,6 @@
   <SHA1>ef7d47cc40503db20a514a8ee7a555eee0316a7f</SHA1>
  </PackageUpdate>
  <PackageUpdate>
-  <Name>gridcreator.multi_grid_generator</Name>
-  <DisplayName>Multifunction Grid Genarator</DisplayName>
-  <Description>Multifunction Grid Genarator</Description>
-  <Version>1.0.0</Version>
-  <Default>true</Default>
-  <ReleaseDate>2017-06-06</ReleaseDate>
-  <SortingPriority>50</SortingPriority>
-  <Script>installscript.qs</Script>
-  <UpdateFile CompressedSize="38828" OS="Any" UncompressedSize="121159"/>
-  <DownloadableArchives>content.7z</DownloadableArchives>
-  <SHA1>4d770cb16c742655f53935f9c0772be31fa0df5e</SHA1>
- </PackageUpdate>
- <PackageUpdate>
-  <Name>gridcreator.simplegridgen</Name>
-  <DisplayName>Simple Grid Generator</DisplayName>
-  <Description>Simple Grid Generator</Description>
-  <Version>1.0.0</Version>
-  <Default>true</Default>
-  <ReleaseDate>2017-06-06</ReleaseDate>
-  <SortingPriority>50</SortingPriority>
-  <Script>installscript.qs</Script>
-  <UpdateFile CompressedSize="14267" OS="Any" UncompressedSize="61997"/>
-  <DownloadableArchives>content.7z</DownloadableArchives>
-  <SHA1>ea8721d1146b9270b886d413517bda37fb5ee11f</SHA1>
- </PackageUpdate>
- <PackageUpdate>
   <Name>solver.sac</Name>
   <DisplayName>SAC</DisplayName>
   <Description>Slope Area Computation Program</Description>
@@ -276,19 +250,6 @@
   <UpdateFile CompressedSize="1001692" OS="Any" UncompressedSize="3869776"/>
   <DownloadableArchives>content.7z</DownloadableArchives>
   <SHA1>4f09852ec9daad687ee2e0481db022fb6f8ff94d</SHA1>
- </PackageUpdate>
- <PackageUpdate>
-  <Name>gridcreator.nayseddygrid</Name>
-  <DisplayName>NaysEddyGrid</DisplayName>
-  <Description>&quot;Cartesian Grid for NaysEddy&quot; is a Cartesian grid generator for the solver &quot;NaysEddy&quot;.</Description>
-  <Version>1.1.0</Version>
-  <Default>true</Default>
-  <ReleaseDate>2019-01-01</ReleaseDate>
-  <SortingPriority>50</SortingPriority>
-  <Script>installscript.qs</Script>
-  <UpdateFile CompressedSize="18704" OS="Any" UncompressedSize="48567"/>
-  <DownloadableArchives>content.7z</DownloadableArchives>
-  <SHA1>0bad72a4c4d65fdcb010af26aaf2a5b73f6f6e3f</SHA1>
  </PackageUpdate>
  <PackageUpdate>
   <Name>solver.dhabsim</Name>
@@ -514,5 +475,44 @@
    <License file="license-english.txt" name="Terms of use of the iRIC software"/>
   </Licenses>
   <SHA1>9a2689aba53c52b396f279fcce8e6cbacb1c31fd</SHA1>
+ </PackageUpdate>
+ <PackageUpdate>
+  <Name>gridcreator.multi_grid_generator</Name>
+  <DisplayName>Multifunction Grid Genarator</DisplayName>
+  <Description>Multifunction Grid Genarator</Description>
+  <Version>1.0.1</Version>
+  <Default>true</Default>
+  <ReleaseDate>2020-02-16</ReleaseDate>
+  <SortingPriority>50</SortingPriority>
+  <Script>installscript.qs</Script>
+  <UpdateFile CompressedSize="39624" OS="Any" UncompressedSize="133978"/>
+  <DownloadableArchives>content.7z</DownloadableArchives>
+  <SHA1>a9444c84d9df3b655db4ca75857046c139902f72</SHA1>
+ </PackageUpdate>
+ <PackageUpdate>
+  <Name>gridcreator.nayseddygrid</Name>
+  <DisplayName>NaysEddyGrid</DisplayName>
+  <Description>&quot;Cartesian Grid for NaysEddy&quot; is a Cartesian grid generator for the solver &quot;NaysEddy&quot;.</Description>
+  <Version>1.1.1</Version>
+  <Default>true</Default>
+  <ReleaseDate>2020-02-16</ReleaseDate>
+  <SortingPriority>50</SortingPriority>
+  <Script>installscript.qs</Script>
+  <UpdateFile CompressedSize="19133" OS="Any" UncompressedSize="51479"/>
+  <DownloadableArchives>content.7z</DownloadableArchives>
+  <SHA1>f5858ff6287f8e12024f75603fb86946ac5b9013</SHA1>
+ </PackageUpdate>
+ <PackageUpdate>
+  <Name>gridcreator.simplegridgen</Name>
+  <DisplayName>Simple Grid Generator</DisplayName>
+  <Description>Simple Grid Generator</Description>
+  <Version>1.0.1</Version>
+  <Default>true</Default>
+  <ReleaseDate>2020-02-16</ReleaseDate>
+  <SortingPriority>50</SortingPriority>
+  <Script>installscript.qs</Script>
+  <UpdateFile CompressedSize="14802" OS="Any" UncompressedSize="65498"/>
+  <DownloadableArchives>content.7z</DownloadableArchives>
+  <SHA1>9f2a558c7cefd55661fe028ed9d78eb3073d59cb</SHA1>
  </PackageUpdate>
 </Updates>
