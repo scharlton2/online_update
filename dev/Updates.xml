@@ -460,23 +460,6 @@
   <SHA1>22975e9b14a4a95df011d91ea93ba37f8ba433e8</SHA1>
  </PackageUpdate>
  <PackageUpdate>
-  <Name>gui.prepost</Name>
-  <DisplayName>iRIC GUI 3.0</DisplayName>
-  <Description>iRIC Main GUI</Description>
-  <Dependencies>runtime,gui.runtime</Dependencies>
-  <Version>3.0.18.6310</Version>
-  <ReleaseDate>2020-02-16</ReleaseDate>
-  <SortingPriority>100</SortingPriority>
-  <ForcedInstallation>true</ForcedInstallation>
-  <Script>installscript.qs</Script>
-  <UpdateFile CompressedSize="3044903" OS="Any" UncompressedSize="15117293"/>
-  <DownloadableArchives>languages.7z,pythonmodule.7z,content.7z</DownloadableArchives>
-  <Licenses>
-   <License file="license-english.txt" name="Terms of use of the iRIC software"/>
-  </Licenses>
-  <SHA1>9a2689aba53c52b396f279fcce8e6cbacb1c31fd</SHA1>
- </PackageUpdate>
- <PackageUpdate>
   <Name>gridcreator.multi_grid_generator</Name>
   <DisplayName>Multifunction Grid Genarator</DisplayName>
   <Description>Multifunction Grid Genarator</Description>
@@ -514,5 +497,22 @@
   <UpdateFile CompressedSize="14802" OS="Any" UncompressedSize="65498"/>
   <DownloadableArchives>content.7z</DownloadableArchives>
   <SHA1>9f2a558c7cefd55661fe028ed9d78eb3073d59cb</SHA1>
+ </PackageUpdate>
+ <PackageUpdate>
+  <Name>gui.prepost</Name>
+  <DisplayName>iRIC GUI 3.0</DisplayName>
+  <Description>iRIC Main GUI</Description>
+  <Dependencies>runtime,gui.runtime</Dependencies>
+  <Version>3.0.18.6311</Version>
+  <ReleaseDate>2020-02-29</ReleaseDate>
+  <SortingPriority>100</SortingPriority>
+  <ForcedInstallation>true</ForcedInstallation>
+  <Script>installscript.qs</Script>
+  <UpdateFile CompressedSize="3052270" OS="Any" UncompressedSize="15155361"/>
+  <DownloadableArchives>languages.7z,pythonmodule.7z,content.7z</DownloadableArchives>
+  <Licenses>
+   <License file="license-english.txt" name="Terms of use of the iRIC software"/>
+  </Licenses>
+  <SHA1>f5fe9f57506c856ad58ccd3159952b95f5c5b4fa</SHA1>
  </PackageUpdate>
 </Updates>
