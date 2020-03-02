@@ -2,9 +2,9 @@
     <GridGeneratorDefinition
     name="NaysEddyGrid v.1.1 x64"
     caption="Cartesian Grid for NaysEddy x64"
-    version="1.1"
+    version="1.1.1"
     copyright="Mohamed Nabi"
-    release="2019.01.01"
+    release="2020.2.16"
     executable="NaysEddyGrid_v1.1_x64.exe"
     gridtype="structured2d">
 
