@@ -541,4 +541,17 @@
   </Licenses>
   <SHA1>a6924284d15eef8ed101ce1d587c3f6218f8dbfa</SHA1>
  </PackageUpdate>
+ <PackageUpdate>
+  <Name>gridimporter_plugin.structured2dgridgdal</Name>
+  <DisplayName>Structured grid GDAL importer</DisplayName>
+  <Description>Structured grid GDAL importer to import from *.tif and *.asc</Description>
+  <Version>1.0.0</Version>
+  <Default>true</Default>
+  <ReleaseDate>2020-04-17</ReleaseDate>
+  <SortingPriority>100</SortingPriority>
+  <Script>installscript.qs</Script>
+  <UpdateFile CompressedSize="21141" OS="Any" UncompressedSize="79067"/>
+  <DownloadableArchives>content.7z</DownloadableArchives>
+  <SHA1>73b4bf3d0e386aba09259bee9b0ef7abe435b466</SHA1>
+ </PackageUpdate>
 </Updates>
