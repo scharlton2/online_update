@@ -447,23 +447,6 @@
   <SHA1>9f2a558c7cefd55661fe028ed9d78eb3073d59cb</SHA1>
  </PackageUpdate>
  <PackageUpdate>
-  <Name>gui.prepost</Name>
-  <DisplayName>iRIC GUI 3.0</DisplayName>
-  <Description>iRIC Main GUI</Description>
-  <Dependencies>runtime,gui.runtime</Dependencies>
-  <Version>3.0.18.6312</Version>
-  <ReleaseDate>2020-03-02</ReleaseDate>
-  <SortingPriority>100</SortingPriority>
-  <ForcedInstallation>true</ForcedInstallation>
-  <Script>installscript.qs</Script>
-  <UpdateFile CompressedSize="2908641" OS="Any" UncompressedSize="14314561"/>
-  <DownloadableArchives>languages.7z,content.7z</DownloadableArchives>
-  <Licenses>
-   <License file="license-english.txt" name="Terms of use of the iRIC software"/>
-  </Licenses>
-  <SHA1>df6482adc9ebda35765bfd63a35f2180c7fa4eff</SHA1>
- </PackageUpdate>
- <PackageUpdate>
   <Name>gridcreator.nays2dv</Name>
   <DisplayName>Nays2DVGrid</DisplayName>
   <Description>Grid Generator for Nays2DV</Description>
@@ -488,5 +471,35 @@
   <UpdateFile CompressedSize="344820" OS="Any" UncompressedSize="1015321"/>
   <DownloadableArchives>content.7z</DownloadableArchives>
   <SHA1>bfa7ec13fb8dcfb45fd6e03b1c2764e043cebfd9</SHA1>
+ </PackageUpdate>
+ <PackageUpdate>
+  <Name>gridimporter_plugin.structured2dgridgdal</Name>
+  <DisplayName>Structured grid GDAL importer</DisplayName>
+  <Description>Structured grid GDAL importer to import from *.tif and *.asc</Description>
+  <Version>1.0.0</Version>
+  <Default>true</Default>
+  <ReleaseDate>2020-04-17</ReleaseDate>
+  <SortingPriority>100</SortingPriority>
+  <Script>installscript.qs</Script>
+  <UpdateFile CompressedSize="21141" OS="Any" UncompressedSize="79067"/>
+  <DownloadableArchives>content.7z</DownloadableArchives>
+  <SHA1>73b4bf3d0e386aba09259bee9b0ef7abe435b466</SHA1>
+ </PackageUpdate>
+ <PackageUpdate>
+  <Name>gui.prepost</Name>
+  <DisplayName>iRIC GUI 3.0</DisplayName>
+  <Description>iRIC Main GUI</Description>
+  <Dependencies>runtime,gui.runtime</Dependencies>
+  <Version>3.0.19.6325</Version>
+  <ReleaseDate>2020-05-15</ReleaseDate>
+  <SortingPriority>100</SortingPriority>
+  <ForcedInstallation>true</ForcedInstallation>
+  <Script>installscript.qs</Script>
+  <UpdateFile CompressedSize="3177260" OS="Any" UncompressedSize="15892579"/>
+  <DownloadableArchives>languages.7z,content.7z</DownloadableArchives>
+  <Licenses>
+   <License file="license-english.txt" name="Terms of use of the iRIC software"/>
+  </Licenses>
+  <SHA1>f06ae765f5d1d53a90e93edc8e9d18cd1a4a623a</SHA1>
  </PackageUpdate>
 </Updates>
