@@ -174,19 +174,6 @@
   <SHA1>f2245f49b873b1226203258c1f37a7620c514ce3</SHA1>
  </PackageUpdate>
  <PackageUpdate>
-  <Name>solver.nayscube</Name>
-  <DisplayName>NaysCUBE</DisplayName>
-  <Description>&quot;NaysCUBE&quot; is an analytical solver for calculation of unsteady three-dimensional open channel flows, riverbed deformations and driftwood behavior using boundary-fitted coordinates within generalized curvilinear coordinates.</Description>
-  <Version>3.43.3</Version>
-  <Default>true</Default>
-  <ReleaseDate>2018-06-28</ReleaseDate>
-  <SortingPriority>50</SortingPriority>
-  <Script>installscript.qs</Script>
-  <UpdateFile CompressedSize="1043814" OS="Any" UncompressedSize="4283281"/>
-  <DownloadableArchives>content.7z</DownloadableArchives>
-  <SHA1>277f0064c801960959193c085dbf3232192fe845</SHA1>
- </PackageUpdate>
- <PackageUpdate>
   <Name>solver.ceri1d</Name>
   <DisplayName>CERI1D</DisplayName>
   <Description>CERI1D</Description>
@@ -501,5 +488,18 @@
   <UpdateFile CompressedSize="31050" OS="Any" UncompressedSize="107468"/>
   <DownloadableArchives>content.7z</DownloadableArchives>
   <SHA1>dbe759b41f081074c1151186489ae714b71e1ace</SHA1>
+ </PackageUpdate>
+ <PackageUpdate>
+  <Name>solver.nayscube</Name>
+  <DisplayName>NaysCUBE</DisplayName>
+  <Description>&quot;NaysCUBE&quot; is an analytical solver for calculation of unsteady three-dimensional open channel flows, riverbed deformations and driftwood behavior using boundary-fitted coordinates within generalized curvilinear coordinates.</Description>
+  <Version>3.43.43</Version>
+  <Default>true</Default>
+  <ReleaseDate>2020-05-29</ReleaseDate>
+  <SortingPriority>50</SortingPriority>
+  <Script>installscript.qs</Script>
+  <UpdateFile CompressedSize="1053661" OS="Any" UncompressedSize="4328582"/>
+  <DownloadableArchives>content.7z</DownloadableArchives>
+  <SHA1>6449296a94c69477ea3ac1f03baa0ad7b3a5dacd</SHA1>
  </PackageUpdate>
 </Updates>
