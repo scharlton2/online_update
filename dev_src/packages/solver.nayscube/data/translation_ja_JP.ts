@@ -1223,7 +1223,7 @@
         <translation>不等流計算で与える</translation>
     </message>
     <message>
-        <source>Cal. surf. inclded in press iteration?</source>
+        <source>Cal. surf. included in press iteration?</source>
         <translation>水面変動を圧力計算ループに含める?</translation>
     </message>
     <message>
@@ -1347,6 +1347,124 @@
     <message>
         <source>Pack from the air</source>
         <translation>空中から落としこむ</translation>
+    </message>
+
+    <message>
+        <source>Young coefficient for DEM</source>
+        <translation>DEMのばねのヤング率</translation>
+    </message>
+    <message>
+        <source>Repulsion ratio for DEM</source>
+        <translation>DEMのダッシュポット反発係数</translation>
+    </message>
+    <message>
+        <source>Repulsion ratio to obstacle</source>
+        <translation>障害物との反発係数</translation>
+    </message>
+    <message>
+        <source>Set driftwood random or not</source>
+        <translation>初期の流木配置角度を乱数で与えるか否か</translation>
+    </message>
+
+    <message>
+        <source>DriftWood basic</source>
+        <translation>流木の基本設定</translation>
+    </message>
+    <message>
+        <source>DriftWood advanced</source>
+        <translation>流木の応用的設定</translation>
+    </message>
+    <message>
+        <source>DriftWood additional</source>
+        <translation>流木の詳細設定</translation>
+    </message>
+    <message>
+        <source>Arbitral shape</source>
+        <translation>任意形状</translation>
+    </message>
+    <message>
+        <source>Diameter of element[m]</source>
+        <translation>要素の直径[m]</translation>
+    </message>
+    <message>
+        <source>Density of element[kg/m3]</source>
+        <translation>要素の密度[kg/m3]</translation>
+    </message>
+    <message>
+        <source>Overlap ratio of spheres for DEM</source>
+        <translation>DEMにおける許容重なり割合</translation>
+    </message>
+    <message>
+        <source>Repulsion ratio to natural obstacle</source>
+        <translation>反発率（自然障害物に対して）</translation>
+    </message>
+    <message>
+        <source>Repulsion ratio to artificial obstacle</source>
+        <translation>反発率（人工構造物に対して）</translation>
+    </message>
+    <message>
+        <source>Set random</source>
+        <translation>乱数で設定</translation>
+    </message>
+    <message>
+        <source>Set fixed</source>
+        <translation>固定値で設定</translation>
+    </message>
+    <message>
+        <source>Suction force of driftwood</source>
+        <translation>流木同士の吸引力</translation>
+    </message>
+    <message>
+        <source>Considered</source>
+        <translation>考慮する</translation>
+    </message>
+    <message>
+        <source>Not considered</source>
+        <translation>考慮しない</translation>
+    </message>
+    <message>
+        <source>Coef. of suction range</source>
+        <translation>吸引力の影響範囲係数</translation>
+    </message>
+    <message>
+        <source>Coef. of maximum suction force</source>
+        <translation>最大吸引力の係数</translation>
+    </message>
+    <message>
+        <source>Maximum submerged ratio for activating suction force</source>
+        <translation>吸引力を考慮する最大水没率</translation>
+    </message>
+    <message>
+        <source>Wind Conditions</source>
+        <translation>風の条件</translation>
+    </message>
+    <message>
+        <source>Consider wind or not?</source>
+        <translation>風を考慮するか否か?</translation>
+    </message>
+    <message>
+        <source>Wind velocity 10m above surface [m/s]</source>
+        <translation>風速（水面の10m上方での値）[m/s]</translation>
+    </message>
+    <message>
+        <source>Wind angle to x-axis [deg]</source>
+        <translation>風向（x軸に対する角度）[deg]</translation>
+    </message>
+    <message>
+        <source>No wind</source>
+        <translation>風を考慮しない</translation>
+    </message>
+    <message>
+        <source>Consider wind</source>
+        <translation>風を考慮する</translation>
+    </message>
+    <message>
+        <source>Comp. on surface?</source>
+        <translation>水面の計算方法</translation>
+    </message>
+    <message>
+        <source>i-range for inlet BC</source>
+        <translation>上流境界条件に含める格子範囲</translation>
     </message>
 
 </context>
