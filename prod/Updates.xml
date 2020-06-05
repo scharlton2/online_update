@@ -447,19 +447,6 @@
   <SHA1>9f2a558c7cefd55661fe028ed9d78eb3073d59cb</SHA1>
  </PackageUpdate>
  <PackageUpdate>
-  <Name>gridcreator.nays2dv</Name>
-  <DisplayName>Nays2DVGrid</DisplayName>
-  <Description>Grid Generator for Nays2DV</Description>
-  <Version>1.0.1</Version>
-  <Default>true</Default>
-  <ReleaseDate>2020-03-02</ReleaseDate>
-  <SortingPriority>50</SortingPriority>
-  <Script>installscript.qs</Script>
-  <UpdateFile CompressedSize="32154" OS="Any" UncompressedSize="112588"/>
-  <DownloadableArchives>content.7z</DownloadableArchives>
-  <SHA1>eb35052358ac75542cb15b2b6de25602c5b8abd8</SHA1>
- </PackageUpdate>
- <PackageUpdate>
   <Name>solver.nays2dv</Name>
   <DisplayName>Nays2dV vertical 2D model</DisplayName>
   <Description/>
@@ -501,5 +488,18 @@
    <License file="license-english.txt" name="Terms of use of the iRIC software"/>
   </Licenses>
   <SHA1>b60d44b469d6f7f956ac8f9504c8885b26910191</SHA1>
+ </PackageUpdate>
+ <PackageUpdate>
+  <Name>gridcreator.nays2dv</Name>
+  <DisplayName>Nays2DVGrid</DisplayName>
+  <Description>Grid Generator for Nays2DV</Description>
+  <Version>1.0.2</Version>
+  <Default>true</Default>
+  <ReleaseDate>2020-06-05</ReleaseDate>
+  <SortingPriority>50</SortingPriority>
+  <Script>installscript.qs</Script>
+  <UpdateFile CompressedSize="29146" OS="Any" UncompressedSize="102348"/>
+  <DownloadableArchives>content.7z</DownloadableArchives>
+  <SHA1>796ea03c4e754af45b4cd13f06f338175979b0f2</SHA1>
  </PackageUpdate>
 </Updates>
