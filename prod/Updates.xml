@@ -493,13 +493,13 @@
   <Name>gridcreator.nays2dv</Name>
   <DisplayName>Nays2DVGrid</DisplayName>
   <Description>Grid Generator for Nays2DV</Description>
-  <Version>1.0.2</Version>
+  <Version>1.0.3</Version>
   <Default>true</Default>
-  <ReleaseDate>2020-06-05</ReleaseDate>
+  <ReleaseDate>2020-06-12</ReleaseDate>
   <SortingPriority>50</SortingPriority>
   <Script>installscript.qs</Script>
-  <UpdateFile CompressedSize="29146" OS="Any" UncompressedSize="102348"/>
+  <UpdateFile CompressedSize="31050" OS="Any" UncompressedSize="107468"/>
   <DownloadableArchives>content.7z</DownloadableArchives>
-  <SHA1>796ea03c4e754af45b4cd13f06f338175979b0f2</SHA1>
+  <SHA1>dbe759b41f081074c1151186489ae714b71e1ace</SHA1>
  </PackageUpdate>
 </Updates>
