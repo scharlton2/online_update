@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GuiDefinition 
   xmlns="www.iric.net/GuiDefinition/1.0"
-  name="rivmaker" caption="RivMaker 1.0.5" version="1.0.5" release="2018.05.22"
+  name="rivmaker" caption="RivMaker 1.0.6" version="1.0.6" release="2020.06.15"
   copyright="USGS" essential="false" executable="Rivmaker.exe"
 >
 </GuiDefinition>
