@@ -460,23 +460,6 @@
   <SHA1>73b4bf3d0e386aba09259bee9b0ef7abe435b466</SHA1>
  </PackageUpdate>
  <PackageUpdate>
-  <Name>gui.prepost</Name>
-  <DisplayName>iRIC GUI 3.0</DisplayName>
-  <Description>iRIC Main GUI</Description>
-  <Dependencies>runtime,gui.runtime</Dependencies>
-  <Version>3.0.19.6338</Version>
-  <ReleaseDate>2020-06-04</ReleaseDate>
-  <SortingPriority>100</SortingPriority>
-  <ForcedInstallation>true</ForcedInstallation>
-  <Script>installscript.qs</Script>
-  <UpdateFile CompressedSize="3195373" OS="Any" UncompressedSize="16040402"/>
-  <DownloadableArchives>languages.7z,content.7z</DownloadableArchives>
-  <Licenses>
-   <License file="license-english.txt" name="Terms of use of the iRIC software"/>
-  </Licenses>
-  <SHA1>b60d44b469d6f7f956ac8f9504c8885b26910191</SHA1>
- </PackageUpdate>
- <PackageUpdate>
   <Name>gridcreator.nays2dv</Name>
   <DisplayName>Nays2DVGrid</DisplayName>
   <Description>Grid Generator for Nays2DV</Description>
@@ -501,5 +484,22 @@
   <UpdateFile CompressedSize="1053661" OS="Any" UncompressedSize="4328582"/>
   <DownloadableArchives>content.7z</DownloadableArchives>
   <SHA1>6449296a94c69477ea3ac1f03baa0ad7b3a5dacd</SHA1>
+ </PackageUpdate>
+ <PackageUpdate>
+  <Name>gui.prepost</Name>
+  <DisplayName>iRIC GUI 3.0</DisplayName>
+  <Description>iRIC Main GUI</Description>
+  <Dependencies>runtime,gui.runtime</Dependencies>
+  <Version>3.0.19.6339</Version>
+  <ReleaseDate>2020-07-28</ReleaseDate>
+  <SortingPriority>100</SortingPriority>
+  <ForcedInstallation>true</ForcedInstallation>
+  <Script>installscript.qs</Script>
+  <UpdateFile CompressedSize="3197803" OS="Any" UncompressedSize="16056742"/>
+  <DownloadableArchives>languages.7z,pythonmodule.7z,content.7z</DownloadableArchives>
+  <Licenses>
+   <License file="license-english.txt" name="Terms of use of the iRIC software"/>
+  </Licenses>
+  <SHA1>2595b790a1ed9ddcfd34a6162b6b13fb18f0f687</SHA1>
  </PackageUpdate>
 </Updates>
