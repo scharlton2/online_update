@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<Package>
+	<DisplayName>3.0 Archive runtime</DisplayName>
+	<Description>Graphical User Interface programs of iRIC v3 Archive runtime libraries</Description>
+	<Dependencies>runtime,gui.runtime</Dependencies>
+	<Version>1.0.0</Version>
+	<ReleaseDate>2020-08-14</ReleaseDate>
+	<SortingPriority>10</SortingPriority>
+	<Script>installscript.qs</Script>
+</Package>
