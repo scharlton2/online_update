@@ -554,40 +554,4 @@
   </Licenses>
   <SHA1>d3501f98568f6c0c33f44fa19315ed98ba8e745d</SHA1>
  </PackageUpdate>
- <PackageUpdate>
-  <Name>gui.prepost_archive_v3</Name>
-  <DisplayName>Archive</DisplayName>
-  <Description>Graphical User Interface programs of iRIC Archive</Description>
-  <Version>1.0.0</Version>
-  <ReleaseDate>2020-08-14</ReleaseDate>
-  <SortingPriority>70</SortingPriority>
-  <UpdateFile CompressedSize="0" OS="Any" UncompressedSize="0"/>
-  <SHA1>1e4cd2ff9b94b84e737542f93a87c4c0495bc3e1</SHA1>
- </PackageUpdate>
- <PackageUpdate>
-  <Name>gui.prepost_archive_v3.3_0_18_6257</Name>
-  <DisplayName>3.0.18.6257 (2019/06/26)</DisplayName>
-  <Description>Graphical User Interface programs of iRIC 3.0.18.6257</Description>
-  <Dependencies>gui.prepost</Dependencies>
-  <Version>3.0.18.6257</Version>
-  <ReleaseDate>2019-06-26</ReleaseDate>
-  <SortingPriority>100</SortingPriority>
-  <Script>installscript.qs</Script>
-  <UpdateFile CompressedSize="2828568" OS="Any" UncompressedSize="13867094"/>
-  <DownloadableArchives>languages.7z,content.7z</DownloadableArchives>
-  <SHA1>c302e229f0c24f144147bac6fb8028f01e93d493</SHA1>
- </PackageUpdate>
- <PackageUpdate>
-  <Name>gui.prepost_archive_v3.3_0_19_6312</Name>
-  <DisplayName>3.0.19.6312 (2020/03/02)</DisplayName>
-  <Description>Graphical User Interface programs of iRIC 3.0.19.6312</Description>
-  <Dependencies>gui.prepost</Dependencies>
-  <Version>3.0.19.6312</Version>
-  <ReleaseDate>2020-03-02</ReleaseDate>
-  <SortingPriority>100</SortingPriority>
-  <Script>installscript.qs</Script>
-  <UpdateFile CompressedSize="2908503" OS="Any" UncompressedSize="14314561"/>
-  <DownloadableArchives>languages.7z,content.7z</DownloadableArchives>
-  <SHA1>da9d4efd34d3271aab8c32d8caed9eb40e74d3ac</SHA1>
- </PackageUpdate>
 </Updates>
