@@ -2,7 +2,7 @@
 <Package>
 	<DisplayName>3.0.19.6312 (2020/03/02)</DisplayName>
 	<Description>Graphical User Interface programs of iRIC 3.0.19.6312</Description>
-	<Dependencies>gui.prepost_archive_v3.runtime</Dependencies>
+	<Dependencies>gui.prepost</Dependencies>
 	<Version>3.0.19.6312</Version>
 	<ReleaseDate>2020-03-02</ReleaseDate>
 	<SortingPriority>100</SortingPriority>
