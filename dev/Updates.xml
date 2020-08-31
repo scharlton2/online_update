@@ -542,16 +542,16 @@
   <DisplayName>iRIC GUI 3.0</DisplayName>
   <Description>iRIC Main GUI</Description>
   <Dependencies>runtime,gui.runtime</Dependencies>
-  <Version>3.0.19.6664</Version>
-  <ReleaseDate>2020-08-28</ReleaseDate>
+  <Version>3.0.19.6665</Version>
+  <ReleaseDate>2020-08-31</ReleaseDate>
   <SortingPriority>100</SortingPriority>
   <ForcedInstallation>true</ForcedInstallation>
   <Script>installscript.qs</Script>
-  <UpdateFile CompressedSize="3303785" OS="Any" UncompressedSize="16934767"/>
+  <UpdateFile CompressedSize="3310610" OS="Any" UncompressedSize="16984776"/>
   <DownloadableArchives>languages.7z,pythonmodule.7z,content.7z</DownloadableArchives>
   <Licenses>
    <License file="license-english.txt" name="Terms of use of the iRIC software"/>
   </Licenses>
-  <SHA1>54a20ec56b3b4881df2bdb9feb6e5f2e13e31db8</SHA1>
+  <SHA1>0b1b4e57a7cd85668b02fcfeefd45e6989f1bcd6</SHA1>
  </PackageUpdate>
 </Updates>
