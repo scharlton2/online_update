@@ -486,23 +486,6 @@
   <SHA1>6449296a94c69477ea3ac1f03baa0ad7b3a5dacd</SHA1>
  </PackageUpdate>
  <PackageUpdate>
-  <Name>gui.prepost</Name>
-  <DisplayName>iRIC GUI 3.0</DisplayName>
-  <Description>iRIC Main GUI</Description>
-  <Dependencies>runtime,gui.runtime</Dependencies>
-  <Version>3.0.19.6341</Version>
-  <ReleaseDate>2020-08-11</ReleaseDate>
-  <SortingPriority>100</SortingPriority>
-  <ForcedInstallation>true</ForcedInstallation>
-  <Script>installscript.qs</Script>
-  <UpdateFile CompressedSize="3194731" OS="Any" UncompressedSize="16040402"/>
-  <DownloadableArchives>languages.7z,content.7z</DownloadableArchives>
-  <Licenses>
-   <License file="license-english.txt" name="Terms of use of the iRIC software"/>
-  </Licenses>
-  <SHA1>b841b0142e10231dd8eba486f3289bc88b59309f</SHA1>
- </PackageUpdate>
- <PackageUpdate>
   <Name>gui.prepost_archive_v3</Name>
   <DisplayName>Archive</DisplayName>
   <Description>Graphical User Interface programs of iRIC Archive</Description>
@@ -550,5 +533,22 @@
   <UpdateFile CompressedSize="3196092" OS="Any" UncompressedSize="16040402"/>
   <DownloadableArchives>languages.7z,content.7z</DownloadableArchives>
   <SHA1>2007d6d445c1cd99202597775e81aa3e04fc53f8</SHA1>
+ </PackageUpdate>
+ <PackageUpdate>
+  <Name>gui.prepost</Name>
+  <DisplayName>iRIC GUI 3.0</DisplayName>
+  <Description>iRIC Main GUI</Description>
+  <Dependencies>runtime,gui.runtime</Dependencies>
+  <Version>3.0.19.6342</Version>
+  <ReleaseDate>2020-09-01</ReleaseDate>
+  <SortingPriority>100</SortingPriority>
+  <ForcedInstallation>true</ForcedInstallation>
+  <Script>installscript.qs</Script>
+  <UpdateFile CompressedSize="3197868" OS="Any" UncompressedSize="16056742"/>
+  <DownloadableArchives>languages.7z,pythonmodule.7z,content.7z</DownloadableArchives>
+  <Licenses>
+   <License file="license-english.txt" name="Terms of use of the iRIC software"/>
+  </Licenses>
+  <SHA1>e903667947e0535990defdf9e7be290c82fcea0e</SHA1>
  </PackageUpdate>
 </Updates>
