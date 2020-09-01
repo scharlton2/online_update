@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<Package>
+	<DisplayName>3.0.19.6341 (2020/08/11)</DisplayName>
+	<Description>Graphical User Interface programs of iRIC 3.0.19.6341</Description>
+	<Dependencies>gui.prepost</Dependencies>
+	<Version>3.0.19.6341</Version>
+	<ReleaseDate>2020-08-11</ReleaseDate>
+	<SortingPriority>100</SortingPriority>
+	<Script>installscript.qs</Script>
+</Package>
