@@ -343,19 +343,6 @@
   <SHA1>683ad31fc715e0c6233692a4e11a4f8e5ff99a52</SHA1>
  </PackageUpdate>
  <PackageUpdate>
-  <Name>gridexporter_plugin.landxml</Name>
-  <DisplayName>Grid LandXML exporter</DisplayName>
-  <Description>Grid LandXML exporter</Description>
-  <Version>1.0.1</Version>
-  <Default>true</Default>
-  <ReleaseDate>2020-02-03</ReleaseDate>
-  <SortingPriority>30</SortingPriority>
-  <Script>installscript.qs</Script>
-  <UpdateFile CompressedSize="10598" OS="Any" UncompressedSize="26842"/>
-  <DownloadableArchives>content.7z</DownloadableArchives>
-  <SHA1>f262cfd3cafcd3a9943fddc8fb63466506855868</SHA1>
- </PackageUpdate>
- <PackageUpdate>
   <Name>gridexporter_plugin.structured2dgridnayscsv</Name>
   <DisplayName>Structured grid Nays CSV exporter</DisplayName>
   <Description>Structured grid Nays CSV exporter</Description>
@@ -553,5 +540,18 @@
    <License file="license-english.txt" name="Terms of use of the iRIC software"/>
   </Licenses>
   <SHA1>3201f76cfd214506a511af750124794a84415823</SHA1>
+ </PackageUpdate>
+ <PackageUpdate>
+  <Name>gridexporter_plugin.landxml</Name>
+  <DisplayName>Grid LandXML exporter</DisplayName>
+  <Description>Grid LandXML exporter</Description>
+  <Version>1.0.2</Version>
+  <Default>true</Default>
+  <ReleaseDate>2020-10-13</ReleaseDate>
+  <SortingPriority>30</SortingPriority>
+  <Script>installscript.qs</Script>
+  <UpdateFile CompressedSize="10547" OS="Any" UncompressedSize="26842"/>
+  <DownloadableArchives>content.7z</DownloadableArchives>
+  <SHA1>c54aeb3de2ad4f89b1de86dc0d3b08e9e72e1a85</SHA1>
  </PackageUpdate>
 </Updates>
