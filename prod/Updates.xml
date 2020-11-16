@@ -535,23 +535,6 @@
   <SHA1>a072892edac52e670c66a1a97a2b4900c86ecccc</SHA1>
  </PackageUpdate>
  <PackageUpdate>
-  <Name>gui.prepost</Name>
-  <DisplayName>iRIC GUI 3.0</DisplayName>
-  <Description>iRIC Main GUI</Description>
-  <Dependencies>runtime,gui.runtime</Dependencies>
-  <Version>3.0.19.6346</Version>
-  <ReleaseDate>2020-10-19</ReleaseDate>
-  <SortingPriority>100</SortingPriority>
-  <ForcedInstallation>true</ForcedInstallation>
-  <Script>installscript.qs</Script>
-  <UpdateFile CompressedSize="3198646" OS="Any" UncompressedSize="16060787"/>
-  <DownloadableArchives>languages.7z,pythonmodule.7z,content.7z</DownloadableArchives>
-  <Licenses>
-   <License file="license-english.txt" name="Terms of use of the iRIC software"/>
-  </Licenses>
-  <SHA1>305a5924a569ffcebae884c8947c3914e52cfd7c</SHA1>
- </PackageUpdate>
- <PackageUpdate>
   <Name>gui.prepost_archive_v3.3_0_19_6345</Name>
   <DisplayName>3.0.19.6345 (2020/10/09)</DisplayName>
   <Description>Graphical User Interface programs of iRIC 3.0.19.6345</Description>
@@ -563,5 +546,22 @@
   <UpdateFile CompressedSize="3195011" OS="Any" UncompressedSize="16041375"/>
   <DownloadableArchives>languages.7z,content.7z</DownloadableArchives>
   <SHA1>8dc206f16da80d8c4bd8617ac8e1c25413488139</SHA1>
+ </PackageUpdate>
+ <PackageUpdate>
+  <Name>gui.prepost</Name>
+  <DisplayName>iRIC GUI 3.0</DisplayName>
+  <Description>iRIC Main GUI</Description>
+  <Dependencies>runtime,gui.runtime</Dependencies>
+  <Version>3.0.19.6347</Version>
+  <ReleaseDate>2020-11-17</ReleaseDate>
+  <SortingPriority>100</SortingPriority>
+  <ForcedInstallation>true</ForcedInstallation>
+  <Script>installscript.qs</Script>
+  <UpdateFile CompressedSize="3198713" OS="Any" UncompressedSize="16060787"/>
+  <DownloadableArchives>languages.7z,pythonmodule.7z,content.7z</DownloadableArchives>
+  <Licenses>
+   <License file="license-english.txt" name="Terms of use of the iRIC software"/>
+  </Licenses>
+  <SHA1>a0350e140f06602a4108d11f65a18cafee224188</SHA1>
  </PackageUpdate>
 </Updates>
