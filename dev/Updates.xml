@@ -486,19 +486,6 @@
   <SHA1>1ca0c0089b2023775d6db085a7664299f1096674</SHA1>
  </PackageUpdate>
  <PackageUpdate>
-  <Name>gui.rivmaker</Name>
-  <DisplayName>Rivmaker</DisplayName>
-  <Description>Riv file maker. You can create *.riv files from survey data.</Description>
-  <Version>2.0.0</Version>
-  <Default>true</Default>
-  <ReleaseDate>2020-08-02</ReleaseDate>
-  <SortingPriority>50</SortingPriority>
-  <Script>installscript.qs</Script>
-  <UpdateFile CompressedSize="16126812" OS="Any" UncompressedSize="63112382"/>
-  <DownloadableArchives>accessible.7z,bearer.7z,iconengines.7z,imageformats.7z,languages.7z,platforms.7z,samples.7z,testdata.7z,content.7z</DownloadableArchives>
-  <SHA1>13b24a4baf9eb2c05d6455ad5c974c2fd046c818</SHA1>
- </PackageUpdate>
- <PackageUpdate>
   <Name>gui.runtime</Name>
   <DisplayName>iRIC GUI Runtime</DisplayName>
   <Description>Runtime DLLs for iRIC Main GUI</Description>
@@ -553,5 +540,18 @@
    <License file="license-english.txt" name="Terms of use of the iRIC software"/>
   </Licenses>
   <SHA1>0657de96e90e92c6ac451d53fdf20d6d5733850a</SHA1>
+ </PackageUpdate>
+ <PackageUpdate>
+  <Name>gui.rivmaker</Name>
+  <DisplayName>Rivmaker</DisplayName>
+  <Description>Riv file maker. You can create *.riv files from survey data.</Description>
+  <Version>2.0.1</Version>
+  <Default>true</Default>
+  <ReleaseDate>2020-11-19</ReleaseDate>
+  <SortingPriority>50</SortingPriority>
+  <Script>installscript.qs</Script>
+  <UpdateFile CompressedSize="16125162" OS="Any" UncompressedSize="63112894"/>
+  <DownloadableArchives>accessible.7z,bearer.7z,iconengines.7z,imageformats.7z,languages.7z,platforms.7z,samples.7z,testdata.7z,content.7z</DownloadableArchives>
+  <SHA1>96454c1e92137d03be3c2b89f97eb09383ca1b85</SHA1>
  </PackageUpdate>
 </Updates>
