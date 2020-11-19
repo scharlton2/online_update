@@ -554,4 +554,17 @@
   <DownloadableArchives>accessible.7z,bearer.7z,iconengines.7z,imageformats.7z,languages.7z,platforms.7z,samples.7z,testdata.7z,content.7z</DownloadableArchives>
   <SHA1>96454c1e92137d03be3c2b89f97eb09383ca1b85</SHA1>
  </PackageUpdate>
+ <PackageUpdate>
+  <Name>gridexporter_plugin.structured15dhecras</Name>
+  <DisplayName>SAC grid HEC-RAS file exporter</DisplayName>
+  <Description>SAC grid HEC-RAS file exporter</Description>
+  <Version>1.0.0</Version>
+  <Default>true</Default>
+  <ReleaseDate>2020-11-19</ReleaseDate>
+  <SortingPriority>30</SortingPriority>
+  <Script>installscript.qs</Script>
+  <UpdateFile CompressedSize="12191" OS="Any" UncompressedSize="32098"/>
+  <DownloadableArchives>content.7z</DownloadableArchives>
+  <SHA1>e51999e4fac4a6eb69b55308406f08ad5b0efcab</SHA1>
+ </PackageUpdate>
 </Updates>
