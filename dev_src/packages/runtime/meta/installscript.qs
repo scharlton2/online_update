@@ -10,11 +10,10 @@ Component.prototype.createOperations = function()
 
 	if (systemInfo.productType === "windows") {
 		install_runtime("2013", "12.0", 21005); // Note: 21005 displays as 30501
-		install_runtime("2017", "14.0", 26706);
-
+		install_runtime("2015-2019", "14.0", 29325);
 	}
 	delete_runtime("2013");
-	delete_runtime("2017");
+	delete_runtime("2015-2019");
 }
 
 function install_runtime(vs_ver, major_subkey, build)
