@@ -1,5 +1,7 @@
 version: '{branch}-{build}'
 
+clone_depth: 1
+
 # Skip any branches that start with two underscores (__)
 branches:
   except:
