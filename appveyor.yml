@@ -34,7 +34,7 @@ before_build:
 
 build_script:
   - C:\Qt\Tools\QtInstallerFramework\2.0\bin\binarycreator --offline-only -c %SRC%/config/config.xml -p %SRC%/packages iRIC_Installer_%RELEASE%_%SHA1%.exe
-  - appveyor PushArtifact iRIC_Installer_%RELEASE%_%SHA1%.exe
+##  - appveyor PushArtifact iRIC_Installer_%RELEASE%_%SHA1%.exe
   # build versions with no runtime libraries
   # rd /s /q %SRC%\packages\runtime
   # C:\Qt\Tools\QtInstallerFramework\2.0\bin\binarycreator --offline-only -c %SRC%/config/config.xml -p %SRC%/packages iRIC_Installer_No_Runtime_%RELEASE%_%SHA1%.exe
