@@ -1,4 +1,5 @@
-<?xml version="1.0" ?><Updates>
+<?xml version='1.0'?>
+<Updates>
  <ApplicationName>{AnyApplication}</ApplicationName>
  <ApplicationVersion>1.0.0</ApplicationVersion>
  <Checksum>true</Checksum>
@@ -111,7 +112,7 @@
  <PackageUpdate>
   <Name>solver.elimo</Name>
   <DisplayName>ELIMO</DisplayName>
-  <Description>iRIC-ELIMO has been developed with a motto of &quot;simple and easy tsunami computation&quot; for people with minimum knowledge to operate Window softwares, which is capable of reliable estimations of tsunami generation, propagation and evolution on coasts on easy-performable GUI environment provided by iRIC.</Description>
+  <Description>iRIC-ELIMO has been developed with a motto of "simple and easy tsunami computation" for people with minimum knowledge to operate Window softwares, which is capable of reliable estimations of tsunami generation, propagation and evolution on coasts on easy-performable GUI environment provided by iRIC.</Description>
   <Version>2.0.1</Version>
   <Default>true</Default>
   <ReleaseDate>2018-05-28</ReleaseDate>
@@ -174,19 +175,6 @@
   <SHA1>4937672c72292725a56099704ac4405438e0ffc4</SHA1>
  </PackageUpdate>
  <PackageUpdate>
-  <Name>runtime</Name>
-  <DisplayName>Runtime libraries</DisplayName>
-  <Description>Visual C++ runtime libraries needed to run iRIC system</Description>
-  <Version>1.1.0</Version>
-  <ReleaseDate>2018-10-31</ReleaseDate>
-  <SortingPriority>5</SortingPriority>
-  <ForcedInstallation>true</ForcedInstallation>
-  <Script>installscript.qs</Script>
-  <UpdateFile CompressedSize="20329980" OS="Any" UncompressedSize="22378920"/>
-  <DownloadableArchives>content.7z</DownloadableArchives>
-  <SHA1>8a64c4f8e5cca637692dfdde9bd888acca740ec3</SHA1>
- </PackageUpdate>
- <PackageUpdate>
   <Name>solver.river2d</Name>
   <DisplayName>River2D</DisplayName>
   <Description/>
@@ -215,7 +203,7 @@
  <PackageUpdate>
   <Name>solver.nayseddy</Name>
   <DisplayName>NaysEddy</DisplayName>
-  <Description>&quot;NaysEddy&quot; is a three-dimensional solver for calculation of unsteady flows using Cartesian coordinates.</Description>
+  <Description>"NaysEddy" is a three-dimensional solver for calculation of unsteady flows using Cartesian coordinates.</Description>
   <Version>1.1.0</Version>
   <Default>true</Default>
   <ReleaseDate>2019-01-01</ReleaseDate>
@@ -397,7 +385,7 @@
  <PackageUpdate>
   <Name>gridcreator.nayseddygrid</Name>
   <DisplayName>NaysEddyGrid</DisplayName>
-  <Description>&quot;Cartesian Grid for NaysEddy&quot; is a Cartesian grid generator for the solver &quot;NaysEddy&quot;.</Description>
+  <Description>"Cartesian Grid for NaysEddy" is a Cartesian grid generator for the solver "NaysEddy".</Description>
   <Version>1.1.1</Version>
   <Default>true</Default>
   <ReleaseDate>2020-02-16</ReleaseDate>
@@ -475,7 +463,7 @@
  <PackageUpdate>
   <Name>solver.nayscube</Name>
   <DisplayName>NaysCUBE</DisplayName>
-  <Description>&quot;NaysCUBE&quot; is an analytical solver for calculation of unsteady three-dimensional open channel flows, riverbed deformations and driftwood behavior using boundary-fitted coordinates within generalized curvilinear coordinates.</Description>
+  <Description>"NaysCUBE" is an analytical solver for calculation of unsteady three-dimensional open channel flows, riverbed deformations and driftwood behavior using boundary-fitted coordinates within generalized curvilinear coordinates.</Description>
   <Version>3.43.43</Version>
   <Default>true</Default>
   <ReleaseDate>2020-05-29</ReleaseDate>
@@ -563,8 +551,21 @@
   <UpdateFile CompressedSize="3360482" OS="Any" UncompressedSize="17416550"/>
   <DownloadableArchives>languages.7z,content.7z</DownloadableArchives>
   <Licenses>
-   <License file="license-english.txt" name="Terms of use of the iRIC software"/>
+   <License name="Terms of use of the iRIC software" file="license-english.txt"/>
   </Licenses>
   <SHA1>61cd630657218bd61ccda3a4dba3093e97b534a8</SHA1>
+ </PackageUpdate>
+ <PackageUpdate>
+  <Name>runtime</Name>
+  <DisplayName>Runtime libraries</DisplayName>
+  <Description>Visual C++ runtime libraries needed to run iRIC system</Description>
+  <Version>1.3.0</Version>
+  <ReleaseDate>2020-12-01</ReleaseDate>
+  <SortingPriority>5</SortingPriority>
+  <ForcedInstallation>true</ForcedInstallation>
+  <Script>installscript.qs</Script>
+  <UpdateFile CompressedSize="20079151" OS="Any" UncompressedSize="22082920"/>
+  <DownloadableArchives>content.7z</DownloadableArchives>
+  <SHA1>4e98298ac64dc8f92b32652241528d719f7a260d</SHA1>
  </PackageUpdate>
 </Updates>
