@@ -632,4 +632,18 @@
   </Licenses>
   <SHA1>cd90ff1487192c655277498fb925ffc13c63ccd5</SHA1>
  </PackageUpdate>
+ <PackageUpdate>
+  <Name>miniconda</Name>
+  <DisplayName>Miniconda 3</DisplayName>
+  <Description>Miniconda 3-py38_4.9.2</Description>
+  <Dependencies/>
+  <Version>4.9.2</Version>
+  <ReleaseDate>2020-11-23</ReleaseDate>
+  <SortingPriority>100</SortingPriority>
+  <ForcedInstallation>true</ForcedInstallation>
+  <Script>installscript.qs</Script>
+  <UpdateFile UncompressedSize="59801472" OS="Any" CompressedSize="58894777"/>
+  <DownloadableArchives>content.7z</DownloadableArchives>
+  <SHA1>887779145ea19c1a26b1e05e52ccaf394fbbb39e</SHA1>
+ </PackageUpdate>
 </Updates>

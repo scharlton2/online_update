@@ -7,6 +7,7 @@
 	<!-- Directory name is used in component.xml -->
 	<StartMenuDir>iRIC(developer)</StartMenuDir>
 	<TargetDir>@HomeDir@/iRIC_dev</TargetDir>
+	<ControlScript>controlScript.js</ControlScript>
 	<RemoteRepositories>
 		<Repository>
 			<Url>https://raw.githubusercontent.com/i-RIC/online_update/master/dev</Url>

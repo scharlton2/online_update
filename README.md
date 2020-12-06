@@ -26,6 +26,10 @@ on subversion server.
 
 # How to build iRIC_Installer_dev.exe
 
+## Building offline installer
+
 ```
-python build_dev_installer.py
+python build_dev_installer.py offline
 ```
+
+It will download from coda-forgae that will be needed to install numpy offline, then build offline installer.
