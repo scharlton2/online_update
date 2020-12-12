@@ -555,16 +555,16 @@
   <DisplayName>iRIC GUI 3.0</DisplayName>
   <Description>iRIC Main GUI</Description>
   <Dependencies>runtime,gui.runtime</Dependencies>
-  <Version>3.0.19.6695</Version>
-  <ReleaseDate>2020-11-30</ReleaseDate>
+  <Version>3.0.19.6696</Version>
+  <ReleaseDate>2020-12-13</ReleaseDate>
   <SortingPriority>100</SortingPriority>
   <ForcedInstallation>true</ForcedInstallation>
   <Script>installscript.qs</Script>
-  <UpdateFile CompressedSize="3360482" OS="Any" UncompressedSize="17416550"/>
+  <UpdateFile CompressedSize="3359316" OS="Any" UncompressedSize="17416550"/>
   <DownloadableArchives>languages.7z,content.7z</DownloadableArchives>
   <Licenses>
    <License file="license-english.txt" name="Terms of use of the iRIC software"/>
   </Licenses>
-  <SHA1>61cd630657218bd61ccda3a4dba3093e97b534a8</SHA1>
+  <SHA1>3e76ae185ec28381975e44d430ca3044332f81fb</SHA1>
  </PackageUpdate>
 </Updates>
