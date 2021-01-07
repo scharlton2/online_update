@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <SolverDefinition 
     xmlns="www.iric.net/SolverDefinition/1.0"
-    name="nays2d+" caption="Nays2d+" version="1.0" copyright="Yasuyuki Shimizu"
-    release="2018.12.6" homepage="http://i-ric.org"
+    name="nays2d+" caption="Nays2d+" version="1.1" copyright="Yasuyuki Shimizu"
+    release="2021.1.6" homepage="http://i-ric.org"
     executable="nays2d+.exe"
     iterationtype="time"
     gridtype="structured2d"
@@ -34,6 +34,7 @@
 
       </GroupBox>
 
+<!--
       <GroupBox caption="Other output file names">
 
 	<Item name="j_unifiles" caption="File Output for Old Nays Format">
@@ -55,6 +56,7 @@
 	</Definition>
       </Item>
       </GroupBox>
+-->
 
     </Tab>
 
@@ -65,7 +67,7 @@
 		<Definition conditionType="constant" valueType="real" option="true" default="30">
 		</Definition>
 	</Item>
-	<Item name="j_xyz_out" caption="Outout xyz value to file">
+	<Item name="j_xyz_out" caption="Output xyz value to file">
 		<Definition conditionType="constant" valueType="integer" option="true" default="0">
 	  	<Enumerations>
 	    	<Enumeration value="0" caption="(0) No"/>
@@ -606,7 +608,7 @@
 			</Dependency>
 		</Definition>
       	</Item>
-      	<Item name="j_cip" caption="Finite differencial scheme for advection terms">
+      	<Item name="j_cip" caption="Finite differential scheme for advection terms">
 		<Definition conditionType="constant" valueType="integer" option="true" default="2">
 	  	<Enumerations>
 	    	<Enumeration value="1" caption="(1) Upwind scheme"/>
@@ -614,7 +616,7 @@
 	  	</Enumerations>
 		</Definition>
       	</Item>
-      	<Item name="snst" caption="Intensity of seconfary flow">
+      	<Item name="snst" caption="Intensity of secondary flow">
 		<Definition conditionType="constant" valueType="real" option="true" default="7">
 		</Definition>
       	</Item>
@@ -622,8 +624,8 @@
      </GroupBox>
 
 
-     <GroupBox caption="Numerical compuation parameters">
-      	<Item name="lmax" caption="Maximun iteration times for water surface computation">
+     <GroupBox caption="Numerical computation parameters">
+      	<Item name="lmax" caption="Maximum iteration times for water surface computation">
 		<Definition conditionType="constant" valueType="integer" option="true" default="10">
 		</Definition>
       	</Item>
@@ -676,7 +678,7 @@
      </GroupBox>
 
 	<GroupBox caption="Bed roughness">
-      	<Item name="j_drg" caption="Bed raughness coefficient">
+      	<Item name="j_drg" caption="Bed roughness coefficient">
 		<Definition conditionType="constant" valueType="integer" option="true" default="0">
 	  	<Enumerations>
 	    	<Enumeration value="0" caption="(0) Calculate from bed material (skin friction)"/>
@@ -699,11 +701,11 @@
    </Tab>
 
    <Tab name="3D" caption="3D Velocity Profile">
-   	<Item name="j_3d" caption="3d Velocity Profile">
+   	<Item name="j_3d" caption="3d Computation">
 		<Definition conditionType="constant" valueType="integer" option="true" default="0">
 	  	<Enumerations>
-	    	<Enumeration value="0" caption="(0) Not Calculate"/>
-	    	<Enumeration value="1" caption="(1) Calculate"/>
+	    	<Enumeration value="0" caption="No"/>
+	    	<Enumeration value="1" caption="Yes"/>
 	  	</Enumerations>
 		</Definition>
       	</Item>
@@ -723,11 +725,22 @@
 			</Dependency>
 		</Definition>
       	</Item>
+      	<Item name="j_3dv" caption="Vertical Velocity Computation">
+		<Definition conditionType="constant" valueType="integer" option="true" default="0">
+			<Dependency>
+				<Condition type="isEqual" target="j_3d" value="1"/>
+			</Dependency>
+	  	<Enumerations>
+	    	<Enumeration value="0" caption="No"/>
+	    	<Enumeration value="1" caption="Yes"/>
+	  	</Enumerations>
+		</Definition>
+      	</Item>
    
    
    </Tab>
 
-
+<!--
    <Tab name="Bank_Erosion_1" caption="Bank_Erosion(General)">
 
 	<Item name="j_bank" caption="Bank Erosion">
@@ -1704,6 +1717,7 @@
      </Content>
   </Tab>
 
+-->
 
  </CalculationCondition>
   
