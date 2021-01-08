@@ -642,8 +642,22 @@
   <SortingPriority>100</SortingPriority>
   <ForcedInstallation>true</ForcedInstallation>
   <Script>installscript.qs</Script>
-  <UpdateFile UncompressedSize="59801472" OS="Any" CompressedSize="58894777"/>
+  <UpdateFile CompressedSize="58894777" UncompressedSize="59801472" OS="Any"/>
   <DownloadableArchives>content.7z</DownloadableArchives>
   <SHA1>887779145ea19c1a26b1e05e52ccaf394fbbb39e</SHA1>
+ </PackageUpdate>
+ <PackageUpdate>
+  <Name>miniconda_iriclib</Name>
+  <DisplayName>iRIClib for Miniconda 3</DisplayName>
+  <Description>iRIClib and related dlls installed to miniconda3\envs\iric</Description>
+  <Dependencies/>
+  <Version>3.0.19.6704</Version>
+  <ReleaseDate>2021-01-08</ReleaseDate>
+  <SortingPriority>100</SortingPriority>
+  <ForcedInstallation>true</ForcedInstallation>
+  <Script>installscript.qs</Script>
+  <UpdateFile CompressedSize="1031443" UncompressedSize="3771141" OS="Any"/>
+  <DownloadableArchives>content.7z</DownloadableArchives>
+  <SHA1>5154356d2c6414b3bc07c0618c71e53ab81615d7</SHA1>
  </PackageUpdate>
 </Updates>
