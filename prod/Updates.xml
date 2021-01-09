@@ -522,23 +522,6 @@
   <SHA1>a072892edac52e670c66a1a97a2b4900c86ecccc</SHA1>
  </PackageUpdate>
  <PackageUpdate>
-  <Name>gui.prepost</Name>
-  <DisplayName>iRIC GUI 3.0</DisplayName>
-  <Description>iRIC Main GUI</Description>
-  <Dependencies>runtime,gui.runtime</Dependencies>
-  <Version>3.0.19.6348</Version>
-  <ReleaseDate>2021-01-08</ReleaseDate>
-  <SortingPriority>100</SortingPriority>
-  <ForcedInstallation>true</ForcedInstallation>
-  <Script>installscript.qs</Script>
-  <UpdateFile CompressedSize="3255131" OS="Any" UncompressedSize="16914469" />
-  <DownloadableArchives>languages.7z,sdk.7z,content.7z</DownloadableArchives>
-  <Licenses>
-   <License file="license-english.txt" name="Terms of use of the iRIC software" />
-  </Licenses>
-  <SHA1>378ab0434ef6d28c1cadf54cbc03fab8b094c3f4</SHA1>
- </PackageUpdate>
- <PackageUpdate>
   <Name>gui.prepost_archive_v3.3_0_19_6312</Name>
   <DisplayName>3.0.19.6312 (2020/03/02)</DisplayName>
   <Description>Graphical User Interface programs of iRIC 3.0.19.6312</Description>
@@ -563,5 +546,22 @@
   <UpdateFile CompressedSize="3195595" OS="Any" UncompressedSize="16041375" />
   <DownloadableArchives>languages.7z,content.7z</DownloadableArchives>
   <SHA1>712701afa4b722e6b019c6382b4223be425e6b3b</SHA1>
+ </PackageUpdate>
+ <PackageUpdate>
+  <Name>gui.prepost</Name>
+  <DisplayName>iRIC GUI 3.0</DisplayName>
+  <Description>iRIC Main GUI</Description>
+  <Dependencies>runtime,gui.runtime</Dependencies>
+  <Version>3.0.19.6349</Version>
+  <ReleaseDate>2021-01-10</ReleaseDate>
+  <SortingPriority>100</SortingPriority>
+  <ForcedInstallation>true</ForcedInstallation>
+  <Script>installscript.qs</Script>
+  <UpdateFile CompressedSize="3256909" OS="Any" UncompressedSize="16929071" />
+  <DownloadableArchives>languages.7z,pythonmodule.7z,sdk.7z,content.7z</DownloadableArchives>
+  <Licenses>
+   <License file="license-english.txt" name="Terms of use of the iRIC software" />
+  </Licenses>
+  <SHA1>6d5ec7bdd16c5c2d2f475843d19c1c5c630dcedd</SHA1>
  </PackageUpdate>
 </Updates>
