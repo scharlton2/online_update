@@ -531,10 +531,10 @@
   <SortingPriority>100</SortingPriority>
   <ForcedInstallation>true</ForcedInstallation>
   <Script>installscript.qs</Script>
-  <UpdateFile OS="Any" CompressedSize="3255131" UncompressedSize="16914469" />
+  <UpdateFile CompressedSize="3255131" OS="Any" UncompressedSize="16914469" />
   <DownloadableArchives>languages.7z,sdk.7z,content.7z</DownloadableArchives>
   <Licenses>
-   <License name="Terms of use of the iRIC software" file="license-english.txt" />
+   <License file="license-english.txt" name="Terms of use of the iRIC software" />
   </Licenses>
   <SHA1>378ab0434ef6d28c1cadf54cbc03fab8b094c3f4</SHA1>
  </PackageUpdate>
@@ -547,7 +547,7 @@
   <ReleaseDate>2020-03-02</ReleaseDate>
   <SortingPriority>100</SortingPriority>
   <Script>installscript.qs</Script>
-  <UpdateFile CompressedSize="2908087" OS="Any" UncompressedSize="14314561"></UpdateFile>
+  <UpdateFile CompressedSize="2908087" OS="Any" UncompressedSize="14314561" />
   <DownloadableArchives>languages.7z,content.7z</DownloadableArchives>
   <SHA1>9ee0c589cfc88de5e18295dcf21119ee4f520c2e</SHA1>
  </PackageUpdate>
@@ -560,7 +560,7 @@
   <ReleaseDate>2020-10-09</ReleaseDate>
   <SortingPriority>100</SortingPriority>
   <Script>installscript.qs</Script>
-  <UpdateFile CompressedSize="3195595" OS="Any" UncompressedSize="16041375"></UpdateFile>
+  <UpdateFile CompressedSize="3195595" OS="Any" UncompressedSize="16041375" />
   <DownloadableArchives>languages.7z,content.7z</DownloadableArchives>
   <SHA1>712701afa4b722e6b019c6382b4223be425e6b3b</SHA1>
  </PackageUpdate>
