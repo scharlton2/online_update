@@ -6,6 +6,6 @@
 	<Version>3.0.19.6704</Version>
 	<ReleaseDate>2021-01-08</ReleaseDate>
 	<SortingPriority>100</SortingPriority>
-	<ForcedInstallation>true</ForcedInstallation>
+	<ForcedInstallation>false</ForcedInstallation>
 	<Script>installscript.qs</Script>
 </Package>

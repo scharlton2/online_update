@@ -6,6 +6,6 @@
 	<Version>4.9.2</Version>
 	<ReleaseDate>2020-11-23</ReleaseDate>
 	<SortingPriority>100</SortingPriority>
-	<ForcedInstallation>true</ForcedInstallation>
+	<ForcedInstallation>false</ForcedInstallation>
 	<Script>installscript.qs</Script>
 </Package>
