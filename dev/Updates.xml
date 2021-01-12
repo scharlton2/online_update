@@ -278,19 +278,6 @@
   <SHA1>fccd18520bd1f97e839377bf589a9c852aa65bea</SHA1>
  </PackageUpdate>
  <PackageUpdate>
-  <Name>solver.tracerdens</Name>
-  <DisplayName>TracerDens</DisplayName>
-  <Description />
-  <Version>2.0.0</Version>
-  <Default>true</Default>
-  <ReleaseDate>2018-12-06</ReleaseDate>
-  <SortingPriority>50</SortingPriority>
-  <Script>installscript.qs</Script>
-  <UpdateFile OS="Any" UncompressedSize="219214" CompressedSize="68812" />
-  <DownloadableArchives>content.7z</DownloadableArchives>
-  <SHA1>98f03601e8a72a1c9d0d49cea5c2cdc428459510</SHA1>
- </PackageUpdate>
- <PackageUpdate>
   <Name>solver.nays2dh</Name>
   <DisplayName>Nays2DH</DisplayName>
   <Description>Nays2DH is a computational model for simulating horizontal two-dimensional (2D) flow, sediment transport, morphological changes of bed and banks in rivers.</Description>
