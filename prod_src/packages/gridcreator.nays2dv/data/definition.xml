@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GridGeneratorDefinition 
   xmlns="www.iric.net"
-  name="grigen_nays2dv" caption="Grid Generator for Nays2DV" version="1.0.3" 
-  release="2020.06.12"
-  copyright="Yasuyuki Shimizu" executable="grigen_nays2dv.exe" gridtype="structured2d"
+  name="grigen_nays2dv" caption="Grid Generator for Nays2dv" version="1.0.4" 
+  copyright="Yasuyuki Shimizu" executable="grigen_nays2dv.exe" gridtype="structured2d"  release="2021.1.13"
 >
 
 <GridGeneratingCondition>
@@ -119,7 +118,7 @@
 			</Definition>
 		</Item>
 
-		<Item name="b_wavenumber" caption="Wavenumber of Bottom Shape">
+		<Item name="b_wavenumber" caption="Wave Number of Bottom Shape">
 			<Definition valueType="real" default="1.0">
 				<Dependency>
 					<Condition type="and">
@@ -217,11 +216,11 @@
 	</GroupBox>
 </Tab>
 <Tab name="Shape(2)" caption="Water Surface Shape">
-	<Item name="j_hgive" caption="How to define initial water sueface profile">
+	<Item name="j_hgive" caption="How to define initial water surface profile">
 		<Definition conditionType="constant" valueType="integer" option="true" default="1">
 			<Enumerations>
-				<Enumeration value="1" caption="spacify average depth"/>
-				<Enumeration value="2" caption="spacify downstream wataer surface elevation"/>
+				<Enumeration value="1" caption="specify average depth"/>
+				<Enumeration value="2" caption="specify downstream water surface elevation"/>
 			</Enumerations>
 		</Definition>
 	</Item>
@@ -234,7 +233,7 @@
 				</Dependency>
 			</Definition>
 		</Item>
-		<Item name="h_down" caption="Downstream Watersurface Elevation(m)">
+		<Item name="h_down" caption="Downstream Water surface Elevation(m)">
 			<Definition valueType="real" default="0.0">
 				<Dependency>
 						<Condition type="isEqual" target="j_hgive" value="2"/>
@@ -262,7 +261,7 @@
 				</Enumerations>
 			</Definition>
 		</Item>
-		<Item name="j_surf_shape" caption="Furface Perturbation Shape">
+		<Item name="j_surf_shape" caption="Water Surface Perturbation Shape">
 			<Definition conditionType="constant" valueType="integer" option="true" default="0">
 				<Enumerations>
 					<Enumeration value="0" caption="Linear Line"/>
@@ -277,7 +276,7 @@
 				</Dependency>
 			</Definition>
 		</Item>
-		<Item name="s_amp" caption="Amplitude of the perturvation(ratio to averaged depth)">
+		<Item name="s_amp" caption="Amplitude of the perturbation(ratio to averaged depth)">
 			<Definition valueType="real" default="0.1">
 				<Dependency>
 					<Condition type="and">
@@ -289,7 +288,7 @@
 			</Definition>
 		</Item>
 
-		<Item name="js_amp_unit" caption="Unit of Surface Pertabation Amplitude">
+		<Item name="js_amp_unit" caption="Unit of Surface Perturbation Amplitude">
 			<Definition conditionType="constant" valueType="integer" option="true" default="1">
 				<Enumerations>
 					<Enumeration value="1" caption="Ratio to Water Depth"/>
@@ -305,7 +304,7 @@
 			</Definition>
 		</Item>
 
-		<Item name="s_wavenumber" caption="Water Surface Wavenumber">
+		<Item name="s_wavenumber" caption="Water Surface Wave number">
 			<Definition conditionType="constant" valueType="real" default="1.0">
 				<Dependency>
 					<Condition type="and">

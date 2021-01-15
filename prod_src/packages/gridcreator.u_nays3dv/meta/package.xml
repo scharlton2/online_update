@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <Package>
-	<DisplayName>Nays2dV vertical 2D model</DisplayName>
-	<Description></Description>
-	<Version>1.6.0</Version>
+	<DisplayName>U-Nays3dvGrid</DisplayName>
+	<Description>u-shape grid generator for Nays3dv</Description>
+	<Version>1.0.0</Version>
 	<Default>true</Default>
 	<ReleaseDate>2021-01-13</ReleaseDate>
 	<SortingPriority>50</SortingPriority>

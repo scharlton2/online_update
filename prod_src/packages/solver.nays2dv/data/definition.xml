@@ -2,10 +2,10 @@
 <SolverDefinition 
 	xmlns="www.iric.net/SolverDefinition/1.0"
 	name="nays2dv" 
-	caption="Nasy2dv vertical 2D model" 
-	version="1.5.202"
+	caption="Nasy2dv vertical 2D model " 
+	version="1.6.0"
 	copyright="Yasuyuki SHIMIZU"
-	release="2020.3.13"
+	release="2021.1.13"
 	homepage="http://i-ric.org"
 	executable="nays2dv.exe"
 	iterationtype="time"
@@ -25,7 +25,7 @@
 		</Item>
         </GroupBox>
 	<GroupBox caption="Boundary Condition">
-		<Item name="j_bound" caption="Upstream and Dounstream Boundary">
+		<Item name="j_bound" caption="Upstream and Down Stream Boundary">
 			<Definition conditionType="constant" valueType="integer" option="true" default="1">
 				<Enumerations>
 					<Enumeration value="1" caption="Closed channel"/>
@@ -38,7 +38,7 @@
 		<Item name="j_periodic" caption="Periodic boundary condition">
 		<Definition conditionType="constant" valueType="integer" default="0">
 			<Enumerations>
-				<Enumeration value="0" caption="Non-periodic(Free) boundray"/>
+				<Enumeration value="0" caption="Non-periodic(Free) boundary"/>
 				<Enumeration value="1" caption="Periodic boundary"/>
 			</Enumerations>
 			<Dependency>
@@ -63,7 +63,7 @@
 
 
                 <GroupBox caption="Downstream Water Surface">
-		<Item name="j_hdw" caption="Downstream Watersurface Condition">
+		<Item name="j_hdw" caption="Downstream Water Surface Condition">
 			<Definition conditionType="constant" valueType="integer" option="true" default="1">
 				<Enumerations>
 					<Enumeration value="1" caption="Constant"/>
@@ -208,7 +208,7 @@
 
 
                 <GroupBox caption="Upstream Water Surface">
-		<Item name="j_hup" caption="Upstream Watersurface Condition">
+		<Item name="j_hup" caption="Upstream Water Surface Condition">
 			<Definition conditionType="constant" valueType="integer" option="true" default="1">
 				<Enumerations>
 					<Enumeration value="1" caption="Constant"/>
@@ -282,15 +282,15 @@
 			<Definition valueType="real" default="0.02">
 			</Definition>
 		</Item>
-		<Item name="j_snu" caption="Eddy Viscusty">
+		<Item name="j_snu" caption="Eddy Viscosity">
 			<Definition conditionType="constant" valueType="integer" default="0">
 				<Enumerations>
 					<Enumeration value="0" caption="Constant"/>
-					<Enumeration value="1" caption="Paraboric"/>
+					<Enumeration value="1" caption="Parabolic"/>
 				</Enumerations>
 			</Definition>
 		</Item>
-		<Item name="al_ep" caption="Coefficient for Eddy Viscusty">
+		<Item name="al_ep" caption="Coefficient for Eddy Viscosity">
 		<Definition valueType="real" default="1.0">
 		</Definition>
 		</Item>
@@ -333,7 +333,7 @@
 				</Enumerations>
 			</Definition>
 		</Item>
-		<Item name="alpha_surf" caption="Reluxation Coefficient for Free Surface Computation">
+		<Item name="alpha_surf" caption="Relaxation Coefficient for Free Surface Computation">
 		<Definition valueType="real" default="0.1">
 			<Dependency>
 				<Condition type="and">
@@ -435,7 +435,7 @@
 		<Definition valueType="real" default="0.00021">
 		</Definition>
 	</Item>
-	<Item name="rho" caption="Dencity(kg/m**3)">
+	<Item name="rho" caption="Density(kg/m**3)">
 		<Definition valueType="real" default="1000.">
 		</Definition>
 	</Item>
@@ -466,7 +466,7 @@
 			</Dependency>
 			</Definition>
 		</Item>
-		<Item name="con0" caption="Back Ground Cocentration">
+		<Item name="con0" caption="Back Ground Concentration">
 			<Definition valueType="real" default="0">
 			<Dependency>
 				<Condition type="and">
@@ -502,7 +502,7 @@
 	</Item>
 </GridRelatedCondition>
 <BoundaryCondition name="b_tmp" caption="T_Bound" position="edge">
-	<Item name="b_tmp_val" caption="Tempetarure at Boundary">
+	<Item name="b_tmp_val" caption="Temperature at Boundary">
 		<Definition valueType="real" default="20.">
 		</Definition>
 	</Item>
