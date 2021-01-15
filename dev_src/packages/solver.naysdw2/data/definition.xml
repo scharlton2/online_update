@@ -2,7 +2,7 @@
 <SolverDefinition 
     xmlns="www.iric.net/SolverDefinition/1.0"
     name="NaysDW2" caption="Drift Wood Tracer for Nays2d" version="1.0.0" copyright="Yasu"
-    release="2021.01.07"
+    release="2021.01.13"
     homepage="https://i-ric.org/"
     executable="naysdw2.exe"
     iterationtype="time"
@@ -28,7 +28,7 @@
 			<Item name="j_rep" caption="Boundary condition">
 			<Definition conditionType="constant" valueType="integer" default="0">
 				<Enumerations>
-		    			<Enumeration value="0" caption="(0) Non-priodic Boundary"/>
+		    			<Enumeration value="0" caption="(0) Non-periodic Boundary"/>
 		 	   		<Enumeration value="1" caption="(1) Periodic Boundary"/>
 		 	   		<Enumeration value="2" caption="(2) Closed Channel"/>
 				</Enumerations>
@@ -53,7 +53,7 @@
 		</Tab>
 
 
-		<Tab name="seeds_spread" caption="Elements Spredding Condition">
+		<Tab name="seeds_spread" caption="Elements Spreading Condition">
 
 			<GroupBox caption="Initial Tracer Placement">
 				<Item name="j_place" caption="Initial Tracer Placement">
@@ -143,7 +143,7 @@
 						</Dependency>
 					</Definition>
 				</Item>
-				<Item name="Vel_Distribution" caption="Vel. Distribution">
+				<Item name="Vel_Distribution" caption="Velocity Distribution">
 					<Definition conditionType="constant" valueType="real" default="0.05" >
 						<Dependency>
 						<Condition type="and">
@@ -178,8 +178,8 @@
 				<Item name="j_rnd_phi" caption="Randam Angle">
 					<Definition conditionType="constant" valueType="integer" default="0" >
 					<Enumerations>
-		    				<Enumeration value="0" caption="(0) Randam Angle"/>
-		 	   			<Enumeration value="1" caption="(1) Contant Angle"/>
+		    				<Enumeration value="0" caption="(0) Random Angle"/>
+		 	   			<Enumeration value="1" caption="(1) Constant Angle"/>
 		 	   			<Enumeration value="2" caption="(2) Cross Stream Angle"/>
 					</Enumerations>
 					</Definition>
@@ -299,15 +299,15 @@
 					<Definition conditionType="constant" valueType="real" default="0.05" >
 					</Definition>
 				</Item>
-				<Item name="xi_down" caption="Downpstream search region">
+				<Item name="xi_down" caption="Downstream search region">
 					<Definition conditionType="constant" valueType="real" default="0.1" >
 					</Definition>
 				</Item>
-				<Item name="eta_right" caption="Righthand side search region">
+				<Item name="eta_right" caption="Right-hand side search region">
 					<Definition conditionType="constant" valueType="real" default="0.05" >
 					</Definition>
 				</Item>
-				<Item name="eta_left" caption="Lefthand side search region">
+				<Item name="eta_left" caption="Left-hand side search region">
 					<Definition conditionType="constant" valueType="real" default="0.05" >
 					</Definition>
 				</Item>

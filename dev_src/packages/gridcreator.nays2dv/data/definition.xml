@@ -2,8 +2,7 @@
 <GridGeneratorDefinition 
   xmlns="www.iric.net"
   name="grigen_nays2dv" caption="Grid Generator for Nays2dv" version="1.0.4" 
-  release="2021.01.06"
-  copyright="Yasuyuki Shimizu" executable="grigen_nays2dv.exe" gridtype="structured2d"
+  copyright="Yasuyuki Shimizu" executable="grigen_nays2dv.exe" gridtype="structured2d"  release="2021.1.13"
 >
 
 <GridGeneratingCondition>

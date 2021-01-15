@@ -4,7 +4,7 @@
 	<Description>Grid Generator for Nays2dv</Description>
 	<Version>1.0.4</Version>
 	<Default>true</Default>
-	<ReleaseDate>2021-01-06</ReleaseDate>
+	<ReleaseDate>2021-01-13</ReleaseDate>
 	<SortingPriority>50</SortingPriority>
 	<Script>installscript.qs</Script>
 </Package>

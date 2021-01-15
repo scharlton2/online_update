@@ -2,10 +2,10 @@
 <SolverDefinition 
 	xmlns="www.iric.net/SolverDefinition/1.0"
 	name="nays3dv" 
-	caption="nays3dv version8.0" 
+	caption="nays3dv 3D Density Flow Solver" 
 	version="1.7.2"
 	copyright="Yasuyuki SHIMIZU"
-	release="2021.1.6"
+	release="2021.1.13"
 	homepage="http://i-ric.org"
 	executable="nays3dv.exe"
 	iterationtype="time"
