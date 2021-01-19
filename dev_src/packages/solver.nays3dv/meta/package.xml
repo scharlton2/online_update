@@ -2,9 +2,9 @@
 <Package>
 	<DisplayName>Nays3dV vertical 3D model</DisplayName>
 	<Description></Description>
-	<Version>1.7.2</Version>
+	<Version>1.7.3</Version>
 	<Default>true</Default>
-	<ReleaseDate>2021-01-13</ReleaseDate>
+	<ReleaseDate>2021-01-18</ReleaseDate>
 	<SortingPriority>50</SortingPriority>
 	<Script>installscript.qs</Script>
 </Package>

@@ -527,110 +527,6 @@
   <SHA1>c596f77c1f0023a16380307afb3912f19a3a4d2f</SHA1>
  </PackageUpdate>
  <PackageUpdate>
-  <Name>gridcreator.nays3dv</Name>
-  <DisplayName>Nays3dvGrid</DisplayName>
-  <Description>Grid Generator for Nays3dv</Description>
-  <Version>1.0.0</Version>
-  <Default>true</Default>
-  <ReleaseDate>2021-01-13</ReleaseDate>
-  <SortingPriority>50</SortingPriority>
-  <Script>installscript.qs</Script>
-  <UpdateFile CompressedSize="36550" OS="Any" UncompressedSize="123263" />
-  <DownloadableArchives>content.7z</DownloadableArchives>
-  <SHA1>75086214a4b906cbc7ff0e01e7875cf021d19fe2</SHA1>
- </PackageUpdate>
- <PackageUpdate>
-  <Name>gridcreator.u_nays3dv</Name>
-  <DisplayName>U-Nays3dvGrid</DisplayName>
-  <Description>u-shape grid generator for Nays3dv</Description>
-  <Version>1.0.0</Version>
-  <Default>true</Default>
-  <ReleaseDate>2021-01-13</ReleaseDate>
-  <SortingPriority>50</SortingPriority>
-  <Script>installscript.qs</Script>
-  <UpdateFile CompressedSize="1019614" OS="Any" UncompressedSize="3837352" />
-  <DownloadableArchives>content.7z</DownloadableArchives>
-  <SHA1>ffcb4acff947be7fe31d5c19cb4c2deec2feedb2</SHA1>
- </PackageUpdate>
- <PackageUpdate>
-  <Name>solver.nays2d+</Name>
-  <DisplayName>Nays2D+</DisplayName>
-  <Description />
-  <Version>1.0.0</Version>
-  <Default>true</Default>
-  <ReleaseDate>2020-01-13</ReleaseDate>
-  <SortingPriority>50</SortingPriority>
-  <Script>installscript.qs</Script>
-  <UpdateFile CompressedSize="716527" OS="Any" UncompressedSize="2064190" />
-  <DownloadableArchives>content.7z</DownloadableArchives>
-  <SHA1>efec6f9e7cb73460b87afb8b2c85ca2ec65e6832</SHA1>
- </PackageUpdate>
- <PackageUpdate>
-  <Name>solver.nays2dv</Name>
-  <DisplayName>Nays2dV vertical 2D model</DisplayName>
-  <Description />
-  <Version>1.6.0</Version>
-  <Default>true</Default>
-  <ReleaseDate>2021-01-13</ReleaseDate>
-  <SortingPriority>50</SortingPriority>
-  <Script>installscript.qs</Script>
-  <UpdateFile CompressedSize="390394" OS="Any" UncompressedSize="1145640" />
-  <DownloadableArchives>content.7z</DownloadableArchives>
-  <SHA1>ee2547dab955617569ffc9a206a89635e3d2229b</SHA1>
- </PackageUpdate>
- <PackageUpdate>
-  <Name>solver.nays3dv</Name>
-  <DisplayName>Nays3dV vertical 3D model</DisplayName>
-  <Description />
-  <Version>1.7.2</Version>
-  <Default>true</Default>
-  <ReleaseDate>2021-01-13</ReleaseDate>
-  <SortingPriority>50</SortingPriority>
-  <Script>installscript.qs</Script>
-  <UpdateFile CompressedSize="547269" OS="Any" UncompressedSize="1537874" />
-  <DownloadableArchives>content.7z</DownloadableArchives>
-  <SHA1>5cc7c2822c269d512ad37a6a4db20fc9c48c725b</SHA1>
- </PackageUpdate>
- <PackageUpdate>
-  <Name>solver.naysdw2</Name>
-  <DisplayName>NaysDW2</DisplayName>
-  <Description>"Drift Wood Tracer for Nays2d</Description>
-  <Version>1.0.0</Version>
-  <Default>true</Default>
-  <ReleaseDate>2021-01-13</ReleaseDate>
-  <SortingPriority>50</SortingPriority>
-  <Script>installscript.qs</Script>
-  <UpdateFile CompressedSize="71206" OS="Any" UncompressedSize="232754" />
-  <DownloadableArchives>content.7z</DownloadableArchives>
-  <SHA1>fb3d38bc38711f2c9d9f971b76a582bfc7791c47</SHA1>
- </PackageUpdate>
- <PackageUpdate>
-  <Name>solver.utt</Name>
-  <DisplayName>UTT</DisplayName>
-  <Description>UTT</Description>
-  <Version>1.0.1</Version>
-  <Default>true</Default>
-  <ReleaseDate>2021-01-13</ReleaseDate>
-  <SortingPriority>50</SortingPriority>
-  <Script>installscript.qs</Script>
-  <UpdateFile CompressedSize="92760" OS="Any" UncompressedSize="307115" />
-  <DownloadableArchives>content.7z</DownloadableArchives>
-  <SHA1>fd0badad9a081a9169ac8797e7dad4d8aaa65177</SHA1>
- </PackageUpdate>
- <PackageUpdate>
-  <Name>gridcreator.nays2dv</Name>
-  <DisplayName>Nays2DVGrid</DisplayName>
-  <Description>Grid Generator for Nays2dv</Description>
-  <Version>1.0.4</Version>
-  <Default>true</Default>
-  <ReleaseDate>2021-01-13</ReleaseDate>
-  <SortingPriority>50</SortingPriority>
-  <Script>installscript.qs</Script>
-  <UpdateFile CompressedSize="30768" OS="Any" UncompressedSize="107135" />
-  <DownloadableArchives>content.7z</DownloadableArchives>
-  <SHA1>1e5b0b81092a92ac103b0d35b9b29f6d5551d30f</SHA1>
- </PackageUpdate>
- <PackageUpdate>
   <Name>gui.prepost</Name>
   <DisplayName>iRIC GUI 3.0</DisplayName>
   <Description>iRIC Main GUI</Description>
@@ -646,5 +542,109 @@
    <License file="license-english.txt" name="Terms of use of the iRIC software" />
   </Licenses>
   <SHA1>ef00907fdc7e62ddb9bfeb5ead8ee4e202693104</SHA1>
+ </PackageUpdate>
+ <PackageUpdate>
+  <Name>gridcreator.nays3dv</Name>
+  <DisplayName>Nays3dvGrid</DisplayName>
+  <Description>Grid Generator for Nays3dv</Description>
+  <Version>1.0.1</Version>
+  <Default>true</Default>
+  <ReleaseDate>2021-01-18</ReleaseDate>
+  <SortingPriority>50</SortingPriority>
+  <Script>installscript.qs</Script>
+  <UpdateFile CompressedSize="37904" OS="Any" UncompressedSize="133953" />
+  <DownloadableArchives>content.7z</DownloadableArchives>
+  <SHA1>c5d603bff679dd61fd7b047831919e3d2aa2ccea</SHA1>
+ </PackageUpdate>
+ <PackageUpdate>
+  <Name>gridcreator.u_nays3dv</Name>
+  <DisplayName>U-Nays3dvGrid</DisplayName>
+  <Description>u-shape grid generator for Nays3dv</Description>
+  <Version>1.0.1</Version>
+  <Default>true</Default>
+  <ReleaseDate>2021-01-18</ReleaseDate>
+  <SortingPriority>50</SortingPriority>
+  <Script>installscript.qs</Script>
+  <UpdateFile CompressedSize="1021074" OS="Any" UncompressedSize="3839744" />
+  <DownloadableArchives>content.7z</DownloadableArchives>
+  <SHA1>000857f13f407d87539714fd2d671ca424667a5a</SHA1>
+ </PackageUpdate>
+ <PackageUpdate>
+  <Name>solver.nays2d+</Name>
+  <DisplayName>Nays2D+</DisplayName>
+  <Description />
+  <Version>1.0.1</Version>
+  <Default>true</Default>
+  <ReleaseDate>2020-01-18</ReleaseDate>
+  <SortingPriority>50</SortingPriority>
+  <Script>installscript.qs</Script>
+  <UpdateFile CompressedSize="719406" OS="Any" UncompressedSize="2088282" />
+  <DownloadableArchives>content.7z</DownloadableArchives>
+  <SHA1>14f8e7a539b2ff0cdb3912b217305b5a8fc2472c</SHA1>
+ </PackageUpdate>
+ <PackageUpdate>
+  <Name>solver.nays2dv</Name>
+  <DisplayName>Nays2dV vertical 2D model</DisplayName>
+  <Description />
+  <Version>1.6.1</Version>
+  <Default>true</Default>
+  <ReleaseDate>2021-01-18</ReleaseDate>
+  <SortingPriority>50</SortingPriority>
+  <Script>installscript.qs</Script>
+  <UpdateFile CompressedSize="392399" OS="Any" UncompressedSize="1159728" />
+  <DownloadableArchives>content.7z</DownloadableArchives>
+  <SHA1>2e93d512679a461633337cec167b580494580b3d</SHA1>
+ </PackageUpdate>
+ <PackageUpdate>
+  <Name>solver.nays3dv</Name>
+  <DisplayName>Nays3dV vertical 3D model</DisplayName>
+  <Description />
+  <Version>1.7.3</Version>
+  <Default>true</Default>
+  <ReleaseDate>2021-01-18</ReleaseDate>
+  <SortingPriority>50</SortingPriority>
+  <Script>installscript.qs</Script>
+  <UpdateFile CompressedSize="549542" OS="Any" UncompressedSize="1556824" />
+  <DownloadableArchives>content.7z</DownloadableArchives>
+  <SHA1>9d305f47e567ce90c8ffd5e5bed0ce97b84419cd</SHA1>
+ </PackageUpdate>
+ <PackageUpdate>
+  <Name>solver.naysdw2</Name>
+  <DisplayName>NaysDW2</DisplayName>
+  <Description>"Drift Wood Tracer for Nays2d</Description>
+  <Version>1.0.2</Version>
+  <Default>true</Default>
+  <ReleaseDate>2021-01-18</ReleaseDate>
+  <SortingPriority>50</SortingPriority>
+  <Script>installscript.qs</Script>
+  <UpdateFile CompressedSize="71529" OS="Any" UncompressedSize="240489" />
+  <DownloadableArchives>content.7z</DownloadableArchives>
+  <SHA1>8ee692ce0bf6e429971c485649d0a81c163a296e</SHA1>
+ </PackageUpdate>
+ <PackageUpdate>
+  <Name>solver.utt</Name>
+  <DisplayName>UTT</DisplayName>
+  <Description>UTT</Description>
+  <Version>1.0.2</Version>
+  <Default>true</Default>
+  <ReleaseDate>2021-01-18</ReleaseDate>
+  <SortingPriority>50</SortingPriority>
+  <Script>installscript.qs</Script>
+  <UpdateFile CompressedSize="95650" OS="Any" UncompressedSize="325479" />
+  <DownloadableArchives>content.7z</DownloadableArchives>
+  <SHA1>9cfe2608545ec62090df81eca662f2a3f389a638</SHA1>
+ </PackageUpdate>
+ <PackageUpdate>
+  <Name>gridcreator.nays2dv</Name>
+  <DisplayName>Nays2DVGrid</DisplayName>
+  <Description>Grid Generator for Nays2dv</Description>
+  <Version>1.0.5</Version>
+  <Default>true</Default>
+  <ReleaseDate>2021-01-18</ReleaseDate>
+  <SortingPriority>50</SortingPriority>
+  <Script>installscript.qs</Script>
+  <UpdateFile CompressedSize="31998" OS="Any" UncompressedSize="128293" />
+  <DownloadableArchives>content.7z</DownloadableArchives>
+  <SHA1>637ca85b431db3599122990a6001e4380ad112d2</SHA1>
  </PackageUpdate>
 </Updates>

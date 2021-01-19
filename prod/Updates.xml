@@ -539,68 +539,68 @@
   <SHA1>6d5ec7bdd16c5c2d2f475843d19c1c5c630dcedd</SHA1>
  </PackageUpdate>
  <PackageUpdate>
+  <Name>gridcreator.nays2dv</Name>
+  <DisplayName>Nays2DVGrid</DisplayName>
+  <Description>Grid Generator for Nays2dv</Description>
+  <Version>1.0.5</Version>
+  <Default>true</Default>
+  <ReleaseDate>2021-01-18</ReleaseDate>
+  <SortingPriority>50</SortingPriority>
+  <Script>installscript.qs</Script>
+  <UpdateFile CompressedSize="31983" OS="Any" UncompressedSize="128293" />
+  <DownloadableArchives>content.7z</DownloadableArchives>
+  <SHA1>86099c63a4e9d333595ba1aefa8a16620b9f7a1c</SHA1>
+ </PackageUpdate>
+ <PackageUpdate>
   <Name>gridcreator.nays3dv</Name>
   <DisplayName>Nays3dvGrid</DisplayName>
   <Description>Grid Generator for Nays3dv</Description>
-  <Version>1.0.0</Version>
+  <Version>1.0.1</Version>
   <Default>true</Default>
-  <ReleaseDate>2021-01-13</ReleaseDate>
+  <ReleaseDate>2021-01-18</ReleaseDate>
   <SortingPriority>50</SortingPriority>
   <Script>installscript.qs</Script>
-  <UpdateFile CompressedSize="36545" OS="Any" UncompressedSize="123263" />
+  <UpdateFile CompressedSize="37904" OS="Any" UncompressedSize="133953" />
   <DownloadableArchives>content.7z</DownloadableArchives>
-  <SHA1>eb8feec0d61a5f09f46ac12afc82cf1edffcea76</SHA1>
+  <SHA1>b8f91c1f90cc8e07196190002f99f65e7d15edf9</SHA1>
  </PackageUpdate>
  <PackageUpdate>
   <Name>gridcreator.u_nays3dv</Name>
   <DisplayName>U-Nays3dvGrid</DisplayName>
   <Description>u-shape grid generator for Nays3dv</Description>
-  <Version>1.0.0</Version>
+  <Version>1.0.1</Version>
   <Default>true</Default>
-  <ReleaseDate>2021-01-13</ReleaseDate>
+  <ReleaseDate>2021-01-18</ReleaseDate>
   <SortingPriority>50</SortingPriority>
   <Script>installscript.qs</Script>
-  <UpdateFile CompressedSize="1019606" OS="Any" UncompressedSize="3837352" />
+  <UpdateFile CompressedSize="1021065" OS="Any" UncompressedSize="3839744" />
   <DownloadableArchives>content.7z</DownloadableArchives>
-  <SHA1>a011780438904874c8b1cd1b1bbebbbd38e2b0f5</SHA1>
+  <SHA1>aa5de81773ae7c9fd3f91d27395b6279323a3d18</SHA1>
  </PackageUpdate>
  <PackageUpdate>
   <Name>solver.nays2dv</Name>
   <DisplayName>Nays2dV vertical 2D model</DisplayName>
   <Description />
-  <Version>1.6.0</Version>
+  <Version>1.6.1</Version>
   <Default>true</Default>
-  <ReleaseDate>2021-01-13</ReleaseDate>
+  <ReleaseDate>2021-01-18</ReleaseDate>
   <SortingPriority>50</SortingPriority>
   <Script>installscript.qs</Script>
-  <UpdateFile CompressedSize="390394" OS="Any" UncompressedSize="1145640" />
+  <UpdateFile CompressedSize="392395" OS="Any" UncompressedSize="1159728" />
   <DownloadableArchives>content.7z</DownloadableArchives>
-  <SHA1>a02a259a77122aaba14d3565fbe2caa8b33fbaca</SHA1>
+  <SHA1>86665354b68ad9ffb7d286149c6c050be38534bc</SHA1>
  </PackageUpdate>
  <PackageUpdate>
   <Name>solver.nays3dv</Name>
   <DisplayName>Nays3dV vertical 3D model</DisplayName>
   <Description />
-  <Version>1.7.2</Version>
+  <Version>1.7.3</Version>
   <Default>true</Default>
-  <ReleaseDate>2021-01-13</ReleaseDate>
+  <ReleaseDate>2021-01-18</ReleaseDate>
   <SortingPriority>50</SortingPriority>
   <Script>installscript.qs</Script>
-  <UpdateFile CompressedSize="547261" OS="Any" UncompressedSize="1537874" />
+  <UpdateFile CompressedSize="549538" OS="Any" UncompressedSize="1556824" />
   <DownloadableArchives>content.7z</DownloadableArchives>
-  <SHA1>ece11e7fc91d9301c123bad5f2649604cd572ca2</SHA1>
- </PackageUpdate>
- <PackageUpdate>
-  <Name>gridcreator.nays2dv</Name>
-  <DisplayName>Nays2DVGrid</DisplayName>
-  <Description>Grid Generator for Nays2dv</Description>
-  <Version>1.0.4</Version>
-  <Default>true</Default>
-  <ReleaseDate>2021-01-13</ReleaseDate>
-  <SortingPriority>50</SortingPriority>
-  <Script>installscript.qs</Script>
-  <UpdateFile CompressedSize="30773" OS="Any" UncompressedSize="107135" />
-  <DownloadableArchives>content.7z</DownloadableArchives>
-  <SHA1>512d6b31633f3aa51ed05b877f092dc39b7ffdaf</SHA1>
+  <SHA1>87386a2d5aa74c784449db911eaa1c92a076fcce</SHA1>
  </PackageUpdate>
 </Updates>
