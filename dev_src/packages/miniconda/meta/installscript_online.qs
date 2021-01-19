@@ -16,9 +16,10 @@ Component.prototype.createOperations = function()
 
 function install_miniconda()
 {
+	component.addOperation("Mkdir", "@TargetDir@/Miniconda3")
 	component.addOperation("Execute", "@TargetDir@/Miniconda3-py38_4.9.2-Windows-x86_64.exe", "/InstallationType=JustMe", "/RegisterPython=0", "/AddToPath=0", "/S", "/D=@TargetDir@\\Miniconda3");
-	component.addOperation("Execute", "@TargetDir@/Miniconda3/Scripts/conda.exe", "create", "-p", "@TargetDir@/Miniconda3/envs/iric", "python=3.8", "-y", "-q");
-	component.addOperation("Execute", "@TargetDir@/Miniconda3/Scripts/conda.exe", "install", "-p", "@TargetDir@/Miniconda3/envs/iric", "numpy", "-y");
+	component.addOperation("Execute", "@TargetDir@/Miniconda3/condabin/conda.bat", "create", "-p", "@TargetDir@/Miniconda3/envs/iric", "python=3.8", "-y", "-q");
+	component.addOperation("Execute", "@TargetDir@/Miniconda3/condabin/conda.bat", "install", "-p", "@TargetDir@/Miniconda3/envs/iric", "numpy", "-y");
 }
 
 function delete_installer()
