@@ -55,4 +55,7 @@ before_test:
 
 test_script:
   # py install_runtime.py
-  - py run_iric_install.py
+  # Note YASU build has extra 'Settings' button as the default
+  # so the 'Next' button isn't found therefore skip testing the
+  # YASU version for now
+  - if NOT "%BUILD_TYPE%"=="YASU" (py run_iric_install.py)
